@@ -25,6 +25,7 @@
     "test": "vitest",
     "typecheck": "tsc --noEmit -p tsconfig.test.json",
     "sync:api-types": "tsx scripts/update-api-types.ts",
+    "export:teaching-context": "npm run build && tsx scripts/export-teaching-context.ts",
     "lint": "tsc --noEmit -p tsconfig.test.json",
     "format": "prettier --check .",
     "format:fix": "prettier --write ."
