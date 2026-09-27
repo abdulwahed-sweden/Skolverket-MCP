@@ -6,25 +6,25 @@
  */
 
 import { z } from 'zod';
-import {
-  fetchStageCurriculum,
-  GRUNDSKOLA_SWEDISH_SUBJECT_CODES,
-} from '../../tutor/curriculum-stage.js';
+import { fetchStageCurriculum } from '../../tutor/curriculum-stage.js';
 import { buildTeachingContext, selectUnit } from '../../tutor/teaching-context.js';
-
-const SWEDISH_SUBJECTS = {
-  svenska: GRUNDSKOLA_SWEDISH_SUBJECT_CODES.svenska,
-  svenska_som_andrasprak: GRUNDSKOLA_SWEDISH_SUBJECT_CODES.svenskaSomAndrasprak,
-} as const;
-
-type SwedishSubjectKey = keyof typeof SWEDISH_SUBJECTS;
+import {
+  resolveSubject,
+  gradesInStage,
+  MissingSubjectError,
+  ACCEPTED_SUBJECT_ALIASES,
+} from '../../tutor/subjects.js';
 
 const sharedSchema = {
+  // Ingen default: ett underförstått ämne ger giltig men FEL läroplan, vilket
+  // ändrar vad eleven undervisas i utan att något fel syns.
   subject: z
-    .enum(['svenska', 'svenska_som_andrasprak'])
+    .string()
     .optional()
-    .default('svenska')
-    .describe('Ämne: "svenska" (GRGRSVE01) eller "svenska_som_andrasprak" (GRGRSVA01)'),
+    .describe(
+      'Ämne. Måste anges om `subjectCode` utelämnas — ämnet gissas aldrig. ' +
+        `Accepterade värden: ${ACCEPTED_SUBJECT_ALIASES.join(', ')}.`
+    ),
   subjectCode: z
     .string()
     .optional()
@@ -44,10 +44,10 @@ const sharedSchema = {
   grade: z
     .number()
     .optional()
-    .default(5)
     .describe(
-      'Årskursen undervisningen gäller. Måste ligga inom `stage`. Påverkar inte vilket innehåll ' +
-        'som hämtas — Skolverket har bara stadieinnehåll — men redovisas explicit i svaret.'
+      'Årskursen undervisningen gäller. Måste ligga inom `stage`. Default följer stadiets ' +
+        'första årskurs om den utelämnas. Påverkar inte vilket innehåll som hämtas — ' +
+        'Skolverket har bara stadieinnehåll — men redovisas explicit i svaret.'
     ),
   date: z
     .string()
@@ -74,7 +74,7 @@ export const getTutorTeachingContextSchema = {
 };
 
 interface SharedParams {
-  subject?: SwedishSubjectKey;
+  subject?: string;
   subjectCode?: string;
   schoolType?: string;
   stage?: string;
@@ -82,17 +82,25 @@ interface SharedParams {
   date?: string;
 }
 
+/**
+ * En ämneskod krävs alltid. `subjectCode` går före `subject`; saknas båda
+ * kastas ett fel i stället för att ett ämne väljs åt anroparen.
+ */
 function resolveSubjectCode(params: SharedParams): string {
-  if (params.subjectCode) return params.subjectCode;
-  return SWEDISH_SUBJECTS[params.subject ?? 'svenska'];
+  if (params.subjectCode?.trim()) return params.subjectCode.trim();
+  if (!params.subject?.trim()) throw new MissingSubjectError();
+  return resolveSubject(params.subject).code;
 }
 
 async function load(params: SharedParams) {
+  const stageId = params.stage ?? '4-6';
   return fetchStageCurriculum({
     subjectCode: resolveSubjectCode(params),
     schoolType: params.schoolType ?? 'GR',
-    stageId: params.stage ?? '4-6',
-    requestedGrade: params.grade ?? 5,
+    stageId,
+    // Utan angiven årskurs används stadiets första, så att svaret aldrig
+    // påstår en årskurs som anroparen inte bett om.
+    requestedGrade: params.grade ?? gradesInStage(stageId)[0] ?? 1,
     date: params.date,
   });
 }

@@ -31,13 +31,14 @@
 - `get_study_path_codes` - Studievägskodar
 - `get_api_info` - API-information
 
-### Handledarverktyg — Ali Swedish Tutor (2 verktyg)
+### Handledarverktyg (2 verktyg)
 
 Bygger på Läroplan API ovan och inför ingen ny datakälla. Avsedda för att grunda
 en AI-handledare i officiell läroplan i stället för påhittat innehåll.
 
 - `get_tutor_stage_curriculum` - Läroplan för ett ämne och ett stadium,
-  normaliserad, med `provenance` som anger vilket API-fält varje värde kommer ur
+  normaliserad, med `provenance` som anger vilket API-fält varje värde kommer ur.
+  Kräver `subject` eller `subjectCode` — ämnet har inget default
 - `get_tutor_teaching_context` - Samma data uppdelad i undervisningsbara enheter
   med stabila id:n, plus en grundande brief där all läroplanstext är ordagrann
 
@@ -47,9 +48,22 @@ Hela handledargränssnittet är en MCP-prompt, inte en applikation. Klienten hä
 prompten, prompten säger åt klienten att anropa `get_tutor_teaching_context`, och
 undervisningen sker i klienten. Inget elevtillstånd lagras här.
 
-Alla argument är valfria: `student_name` (default `"Ali"`), `grade` (default `5`),
-`subject`, `unit_id`, `fallback_language` (default `"arabiska"`, används bara när
-eleven kör fast).
+**Obligatoriska argument:** `student_name`, `grade`, `subject`. Det finns inga
+defaultvärden för elevuppgifter — Skolverket-MCP kan läroplan, men känner inte
+barnet. Ett underförstått ämne skulle ge giltig men fel läroplan och därmed ändra
+vad eleven undervisas i, så ämnet gissas aldrig: saknas det, eller är det okänt,
+avvisas anropet.
+
+Accepterade ämnesvärden (skiftlägesokänsligt): `svenska`, `sv`, `GRGRSVE01`
+→ **GRGRSVE01**; `svenska som andraspråk`, `svenska som andrasprak`,
+`svenska_som_andrasprak`, `sva`, `GRGRSVA01` → **GRGRSVA01**.
+
+**Valfria argument:** `unit_id`, `fallback_language`. `fallback_language` har
+inget default — anges inget reservspråk hålls hela passet på svenska i stället
+för att ett språk antas åt eleven.
+
+Stadiet härleds ur årskursen enligt Skolverkets egen indelning: årskurs 1-3 →
+`"1-3"`, 4-6 → `"4-6"`, 7-9 → `"7-9"`.
 
 **Viktigt om årskurser.** Skolverket publicerar centralt innehåll per *stadium*
 (`"1-3"`, `"4-6"`, `"7-9"`), aldrig per årskurs, och betygskriterier bara för
@@ -61,10 +75,15 @@ kopplingar mellan betygskriterier och enskilda punkter i det centrala innehålle
 — Skolverket publicerar ingen sådan koppling.
 
 ```
-get_tutor_teaching_context { subject: "svenska", grade: 5 }
-  -> units: GRGRSVE01/4-6/lasa-och-skriva (8 punkter), .../texter (5), ...
+get_tutor_teaching_context { subject: "svenska som andraspråk", grade: 5, stage: "4-6" }
+  -> subjectCode: GRGRSVA01
+     units: GRGRSVA01/4-6/lasa-och-skriva (8 punkter), .../texter (5), ...
+     counts: 5 enheter / 27 punkter / 5 kriterier
      stageAssessment: årskurs 6, betygssteg E-A
-     groundedBrief: ~13 kB officiell text med härkomst och regler
+     groundedBrief: officiell text ordagrant, med härkomst och regler
+
+get_tutor_teaching_context { subject: "svenska", grade: 5, stage: "4-6" }
+  -> subjectCode: GRGRSVE01, 5 enheter / 21 punkter   (annat ämne, annat innehåll)
 ```
 
 ### Skolenhetsregistret API (4 verktyg)

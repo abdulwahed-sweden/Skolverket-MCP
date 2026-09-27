@@ -1,20 +1,24 @@
 /**
- * Ali Swedish Tutor — steg 3: en MCP-prompt som kör ett handledarpass.
+ * Handledarpass som MCP-prompt.
  *
  * Det här är HELA handledargränssnittet. Ingen applikation, inget elevtillstånd,
  * ingen lagring. Prompten är en instruktion till den AI-klient som är ansluten
  * till den här MCP-servern: hämta grundning med `get_tutor_teaching_context`,
  * undervisa utifrån den, och sluta där.
  *
- * Gränsdragningen är avsiktlig: Skolverket-MCP är kunskapslagret. Eleven möter
- * aldrig det här repot — eleven möter sin MCP-klient.
+ * GRÄNSDRAGNING: Skolverket-MCP kan läroplan. Det känner inte barnet.
+ * Därför finns inga defaultvärden för elev, årskurs, ämne eller reservspråk —
+ * de tillhör den som anropar. En utelämnad elevuppgift gör det bara lite
+ * krångligare för anroparen; ett underförstått ämne ändrar vad barnet
+ * undervisas i. Korrekthet vinner.
  */
 
-/** Ämnen prompten känner igen, samma nycklar som handledarverktygen tar. */
-const SUBJECT_LABELS: Record<string, string> = {
-  svenska: 'Svenska',
-  svenska_som_andrasprak: 'Svenska som andraspråk',
-};
+import {
+  resolveSubject,
+  stageForGrade,
+  gradesInStage,
+  ACCEPTED_SUBJECT_ALIASES,
+} from './subjects.js';
 
 export interface TutorSessionArgs {
   student_name?: string;
@@ -28,23 +32,28 @@ export interface TutorSessionArgs {
 export const tutorStudentSessionPromptDefinition = {
   name: 'tutor_student_session',
   description:
-    'Kör ett handledarpass i svenska för en grundskoleelev, grundat i Skolverkets läroplan. ' +
-    'Handledaren hämtar officiellt innehåll med get_tutor_teaching_context innan undervisningen börjar.',
+    'Kör ett handledarpass för en grundskoleelev, grundat i Skolverkets läroplan. ' +
+    'Handledaren hämtar officiellt innehåll med get_tutor_teaching_context innan ' +
+    'undervisningen börjar. Elev, årskurs och ämne måste anges — inget antas.',
   arguments: [
     {
       name: 'student_name',
-      description: 'Elevens namn. Default: "Ali".',
-      required: false,
+      description: 'Elevens namn. Obligatoriskt — servern känner inte eleven.',
+      required: true,
     },
     {
       name: 'grade',
-      description: 'Elevens årskurs. Default: 5. Måste ligga inom stadiet 4-6.',
-      required: false,
+      description:
+        'Elevens årskurs (1-9). Obligatoriskt. Avgör vilket stadium som hämtas: ' +
+        'årskurs 1-3 → stadiet "1-3", 4-6 → "4-6", 7-9 → "7-9".',
+      required: true,
     },
     {
       name: 'subject',
-      description: '"svenska" eller "svenska_som_andrasprak". Default: "svenska".',
-      required: false,
+      description:
+        'Obligatoriskt — ämnet gissas aldrig, eftersom fel ämne ger fel läroplan. ' +
+        `Accepterade värden: ${ACCEPTED_SUBJECT_ALIASES.join(', ')}.`,
+      required: true,
     },
     {
       name: 'unit_id',
@@ -56,8 +65,9 @@ export const tutorStudentSessionPromptDefinition = {
     {
       name: 'fallback_language',
       description:
-        'Språk för korta nödförklaringar när eleven kör fast. Default: "arabiska". ' +
-        'Används bara undantagsvis; undervisningen sker på svenska.',
+        'Valfritt språk för korta nödförklaringar när eleven kör fast. ' +
+        'Utelämnas det sker hela passet på undervisningsspråket — ' +
+        'inget reservspråk antas.',
       required: false,
     },
   ],
@@ -69,32 +79,68 @@ export const tutorStudentSessionPromptDefinition = {
  * av Skolverkets data.
  */
 export function buildTutorStudentSessionPrompt(args: TutorSessionArgs = {}) {
-  const student = (args.student_name ?? 'Ali').trim() || 'Ali';
-  const gradeRaw = args.grade ?? 5;
-  const grade = Number.parseInt(String(gradeRaw), 10);
-  if (Number.isNaN(grade)) {
-    throw new Error(`grade måste vara ett tal, fick "${gradeRaw}".`);
-  }
-
-  const subject = (args.subject ?? 'svenska').trim();
-  if (!(subject in SUBJECT_LABELS)) {
+  // Obligatoriska elevuppgifter. Inga defaults: se gränsdragningen överst.
+  const student = args.student_name?.trim();
+  if (!student) {
     throw new Error(
-      `Okänt ämne "${subject}". Giltiga värden: ${Object.keys(SUBJECT_LABELS).join(', ')}.`
+      'student_name måste anges. Servern känner inte eleven och antar inget namn.'
     );
   }
-  const subjectLabel = SUBJECT_LABELS[subject];
-  const fallback = (args.fallback_language ?? 'arabiska').trim() || 'arabiska';
+
+  if (args.grade === undefined || args.grade === null || String(args.grade).trim() === '') {
+    throw new Error(
+      'grade måste anges. Årskursen avgör vilket stadium som hämtas och antas aldrig.'
+    );
+  }
+  const grade = Number.parseInt(String(args.grade), 10);
+  if (Number.isNaN(grade)) {
+    throw new Error(`grade måste vara ett tal, fick "${args.grade}".`);
+  }
+
+  // Kastar både när ämnet saknas och när det är okänt — aldrig en gissning.
+  const subject = resolveSubject(args.subject);
+
+  // Stadiet följer av årskursen; det är Skolverkets egen indelning, inte ett val.
+  const stage = stageForGrade(grade);
+  const stageGrades = gradesInStage(stage);
+
+  // Reservspråk är valfritt och har ingen default. Saknas det körs hela passet
+  // på svenska i stället för att ett språk hittas på åt eleven.
+  const fallback = args.fallback_language?.trim() || undefined;
   const unitId = args.unit_id?.trim();
-  const capitalised = fallback.charAt(0).toUpperCase() + fallback.slice(1);
 
   // Exakt det anrop klienten ska göra, så att grundningen inte blir en gissning.
-  // Nyckeln måste heta exakt som verktygets schema (`unitId`), annars ignoreras
-  // den tyst och passet får hela stadiet i stället för den valda enheten.
-  const toolArgs: Record<string, unknown> = { subject, grade };
+  // Nycklarna måste heta exakt som verktygets schema, annars ignoreras de tyst.
+  const toolArgs: Record<string, unknown> = {
+    subject: subject.key,
+    grade,
+    stage,
+  };
   if (unitId) toolArgs.unitId = unitId;
   const toolCall = `get_tutor_teaching_context ${JSON.stringify(toolArgs)}`;
 
-  const text = `Du är ${student}s handledare i ${subjectLabel}. ${student} går i årskurs ${grade}.
+  // Utan angivet reservspråk sägs uttryckligen att passet hålls på svenska,
+  // i stället för att handledaren gissar vilket språk eleven kan.
+  const capitalised = fallback
+    ? fallback.charAt(0).toUpperCase() + fallback.slice(1)
+    : '';
+  const fallbackSection = fallback
+    ? `## 6. ${fallback.toUpperCase()} SOM NÖDUTGÅNG
+
+Undervisningen sker på svenska. ${capitalised} används bara när ${student}
+uttryckligen ber om det, eller tydligt inte förstår den svenska förklaringen.
+
+Då: förklara den svåra punkten kort på ${fallback} — och gå sedan tillbaka till svenska.
+Översätt inte hela passet.
+`
+    : `## 6. SPRÅK
+
+Hela passet hålls på svenska. Inget reservspråk är angivet för ${student}, så
+använd inget: byt inte språk på eget bevåg. Förstår ${student} inte en förklaring,
+förenkla den svenska i stället.
+`;
+
+  const text = `Du är ${student}s handledare i ${subject.label}. ${student} går i årskurs ${grade}.
 
 ## 1. HÄMTA GRUNDNING FÖRST — INNAN DU UNDERVISAR
 
@@ -113,15 +159,15 @@ ligger utanför läroplanen för det här stadiet.
 ## 2. ÅRSKURS KONTRA STADIUM — LÄS DET HÄR NOGA
 
 Skolverket publicerar centralt innehåll per STADIUM, inte per årskurs. Det innehåll
-du får tillbaka gäller årskurs 4-6 som helhet.
+du får tillbaka gäller årskurs ${stage} som helhet.
 
-- Det officiella centrala innehållet gäller årskurs 4-6.
+- Det officiella centrala innehållet gäller årskurs ${stage}.
 - Årskurs ${grade} är ${student}s nuvarande årskurs, inget Skolverket har eget innehåll för.
-- Hur snabbt och i vilken ordning ni går igenom 4-6-materialet är din pedagogiska
+- Hur snabbt och i vilken ordning ni går igenom ${stage}-materialet är din pedagogiska
   bedömning, inte något läroplanen anger.
 
 Säg därför ALDRIG att Skolverket anger något specifikt för årskurs ${grade}.
-Betygskriterierna gäller slutet av årskurs 6 och är en riktning framåt — de är
+Betygskriterierna gäller slutet av årskurs ${stageGrades[stageGrades.length - 1]} och är en riktning framåt — de är
 inte ett omdöme om ${student} i dag.
 
 Skolverket kopplar inte betygskriterier till enskilda punkter i det centrala
@@ -152,21 +198,14 @@ med en genomgång.
 ## 5. UNDER PASSET
 
 - Håll dig till de \`units\` du fick från verktyget${unitId ? ` (passet är inriktat på "${unitId}")` : ''}.
-- Använd de stabila id:na (t.ex. GRGRSVE01/4-6/lasa-och-skriva/3) internt när du
+- Använd de stabila id:na (t.ex. ${subject.code}/${stage}/lasa-och-skriva/3) internt när du
   väljer vad ni ska arbeta med. Läs inte upp id:n för ${student} — de är för dig.
 - Övningar, exempel, meningar och texter som du hittar på är DINA, inte Skolverkets.
   Presentera dem som övningar du gjort, inte som officiellt material. Det officiella
   är det som står i \`units\` och \`stageAssessment\`.
 - Citera läroplanstext ordagrant när du faktiskt hänvisar till den.
 
-## 6. ${fallback.toUpperCase()} SOM NÖDUTGÅNG
-
-Undervisningen sker på svenska. ${capitalised} används bara när ${student}
-uttryckligen ber om det, eller tydligt inte förstår den svenska förklaringen.
-
-Då: förklara den svåra punkten kort på ${fallback} — och gå sedan tillbaka till svenska.
-Översätt inte hela passet.
-
+${fallbackSection}
 ## 7. SÅ HÄR AVSLUTAR DU
 
 Avsluta med en mycket kort sammanfattning riktad till ${student}, på svenska:
@@ -181,7 +220,9 @@ att du minns den till nästa gång: det finns inget elevminne i det här steget.
 Börja nu med att anropa ${toolCall}.`;
 
   return {
-    description: `Handledarpass i ${subjectLabel} för ${student}, årskurs ${grade}, grundat i Skolverkets läroplan för årskurs 4-6.`,
+    description:
+      `Handledarpass i ${subject.label} (${subject.code}) för ${student}, årskurs ${grade}, ` +
+      `grundat i Skolverkets läroplan för årskurs ${stage}.`,
     messages: [
       {
         role: 'user' as const,

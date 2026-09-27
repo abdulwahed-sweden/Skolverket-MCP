@@ -14,10 +14,17 @@ import {
 } from '../../src/tutor/session-prompt.js';
 import { getTutorTeachingContextSchema } from '../../src/tools/tutor/stage-curriculum.js';
 
-const promptText = (args = {}) =>
-  buildTutorStudentSessionPrompt(args).messages[0].content.text;
+/** Obligatoriska argument — prompten har inga defaults för elevuppgifter. */
+const ALI = { student_name: 'Ali', grade: 5, subject: 'svenska som andraspråk' };
 
+const promptText = (args: Record<string, unknown> = {}) =>
+  buildTutorStudentSessionPrompt({ ...ALI, ...args }).messages[0].content.text;
+
+/** Alis riktiga pass: SVA, årskurs 5. */
 const base = promptText();
+
+/** Samma elev men Svenska, för att visa att ämnena skiljer sig åt. */
+const svenska = promptText({ subject: 'svenska' });
 
 describe('promptdefinitionen', () => {
   it('heter tutor_student_session och har bara valfria argument', () => {
@@ -29,12 +36,24 @@ describe('promptdefinitionen', () => {
       'unit_id',
       'fallback_language',
     ]);
-    // Ett anrop utan argument ska ge Alis pass direkt.
-    expect(def.arguments.every((a) => a.required === false)).toBe(true);
+    // Elevuppgifter är obligatoriska — servern känner inte barnet.
+    const required = def.arguments.filter((a) => a.required).map((a) => a.name);
+    expect(required).toEqual(['student_name', 'grade', 'subject']);
+    const optional = def.arguments.filter((a) => !a.required).map((a) => a.name);
+    expect(optional).toEqual(['unit_id', 'fallback_language']);
   });
 
   it('nämner grundningsverktyget redan i beskrivningen', () => {
     expect(def.description).toContain('get_tutor_teaching_context');
+  });
+
+  it('utlovar inga defaultvärden för eleven', () => {
+    const blob = JSON.stringify(def);
+    expect(blob).not.toMatch(/Default: "Ali"/);
+    expect(blob).not.toMatch(/Default: 5/);
+    expect(blob).not.toMatch(/Default: "svenska"/);
+    expect(blob).not.toMatch(/Default: "arabiska"/);
+    expect(def.description).toContain('inget antas');
   });
 });
 
@@ -54,7 +73,9 @@ describe('grundning hämtas före undervisning', () => {
   });
 
   it('anger exakta argument, så att anropet inte blir en gissning', () => {
-    expect(base).toContain('get_tutor_teaching_context {"subject":"svenska","grade":5}');
+    expect(base).toContain(
+      'get_tutor_teaching_context {"subject":"svenska_som_andrasprak","grade":5,"stage":"4-6"}'
+    );
   });
 
   it('avslutar med att peka tillbaka på anropet', () => {
@@ -66,7 +87,8 @@ describe('grundning hämtas före undervisning', () => {
   it('skickar med unitId när passet är inriktat', () => {
     const t = promptText({ unit_id: 'lasa-och-skriva' });
     expect(t).toContain(
-      'get_tutor_teaching_context {"subject":"svenska","grade":5,"unitId":"lasa-och-skriva"}'
+      'get_tutor_teaching_context {"subject":"svenska_som_andrasprak","grade":5,' +
+        '"stage":"4-6","unitId":"lasa-och-skriva"}'
     );
     expect(t).toContain('passet är inriktat på "lasa-och-skriva"');
   });
@@ -77,7 +99,7 @@ describe('grundning hämtas före undervisning', () => {
     // att någon märker det. Det här fångar exakt det: `unit_id` i stället för
     // `unitId` gav hela stadiet tillbaka i stället för den valda enheten.
     const valid = new Set(Object.keys(getTutorTeachingContextSchema));
-    const calls = [promptText(), promptText({ unit_id: 'texter' })].flatMap((t) =>
+    const calls = [promptText(), promptText({ unit_id: 'texter' }), svenska].flatMap((t) =>
       [...t.matchAll(/get_tutor_teaching_context (\{[^}]*\})/g)].map((m) => JSON.parse(m[1]))
     );
 
@@ -128,12 +150,28 @@ describe('stadium kontra årskurs bevaras', () => {
     expect(base).toContain('Hitta inte på sådana kopplingar.');
   });
 
-  it('följer med när årskursen ändras', () => {
+  it('följer med när årskursen ändras inom stadiet', () => {
     const t = promptText({ grade: 4 });
     expect(t).toContain('Årskurs 4 är Alis nuvarande årskurs');
     expect(t).toContain('ALDRIG att Skolverket anger något specifikt för årskurs 4');
     // Stadiet är fortfarande 4-6.
     expect(t).toContain('Det officiella centrala innehållet gäller årskurs 4-6.');
+  });
+
+  it('härleder stadiet ur årskursen i stället för att anta 4-6', () => {
+    const y2 = promptText({ grade: 2 });
+    expect(y2).toContain('Det officiella centrala innehållet gäller årskurs 1-3.');
+    expect(y2).toContain('"stage":"1-3"');
+    expect(y2).toContain('Betygskriterierna gäller slutet av årskurs 3');
+
+    const y8 = promptText({ grade: 8 });
+    expect(y8).toContain('Det officiella centrala innehållet gäller årskurs 7-9.');
+    expect(y8).toContain('"stage":"7-9"');
+    expect(y8).toContain('Betygskriterierna gäller slutet av årskurs 9');
+  });
+
+  it('avvisar en årskurs utanför grundskolan', () => {
+    expect(() => promptText({ grade: 11 })).toThrow(/finns inte i grundskolan/);
   });
 });
 
@@ -195,12 +233,22 @@ describe('undervisningsformen', () => {
 });
 
 describe('fallbackspråk', () => {
-  it('är arabiska som default och bara en nödutgång', () => {
-    expect(base).toContain('ARABISKA SOM NÖDUTGÅNG');
-    expect(base).toContain('Undervisningen sker på svenska. Arabiska används bara när Ali');
-    expect(base).toMatch(/uttryckligen ber om det, eller tydligt inte förstår/);
-    expect(base).toMatch(/gå sedan tillbaka till svenska/);
-    expect(base).toContain('Översätt inte hela passet');
+  it('antar inget reservspråk när inget anges', () => {
+    // Arabiska var tidigare default. Servern känner inte elevens språk.
+    expect(base).not.toContain('ARABISKA');
+    expect(base).not.toContain('arabiska');
+    expect(base).toContain('## 6. SPRÅK');
+    expect(base).toContain('Inget reservspråk är angivet för Ali');
+    expect(base).toContain('byt inte språk på eget bevåg');
+  });
+
+  it('använder det språk som faktiskt anges', () => {
+    const t = promptText({ fallback_language: 'arabiska' });
+    expect(t).toContain('ARABISKA SOM NÖDUTGÅNG');
+    expect(t).toContain('Undervisningen sker på svenska. Arabiska används bara när Ali');
+    expect(t).toMatch(/uttryckligen ber om det, eller tydligt inte förstår/);
+    expect(t).toMatch(/gå sedan tillbaka till svenska/);
+    expect(t).toContain('Översätt inte hela passet');
   });
 
   it('går att byta ut', () => {
@@ -225,36 +273,54 @@ describe('avslutning utan lagring', () => {
   });
 });
 
-describe('argument och validering', () => {
-  it('använder Ali, årskurs 5 och svenska som default', () => {
-    const r = buildTutorStudentSessionPrompt();
-    expect(r.description).toContain('Svenska');
-    expect(r.description).toContain('Ali');
-    expect(r.description).toContain('årskurs 5');
-    expect(r.messages).toHaveLength(1);
-    expect(r.messages[0].role).toBe('user');
+describe('obligatoriska argument', () => {
+  it('avvisar ett anrop helt utan argument', () => {
+    expect(() => buildTutorStudentSessionPrompt()).toThrow(/student_name måste anges/);
+    expect(() => buildTutorStudentSessionPrompt({})).toThrow(/student_name måste anges/);
   });
 
-  it('byter elev och ämne', () => {
-    const t = promptText({ student_name: 'Noor', subject: 'svenska_som_andrasprak' });
-    expect(t).toContain('Noors handledare i Svenska som andraspråk');
-    expect(t).toContain('"subject":"svenska_som_andrasprak"');
-    expect(t).not.toContain('Ali');
+  it('avvisar när elevens namn saknas', () => {
+    expect(() =>
+      buildTutorStudentSessionPrompt({ grade: 5, subject: 'svenska som andraspråk' })
+    ).toThrow(/student_name måste anges/);
+    expect(() => promptText({ student_name: '   ' })).toThrow(/student_name måste anges/);
+  });
+
+  it('avvisar när årskursen saknas', () => {
+    expect(() =>
+      buildTutorStudentSessionPrompt({
+        student_name: 'Ali',
+        subject: 'svenska som andraspråk',
+      })
+    ).toThrow(/grade måste anges/);
+  });
+
+  it('avvisar när ämnet saknas — ingen tyst läroplan', () => {
+    expect(() =>
+      buildTutorStudentSessionPrompt({ student_name: 'Ali', grade: 5 })
+    ).toThrow(/Ämne måste anges explicit/);
+    expect(() => promptText({ subject: '' })).toThrow(/Ämne måste anges explicit/);
+    // Felet ska förklara varför, inte bara att.
+    expect(() => promptText({ subject: undefined })).toThrow(/giltig men fel läroplan/);
+  });
+
+  it('vägrar okänt ämne i stället för att gissa', () => {
+    expect(() => promptText({ subject: 'matematik' })).toThrow(/Okänt ämne "matematik"/);
+    expect(() => promptText({ subject: 'matematik' })).toThrow(/gissas aldrig/);
+  });
+
+  it('vägrar en årskurs som inte är ett tal', () => {
+    expect(() => promptText({ grade: 'femman' })).toThrow(/grade måste vara ett tal/);
   });
 
   it('tar emot grade som sträng, som MCP-argument kommer in', () => {
     expect(promptText({ grade: '6' })).toContain('Årskurs 6 är Alis nuvarande årskurs');
   });
 
-  it('vägrar okänt ämne i stället för att gissa', () => {
-    expect(() => buildTutorStudentSessionPrompt({ subject: 'matematik' })).toThrow(
-      /Okänt ämne "matematik"/
-    );
-  });
-
-  it('vägrar en årskurs som inte är ett tal', () => {
-    expect(() => buildTutorStudentSessionPrompt({ grade: 'femman' })).toThrow(
-      /grade måste vara ett tal/
-    );
+  it('byter elev och ämne', () => {
+    const t = promptText({ student_name: 'Noor', subject: 'svenska' });
+    expect(t).toContain('Noors handledare i Svenska.');
+    expect(t).toContain('"subject":"svenska"');
+    expect(t).not.toContain('Ali');
   });
 });
