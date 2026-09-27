@@ -8,12 +8,9 @@
  * - Skolenhetsregistret API (skolenheter och deras status)
  * - Planned Educations API (vuxenutbildning, gymnasieutbildningar, statistik, dokument)
  *
- * 41 verktyg totalt:
- * - 17 Syllabus API verktyg
- * - 4 School Units verktyg
- * - 17 Planned Educations verktyg
- * - 3 Support Data verktyg
- * - 1 Health check verktyg
+ * 89 verktyg totalt (kontrollerat mot tools/list, inte uppskattat).
+ * Varav 2 handledarverktyg för Ali Swedish Tutor:
+ * get_tutor_stage_curriculum och get_tutor_teaching_context.
  */
 
 import { Server } from '@modelcontextprotocol/sdk/server/index.js';
@@ -82,6 +79,14 @@ import {
   getSchoolTypesSchema,
   getStudyPathCodesSchema
 } from './tools/syllabus/valuestore.js';
+
+// Importera handledarverktyg (Ali Swedish Tutor)
+import {
+  getTutorStageCurriculum,
+  getTutorTeachingContext,
+  getTutorStageCurriculumSchema,
+  getTutorTeachingContextSchema
+} from './tools/tutor/stage-curriculum.js';
 
 // Importera skolenhetsverktyg (School Units API)
 import {
@@ -2609,6 +2614,66 @@ TIPS: Använd "compact" för översikter och "full" när du behöver all informa
       },
 
       // ==============================================
+      // HANDLEDARVERKTYG (Ali Swedish Tutor)
+      // ==============================================
+      {
+        name: 'get_tutor_stage_curriculum',
+        description: `Hämta läroplanen för ETT ämne och ETT stadium, normaliserad för undervisning.
+
+ANVÄNDNINGSFALL:
+- Grunda en AI-handledare i officiell läroplan i stället för påhittat innehåll
+- Se syfte, centralt innehåll och betygskriterier för ett stadium i ett svep
+- Spåra varje fält tillbaka till det API-anrop det kom från
+
+RETURNERAR: ämne, skolform, läroplan med version, stadium, syfte,
+centralt innehåll för stadiet, betygskriterier för stadiets slutår,
+föregående stadiums kriterier som utgångsläge, samt ett provenance-block
+som anger vilket rått API-fält varje värde kommer ur.
+
+VIKTIGT OM ÅRSKURSER: Skolverket publicerar centralt innehåll per STADIUM
+("1-3", "4-6", "7-9"), aldrig per årskurs, och betygskriterier bara för
+slutet av årskurs 1, 3, 6 och 9. Svaret anger därför alltid
+stage.gradeIsExplicitInApi=false och
+relevantAssessmentCriteria.noneForRequestedGrade. Påstå inte att Skolverket
+anger något för en enskild årskurs.
+
+EXEMPEL: subject="svenska", stage="4-6", grade=5 ger Svenska (GRGRSVE01)
+för årskurs 4-6 med årskurs 6 som bedömningsmål.`,
+        inputSchema: {
+          type: 'object',
+          properties: getTutorStageCurriculumSchema,
+        },
+      },
+      {
+        name: 'get_tutor_teaching_context',
+        description: `Samma läroplansdata som get_tutor_stage_curriculum, men uppdelad i
+undervisningsbara enheter plus en färdig grundande brief.
+
+ANVÄNDNINGSFALL:
+- Välja vad en lektion ska handla om, utan att lämna läroplanen
+- Lägga in officiell läroplanstext som grundning i en handledarprompt
+- Hänvisa till ett innehållskrav med ett stabilt id
+
+RETURNERAR:
+- units: rubrikerna ur det centrala innehållet, var och en med sina punkter
+  och stabila id:n (t.ex. "GRGRSVE01/4-6/lasa-och-skriva/3")
+- stageAssessment: kriterierna för stadiet
+- groundedBrief: text där allt läroplansinnehåll är ordagrant, med härkomst
+  och regler för handledaren
+
+SKOLVERKET KOPPLAR INTE kriterier till enskilda punkter i det centrala
+innehållet. Enheter och kriterier hålls därför isär — hitta inte på sådana
+kopplingar.
+
+EXEMPEL: unitId="lasa-och-skriva" begränsar svaret till den enheten.
+includeBrief=false ger bara strukturen.`,
+        inputSchema: {
+          type: 'object',
+          properties: getTutorTeachingContextSchema,
+        },
+      },
+
+      // ==============================================
       // DIAGNOSTIK OCH HEALTH CHECK
       // ==============================================
       {
@@ -2649,6 +2714,12 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
   try {
     switch (name) {
+      // Handledarverktyg (Ali Swedish Tutor)
+      case 'get_tutor_stage_curriculum':
+        return await getTutorStageCurriculum(args as any);
+      case 'get_tutor_teaching_context':
+        return await getTutorTeachingContext(args as any);
+
       // Läroplan API (Syllabus)
       case 'search_subjects':
         return await searchSubjects(args as any);

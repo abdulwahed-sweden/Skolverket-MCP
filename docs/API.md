@@ -1,6 +1,6 @@
 # API-dokumentation
 
-## Alla Verktyg (29 st)
+## Alla Verktyg (89 st enligt `tools/list`)
 
 ### Läroplan API (17 verktyg)
 
@@ -30,6 +30,32 @@
 - `get_subject_and_course_codes` - Alla ämnes- och kurskoder
 - `get_study_path_codes` - Studievägskodar
 - `get_api_info` - API-information
+
+### Handledarverktyg — Ali Swedish Tutor (2 verktyg)
+
+Bygger på Läroplan API ovan och inför ingen ny datakälla. Avsedda för att grunda
+en AI-handledare i officiell läroplan i stället för påhittat innehåll.
+
+- `get_tutor_stage_curriculum` - Läroplan för ett ämne och ett stadium,
+  normaliserad, med `provenance` som anger vilket API-fält varje värde kommer ur
+- `get_tutor_teaching_context` - Samma data uppdelad i undervisningsbara enheter
+  med stabila id:n, plus en grundande brief där all läroplanstext är ordagrann
+
+**Viktigt om årskurser.** Skolverket publicerar centralt innehåll per *stadium*
+(`"1-3"`, `"4-6"`, `"7-9"`), aldrig per årskurs, och betygskriterier bara för
+slutet av årskurs 1, 3, 6 och 9. Det finns alltså inget läroplansinnehåll som är
+specifikt för exempelvis årskurs 5. Verktygen svarar därför alltid med
+`stage.gradeIsExplicitInApi: false` och
+`relevantAssessmentCriteria.noneForRequestedGrade`, och de vägrar hitta på
+kopplingar mellan betygskriterier och enskilda punkter i det centrala innehållet
+— Skolverket publicerar ingen sådan koppling.
+
+```
+get_tutor_teaching_context { subject: "svenska", grade: 5 }
+  -> units: GRGRSVE01/4-6/lasa-och-skriva (8 punkter), .../texter (5), ...
+     stageAssessment: årskurs 6, betygssteg E-A
+     groundedBrief: ~13 kB officiell text med härkomst och regler
+```
 
 ### Skolenhetsregistret API (4 verktyg)
 

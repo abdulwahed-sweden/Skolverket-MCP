@@ -127,7 +127,7 @@ Yrkeshögskola, SFI, Komvux och andra vuxenutbildningar med startdatum, platser 
 
 MCP-servern implementerar MCP-protokollet med stöd för:
 
-- **41 verktyg** – 17 Syllabus API, 4 School Units, 17 Planned Educations (inkl. gymnasieutbildningar, statistik, dokument), 3 Support Data, 1 diagnostik
+- **89 verktyg** – Syllabus API, 2 handledarverktyg (grundar en AI-handledare i officiell läroplan), School Units, Planned Educations (inkl. gymnasieutbildningar, statistik, dokument), Support Data, diagnostik
 - **4 resurser** – API-info, skoltyper, läroplanstyper, kurs- och ämneskoder
 - **5 promptmallar** – Kursanalys, versionsjämförelser, vuxenutbildning, studievägledning, kursplanering
 
