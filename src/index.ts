@@ -88,6 +88,11 @@ import {
   getTutorTeachingContextSchema
 } from './tools/tutor/stage-curriculum.js';
 
+import {
+  tutorStudentSessionPromptDefinition,
+  buildTutorStudentSessionPrompt
+} from './tutor/session-prompt.js';
+
 // Importera skolenhetsverktyg (School Units API)
 import {
   searchSchoolUnits,
@@ -395,6 +400,7 @@ server.setRequestHandler(ListPromptsRequestSchema, async () => {
 
   return {
     prompts: [
+      tutorStudentSessionPromptDefinition,
       {
         name: 'analyze_course',
         description: 'Analysera en kurs med centralt innehåll och kunskapskrav',
@@ -480,6 +486,9 @@ server.setRequestHandler(GetPromptRequestSchema, async (request) => {
 
   try {
     switch (name) {
+    case 'tutor_student_session':
+      return buildTutorStudentSessionPrompt(args ?? {});
+
     case 'analyze_course': {
       const courseCode = args?.course_code as string;
       if (!courseCode) {

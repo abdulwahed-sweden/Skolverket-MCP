@@ -41,6 +41,16 @@ en AI-handledare i officiell läroplan i stället för påhittat innehåll.
 - `get_tutor_teaching_context` - Samma data uppdelad i undervisningsbara enheter
   med stabila id:n, plus en grundande brief där all läroplanstext är ordagrann
 
+#### MCP-prompt: `tutor_student_session`
+
+Hela handledargränssnittet är en MCP-prompt, inte en applikation. Klienten hämtar
+prompten, prompten säger åt klienten att anropa `get_tutor_teaching_context`, och
+undervisningen sker i klienten. Inget elevtillstånd lagras här.
+
+Alla argument är valfria: `student_name` (default `"Ali"`), `grade` (default `5`),
+`subject`, `unit_id`, `fallback_language` (default `"arabiska"`, används bara när
+eleven kör fast).
+
 **Viktigt om årskurser.** Skolverket publicerar centralt innehåll per *stadium*
 (`"1-3"`, `"4-6"`, `"7-9"`), aldrig per årskurs, och betygskriterier bara för
 slutet av årskurs 1, 3, 6 och 9. Det finns alltså inget läroplansinnehåll som är
