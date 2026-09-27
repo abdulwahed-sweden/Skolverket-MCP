@@ -45,5 +45,9 @@ coverage/
 
 # MCP Registry tokens
 .mcpregistry_*
-# Auto-generated API types
-src/types/generated/
+# Auto-generated API types ÄR versionshanterade med avsikt:
+# - tests/contract/type-safety.test.ts jämför de handskrivna typerna mot dem,
+#   och ska kunna köras utan nätverk
+# - .github/workflows/skolverket-sync.yml upptäcker API-ändringar genom att
+#   diffa just den här katalogen och öppna en PR
+# Regenerera med `npm run sync:api-types`.

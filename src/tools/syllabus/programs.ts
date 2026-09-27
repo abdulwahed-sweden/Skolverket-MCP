@@ -37,27 +37,30 @@ export async function searchPrograms(params: {
 
     // Begränsa antal resultat för att undvika stora responses
     const maxResults = Math.min(params.limit || 100, 200);
-    const limitedPrograms = result.programs.slice(0, maxResults);
-    const hasMore = result.totalElements > maxResults;
+    const allPrograms = result.programs ?? [];
+    const total = result.totalElements ?? allPrograms.length;
+    const limitedPrograms = allPrograms.slice(0, maxResults);
+    const hasMore = total > maxResults;
 
     return {
       content: [
         {
           type: 'text' as const,
           text: JSON.stringify({
-            totalElements: result.totalElements,
+            totalElements: total,
             returned: limitedPrograms.length,
             hasMore: hasMore,
             message: hasMore ? `Visar ${limitedPrograms.length} av ${result.totalElements} program. Öka limit-parametern för att se fler.` : undefined,
             programs: limitedPrograms.map(p => ({
               code: p.code,
               name: p.name,
-              schoolType: p.schoolType,
+              englishName: p.englishName,
+              schoolTypes: p.schoolTypes,
               studyPathType: p.studyPathType,
+              category: p.category,
               version: p.version,
               orientations: p.orientations?.map(o => o.name),
-              profiles: p.profiles?.map(pr => pr.name),
-              description: p.description?.substring(0, 150) + (p.description && p.description.length > 150 ? '...' : '')
+              profiles: p.profiles?.map(pr => pr.name)
             }))
           }, null, 2)
         }
@@ -118,7 +121,15 @@ export async function getProgramVersions(params: {
           text: JSON.stringify({
             code: params.code,
             totalVersions: versions.totalElements,
-            versions: versions.versions
+            // Versionslistan ligger under `programs`, en post per version.
+            versions: (versions.programs ?? []).map(v => ({
+              version: v.version,
+              startDate: v.startDate,
+              endDate: v.endDate,
+              modifiedDate: v.modifiedDate,
+              canceledDate: v.canceledDate,
+              canceledSkolfs: v.canceledSkolfs
+            }))
           }, null, 2)
         }
       ]

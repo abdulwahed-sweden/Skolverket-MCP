@@ -38,8 +38,7 @@ jobs:
         id: generate
         continue-on-error: true
         run: |
-          # Kör skriptet vi skapade ovan
-          npx tsx scripts/update-api-types.ts
+          npm run sync:api-types
 
           # Kontrollera om git ser några ändringar i generated-mappen
           if [[ -n $(git status --porcelain src/types/generated/) ]]; then
@@ -56,7 +55,10 @@ jobs:
         continue-on-error: true
         run: |
           echo "🛡️ Verifying compatibility with existing code..."
-          npm test tests/contract/type-safety.test.ts
+          # Typkontrollen är den starka delen av kontraktet: påståendena i
+          # tests/contract/type-safety.test.ts är typfel, inte körningsfel.
+          npm run typecheck
+          npx vitest run tests/contract/type-safety.test.ts
           npm run build
 
       - name: 🔄 Auto-restore on failure

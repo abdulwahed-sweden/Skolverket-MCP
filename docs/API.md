@@ -20,7 +20,7 @@
 - `get_program_versions` - Programversioner över tid
 
 #### Läroplaner
-- `search_curriculums` - Sök läroplaner (LGR11, GY11, etc.)
+- `search_curriculums` - Sök läroplaner (LGR22 för grundskolan, etc.)
 - `get_curriculum_details` - Fullständig läroplan
 - `get_curriculum_versions` - Läroplansversioner
 

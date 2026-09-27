@@ -23,7 +23,9 @@
     "start:http": "node dist/http-server.js",
     "start:streamable": "node dist/streamable-http-server.js",
     "test": "vitest",
-    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit -p tsconfig.test.json",
+    "sync:api-types": "tsx scripts/update-api-types.ts",
+    "lint": "tsc --noEmit -p tsconfig.test.json",
     "format": "prettier --check .",
     "format:fix": "prettier --write ."
   },
@@ -81,6 +83,8 @@
     "@types/node": "^22.10.2",
     "@types/uuid": "^10.0.0",
     "@vitest/expect": "^4.0.14",
+    "openapi-typescript": "^7.13.0",
+    "tsx": "^4.23.15",
     "typescript": "^5.7.2",
     "vitest": "^4.0.14"
   },

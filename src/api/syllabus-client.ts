@@ -6,22 +6,26 @@ import { BaseApiClient } from './base-client.js';
 import { config } from '../config.js';
 import type {
   SubjectsResponse,
-  Subject,
+  SubjectResponse,
   CoursesResponse,
-  Course,
+  CourseResponse,
   ProgramsResponse,
-  Program,
+  ProgramResponse,
   CurriculumsResponse,
-  Curriculum,
+  CurriculumResponse,
   SubjectSearchParams,
   CourseSearchParams,
   ProgramSearchParams,
+  CurriculumSearchParams,
   StudyPathSearchParams,
   SchoolType,
+  SchoolTypesResponse,
   TypeOfSyllabus,
+  TypeOfSyllabusResponse,
   SubjectAndCourseCode,
+  SubjectAndCourseCodesResponse,
   StudyPathCode,
-  VersionsResponse,
+  StudyPathCodesResponse,
   ApiInfo
 } from '../types/syllabus.js';
 
@@ -44,16 +48,18 @@ export class SyllabusApiClient extends BaseApiClient {
     return this.get<SubjectsResponse>('/v1/subjects', params);
   }
 
-  async getSubject(code: string, version?: number, date?: string): Promise<Subject> {
+  /** Svaret är en envelope: ämnet ligger under `subject`. */
+  async getSubject(code: string, version?: number, date?: string): Promise<SubjectResponse> {
     const url = version
       ? `/v1/subjects/${code}/versions/${version}`
       : `/v1/subjects/${code}`;
     const params = date ? { date } : undefined;
-    return this.get<Subject>(url, params);
+    return this.get<SubjectResponse>(url, params);
   }
 
-  async getSubjectVersions(code: string): Promise<VersionsResponse> {
-    return this.get<VersionsResponse>(`/v1/subjects/${code}/versions`);
+  /** Versionslistan använder samma form som sökningen — nyckeln är `subjects`. */
+  async getSubjectVersions(code: string): Promise<SubjectsResponse> {
+    return this.get<SubjectsResponse>(`/v1/subjects/${code}/versions`);
   }
 
   // Kurser (Courses)
@@ -61,16 +67,18 @@ export class SyllabusApiClient extends BaseApiClient {
     return this.get<CoursesResponse>('/v1/courses', params);
   }
 
-  async getCourse(code: string, version?: number, date?: string): Promise<Course> {
+  /** Svaret är en envelope: kursen ligger under `course`. */
+  async getCourse(code: string, version?: number, date?: string): Promise<CourseResponse> {
     const url = version
       ? `/v1/courses/${code}/versions/${version}`
       : `/v1/courses/${code}`;
     const params = date ? { date } : undefined;
-    return this.get<Course>(url, params);
+    return this.get<CourseResponse>(url, params);
   }
 
-  async getCourseVersions(code: string): Promise<VersionsResponse> {
-    return this.get<VersionsResponse>(`/v1/courses/${code}/versions`);
+  /** Versionslistan använder samma form som sökningen — nyckeln är `courses`. */
+  async getCourseVersions(code: string): Promise<CoursesResponse> {
+    return this.get<CoursesResponse>(`/v1/courses/${code}/versions`);
   }
 
   // Program (Programs)
@@ -78,38 +86,42 @@ export class SyllabusApiClient extends BaseApiClient {
     return this.get<ProgramsResponse>('/v1/programs', params);
   }
 
-  async getProgram(code: string, version?: number, date?: string): Promise<Program> {
+  /** Svaret är en envelope: programmet ligger under `program`. */
+  async getProgram(code: string, version?: number, date?: string): Promise<ProgramResponse> {
     const url = version
       ? `/v1/programs/${code}/versions/${version}`
       : `/v1/programs/${code}`;
     const params = date ? { date } : undefined;
-    return this.get<Program>(url, params);
+    return this.get<ProgramResponse>(url, params);
   }
 
-  async getProgramVersions(code: string): Promise<VersionsResponse> {
-    return this.get<VersionsResponse>(`/v1/programs/${code}/versions`);
+  /** Versionslistan använder samma form som sökningen — nyckeln är `programs`. */
+  async getProgramVersions(code: string): Promise<ProgramsResponse> {
+    return this.get<ProgramsResponse>(`/v1/programs/${code}/versions`);
   }
 
   // Läroplaner (Curriculums)
-  async searchCurriculums(params: SubjectSearchParams = {}): Promise<CurriculumsResponse> {
+  async searchCurriculums(params: CurriculumSearchParams = {}): Promise<CurriculumsResponse> {
     return this.get<CurriculumsResponse>('/v1/curriculums', params);
   }
 
-  async getCurriculum(code: string, version?: number, date?: string): Promise<Curriculum> {
+  /** Svaret är en envelope: läroplanen ligger under `curriculum`. */
+  async getCurriculum(code: string, version?: number, date?: string): Promise<CurriculumResponse> {
     const url = version
       ? `/v1/curriculums/${code}/versions/${version}`
       : `/v1/curriculums/${code}`;
     const params = date ? { date } : undefined;
-    return this.get<Curriculum>(url, params);
+    return this.get<CurriculumResponse>(url, params);
   }
 
-  async getCurriculumVersions(code: string): Promise<VersionsResponse> {
-    return this.get<VersionsResponse>(`/v1/curriculums/${code}/versions`);
+  /** Versionslistan använder samma form som sökningen — nyckeln är `curriculums`. */
+  async getCurriculumVersions(code: string): Promise<CurriculumsResponse> {
+    return this.get<CurriculumsResponse>(`/v1/curriculums/${code}/versions`);
   }
 
   // Värdesamlingar (Value Store) - använder caching för statiska värden
   async getSchoolTypes(): Promise<SchoolType[]> {
-    const response = await this.getCached<{ schoolTypes: SchoolType[] }>(
+    const response = await this.getCached<SchoolTypesResponse>(
       '/v1/valuestore/schooltypes',
       undefined,
       86400000 // 24 timmar cache
@@ -118,7 +130,7 @@ export class SyllabusApiClient extends BaseApiClient {
   }
 
   async getExpiredSchoolTypes(): Promise<SchoolType[]> {
-    const response = await this.getCached<{ schoolTypes: SchoolType[] }>(
+    const response = await this.getCached<SchoolTypesResponse>(
       '/v1/valuestore/schooltypes/expired',
       undefined,
       86400000 // 24 timmar cache
@@ -127,16 +139,17 @@ export class SyllabusApiClient extends BaseApiClient {
   }
 
   async getTypesOfSyllabus(): Promise<TypeOfSyllabus[]> {
-    const response = await this.getCached<{ typesOfSyllabus: TypeOfSyllabus[] }>(
+    // Nyckeln i svaret heter `typeOfSyllabusList`.
+    const response = await this.getCached<TypeOfSyllabusResponse>(
       '/v1/valuestore/typeofsyllabus',
       undefined,
       86400000 // 24 timmar cache
     );
-    return response.typesOfSyllabus || [];
+    return response.typeOfSyllabusList || [];
   }
 
   async getSubjectAndCourseCodes(): Promise<SubjectAndCourseCode[]> {
-    const response = await this.getCached<{ codes: SubjectAndCourseCode[] }>(
+    const response = await this.getCached<SubjectAndCourseCodesResponse>(
       '/v1/valuestore/subjectandcoursecodes',
       undefined,
       86400000 // 24 timmar cache
@@ -145,12 +158,13 @@ export class SyllabusApiClient extends BaseApiClient {
   }
 
   async getStudyPathCodes(params: StudyPathSearchParams = {}): Promise<StudyPathCode[]> {
-    const response = await this.getCached<{ studyPaths: StudyPathCode[] }>(
+    // Nyckeln i svaret heter `codes`, inte `studyPaths`.
+    const response = await this.getCached<StudyPathCodesResponse>(
       '/v1/valuestore/studypathcodes',
       params,
       86400000 // 24 timmar cache
     );
-    return response.studyPaths || [];
+    return response.codes || [];
   }
 
   // API-information - caching i 1 timme

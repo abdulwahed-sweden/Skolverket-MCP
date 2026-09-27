@@ -842,7 +842,7 @@ RETURNERAR: Lista över alla versioner med datum.`,
       // Läroplansverktyg
       {
         name: 'search_curriculums',
-        description: `Sök efter läroplaner (t.ex. LGR11, GY11).
+        description: `Sök efter läroplaner (t.ex. LGR22 för grundskolan).
 
 ANVÄNDNINGSFALL:
 - Hitta gällande läroplaner
@@ -851,7 +851,9 @@ ANVÄNDNINGSFALL:
 
 RETURNERAR: Lista över läroplaner med kod, namn och giltighetsperiod.
 
-EXEMPEL: LGR11 (Läroplan för grundskolan 2011), GY11 (Gymnasiet 2011).`,
+EXEMPEL: schooltype="GR" ger LGR22 (Läroplan för grundskolan samt för
+förskoleklassen och fritidshemmet). De äldre koderna LGR11 och GY11 finns
+inte längre i API:et — slå alltid upp koden här i stället för att gissa.`,
         inputSchema: {
           type: 'object',
           properties: searchCurriculumsSchema,
@@ -869,7 +871,8 @@ ANVÄNDNINGSFALL:
 
 RETURNERAR: Hela läroplanen med alla kapitel och avsnitt.
 
-EXEMPEL: code="LGR11" för grundskolans läroplan.`,
+EXEMPEL: code="LGR22" för grundskolans läroplan. Använd search_curriculums
+för att hitta rätt kod — koden LGR11 är inte längre giltig.`,
         inputSchema: {
           type: 'object',
           properties: getCurriculumDetailsSchema,

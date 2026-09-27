@@ -94,8 +94,13 @@ export async function getSubjectAndCourseCodes() {
           text: JSON.stringify({
             codes: codes,
             total: codes.length,
-            subjects: codes.filter(c => c.type === 'SUBJECT').length,
-            courses: codes.filter(c => c.type === 'COURSE').length
+            // Ämne kontra kurs avgörs av `typeOfSyllabus`; det finns inget
+            // `type`-fält. Räkna per faktiskt förekommande värde.
+            byTypeOfSyllabus: codes.reduce<Record<string, number>>((acc, c) => {
+              const key = c.typeOfSyllabus ?? 'UNKNOWN';
+              acc[key] = (acc[key] ?? 0) + 1;
+              return acc;
+            }, {})
           }, null, 2)
         }
       ]

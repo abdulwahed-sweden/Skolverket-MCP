@@ -35,28 +35,38 @@ export async function searchCourses(params: {
   try {
     const result = await syllabusApi.searchCourses(params);
 
+    // API:et filtrerar inte på ämneskod, så det görs här via subjectParent.
+    const allCourses = (result.courses ?? []).filter(
+      c => !params.subjectCode || c.subjectParent?.subjectCode === params.subjectCode
+    );
+
     // Begränsa antal resultat för att undvika stora responses
     const maxResults = Math.min(params.limit || 50, 200);
-    const limitedCourses = result.courses.slice(0, maxResults);
-    const hasMore = result.totalElements > maxResults;
+    const total = params.subjectCode
+      ? allCourses.length
+      : (result.totalElements ?? allCourses.length);
+    const limitedCourses = allCourses.slice(0, maxResults);
+    const hasMore = total > maxResults;
 
     return {
       content: [
         {
           type: 'text' as const,
           text: JSON.stringify({
-            totalElements: result.totalElements,
+            totalElements: total,
             returned: limitedCourses.length,
             hasMore: hasMore,
-            message: hasMore ? `Visar ${limitedCourses.length} av ${result.totalElements} kurser. Använd subjectCode eller andra filter för att begränsa resultatet.` : undefined,
+            message: hasMore ? `Visar ${limitedCourses.length} av ${total} kurser. Använd subjectCode eller andra filter för att begränsa resultatet.` : undefined,
+            // Sökträffar är CourseInfo: fälten heter courseCode/courseName och
+            // ämne samt skoltyp kommer via subjectParent. Ingen beskrivning här.
             courses: limitedCourses.map(c => ({
-              code: c.code,
-              name: c.name,
-              subjectCode: c.subjectCode,
-              schoolType: c.schoolType,
-              points: c.points,
+              code: c.courseCode,
+              name: c.courseName,
+              points: c.coursePoints,
               version: c.version,
-              description: c.description?.substring(0, 150) + (c.description && c.description.length > 150 ? '...' : '')
+              subjectCode: c.subjectParent?.subjectCode,
+              subjectName: c.subjectParent?.subjectName,
+              schoolTypes: c.subjectParent?.schoolTypes
             }))
           }, null, 2)
         }
@@ -117,7 +127,15 @@ export async function getCourseVersions(params: {
           text: JSON.stringify({
             code: params.code,
             totalVersions: versions.totalElements,
-            versions: versions.versions
+            // Versionslistan ligger under `courses`, en post per version.
+            versions: (versions.courses ?? []).map(v => ({
+              version: v.version,
+              points: v.coursePoints,
+              subjectCode: v.subjectParent?.subjectCode,
+              startDate: v.subjectParent?.startDate,
+              endDate: v.subjectParent?.endDate,
+              modifiedDate: v.subjectParent?.modifiedDate
+            }))
           }, null, 2)
         }
       ]

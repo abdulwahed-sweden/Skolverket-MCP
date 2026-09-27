@@ -36,16 +36,18 @@ export async function searchCurriculums(params: {
         {
           type: 'text' as const,
           text: JSON.stringify({
-            totalElements: result.totalElements,
-            curriculums: result.curriculums.map(c => ({
+            totalElements: result.totalElements ?? (result.curriculums?.length ?? 0),
+            // Sökträffar är CurriculumInfo: läroplanen har varken beskrivning
+            // eller typeOfSyllabus. Avsnitten finns i get_curriculum_details.
+            curriculums: (result.curriculums ?? []).map(c => ({
               code: c.code,
               name: c.name,
-              schoolType: c.schoolType,
-              typeOfSyllabus: c.typeOfSyllabus,
+              schoolTypes: c.schoolTypes,
               version: c.version,
-              validFrom: c.validFrom,
-              validTo: c.validTo,
-              description: c.description?.substring(0, 200) + (c.description && c.description.length > 200 ? '...' : '')
+              startDate: c.startDate,
+              endDate: c.endDate,
+              modifiedDate: c.modifiedDate,
+              versionInfo: c.versionInfo
             }))
           }, null, 2)
         }
@@ -106,7 +108,16 @@ export async function getCurriculumVersions(params: {
           text: JSON.stringify({
             code: params.code,
             totalVersions: versions.totalElements,
-            versions: versions.versions
+            // Versionslistan ligger under `curriculums`, en post per version.
+            versions: (versions.curriculums ?? []).map(v => ({
+              version: v.version,
+              startDate: v.startDate,
+              endDate: v.endDate,
+              modifiedDate: v.modifiedDate,
+              versionInfo: v.versionInfo,
+              skolfsGrund: v.skolfsGrund,
+              skolfsAndring: v.skolfsAndring
+            }))
           }, null, 2)
         }
       ]

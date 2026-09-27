@@ -37,25 +37,30 @@ export async function searchSubjects(params: {
 
     // Begränsa antal resultat för att undvika stora responses
     const maxResults = Math.min(params.limit || 50, 200);
-    const limitedSubjects = result.subjects.slice(0, maxResults);
-    const hasMore = result.totalElements > maxResults;
+    const allSubjects = result.subjects ?? [];
+    const total = result.totalElements ?? allSubjects.length;
+    const limitedSubjects = allSubjects.slice(0, maxResults);
+    const hasMore = total > maxResults;
 
     return {
       content: [
         {
           type: 'text' as const,
           text: JSON.stringify({
-            totalElements: result.totalElements,
+            totalElements: total,
             returned: limitedSubjects.length,
             hasMore: hasMore,
-            message: hasMore ? `Visar ${limitedSubjects.length} av ${result.totalElements} ämnen. Använd mer specifika filter för att begränsa resultatet.` : undefined,
+            message: hasMore ? `Visar ${limitedSubjects.length} av ${total} ämnen. Använd mer specifika filter för att begränsa resultatet.` : undefined,
+            // Sökträffar är SubjectInfo: ingen beskrivning och inget centralt
+            // innehåll. Använd get_subject_details för det.
             subjects: limitedSubjects.map(s => ({
               code: s.code,
               name: s.name,
-              schoolType: s.schoolType,
+              schoolTypes: s.schoolTypes,
               typeOfSyllabus: s.typeOfSyllabus,
               version: s.version,
-              description: s.description?.substring(0, 150) + (s.description && s.description.length > 150 ? '...' : '')
+              startDate: s.startDate,
+              modifiedDate: s.modifiedDate
             }))
           }, null, 2)
         }
@@ -116,7 +121,15 @@ export async function getSubjectVersions(params: {
           text: JSON.stringify({
             code: params.code,
             totalVersions: versions.totalElements,
-            versions: versions.versions
+            // Versionslistan ligger under `subjects`, en post per version.
+            versions: (versions.subjects ?? []).map(v => ({
+              version: v.version,
+              startDate: v.startDate,
+              endDate: v.endDate,
+              modifiedDate: v.modifiedDate,
+              skolfsGrund: v.skolfsGrund,
+              skolfsAndring: v.skolfsAndring
+            }))
           }, null, 2)
         }
       ]
