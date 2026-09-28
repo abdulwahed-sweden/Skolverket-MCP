@@ -1,0 +1,25 @@
+{
+  "subjectCode": "GRGRMAT01",
+  "subjectName": "Matematik",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRMAT01/4-6/samband-och-forandring",
+    "title": "Samband och förändring",
+    "contentPoints": [
+      {
+        "id": "GRGRMAT01/4-6/samband-och-forandring/1",
+        "text": "Proportionalitet samt hur proportionella samband uttrycks i bråk-, decimal- och procentform."
+      },
+      {
+        "id": "GRGRMAT01/4-6/samband-och-forandring/2",
+        "text": "Koordinatsystem och gradering av koordinataxlar."
+      },
+      {
+        "id": "GRGRMAT01/4-6/samband-och-forandring/3",
+        "text": "Grafer för att uttrycka proportionella samband."
+      }
+    ]
+  }
+}

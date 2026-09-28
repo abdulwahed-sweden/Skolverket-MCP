@@ -1,0 +1,29 @@
+{
+  "subjectCode": "GRGRBIO01",
+  "subjectName": "Biologi",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRBIO01/4-6/natur-och-miljo",
+    "title": "Natur och miljö",
+    "contentPoints": [
+      {
+        "id": "GRGRBIO01/4-6/natur-och-miljo/1",
+        "text": "Vad liv är och hur livets utveckling kan förklaras med evolutionsteorin. Biologisk mångfald och organismers anpassningar till miljön."
+      },
+      {
+        "id": "GRGRBIO01/4-6/natur-och-miljo/2",
+        "text": "Näringskedjor och kretslopp i närmiljön. Djurs, växters och svampars samspel med varandra och hur några miljöfaktorer påverkar dem. Fotosyntes och cellandning."
+      },
+      {
+        "id": "GRGRBIO01/4-6/natur-och-miljo/3",
+        "text": "Hur djur, växter och svampar kan identifieras och grupperas på ett systematiskt sätt, samt namn på några vanligt förekommande arter."
+      },
+      {
+        "id": "GRGRBIO01/4-6/natur-och-miljo/4",
+        "text": "Människans beroende av och påverkan på naturen med koppling till naturbruk, hållbar utveckling och ekosystemtjänster. Naturen som resurs och vårt ansvar när vi nyttjar den."
+      }
+    ]
+  }
+}

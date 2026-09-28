@@ -1,0 +1,21 @@
+{
+  "subjectCode": "GRGRSAM01",
+  "subjectName": "Samhällskunskap",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRSAM01/4-6/information-och-kommunikation",
+    "title": "Information och kommunikation",
+    "contentPoints": [
+      {
+        "id": "GRGRSAM01/4-6/information-och-kommunikation/1",
+        "text": "Mediernas roll som informationsspridare, opinionsbildare och granskare av samhällets makthavare samt som underhållare."
+      },
+      {
+        "id": "GRGRSAM01/4-6/information-och-kommunikation/2",
+        "text": "Hur digitala och andra medier kan användas ansvarsfullt utifrån sociala, etiska och rättsliga aspekter."
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "subjectCode": "GRGRMUS01",
+  "subjectName": "Musik",
+  "curriculumCode": "LGR22",
+  "stage": "7-9",
+  "requestedGrade": 9,
+  "unit": {
+    "id": "GRGRMUS01/7-9/musikens-verktyg",
+    "title": "Musikens verktyg",
+    "contentPoints": [
+      {
+        "id": "GRGRMUS01/7-9/musikens-verktyg/1",
+        "text": "Rösten och hur den kan varieras och användas för vokala uttryck inom olika genrer och ensembletyper."
+      },
+      {
+        "id": "GRGRMUS01/7-9/musikens-verktyg/2",
+        "text": "Ackord-, melodi-, bas- och slagverksinstrument samt digitala verktyg för musicerande och musikskapande."
+      },
+      {
+        "id": "GRGRMUS01/7-9/musikens-verktyg/3",
+        "text": "Röstvård och hörselvård. Orsaker till att tal, sång, musiklyssnande och musicerande kan bidra till skador samt hur dessa skador kan förebyggas."
+      },
+      {
+        "id": "GRGRMUS01/7-9/musikens-verktyg/4",
+        "text": "Musikaliska byggstenar: puls, rytm, tempo, taktarter, klang, tonhöjd, dynamik, fraser, perioder, musikalisk form, ackord, ackompanjemangsmodeller och basgångar."
+      },
+      {
+        "id": "GRGRMUS01/7-9/musikens-verktyg/5",
+        "text": "Musiksymboler, grafisk notation, ackordbeteckningar och grundläggande notkännedom."
+      }
+    ]
+  }
+}

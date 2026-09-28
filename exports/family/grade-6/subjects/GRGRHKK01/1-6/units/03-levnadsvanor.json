@@ -1,0 +1,33 @@
+{
+  "subjectCode": "GRGRHKK01",
+  "subjectName": "Hem- och konsumentkunskap",
+  "curriculumCode": "LGR22",
+  "stage": "1-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRHKK01/1-6/levnadsvanor",
+    "title": "Levnadsvanor",
+    "contentPoints": [
+      {
+        "id": "GRGRHKK01/1-6/levnadsvanor/1",
+        "text": "Vikten av att äta varierat och balanserat för att må bra. Hur måltider kan fördelas över en dag."
+      },
+      {
+        "id": "GRGRHKK01/1-6/levnadsvanor/2",
+        "text": "Måltidens betydelse för gemenskap. Olika mattraditioner."
+      },
+      {
+        "id": "GRGRHKK01/1-6/levnadsvanor/3",
+        "text": "Resurshushållning av livsmedel och andra förbrukningsvaror i hemmet. Återvinning i hemmet och i närområdet och hur den fungerar."
+      },
+      {
+        "id": "GRGRHKK01/1-6/levnadsvanor/4",
+        "text": "Några olika certifieringar och märkningar av livsmedel och andra varor samt deras betydelse."
+      },
+      {
+        "id": "GRGRHKK01/1-6/levnadsvanor/5",
+        "text": "Rutiner och metoder för rengöring."
+      }
+    ]
+  }
+}

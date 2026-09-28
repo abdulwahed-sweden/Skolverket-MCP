@@ -1,0 +1,33 @@
+{
+  "subjectCode": "GRGRSVA01",
+  "subjectName": "Svenska som andraspråk",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRSVA01/4-6/sprakbruk",
+    "title": "Språkbruk",
+    "contentPoints": [
+      {
+        "id": "GRGRSVA01/4-6/sprakbruk/1",
+        "text": "Språkliga strategier för att minnas och lära, till exempel grafiska modeller och stödord."
+      },
+      {
+        "id": "GRGRSVA01/4-6/sprakbruk/2",
+        "text": "Ord och begrepp för att på ett varierat sätt uttrycka känslor, kunskaper och åsikter. Ords och begrepps nyanser och värdeladdning."
+      },
+      {
+        "id": "GRGRSVA01/4-6/sprakbruk/3",
+        "text": "Ord och begrepp i både vardags- och skolspråk. Flertydiga ord, ords inbördes relationer, ords klassificering i över- och underordning samt ords betydelseomfång i jämförelse med andra språk eleven kan."
+      },
+      {
+        "id": "GRGRSVA01/4-6/sprakbruk/4",
+        "text": "Ordspråk och talesätt i jämförelse med andra språk eleven kan. Fasta fraser och liknelser."
+      },
+      {
+        "id": "GRGRSVA01/4-6/sprakbruk/5",
+        "text": "Formellt och informellt språk. Skillnader i språkanvändning beroende på mottagare, syfte och sammanhang. Ansvarsfullt agerande vid kommunikation i digitala och andra medier."
+      }
+    ]
+  }
+}

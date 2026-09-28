@@ -1,0 +1,229 @@
+{
+  "subjectCode": "GRGRHIS01",
+  "subjectName": "Historia",
+  "schoolType": "GR",
+  "curriculumCode": "LGR22",
+  "stage": {
+    "id": "4-6",
+    "years": [
+      4,
+      5,
+      6
+    ],
+    "requestedGrade": 6,
+    "gradeIsExplicitInApi": false,
+    "assessmentYear": "6"
+  },
+  "units": [
+    {
+      "id": "GRGRHIS01/4-6/undervisningen-i-historia-ska-behandla-foljande-centrala-innehall",
+      "title": "Undervisningen i historia ska behandla följande centrala innehåll",
+      "contentPoints": []
+    },
+    {
+      "id": "GRGRHIS01/4-6/kulturmoten-och-statsbildning-i-norden-cirka-800-1500",
+      "title": "Kulturmöten och statsbildning i Norden, cirka 800–1500",
+      "contentPoints": [
+        {
+          "id": "GRGRHIS01/4-6/kulturmoten-och-statsbildning-i-norden-cirka-800-1500/1",
+          "text": "Nordens kulturmöten med andra delar av världen genom vikingars resor och medeltidens handelssystem."
+        },
+        {
+          "id": "GRGRHIS01/4-6/kulturmoten-och-statsbildning-i-norden-cirka-800-1500/2",
+          "text": "Statsbildning och kristendomens etablerande i Norden samt konsekvenser av dessa förändringar."
+        },
+        {
+          "id": "GRGRHIS01/4-6/kulturmoten-och-statsbildning-i-norden-cirka-800-1500/3",
+          "text": "Likheter och skillnader i levnadsvillkor för barn, kvinnor och män under tidsperioden."
+        },
+        {
+          "id": "GRGRHIS01/4-6/kulturmoten-och-statsbildning-i-norden-cirka-800-1500/4",
+          "text": "Vad historiska källor är, till exempel arkeologiska fynd, texter, muntliga berättelser och digitalt material, och hur de kan användas för att ge kunskaper om det förflutna."
+        },
+        {
+          "id": "GRGRHIS01/4-6/kulturmoten-och-statsbildning-i-norden-cirka-800-1500/5",
+          "text": "Historiebruk kopplat till tidsperioden, till exempel hur vikingar framställs i populärkulturen."
+        }
+      ]
+    },
+    {
+      "id": "GRGRHIS01/4-6/maktforhallanden-och-levnadsvillkor-i-norden-cirka-1500-1800",
+      "title": "Maktförhållanden och levnadsvillkor i Norden, cirka 1500–1800",
+      "contentPoints": [
+        {
+          "id": "GRGRHIS01/4-6/maktforhallanden-och-levnadsvillkor-i-norden-cirka-1500-1800/1",
+          "text": "Kampen om den politiska makten i Norden. Reformationen och framväxten av en stark kungamakt i Sverige. Uppror och motstånd mot kungamakten."
+        },
+        {
+          "id": "GRGRHIS01/4-6/maktforhallanden-och-levnadsvillkor-i-norden-cirka-1500-1800/2",
+          "text": "Det svenska Östersjöväldet. Orsaker till dess uppkomst och upplösning samt konsekvenser för människor runt Östersjön."
+        },
+        {
+          "id": "GRGRHIS01/4-6/maktforhallanden-och-levnadsvillkor-i-norden-cirka-1500-1800/3",
+          "text": "Likheter och skillnader i levnadsvillkor mellan olika grupper i ståndssamhället."
+        },
+        {
+          "id": "GRGRHIS01/4-6/maktforhallanden-och-levnadsvillkor-i-norden-cirka-1500-1800/4",
+          "text": "Vad historiska källor från tidsperioden, till exempel brev, dagböcker och kartor, kan berätta om det förflutna."
+        },
+        {
+          "id": "GRGRHIS01/4-6/maktforhallanden-och-levnadsvillkor-i-norden-cirka-1500-1800/5",
+          "text": "Historiebruk kopplat till tidsperioden, till exempel i gatunamn, minnesmärken och reklam."
+        }
+      ]
+    },
+    {
+      "id": "GRGRHIS01/4-6/folkokning-andrade-maktforhallanden-och-emigration-cirka-1800-1900",
+      "title": "Folkökning, ändrade maktförhållanden och emigration, cirka 1800–1900",
+      "contentPoints": [
+        {
+          "id": "GRGRHIS01/4-6/folkokning-andrade-maktforhallanden-och-emigration-cirka-1800-1900/1",
+          "text": "Nya maktförhållanden i Sverige och mellan länder i Norden."
+        },
+        {
+          "id": "GRGRHIS01/4-6/folkokning-andrade-maktforhallanden-och-emigration-cirka-1800-1900/2",
+          "text": "Jordbrukets omvandling och den stora folkökningen samt översiktligt om den tidiga industrialiseringen i Sverige. Olika konsekvenser av detta för barns, kvinnors och mäns levnadsvillkor."
+        },
+        {
+          "id": "GRGRHIS01/4-6/folkokning-andrade-maktforhallanden-och-emigration-cirka-1800-1900/3",
+          "text": "Olika orsaker till och konsekvenser av emigrationen från Sverige."
+        },
+        {
+          "id": "GRGRHIS01/4-6/folkokning-andrade-maktforhallanden-och-emigration-cirka-1800-1900/4",
+          "text": "Vad historiska källor från tidsperioden, till exempel kyrkböcker, fotografier och domstolsprotokoll, kan berätta om det förflutna."
+        },
+        {
+          "id": "GRGRHIS01/4-6/folkokning-andrade-maktforhallanden-och-emigration-cirka-1800-1900/5",
+          "text": "Historiebruk kopplat till tidsperioden, till exempel hur historiska händelser och aktörer framställs i böcker och på museer."
+        }
+      ]
+    }
+  ],
+  "stageAssessment": {
+    "assessmentYear": "6",
+    "criteria": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Eleven för enkla resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors handlingar i förfluten tid. Eleven för också enkla resonemang om likheter och skillnader i människors levnadsvillkor under olika tidsperioder.",
+          "Eleven ställer frågor till historiska källor, beskriver vad som kan vara en historisk källa och ger något exempel på vad källorna kan berätta om det förflutna.",
+          "Eleven ger exempel på hur historia kan brukas i något sammanhang."
+        ],
+        "valueWords": [
+          "grundläggande",
+          "enkla",
+          "något"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven visar <strong>grundläggande</strong> kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Eleven för<strong> enkla </strong>resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors handlingar i förfluten tid. Eleven för också <strong>enkla</strong> resonemang om likheter och skillnader i människors levnadsvillkor under olika tidsperioder.</p> <p>Eleven ställer frågor till historiska källor, beskriver vad som kan vara en historisk källa och ger <strong>något</strong> exempel på vad källorna kan berätta om det förflutna.</p> <p>Eleven ger exempel på hur historia kan brukas i <strong>något</strong> sammanhang.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar goda kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Eleven för utvecklade resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors handlingar i förfluten tid. Eleven för också utvecklade resonemang om likheter och skillnader i människors levnadsvillkor under olika tidsperioder.",
+          "Eleven ställer frågor till historiska källor, beskriver vad som kan vara en historisk källa och ger några exempel på vad källorna kan berätta om det förflutna.",
+          "Eleven ger exempel på hur historia kan brukas i olika sammanhang."
+        ],
+        "valueWords": [
+          "goda",
+          "utvecklade",
+          "några",
+          "olika"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven visar <strong>goda</strong> kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Eleven för<strong> utvecklade </strong>resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors handlingar i förfluten tid. Eleven för också <strong>utvecklade </strong>resonemang om likheter och skillnader i människors levnadsvillkor under olika tidsperioder.</p> <p>Eleven ställer frågor till historiska källor, beskriver vad som kan vara en historisk källa och ger <strong>några </strong>exempel på vad källorna kan berätta om det förflutna.</p> <p>Eleven ger exempel på hur historia kan brukas i <strong>olika</strong> sammanhang.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar mycket goda kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Eleven för välutvecklade resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors handlingar i förfluten tid. Eleven för också välutvecklade resonemang om likheter och skillnader i människors levnadsvillkor under olika tidsperioder.",
+          "Eleven ställer frågor till historiska källor, beskriver vad som kan vara en historisk källa och ger några välgrundade exempel på vad källorna kan berätta om det förflutna.",
+          "Eleven ger exempel på hur och i vilket syfte historia kan brukas i olika sammanhang."
+        ],
+        "valueWords": [
+          "mycket goda",
+          "välutvecklade",
+          "några välgrundade",
+          "och i vilket syfte",
+          "olika"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven visar <strong>mycket goda</strong> kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Eleven för<strong> välutvecklade </strong>resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors handlingar i förfluten tid. Eleven för också <strong>välutvecklade </strong>resonemang om likheter och skillnader i människors levnadsvillkor under olika tidsperioder.</p> <p>Eleven ställer frågor till historiska källor, beskriver vad som kan vara en historisk källa och ger <strong>några välgrundade</strong> exempel på vad källorna kan berätta om det förflutna.</p> <p>Eleven ger exempel på hur <strong>och i vilket syfte </strong>historia kan brukas i <strong>olika </strong>sammanhang.</p>"
+      }
+    ],
+    "priorStageBaseline": [
+      {
+        "year": "3",
+        "gradeStep": null,
+        "headingText": "Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om geografiska och historiska förhållanden, samhällsförhållanden och religiösa traditioner. Eleven beskriver likheter och skillnader samt orsaker och konsekvenser i sammanhang som är relevanta för ämnena. Eleven samtalar om människors livsfrågor och levnadsvillkor samt om miljöfrågor och andra samhällsfrågor ur olika perspektiv.",
+          "Eleven använder begrepp, metoder och verktyg från de samhällsorienterande ämnena."
+        ],
+        "valueWords": [],
+        "html": "<h3>Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3</h3><p>Eleven visar grundläggande kunskaper om geografiska och historiska förhållanden, samhällsförhållanden och religiösa traditioner. Eleven beskriver likheter och skillnader samt orsaker och konsekvenser i sammanhang som är relevanta för ämnena. Eleven samtalar om människors livsfrågor och levnadsvillkor samt om miljöfrågor och andra samhällsfrågor ur olika perspektiv.</p> <p>Eleven använder begrepp, metoder och verktyg från de samhällsorienterande ämnena.</p>"
+      }
+    ],
+    "noneForRequestedGrade": false
+  },
+  "counts": {
+    "units": 4,
+    "contentPoints": 15,
+    "criteria": 5
+  },
+  "provenance": {
+    "apiBaseUrl": "https://api.skolverket.se/syllabus",
+    "apiVersion": "1.16.2-SNAPSHOT",
+    "retrievedForDate": "2026-09-28",
+    "subjectEndpoint": "/v1/subjects/GRGRHIS01",
+    "curriculumEndpoint": "/v1/curriculums/LGR22",
+    "fieldMap": {
+      "subject.*": "subjects/{code} → subject.{code,name,designation,gradeScale,version,...}",
+      "schoolType": "subject.schoolTypes[] (array i API:et, ej en sträng)",
+      "curriculum.*": "curriculums/{code} → curriculum.{code,name,version,startDate}",
+      "stage.id": "subject.centralContents[].year",
+      "stage.years": "härlett ur stage.id genom att expandera intervallet",
+      "stage.assessmentYear": "sista året i stage.id; matchar knowledgeRequirements[].year",
+      "purpose": "subject.purpose (HTML-sträng) + subject.purposeHeading",
+      "centralContentForStage": "subject.centralContents[year === stage.id].text + subject.centralCntHeading",
+      "centralContentForStage.headings": "<h4>/<li> inuti samma text-fält",
+      "relevantAssessmentCriteria.atStageEnd": "subject.knowledgeRequirements[year === stage.assessmentYear]",
+      "relevantAssessmentCriteria.priorStageBaseline": "subject.knowledgeRequirements[year === föregående stadiums slutår]",
+      "*.valueWords": "<strong>-markeringar i knowledgeRequirements[].text"
+    },
+    "availableCentralContentYears": [
+      "1-3",
+      "4-6",
+      "7-9"
+    ],
+    "availableKnowledgeRequirementYears": [
+      "3",
+      "6",
+      "9"
+    ]
+  },
+  "groundedBrief": "# Historia — I årskurs 4–6\n\n## OM DENNA BRIEF\nAllt läroplansinnehåll nedan är hämtat ordagrant från Skolverkets Syllabus API. Ämne: Historia (GRGRHIS01). Skolform: GR. Läroplan: LGR22 version 5. Ämnesversion: 14 (SKOLFS 2022:8). Betygsskala: A-F. Hämtat via /v1/subjects/GRGRHIS01 den 2026-09-28.\n\n## VAD SKOLVERKET FAKTISKT ANGER FÖR ÅRSKURS 6\nSkolverket publicerar centralt innehåll per stadium, inte per årskurs. Innehållet nedan gäller hela stadiet årskurs 4-6 (det vill säga årskurs 4, 5, 6) — det finns INGET innehåll som är specifikt för årskurs 6.\nBetygskriterier finns bara för slutet av årskurs 3, 6, 9. För det här stadiet gäller kriterierna i slutet av årskurs 6, vilket ligger efter årskurs 6. Det finns alltså inga kriterier att bedöma en elev i årskurs 6 mot.\n\n## SYFTE (Syfte)\nUndervisningen i ämnet historia ska syfta till att eleverna utvecklar sitt historiemedvetande och sin historiska bildning. Det blir möjligt genom att eleverna i undervisningen får utveckla kunskaper om historiska förhållanden och historiska begrepp, får insikter i hur historia skapas genom tolkningar av källor samt utvecklar förståelse för hur historia kan brukas i olika sammanhang. På så sätt får eleverna förståelse för hur det förflutna har format nutiden och därmed präglar våra förväntningar på framtiden.\nUndervisningen ska ge eleverna förutsättningar att tillägna sig en historisk referensram och en kronologisk överblick över hur kvinnor och män genom tiderna har skapat och förändrat samhällen och kulturer. Därigenom ska eleverna få förståelse för olika kulturella sammanhang och levnadssätt genom historien och för historiska skeenden som har påverkat nutiden. Undervisningen ska vidare bidra till att eleverna får förståelse för att varje tids människor måste bedömas utifrån sin samtids villkor och värderingar. Genom att ge perspektiv på långa historiska linjer med relevans för nutiden, såsom levnadsvillkor, migration och makt, ska undervisningen ge eleverna en fördjupad förståelse för hur historisk utveckling präglas av både kontinuitet och förändring.\nUndervisningen ska bidra till att eleverna utvecklar kunskaper om hur vi kan veta något om det förflutna genom historiskt källmaterial. Eleverna ska också ges förutsättningar att utveckla förmågan att ställa frågor till och värdera källor som ligger till grund för historiska kunskaper. Arbetet med källor ska även ge eleverna förutsättningar att leva sig in i det förflutna.\nUndervisningen ska vidare bidra till att eleverna utvecklar förståelse för hur historia används i samhället och i vardagslivet. Därigenom ska eleverna få olika perspektiv på hur bruket av historiska berättelser och referenser kan påverka människors identiteter, värderingar och föreställningar.\nUndervisningen i ämnet historia ska ge eleverna förutsättningar att utveckla\n\n## CENTRALT INNEHÅLL — I årskurs 4–6\n\n### Undervisningen i historia ska behandla följande centrala innehåll  [GRGRHIS01/4-6/undervisningen-i-historia-ska-behandla-foljande-centrala-innehall]\n\n### Kulturmöten och statsbildning i Norden, cirka 800–1500  [GRGRHIS01/4-6/kulturmoten-och-statsbildning-i-norden-cirka-800-1500]\n- (GRGRHIS01/4-6/kulturmoten-och-statsbildning-i-norden-cirka-800-1500/1) Nordens kulturmöten med andra delar av världen genom vikingars resor och medeltidens handelssystem.\n- (GRGRHIS01/4-6/kulturmoten-och-statsbildning-i-norden-cirka-800-1500/2) Statsbildning och kristendomens etablerande i Norden samt konsekvenser av dessa förändringar.\n- (GRGRHIS01/4-6/kulturmoten-och-statsbildning-i-norden-cirka-800-1500/3) Likheter och skillnader i levnadsvillkor för barn, kvinnor och män under tidsperioden.\n- (GRGRHIS01/4-6/kulturmoten-och-statsbildning-i-norden-cirka-800-1500/4) Vad historiska källor är, till exempel arkeologiska fynd, texter, muntliga berättelser och digitalt material, och hur de kan användas för att ge kunskaper om det förflutna.\n- (GRGRHIS01/4-6/kulturmoten-och-statsbildning-i-norden-cirka-800-1500/5) Historiebruk kopplat till tidsperioden, till exempel hur vikingar framställs i populärkulturen.\n\n### Maktförhållanden och levnadsvillkor i Norden, cirka 1500–1800  [GRGRHIS01/4-6/maktforhallanden-och-levnadsvillkor-i-norden-cirka-1500-1800]\n- (GRGRHIS01/4-6/maktforhallanden-och-levnadsvillkor-i-norden-cirka-1500-1800/1) Kampen om den politiska makten i Norden. Reformationen och framväxten av en stark kungamakt i Sverige. Uppror och motstånd mot kungamakten.\n- (GRGRHIS01/4-6/maktforhallanden-och-levnadsvillkor-i-norden-cirka-1500-1800/2) Det svenska Östersjöväldet. Orsaker till dess uppkomst och upplösning samt konsekvenser för människor runt Östersjön.\n- (GRGRHIS01/4-6/maktforhallanden-och-levnadsvillkor-i-norden-cirka-1500-1800/3) Likheter och skillnader i levnadsvillkor mellan olika grupper i ståndssamhället.\n- (GRGRHIS01/4-6/maktforhallanden-och-levnadsvillkor-i-norden-cirka-1500-1800/4) Vad historiska källor från tidsperioden, till exempel brev, dagböcker och kartor, kan berätta om det förflutna.\n- (GRGRHIS01/4-6/maktforhallanden-och-levnadsvillkor-i-norden-cirka-1500-1800/5) Historiebruk kopplat till tidsperioden, till exempel i gatunamn, minnesmärken och reklam.\n\n### Folkökning, ändrade maktförhållanden och emigration, cirka 1800–1900  [GRGRHIS01/4-6/folkokning-andrade-maktforhallanden-och-emigration-cirka-1800-1900]\n- (GRGRHIS01/4-6/folkokning-andrade-maktforhallanden-och-emigration-cirka-1800-1900/1) Nya maktförhållanden i Sverige och mellan länder i Norden.\n- (GRGRHIS01/4-6/folkokning-andrade-maktforhallanden-och-emigration-cirka-1800-1900/2) Jordbrukets omvandling och den stora folkökningen samt översiktligt om den tidiga industrialiseringen i Sverige. Olika konsekvenser av detta för barns, kvinnors och mäns levnadsvillkor.\n- (GRGRHIS01/4-6/folkokning-andrade-maktforhallanden-och-emigration-cirka-1800-1900/3) Olika orsaker till och konsekvenser av emigrationen från Sverige.\n- (GRGRHIS01/4-6/folkokning-andrade-maktforhallanden-och-emigration-cirka-1800-1900/4) Vad historiska källor från tidsperioden, till exempel kyrkböcker, fotografier och domstolsprotokoll, kan berätta om det förflutna.\n- (GRGRHIS01/4-6/folkokning-andrade-maktforhallanden-och-emigration-cirka-1800-1900/5) Historiebruk kopplat till tidsperioden, till exempel hur historiska händelser och aktörer framställs i böcker och på museer.\n\n## BETYGSKRITERIER I SLUTET AV ÅRSKURS 6 (mål framåt, inte bedömning nu)\n\n### Betygskriterier för betyget E i slutet av årskurs 6\nEleven visar grundläggande kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Eleven för enkla resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors handlingar i förfluten tid. Eleven för också enkla resonemang om likheter och skillnader i människors levnadsvillkor under olika tidsperioder.\nEleven ställer frågor till historiska källor, beskriver vad som kan vara en historisk källa och ger något exempel på vad källorna kan berätta om det förflutna.\nEleven ger exempel på hur historia kan brukas i något sammanhang.\n(Värdeord som Skolverket markerar: grundläggande, enkla, något)\n\n### Betygskriterier för betyget D i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan C och E.\n\n### Betygskriterier för betyget C i slutet av årskurs 6\nEleven visar goda kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Eleven för utvecklade resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors handlingar i förfluten tid. Eleven för också utvecklade resonemang om likheter och skillnader i människors levnadsvillkor under olika tidsperioder.\nEleven ställer frågor till historiska källor, beskriver vad som kan vara en historisk källa och ger några exempel på vad källorna kan berätta om det förflutna.\nEleven ger exempel på hur historia kan brukas i olika sammanhang.\n(Värdeord som Skolverket markerar: goda, utvecklade, några, olika)\n\n### Betygskriterier för betyget B i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan A och C.\n\n### Betygskriterier för betyget A i slutet av årskurs 6\nEleven visar mycket goda kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Eleven för välutvecklade resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors handlingar i förfluten tid. Eleven för också välutvecklade resonemang om likheter och skillnader i människors levnadsvillkor under olika tidsperioder.\nEleven ställer frågor till historiska källor, beskriver vad som kan vara en historisk källa och ger några välgrundade exempel på vad källorna kan berätta om det förflutna.\nEleven ger exempel på hur och i vilket syfte historia kan brukas i olika sammanhang.\n(Värdeord som Skolverket markerar: mycket goda, välutvecklade, några välgrundade, och i vilket syfte, olika)\n\n## FÖREGÅENDE STADIUM (utgångsläge eleven förväntas komma från)\n\n### Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3\nEleven visar grundläggande kunskaper om geografiska och historiska förhållanden, samhällsförhållanden och religiösa traditioner. Eleven beskriver likheter och skillnader samt orsaker och konsekvenser i sammanhang som är relevanta för ämnena. Eleven samtalar om människors livsfrågor och levnadsvillkor samt om miljöfrågor och andra samhällsfrågor ur olika perspektiv.\nEleven använder begrepp, metoder och verktyg från de samhällsorienterande ämnena.\n\n## REGLER FÖR HANDLEDAREN\n- Undervisa bara inom det centrala innehållet ovan. Behöver du något som inte står där, säg att det ligger utanför läroplanen för det här stadiet.\n- Säg aldrig att Skolverket anger något specifikt för årskurs 6. Det gör Skolverket inte. Val av takt och ordning inom stadiet är lärarens bedömning, inte läroplanens.\n- Skolverket kopplar inte betygskriterier till enskilda punkter i det centrala innehållet. Hitta inte på sådana kopplingar. Kriterierna gäller hela stadiet.\n- Hänvisa till innehåll med id:t i parentes, t.ex. (id).\n- Betygskriterierna beskriver slutet av stadiet. Använd dem som riktning, inte som omdöme om eleven här och nu.\n- Citera läroplanstext ordagrant när du hänvisar till den. Formulera om bara för att förklara."
+}

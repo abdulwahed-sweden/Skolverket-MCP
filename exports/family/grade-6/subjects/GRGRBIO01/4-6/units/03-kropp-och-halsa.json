@@ -1,0 +1,25 @@
+{
+  "subjectCode": "GRGRBIO01",
+  "subjectName": "Biologi",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRBIO01/4-6/kropp-och-halsa",
+    "title": "Kropp och hälsa",
+    "contentPoints": [
+      {
+        "id": "GRGRBIO01/4-6/kropp-och-halsa/1",
+        "text": "Människans organsystem. Några organs namn, utseende, placering, funktion och samverkan."
+      },
+      {
+        "id": "GRGRBIO01/4-6/kropp-och-halsa/2",
+        "text": "Några vanliga sjukdomar och hur de kan förebyggas och behandlas. Hur den psykiska och fysiska hälsan påverkas av levnadsförhållanden, kost, sömn, hygien, motion och beroendeframkallande medel."
+      },
+      {
+        "id": "GRGRBIO01/4-6/kropp-och-halsa/3",
+        "text": "Människans pubertet, reproduktion, sexualitet och identitet samt frågor om relationer, kärlek och ansvar."
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "subjectCode": "GRGRMAT01",
+  "subjectName": "Matematik",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRMAT01/4-6/problemlosning",
+    "title": "Problemlösning",
+    "contentPoints": [
+      {
+        "id": "GRGRMAT01/4-6/problemlosning/1",
+        "text": "Strategier för att lösa matematiska problem i elevnära situationer."
+      },
+      {
+        "id": "GRGRMAT01/4-6/problemlosning/2",
+        "text": "Formulering av matematiska frågeställningar utifrån vardagliga situationer."
+      }
+    ]
+  }
+}

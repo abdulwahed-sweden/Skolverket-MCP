@@ -1,0 +1,21 @@
+{
+  "subjectCode": "GRGRSAM01",
+  "subjectName": "Samhällskunskap",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRSAM01/4-6/beslutsfattande-och-politiska-ideer",
+    "title": "Beslutsfattande och politiska idéer",
+    "contentPoints": [
+      {
+        "id": "GRGRSAM01/4-6/beslutsfattande-och-politiska-ideer/1",
+        "text": "Vad demokrati är och hur demokratiska beslut fattas. Hur individer och grupper kan påverka beslut, genom att rösta i allmänna val och till exempel genom elevråd i skolan eller genom att skapa opinion i sociala medier."
+      },
+      {
+        "id": "GRGRSAM01/4-6/beslutsfattande-och-politiska-ideer/2",
+        "text": "Riksdagen och regeringen och deras olika uppdrag. Politiska val och partier i Sverige. Skiljelinjer i några aktuella politiska frågor."
+      }
+    ]
+  }
+}

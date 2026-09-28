@@ -1,0 +1,41 @@
+{
+  "subjectCode": "GRGRSVA01",
+  "subjectName": "Svenska som andraspråk",
+  "curriculumCode": "LGR22",
+  "stage": "7-9",
+  "requestedGrade": 9,
+  "unit": {
+    "id": "GRGRSVA01/7-9/texter",
+    "title": "Texter",
+    "contentPoints": [
+      {
+        "id": "GRGRSVA01/7-9/texter/1",
+        "text": "Skönlitteratur för ungdomar och vuxna från olika tider, från Sverige och övriga världen. Epik, lyrik och dramatik. Texter som belyser människors villkor och identitets- och livsfrågor."
+      },
+      {
+        "id": "GRGRSVA01/7-9/texter/2",
+        "text": "Språkliga drag, uppbyggnad och berättarperspektiv i berättande och poetiska texter. Bildspråk, gestaltningar, parallellhandling, tillbakablickar, miljö- och personbeskrivningar samt dialoger."
+      },
+      {
+        "id": "GRGRSVA01/7-9/texter/3",
+        "text": "Några skönlitterära genrer och hur de stilistiskt och innehållsligt skiljer sig ifrån varandra."
+      },
+      {
+        "id": "GRGRSVA01/7-9/texter/4",
+        "text": "Några skönlitterärt betydelsefulla författare och deras verk samt de historiska och kulturella sammanhang som verken har tillkommit i."
+      },
+      {
+        "id": "GRGRSVA01/7-9/texter/5",
+        "text": "Sakprosatexter för ungdomar och vuxna. Beskrivande, förklarande, utredande, instruerande och argumenterande texter. Texternas syfte, innehåll, uppbyggnad och språkliga drag samt deras ord och uttryck. Kombinationer av olika texttyper."
+      },
+      {
+        "id": "GRGRSVA01/7-9/texter/6",
+        "text": "Muntliga texter, till exempel radioprogram för unga och vuxna samt inlästa texter."
+      },
+      {
+        "id": "GRGRSVA01/7-9/texter/7",
+        "text": "Texter i digitala miljöer samt andra texter som kombinerar ord, bild och ljud. Språkliga och dramaturgiska komponenter samt hur uttrycken kan samspela med varandra, till exempel i filmiskt berättande, teaterföreställningar och webbtexter."
+      }
+    ]
+  }
+}

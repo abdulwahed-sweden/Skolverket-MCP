@@ -1,0 +1,33 @@
+{
+  "subjectCode": "GRGRSVE01",
+  "subjectName": "Svenska",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRSVE01/4-6/texter",
+    "title": "Texter",
+    "contentPoints": [
+      {
+        "id": "GRGRSVE01/4-6/texter/1",
+        "text": "Skönlitteratur för barn och unga från olika tider, från Sverige, Norden och övriga världen. Lyrik, dramatik, sagor och myter. Texter som belyser människors villkor och identitets- och livsfrågor."
+      },
+      {
+        "id": "GRGRSVE01/4-6/texter/2",
+        "text": "Berättande texters budskap, språkliga drag och uppbyggnad. Tillbakablickar, miljö- och personbeskrivningar samt dialoger."
+      },
+      {
+        "id": "GRGRSVE01/4-6/texter/3",
+        "text": "Några skönlitterärt betydelsefulla barn- och ungdomsboksförfattare och deras verk."
+      },
+      {
+        "id": "GRGRSVE01/4-6/texter/4",
+        "text": "Sakprosatexter för barn och unga. Beskrivande, förklarande, instruerande och argumenterande texter. Texternas innehåll, uppbyggnad och typiska språkliga drag."
+      },
+      {
+        "id": "GRGRSVE01/4-6/texter/5",
+        "text": "Texter som kombinerar ord, bild och ljud samt texter i digitala miljöer. Texternas innehåll, uppbyggnad och typiska språkliga drag."
+      }
+    ]
+  }
+}

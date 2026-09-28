@@ -1,0 +1,9 @@
+{
+  "student": "Esra",
+  "schoolPlacement": "gymnasiet",
+  "curriculumSelection": "per-subject",
+  "recoveryCatalog": "../grade-9/manifest.json",
+  "activeSubjects": [],
+  "status": "needs-subject-list",
+  "note": "Do not treat Esra as ordinary Grade 9 or ordinary gymnasium. Activate Grundskola 7-9 curriculum only for the subjects she is still completing; gymnasium-level subjects, if any, must be configured separately from her actual individual study plan."
+}

@@ -1,0 +1,214 @@
+{
+  "subjectCode": "GRGRIDR01",
+  "subjectName": "Idrott och hälsa",
+  "schoolType": "GR",
+  "curriculumCode": "LGR22",
+  "stage": {
+    "id": "4-6",
+    "years": [
+      4,
+      5,
+      6
+    ],
+    "requestedGrade": 6,
+    "gradeIsExplicitInApi": false,
+    "assessmentYear": "6"
+  },
+  "units": [
+    {
+      "id": "GRGRIDR01/4-6/rorelse",
+      "title": "Rörelse",
+      "contentPoints": [
+        {
+          "id": "GRGRIDR01/4-6/rorelse/1",
+          "text": "Sammansatta motoriska grundformer med och utan olika redskap."
+        },
+        {
+          "id": "GRGRIDR01/4-6/rorelse/2",
+          "text": "Lekar, spel, idrotter och andra rörelseaktiviteter, inomhus och utomhus."
+        },
+        {
+          "id": "GRGRIDR01/4-6/rorelse/3",
+          "text": "Takt och rytm i danser och i rörelser till musik."
+        },
+        {
+          "id": "GRGRIDR01/4-6/rorelse/4",
+          "text": "Grundläggande träningslära: pulshöjande rörelser samt koordinations-, styrke- och rörlighetsövningar."
+        },
+        {
+          "id": "GRGRIDR01/4-6/rorelse/5",
+          "text": "Simning i mag- och ryggläge."
+        }
+      ]
+    },
+    {
+      "id": "GRGRIDR01/4-6/friluftsliv-och-utevistelse",
+      "title": "Friluftsliv och utevistelse",
+      "contentPoints": [
+        {
+          "id": "GRGRIDR01/4-6/friluftsliv-och-utevistelse/1",
+          "text": "Att orientera sig i den närliggande natur- och utemiljön med hjälp av kartor, såväl med som utan stöd av digitala verktyg. Kartors uppbyggnad och symboler."
+        },
+        {
+          "id": "GRGRIDR01/4-6/friluftsliv-och-utevistelse/2",
+          "text": "Utforskande av möjligheter till och genomförande av friluftsaktiviteter, lekar och rörelser i skiftande natur- och utemiljöer under olika årstider."
+        },
+        {
+          "id": "GRGRIDR01/4-6/friluftsliv-och-utevistelse/3",
+          "text": "Rättigheter och skyldigheter i naturen enligt allemansrätten och dess tillämpning i praktiken."
+        },
+        {
+          "id": "GRGRIDR01/4-6/friluftsliv-och-utevistelse/4",
+          "text": "Badvett och säkerhet vid vatten under olika årstider. Hantering av nödsituationer vid vatten med hjälpredskap."
+        }
+      ]
+    },
+    {
+      "id": "GRGRIDR01/4-6/halsa-och-levnadsvanor",
+      "title": "Hälsa och levnadsvanor",
+      "contentPoints": [
+        {
+          "id": "GRGRIDR01/4-6/halsa-och-levnadsvanor/1",
+          "text": "Samtal om upplevelser av olika aktiviteter samt värdering av hur de påverkar den fysiska förmågan och hälsan."
+        },
+        {
+          "id": "GRGRIDR01/4-6/halsa-och-levnadsvanor/2",
+          "text": "Normer kring olika slags aktiviteter. Hur normer påverkar individers deltagande, till exempel normer kring kön och funktionalitet kopplade till olika rörelseaktiviteter."
+        },
+        {
+          "id": "GRGRIDR01/4-6/halsa-och-levnadsvanor/3",
+          "text": "Undersökande av möjligheter till daglig rörelse i närmiljön."
+        },
+        {
+          "id": "GRGRIDR01/4-6/halsa-och-levnadsvanor/4",
+          "text": "Olika sätt att förebygga skador, däribland uppvärmning."
+        },
+        {
+          "id": "GRGRIDR01/4-6/halsa-och-levnadsvanor/5",
+          "text": "Säkerhet och hänsynstagande i samband med aktiviteter."
+        },
+        {
+          "id": "GRGRIDR01/4-6/halsa-och-levnadsvanor/6",
+          "text": "Första hjälpen."
+        }
+      ]
+    }
+  ],
+  "stageAssessment": {
+    "assessmentYear": "6",
+    "criteria": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven genomför rörelseaktiviteter som innefattar sammansatta motoriska grundformer i olika fysiska sammanhang och anpassar sina rörelser till viss del till syftet med aktiviteterna.",
+          "Eleven genomför aktiviteter i natur- och utemiljö på ett i huvudsak fungerande sätt utifrån syftet med aktiviteterna och utifrån olika förhållanden.",
+          "Eleven värderar på ett enkelt sätt hur aktiviteterna påverkar den egna fysiska förmågan och hälsan.",
+          "Eleven förebygger på ett i huvudsak fungerande sätt risker i samband med olika aktiviteter. Eleven hanterar nödsituationer på land och vid vatten samt simmar 200 meter i en följd varav 50 meter i ryggläge."
+        ],
+        "valueWords": [
+          "till viss del",
+          "i",
+          "huvudsak fungerande",
+          "enkelt",
+          "i huvudsak fungerande"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven genomför rörelseaktiviteter som innefattar sammansatta motoriska grundformer i olika fysiska sammanhang och anpassar sina rörelser <strong>till viss del</strong> till syftet med aktiviteterna.</p> <p>Eleven genomför aktiviteter i natur- och utemiljö på ett <strong>i</strong> <strong>huvudsak fungerande</strong> sätt utifrån syftet med aktiviteterna och utifrån olika förhållanden.</p> <p>Eleven värderar på ett <strong>enkelt </strong>sätt hur aktiviteterna påverkar den egna fysiska förmågan och hälsan.</p> <p>Eleven förebygger på ett <strong>i huvudsak fungerande </strong>sätt risker i samband med olika aktiviteter. Eleven hanterar nödsituationer på land och vid vatten samt simmar 200 meter i en följd varav 50 meter i ryggläge.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven genomför rörelseaktiviteter som innefattar sammansatta motoriska grundformer i olika fysiska sammanhang och anpassar sina rörelser relativt väl till syftet med aktiviteterna.",
+          "Eleven genomför aktiviteter i natur- och utemiljö på ett fungerande sätt utifrån syftet med aktiviteterna och utifrån olika förhållanden.",
+          "Eleven värderar på ett utvecklat sätt hur aktiviteterna påverkar den egna fysiska förmågan och hälsan.",
+          "Eleven förebygger på ett fungerande sätt risker i samband med olika aktiviteter. Eleven hanterar nödsituationer på land och vid vatten samt simmar 200 meter i en följd varav 50 meter i ryggläge."
+        ],
+        "valueWords": [
+          "relativt väl",
+          "fungerande",
+          "utvecklat"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven genomför rörelseaktiviteter som innefattar sammansatta motoriska grundformer i olika fysiska sammanhang och anpassar sina rörelser <strong>relativt väl</strong> till syftet med aktiviteterna.</p> <p>Eleven genomför aktiviteter i natur- och utemiljö på ett <strong>fungerande </strong>sätt utifrån syftet med aktiviteterna och utifrån olika förhållanden.</p> <p>Eleven värderar på ett <strong>utvecklat</strong> sätt hur aktiviteterna påverkar den egna fysiska förmågan och hälsan.</p> <p>Eleven förebygger på ett <strong>fungerande</strong> sätt risker i samband med olika aktiviteter. Eleven hanterar nödsituationer på land och vid vatten samt simmar 200 meter i en följd varav 50 meter i ryggläge.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven genomför rörelseaktiviteter som innefattar sammansatta motoriska grundformer i olika fysiska sammanhang och anpassar sina rörelser väl till syftet med aktiviteterna.",
+          "Eleven genomför aktiviteter i natur- och utemiljö på ett väl fungerande sätt utifrån syftet med aktiviteterna och utifrån olika förhållanden.",
+          "Eleven värderar på ett välutvecklat sätt hur aktiviteterna påverkar den egna fysiska förmågan och hälsan.",
+          "Eleven förebygger på ett väl fungerande sätt risker i samband med olika aktiviteter. Eleven hanterar nödsituationer på land och vid vatten samt simmar 200 meter i en följd varav 50 meter i ryggläge."
+        ],
+        "valueWords": [
+          "väl",
+          "fungerande",
+          "välutvecklat",
+          "väl fungerande"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven genomför rörelseaktiviteter som innefattar sammansatta motoriska grundformer i olika fysiska sammanhang och anpassar sina rörelser <strong>väl</strong> till syftet med aktiviteterna.</p> <p>Eleven genomför aktiviteter i natur- och utemiljö på ett <strong>väl</strong> <strong>fungerande</strong> sätt utifrån syftet med aktiviteterna och utifrån olika förhållanden.</p> <p>Eleven värderar på ett <strong>välutvecklat</strong> sätt hur aktiviteterna påverkar den egna fysiska förmågan och hälsan.</p> <p>Eleven förebygger på ett <strong>väl fungerande </strong>sätt risker i samband med olika aktiviteter. Eleven hanterar nödsituationer på land och vid vatten samt simmar 200 meter i en följd varav 50 meter i ryggläge.</p>"
+      }
+    ],
+    "priorStageBaseline": [],
+    "noneForRequestedGrade": false
+  },
+  "counts": {
+    "units": 3,
+    "contentPoints": 15,
+    "criteria": 5
+  },
+  "provenance": {
+    "apiBaseUrl": "https://api.skolverket.se/syllabus",
+    "apiVersion": "1.16.2-SNAPSHOT",
+    "retrievedForDate": "2026-09-28",
+    "subjectEndpoint": "/v1/subjects/GRGRIDR01",
+    "curriculumEndpoint": "/v1/curriculums/LGR22",
+    "fieldMap": {
+      "subject.*": "subjects/{code} → subject.{code,name,designation,gradeScale,version,...}",
+      "schoolType": "subject.schoolTypes[] (array i API:et, ej en sträng)",
+      "curriculum.*": "curriculums/{code} → curriculum.{code,name,version,startDate}",
+      "stage.id": "subject.centralContents[].year",
+      "stage.years": "härlett ur stage.id genom att expandera intervallet",
+      "stage.assessmentYear": "sista året i stage.id; matchar knowledgeRequirements[].year",
+      "purpose": "subject.purpose (HTML-sträng) + subject.purposeHeading",
+      "centralContentForStage": "subject.centralContents[year === stage.id].text + subject.centralCntHeading",
+      "centralContentForStage.headings": "<h4>/<li> inuti samma text-fält",
+      "relevantAssessmentCriteria.atStageEnd": "subject.knowledgeRequirements[year === stage.assessmentYear]",
+      "relevantAssessmentCriteria.priorStageBaseline": "subject.knowledgeRequirements[year === föregående stadiums slutår]",
+      "*.valueWords": "<strong>-markeringar i knowledgeRequirements[].text"
+    },
+    "availableCentralContentYears": [
+      "1-3",
+      "4-6",
+      "7-9"
+    ],
+    "availableKnowledgeRequirementYears": [
+      "6",
+      "9"
+    ]
+  },
+  "groundedBrief": "# Idrott och hälsa — I årskurs 4–6\n\n## OM DENNA BRIEF\nAllt läroplansinnehåll nedan är hämtat ordagrant från Skolverkets Syllabus API. Ämne: Idrott och hälsa (GRGRIDR01). Skolform: GR. Läroplan: LGR22 version 5. Ämnesversion: 14 (SKOLFS 2022:8). Betygsskala: A-F. Hämtat via /v1/subjects/GRGRIDR01 den 2026-09-28.\n\n## VAD SKOLVERKET FAKTISKT ANGER FÖR ÅRSKURS 6\nSkolverket publicerar centralt innehåll per stadium, inte per årskurs. Innehållet nedan gäller hela stadiet årskurs 4-6 (det vill säga årskurs 4, 5, 6) — det finns INGET innehåll som är specifikt för årskurs 6.\nBetygskriterier finns bara för slutet av årskurs 6, 9. För det här stadiet gäller kriterierna i slutet av årskurs 6, vilket ligger efter årskurs 6. Det finns alltså inga kriterier att bedöma en elev i årskurs 6 mot.\n\n## SYFTE (Syfte)\nUndervisningen i ämnet idrott och hälsa ska syfta till att eleverna utvecklar allsidiga rörelseförmågor och intresse för att vara fysiskt aktiva och vistas i naturen. Eleverna ska genom undervisningen ges förutsättningar att utveckla goda levnadsvanor i syfte att kunna påverka sin hälsa genom livet.\nUndervisningen ska vara utformad så att alla elever kontinuerligt kan delta i undervisningens aktiviteter och ge eleverna förutsättningar att kunna delta i andra rörelseaktiviteter i skolan. Den ska också bidra till att eleverna utvecklar en god kroppsuppfattning och tilltro till sin egen fysiska förmåga. I undervisningen ska eleverna få möta olika slags aktiviteter i varierande miljöer och sammanhang samt få möjlighet att utveckla sin samarbetsförmåga och respekt för andra.\nEleverna ska genom undervisningen ges möjlighet att utveckla förmåga att vistas utomhus och i naturen under olika årstider samt utveckla förståelse för värdet av ett aktivt friluftsliv.\nUndervisningen ska ge eleverna förutsättningar att utveckla kunskaper om vad som påverkar den fysiska förmågan samt kunskaper om hur rörelse och rörelseaktiviteter förhåller sig till fysisk, psykisk och social hälsa. Vidare ska eleverna ges möjligheter att planera och genomföra olika aktiviteter. Eleverna ska också ges möjligheter att utveckla kunskaper om ämnesspecifika begrepp. På så sätt får de förutsättningar att reflektera över sitt deltagande i aktiviteterna och ta ställning i frågor som handlar om idrott, hälsa och friluftsliv.\nUndervisningen ska också bidra till att eleverna utvecklar kunskaper om säkerhet samt förmåga att agera i nödsituationer och hantera risker i samband med olika aktiviteter.\nUndervisningen i ämnet idrott och hälsa ska ge eleverna förutsättningar att utveckla\n\n## CENTRALT INNEHÅLL — I årskurs 4–6\n\n### Rörelse  [GRGRIDR01/4-6/rorelse]\n- (GRGRIDR01/4-6/rorelse/1) Sammansatta motoriska grundformer med och utan olika redskap.\n- (GRGRIDR01/4-6/rorelse/2) Lekar, spel, idrotter och andra rörelseaktiviteter, inomhus och utomhus.\n- (GRGRIDR01/4-6/rorelse/3) Takt och rytm i danser och i rörelser till musik.\n- (GRGRIDR01/4-6/rorelse/4) Grundläggande träningslära: pulshöjande rörelser samt koordinations-, styrke- och rörlighetsövningar.\n- (GRGRIDR01/4-6/rorelse/5) Simning i mag- och ryggläge.\n\n### Friluftsliv och utevistelse  [GRGRIDR01/4-6/friluftsliv-och-utevistelse]\n- (GRGRIDR01/4-6/friluftsliv-och-utevistelse/1) Att orientera sig i den närliggande natur- och utemiljön med hjälp av kartor, såväl med som utan stöd av digitala verktyg. Kartors uppbyggnad och symboler.\n- (GRGRIDR01/4-6/friluftsliv-och-utevistelse/2) Utforskande av möjligheter till och genomförande av friluftsaktiviteter, lekar och rörelser i skiftande natur- och utemiljöer under olika årstider.\n- (GRGRIDR01/4-6/friluftsliv-och-utevistelse/3) Rättigheter och skyldigheter i naturen enligt allemansrätten och dess tillämpning i praktiken.\n- (GRGRIDR01/4-6/friluftsliv-och-utevistelse/4) Badvett och säkerhet vid vatten under olika årstider. Hantering av nödsituationer vid vatten med hjälpredskap.\n\n### Hälsa och levnadsvanor  [GRGRIDR01/4-6/halsa-och-levnadsvanor]\n- (GRGRIDR01/4-6/halsa-och-levnadsvanor/1) Samtal om upplevelser av olika aktiviteter samt värdering av hur de påverkar den fysiska förmågan och hälsan.\n- (GRGRIDR01/4-6/halsa-och-levnadsvanor/2) Normer kring olika slags aktiviteter. Hur normer påverkar individers deltagande, till exempel normer kring kön och funktionalitet kopplade till olika rörelseaktiviteter.\n- (GRGRIDR01/4-6/halsa-och-levnadsvanor/3) Undersökande av möjligheter till daglig rörelse i närmiljön.\n- (GRGRIDR01/4-6/halsa-och-levnadsvanor/4) Olika sätt att förebygga skador, däribland uppvärmning.\n- (GRGRIDR01/4-6/halsa-och-levnadsvanor/5) Säkerhet och hänsynstagande i samband med aktiviteter.\n- (GRGRIDR01/4-6/halsa-och-levnadsvanor/6) Första hjälpen.\n\n## BETYGSKRITERIER I SLUTET AV ÅRSKURS 6 (mål framåt, inte bedömning nu)\n\n### Betygskriterier för betyget E i slutet av årskurs 6\nEleven genomför rörelseaktiviteter som innefattar sammansatta motoriska grundformer i olika fysiska sammanhang och anpassar sina rörelser till viss del till syftet med aktiviteterna.\nEleven genomför aktiviteter i natur- och utemiljö på ett i huvudsak fungerande sätt utifrån syftet med aktiviteterna och utifrån olika förhållanden.\nEleven värderar på ett enkelt sätt hur aktiviteterna påverkar den egna fysiska förmågan och hälsan.\nEleven förebygger på ett i huvudsak fungerande sätt risker i samband med olika aktiviteter. Eleven hanterar nödsituationer på land och vid vatten samt simmar 200 meter i en följd varav 50 meter i ryggläge.\n(Värdeord som Skolverket markerar: till viss del, i, huvudsak fungerande, enkelt, i huvudsak fungerande)\n\n### Betygskriterier för betyget D i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan C och E.\n\n### Betygskriterier för betyget C i slutet av årskurs 6\nEleven genomför rörelseaktiviteter som innefattar sammansatta motoriska grundformer i olika fysiska sammanhang och anpassar sina rörelser relativt väl till syftet med aktiviteterna.\nEleven genomför aktiviteter i natur- och utemiljö på ett fungerande sätt utifrån syftet med aktiviteterna och utifrån olika förhållanden.\nEleven värderar på ett utvecklat sätt hur aktiviteterna påverkar den egna fysiska förmågan och hälsan.\nEleven förebygger på ett fungerande sätt risker i samband med olika aktiviteter. Eleven hanterar nödsituationer på land och vid vatten samt simmar 200 meter i en följd varav 50 meter i ryggläge.\n(Värdeord som Skolverket markerar: relativt väl, fungerande, utvecklat)\n\n### Betygskriterier för betyget B i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan A och C.\n\n### Betygskriterier för betyget A i slutet av årskurs 6\nEleven genomför rörelseaktiviteter som innefattar sammansatta motoriska grundformer i olika fysiska sammanhang och anpassar sina rörelser väl till syftet med aktiviteterna.\nEleven genomför aktiviteter i natur- och utemiljö på ett väl fungerande sätt utifrån syftet med aktiviteterna och utifrån olika förhållanden.\nEleven värderar på ett välutvecklat sätt hur aktiviteterna påverkar den egna fysiska förmågan och hälsan.\nEleven förebygger på ett väl fungerande sätt risker i samband med olika aktiviteter. Eleven hanterar nödsituationer på land och vid vatten samt simmar 200 meter i en följd varav 50 meter i ryggläge.\n(Värdeord som Skolverket markerar: väl, fungerande, välutvecklat, väl fungerande)\n\n## REGLER FÖR HANDLEDAREN\n- Undervisa bara inom det centrala innehållet ovan. Behöver du något som inte står där, säg att det ligger utanför läroplanen för det här stadiet.\n- Säg aldrig att Skolverket anger något specifikt för årskurs 6. Det gör Skolverket inte. Val av takt och ordning inom stadiet är lärarens bedömning, inte läroplanens.\n- Skolverket kopplar inte betygskriterier till enskilda punkter i det centrala innehållet. Hitta inte på sådana kopplingar. Kriterierna gäller hela stadiet.\n- Hänvisa till innehåll med id:t i parentes, t.ex. (GRGRIDR01/4-6/rorelse/1).\n- Betygskriterierna beskriver slutet av stadiet. Använd dem som riktning, inte som omdöme om eleven här och nu.\n- Citera läroplanstext ordagrant när du hänvisar till den. Formulera om bara för att förklara."
+}

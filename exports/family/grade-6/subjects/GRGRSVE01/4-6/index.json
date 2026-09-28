@@ -1,0 +1,89 @@
+{
+  "subjectCode": "GRGRSVE01",
+  "subjectName": "Svenska",
+  "curriculumCode": "LGR22",
+  "stage": {
+    "id": "4-6",
+    "years": [
+      4,
+      5,
+      6
+    ],
+    "requestedGrade": 6,
+    "gradeIsExplicitInApi": false,
+    "assessmentYear": "6"
+  },
+  "units": [
+    {
+      "order": 1,
+      "id": "GRGRSVE01/4-6/lasa-och-skriva",
+      "title": "Läsa och skriva",
+      "contentPointCount": 8,
+      "file": "units/01-lasa-och-skriva.json"
+    },
+    {
+      "order": 2,
+      "id": "GRGRSVE01/4-6/tala-lyssna-och-samtala",
+      "title": "Tala, lyssna och samtala",
+      "contentPointCount": 2,
+      "file": "units/02-tala-lyssna-och-samtala.json"
+    },
+    {
+      "order": 3,
+      "id": "GRGRSVE01/4-6/texter",
+      "title": "Texter",
+      "contentPointCount": 5,
+      "file": "units/03-texter.json"
+    },
+    {
+      "order": 4,
+      "id": "GRGRSVE01/4-6/sprakbruk",
+      "title": "Språkbruk",
+      "contentPointCount": 4,
+      "file": "units/04-sprakbruk.json"
+    },
+    {
+      "order": 5,
+      "id": "GRGRSVE01/4-6/informationssokning-och-kallkritik",
+      "title": "Informationssökning och källkritik",
+      "contentPointCount": 2,
+      "file": "units/05-informationssokning-och-kallkritik.json"
+    }
+  ],
+  "assessment": {
+    "year": "6",
+    "file": "assessment/year-6.json"
+  },
+  "provenance": {
+    "apiBaseUrl": "https://api.skolverket.se/syllabus",
+    "apiVersion": "1.16.2-SNAPSHOT",
+    "retrievedForDate": "2026-09-28",
+    "subjectEndpoint": "/v1/subjects/GRGRSVE01",
+    "curriculumEndpoint": "/v1/curriculums/LGR22",
+    "fieldMap": {
+      "subject.*": "subjects/{code} → subject.{code,name,designation,gradeScale,version,...}",
+      "schoolType": "subject.schoolTypes[] (array i API:et, ej en sträng)",
+      "curriculum.*": "curriculums/{code} → curriculum.{code,name,version,startDate}",
+      "stage.id": "subject.centralContents[].year",
+      "stage.years": "härlett ur stage.id genom att expandera intervallet",
+      "stage.assessmentYear": "sista året i stage.id; matchar knowledgeRequirements[].year",
+      "purpose": "subject.purpose (HTML-sträng) + subject.purposeHeading",
+      "centralContentForStage": "subject.centralContents[year === stage.id].text + subject.centralCntHeading",
+      "centralContentForStage.headings": "<h4>/<li> inuti samma text-fält",
+      "relevantAssessmentCriteria.atStageEnd": "subject.knowledgeRequirements[year === stage.assessmentYear]",
+      "relevantAssessmentCriteria.priorStageBaseline": "subject.knowledgeRequirements[year === föregående stadiums slutår]",
+      "*.valueWords": "<strong>-markeringar i knowledgeRequirements[].text"
+    },
+    "availableCentralContentYears": [
+      "1-3",
+      "4-6",
+      "7-9"
+    ],
+    "availableKnowledgeRequirementYears": [
+      "1",
+      "3",
+      "6",
+      "9"
+    ]
+  }
+}

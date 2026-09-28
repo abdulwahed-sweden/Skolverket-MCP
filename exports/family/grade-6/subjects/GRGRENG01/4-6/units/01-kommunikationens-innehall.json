@@ -1,0 +1,29 @@
+{
+  "subjectCode": "GRGRENG01",
+  "subjectName": "Engelska",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRENG01/4-6/kommunikationens-innehall",
+    "title": "Kommunikationens innehåll",
+    "contentPoints": [
+      {
+        "id": "GRGRENG01/4-6/kommunikationens-innehall/1",
+        "text": "Ämnesområden som är välbekanta för eleverna."
+      },
+      {
+        "id": "GRGRENG01/4-6/kommunikationens-innehall/2",
+        "text": "Vardagliga situationer, intressen, personer, platser, aktiviteter och händelser."
+      },
+      {
+        "id": "GRGRENG01/4-6/kommunikationens-innehall/3",
+        "text": "Åsikter, känslor och erfarenheter."
+      },
+      {
+        "id": "GRGRENG01/4-6/kommunikationens-innehall/4",
+        "text": "Vardagsliv, levnadssätt och sociala relationer i olika sammanhang och områden där engelska används, även i jämförelse med egna erfarenheter och kunskaper. Engelskans utbredning i världen."
+      }
+    ]
+  }
+}

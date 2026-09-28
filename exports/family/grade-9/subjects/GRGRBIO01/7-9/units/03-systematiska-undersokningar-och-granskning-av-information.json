@@ -1,0 +1,25 @@
+{
+  "subjectCode": "GRGRBIO01",
+  "subjectName": "Biologi",
+  "curriculumCode": "LGR22",
+  "stage": "7-9",
+  "requestedGrade": 9,
+  "unit": {
+    "id": "GRGRBIO01/7-9/systematiska-undersokningar-och-granskning-av-information",
+    "title": "Systematiska undersökningar och granskning av information",
+    "contentPoints": [
+      {
+        "id": "GRGRBIO01/7-9/systematiska-undersokningar-och-granskning-av-information/1",
+        "text": "Fältstudier och experiment med såväl analoga som digitala verktyg. Formulering av undersökningsbara frågor, planering, utförande, värdering av resultat samt dokumentation med bilder, tabeller, diagram och rapporter."
+      },
+      {
+        "id": "GRGRBIO01/7-9/systematiska-undersokningar-och-granskning-av-information/2",
+        "text": "Sambandet mellan biologiska undersökningar och utvecklingen av begrepp och förklaringsmodeller. De biologiska förklaringsmodellernas historiska framväxt, användbarhet och föränderlighet."
+      },
+      {
+        "id": "GRGRBIO01/7-9/systematiska-undersokningar-och-granskning-av-information/3",
+        "text": "Informationssökning, kritisk granskning och användning av information som rör biologi. Argumentation och ställningstaganden i aktuella frågor som rör miljö och hälsa."
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "subjectCode": "GRGRKEM01",
+  "subjectName": "Kemi",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen",
+    "title": "Kemin i naturen, i samhället och i människokroppen",
+    "contentPoints": [
+      {
+        "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/1",
+        "text": "Materiens uppbyggnad visualiserad med hjälp av enkla partikelmodeller."
+      },
+      {
+        "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/2",
+        "text": "Indelning av ämnen och material utifrån egenskaperna löslighet, ledningsförmåga, surt eller basiskt."
+      },
+      {
+        "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/3",
+        "text": "Vattnets egenskaper och kretslopp."
+      },
+      {
+        "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/4",
+        "text": "Luftens egenskaper och sammansättning."
+      },
+      {
+        "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/5",
+        "text": "Fotosyntes och förbränning som exempel på kemiska reaktioner i naturen."
+      },
+      {
+        "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/6",
+        "text": "Fossila och förnybara bränslen och deras påverkan på klimatet."
+      },
+      {
+        "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/7",
+        "text": "Matens innehåll och näringsämnenas betydelse för hälsan."
+      },
+      {
+        "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/8",
+        "text": "Vanliga kemikalier i hemmet. Deras användning och påverkan på miljön och människan samt hur de är märkta och bör hanteras."
+      },
+      {
+        "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/9",
+        "text": "Råvarors förädling till produkter, till exempel metaller, papper och plast. Hur produkterna kan återanvändas eller återvinnas."
+      }
+    ]
+  }
+}

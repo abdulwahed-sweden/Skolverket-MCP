@@ -1,0 +1,33 @@
+{
+  "subjectCode": "GRGRBIL01",
+  "subjectName": "Bild",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRBIL01/4-6/bildframstallning",
+    "title": "Bildframställning",
+    "contentPoints": [
+      {
+        "id": "GRGRBIL01/4-6/bildframstallning/1",
+        "text": "Framställning av berättande och informativa bilder, till exempel serier och illustrationer till text."
+      },
+      {
+        "id": "GRGRBIL01/4-6/bildframstallning/2",
+        "text": "Teckning, måleri, tryck och tredimensionellt arbete."
+      },
+      {
+        "id": "GRGRBIL01/4-6/bildframstallning/3",
+        "text": "Återanvändning och bearbetning av bilder, till exempel i kollage och bildmontage."
+      },
+      {
+        "id": "GRGRBIL01/4-6/bildframstallning/4",
+        "text": "Fotografi, film och annat digitalt bildskapande samt redigering av fotografi och rörlig bild."
+      },
+      {
+        "id": "GRGRBIL01/4-6/bildframstallning/5",
+        "text": "Rättigheter och skyldigheter samt etiska frågeställningar vid användning av bilder i olika sammanhang."
+      }
+    ]
+  }
+}

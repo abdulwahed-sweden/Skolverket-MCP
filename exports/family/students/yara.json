@@ -1,0 +1,21 @@
+{
+  "student": "Yara",
+  "schoolGrade": 6,
+  "curriculumCatalog": "../grade-6/manifest.json",
+  "regularTrack": true,
+  "reinforcementTrack": false,
+  "languageSubject": {
+    "status": "needs-confirmation",
+    "candidates": [
+      {
+        "code": "GRGRSVE01",
+        "name": "Svenska"
+      },
+      {
+        "code": "GRGRSVA01",
+        "name": "Svenska som andraspråk"
+      }
+    ]
+  },
+  "note": "No reinforcement track is configured. Use the school-confirmed Swedish subject when known."
+}

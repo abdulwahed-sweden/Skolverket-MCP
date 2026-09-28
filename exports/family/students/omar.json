@@ -1,0 +1,24 @@
+{
+  "student": "Omar",
+  "schoolGrade": 9,
+  "curriculumCatalog": "../grade-9/manifest.json",
+  "regularTrack": true,
+  "languageSubject": {
+    "status": "needs-confirmation",
+    "candidates": [
+      {
+        "code": "GRGRSVE01",
+        "name": "Svenska"
+      },
+      {
+        "code": "GRGRSVA01",
+        "name": "Svenska som andraspråk"
+      }
+    ],
+    "reinforcementTrack": {
+      "enabled": true,
+      "purpose": "Additional Swedish-language support for a newly arrived student alongside the regular class.",
+      "curriculumAuthority": "Uses the school-confirmed official Swedish subject; reinforcement is a teaching track, not assumed to be a separate Skolverket subject."
+    }
+  }
+}

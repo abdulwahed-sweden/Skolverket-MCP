@@ -1,0 +1,25 @@
+{
+  "subjectCode": "GRGRGEO01",
+  "subjectName": "Geografi",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRGEO01/4-6/geografins-metoder-och-verktyg",
+    "title": "Geografins metoder och verktyg",
+    "contentPoints": [
+      {
+        "id": "GRGRGEO01/4-6/geografins-metoder-och-verktyg/1",
+        "text": "Digitala och analoga kartor och deras uppbyggnad med gradnät, färger, symboler och skala. Topografiska och tematiska kartor."
+      },
+      {
+        "id": "GRGRGEO01/4-6/geografins-metoder-och-verktyg/2",
+        "text": "Fältstudier för att undersöka natur- och kulturlandskap."
+      },
+      {
+        "id": "GRGRGEO01/4-6/geografins-metoder-och-verktyg/3",
+        "text": "Beskrivningar och enkla analyser av platser och regioner med hjälp av kartor och andra geografiska källor, metoder, verktyg och begrepp."
+      }
+    ]
+  }
+}

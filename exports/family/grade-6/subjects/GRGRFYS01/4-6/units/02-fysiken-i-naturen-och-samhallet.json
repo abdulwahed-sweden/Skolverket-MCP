@@ -1,0 +1,45 @@
+{
+  "subjectCode": "GRGRFYS01",
+  "subjectName": "Fysik",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRFYS01/4-6/fysiken-i-naturen-och-samhallet",
+    "title": "Fysiken i naturen och samhället",
+    "contentPoints": [
+      {
+        "id": "GRGRFYS01/4-6/fysiken-i-naturen-och-samhallet/1",
+        "text": "Hur dag, natt, årstider och år kan förklaras utifrån rörelser hos solsystemets himlakroppar."
+      },
+      {
+        "id": "GRGRFYS01/4-6/fysiken-i-naturen-och-samhallet/2",
+        "text": "Vanliga väderfenomen och deras orsaker, till exempel hur vindar och nederbörd uppstår."
+      },
+      {
+        "id": "GRGRFYS01/4-6/fysiken-i-naturen-och-samhallet/3",
+        "text": "Energiformer samt olika typer av energikällor och deras påverkan på miljön."
+      },
+      {
+        "id": "GRGRFYS01/4-6/fysiken-i-naturen-och-samhallet/4",
+        "text": "Energiflöden mellan föremål som har olika temperatur. Hur man kan påverka energiflödena med hjälp av olika värmeledande och isolerande material."
+      },
+      {
+        "id": "GRGRFYS01/4-6/fysiken-i-naturen-och-samhallet/5",
+        "text": "Hur ljus och ljud breder ut sig och kan reflekteras."
+      },
+      {
+        "id": "GRGRFYS01/4-6/fysiken-i-naturen-och-samhallet/6",
+        "text": "Elektriska kretsar med batterier. Hur de kan kopplas och hur de kan användas i vardaglig elektrisk utrustning."
+      },
+      {
+        "id": "GRGRFYS01/4-6/fysiken-i-naturen-och-samhallet/7",
+        "text": "Krafter och rörelser som kan observeras och mätas i vardagssituationer."
+      },
+      {
+        "id": "GRGRFYS01/4-6/fysiken-i-naturen-och-samhallet/8",
+        "text": "Några instrument samt hur de används för att mäta fysikaliska storheter, till exempel temperatur och kraft."
+      }
+    ]
+  }
+}

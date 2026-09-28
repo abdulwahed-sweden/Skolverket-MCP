@@ -1,0 +1,37 @@
+{
+  "subjectCode": "GRGRSVA01",
+  "subjectName": "Svenska som andraspråk",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRSVA01/4-6/tala-lyssna-och-samtala",
+    "title": "Tala, lyssna och samtala",
+    "contentPoints": [
+      {
+        "id": "GRGRSVA01/4-6/tala-lyssna-och-samtala/1",
+        "text": "Strategier för att förstå och göra sig förstådd när det egna svenska språket inte räcker till, exempelvis att be om förtydliganden, omformulera och använda olika språk som resurs."
+      },
+      {
+        "id": "GRGRSVA01/4-6/tala-lyssna-och-samtala/2",
+        "text": "Utmärkande drag i talspråket som kan försvåra förståelsen: reduktioner, assimileringar och talhastighet."
+      },
+      {
+        "id": "GRGRSVA01/4-6/tala-lyssna-och-samtala/3",
+        "text": "Olika former av strukturerade samtal, till exempel dialoger och intervjuer."
+      },
+      {
+        "id": "GRGRSVA01/4-6/tala-lyssna-och-samtala/4",
+        "text": "Att lyssna aktivt, ställa frågor, uttrycka tankar och känslor samt resonera och argumentera i olika samtalssituationer och i samband med demokratiska beslutsprocesser. Användning av sambandsord för att jämföra, motivera och exemplifiera."
+      },
+      {
+        "id": "GRGRSVA01/4-6/tala-lyssna-och-samtala/5",
+        "text": "Muntliga presentationer och muntligt berättande för olika mottagare. Disposition med inledning, innehåll och avslutning. Stödord, bilder, digitala medier och verktyg samt andra hjälpmedel för att planera och genomföra en muntlig presentation. Hur gester och kroppsspråk kan påverka en presentation."
+      },
+      {
+        "id": "GRGRSVA01/4-6/tala-lyssna-och-samtala/6",
+        "text": "Uttal, satsmelodi och sambandet mellan betoning och betydelse. Svenska språkets uttal i jämförelse med andra språk eleven kan."
+      }
+    ]
+  }
+}

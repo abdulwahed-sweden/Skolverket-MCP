@@ -1,0 +1,19 @@
+{
+  "purpose": "Shared curriculum catalogs and student routing profiles.",
+  "catalogs": {
+    "grade6": {
+      "students": [
+        "Yara"
+      ],
+      "subjectCount": 17
+    },
+    "grade9": {
+      "students": [
+        "Omar",
+        "Esra (recovery catalog only)"
+      ],
+      "subjectCount": 17
+    }
+  },
+  "designRule": "Curriculum data is shared by stage; student files select tracks and subjects without rewriting official content."
+}

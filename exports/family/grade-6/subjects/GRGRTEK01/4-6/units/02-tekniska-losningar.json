@@ -1,0 +1,33 @@
+{
+  "subjectCode": "GRGRTEK01",
+  "subjectName": "Teknik",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRTEK01/4-6/tekniska-losningar",
+    "title": "Tekniska lösningar",
+    "contentPoints": [
+      {
+        "id": "GRGRTEK01/4-6/tekniska-losningar/1",
+        "text": "Hur några komponenter i vanliga tekniska system benämns och samverkar, till exempel i en cykel eller i ett enkelt produktions- eller transportsystem."
+      },
+      {
+        "id": "GRGRTEK01/4-6/tekniska-losningar/2",
+        "text": "Föremål som innehåller rörliga delar och hur de rörliga delarna är sammanfogade med hjälp av olika mekanismer för att överföra och förstärka krafter."
+      },
+      {
+        "id": "GRGRTEK01/4-6/tekniska-losningar/3",
+        "text": "Några av datorns delar och deras funktioner, till exempel processor och arbetsminne. Hur datorer styrs av program och kan kopplas samman i nätverk."
+      },
+      {
+        "id": "GRGRTEK01/4-6/tekniska-losningar/4",
+        "text": "Tekniska lösningar som utnyttjar elkomponenter och enkel elektronik för att åstadkomma ljud, ljus eller rörelse, till exempel larm och belysning. Begrepp som används i samband med detta."
+      },
+      {
+        "id": "GRGRTEK01/4-6/tekniska-losningar/5",
+        "text": "Hur hållfasta och stabila konstruktioner är uppbyggda, till exempel skal, armering och fackverk. Material som används i hållfasta och stabila konstruktioner."
+      }
+    ]
+  }
+}

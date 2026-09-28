@@ -1,0 +1,29 @@
+{
+  "subjectCode": "GRGRGEO01",
+  "subjectName": "Geografi",
+  "curriculumCode": "LGR22",
+  "stage": "7-9",
+  "requestedGrade": 9,
+  "unit": {
+    "id": "GRGRGEO01/7-9/hallbar-utveckling",
+    "title": "Hållbar utveckling",
+    "contentPoints": [
+      {
+        "id": "GRGRGEO01/7-9/hallbar-utveckling/1",
+        "text": "Vad klimat är och faktorer som påverkar klimatet. Människans påverkan på klimatet och konsekvenser av klimatförändringar för människa, samhälle och natur i olika delar av världen."
+      },
+      {
+        "id": "GRGRGEO01/7-9/hallbar-utveckling/2",
+        "text": "Människors tillgång till och användning av förnybara och icke-förnybara naturresurser och hur det påverkar människans livsmiljöer. Intressekonflikter kring naturresurser."
+      },
+      {
+        "id": "GRGRGEO01/7-9/hallbar-utveckling/3",
+        "text": "Samband mellan ekonomisk och social levnadsstandard och faktorer som demografi, jämställdhet, utbildning och naturresurser."
+      },
+      {
+        "id": "GRGRGEO01/7-9/hallbar-utveckling/4",
+        "text": "Lokalt, regionalt och globalt arbete för att främja hållbar utveckling."
+      }
+    ]
+  }
+}

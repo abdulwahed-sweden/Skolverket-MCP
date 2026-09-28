@@ -1,0 +1,94 @@
+{
+  "subjectCode": "GRGRSAM01",
+  "subjectName": "Samhällskunskap",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "assessment": {
+    "assessmentYear": "6",
+    "criteria": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om demokrati och mänskliga rättigheter.",
+          "Eleven visar grundläggande kunskaper om förhållanden och strukturer i samhället. Eleven beskriver enkla samband inom olika samhällsstrukturer. Eleven för enkla resonemang om hur människor kan påverka och påverkas av förhållanden och strukturer i samhället.",
+          "Eleven för enkla resonemang om samhällsfrågor utifrån kunskaper om förhållanden och strukturer i samhället. Eleven granskar information och åsikter som rör samhällsfrågor i olika källor med enkla källkritiska argument."
+        ],
+        "valueWords": [
+          "grundläggande",
+          "enkla"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven visar <strong>grundläggande</strong> kunskaper om demokrati och mänskliga rättigheter.</p> <p>Eleven visar <strong>grundläggande </strong>kunskaper om förhållanden och strukturer i samhället. Eleven beskriver <strong>enkla</strong> samband inom olika samhällsstrukturer. Eleven för<strong> enkla </strong>resonemang om hur människor kan påverka och påverkas av förhållanden och strukturer i samhället.</p> <p>Eleven för <strong>enkla</strong> resonemang om samhällsfrågor utifrån kunskaper om förhållanden och strukturer i samhället. Eleven granskar information och åsikter som rör samhällsfrågor i olika källor med <strong>enkla</strong> källkritiska argument.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar goda kunskaper om demokrati och mänskliga rättigheter.",
+          "Eleven visar goda kunskaper om förhållanden och strukturer i samhället. Eleven beskriver förhållandevis komplexa samband inom olika samhällsstrukturer. Eleven för utvecklade resonemang om hur människor kan påverka och påverkas av förhållanden och strukturer i samhället.",
+          "Eleven för utvecklade resonemang om samhällsfrågor utifrån kunskaper om förhållanden och strukturer i samhället. Eleven granskar information och åsikter som rör samhällsfrågor i olika källor med relativt välgrundade källkritiska argument."
+        ],
+        "valueWords": [
+          "goda",
+          "förhållandevis komplexa",
+          "utvecklade",
+          "relativt välgrundade"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven visar <strong>goda</strong> kunskaper om demokrati och mänskliga rättigheter.</p> <p>Eleven visar <strong>goda </strong>kunskaper om förhållanden och strukturer i samhället. Eleven beskriver <strong>förhållandevis komplexa</strong> samband inom olika samhällsstrukturer. Eleven för <strong>utvecklade </strong>resonemang om hur människor kan påverka och påverkas av förhållanden och strukturer i samhället.</p> <p>Eleven för <strong>utvecklade</strong> resonemang om samhällsfrågor utifrån kunskaper om förhållanden och strukturer i samhället. Eleven granskar information och åsikter som rör samhällsfrågor i olika källor med <strong>relativt välgrundade</strong> källkritiska argument.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar mycket goda kunskaper om demokrati och mänskliga rättigheter.",
+          "Eleven visar mycket goda kunskaper om förhållanden och strukturer i samhället. Eleven beskriver komplexa samband inom olika samhällsstrukturer. Eleven för välutvecklade resonemang om hur människor kan påverka och påverkas av förhållanden och strukturer i samhället.",
+          "Eleven för välutvecklade resonemang om samhällsfrågor utifrån kunskaper om förhållanden och strukturer i samhället. Eleven granskar information och åsikter som rör samhällsfrågor i olika källor med välgrundade källkritiska argument."
+        ],
+        "valueWords": [
+          "mycket goda",
+          "komplexa",
+          "välutvecklade",
+          "välgrundade"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven visar <strong>mycket goda</strong> kunskaper om demokrati och mänskliga rättigheter.</p> <p>Eleven visar <strong>mycket goda </strong>kunskaper om förhållanden och strukturer i samhället. Eleven beskriver <strong>komplexa</strong> samband inom olika samhällsstrukturer. Eleven för<strong> välutvecklade </strong>resonemang om hur människor kan påverka och påverkas av förhållanden och strukturer i samhället.</p> <p>Eleven för <strong>välutvecklade</strong> resonemang om samhällsfrågor utifrån kunskaper om förhållanden och strukturer i samhället. Eleven granskar information och åsikter som rör samhällsfrågor i olika källor med <strong>välgrundade </strong>källkritiska argument.</p>"
+      }
+    ],
+    "priorStageBaseline": [
+      {
+        "year": "3",
+        "gradeStep": null,
+        "headingText": "Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om geografiska och historiska förhållanden, samhällsförhållanden och religiösa traditioner. Eleven beskriver likheter och skillnader samt orsaker och konsekvenser i sammanhang som är relevanta för ämnena. Eleven samtalar om människors livsfrågor och levnadsvillkor samt om miljöfrågor och andra samhällsfrågor ur olika perspektiv.",
+          "Eleven använder begrepp, metoder och verktyg från de samhällsorienterande ämnena."
+        ],
+        "valueWords": [],
+        "html": "<h3>Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3</h3><p>Eleven visar grundläggande kunskaper om geografiska och historiska förhållanden, samhällsförhållanden och religiösa traditioner. Eleven beskriver likheter och skillnader samt orsaker och konsekvenser i sammanhang som är relevanta för ämnena. Eleven samtalar om människors livsfrågor och levnadsvillkor samt om miljöfrågor och andra samhällsfrågor ur olika perspektiv.</p> <p>Eleven använder begrepp, metoder och verktyg från de samhällsorienterande ämnena.</p>"
+      }
+    ],
+    "noneForRequestedGrade": false
+  }
+}

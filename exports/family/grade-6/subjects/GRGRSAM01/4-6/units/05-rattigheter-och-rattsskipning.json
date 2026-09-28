@@ -1,0 +1,25 @@
+{
+  "subjectCode": "GRGRSAM01",
+  "subjectName": "Samhällskunskap",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRSAM01/4-6/rattigheter-och-rattsskipning",
+    "title": "Rättigheter och rättsskipning",
+    "contentPoints": [
+      {
+        "id": "GRGRSAM01/4-6/rattigheter-och-rattsskipning/1",
+        "text": "Samhällets behov av lagstiftning samt några olika lagar och påföljder. Kriminalitet och möjliga konsekvenser för individ och samhälle."
+      },
+      {
+        "id": "GRGRSAM01/4-6/rattigheter-och-rattsskipning/2",
+        "text": "De mänskliga rättigheterna och deras betydelse, inklusive barnets rättigheter i enlighet med barnkonventionen. Principen om likabehandling, inklusive skydd mot diskriminering."
+      },
+      {
+        "id": "GRGRSAM01/4-6/rattigheter-och-rattsskipning/3",
+        "text": "De nationella minoriteterna judar, romer, urfolket samerna, sverigefinnar och tornedalingar: kultur, historia och rättigheter."
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "subjectCode": "GRGRHIS01",
+  "subjectName": "Historia",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRHIS01/4-6/kulturmoten-och-statsbildning-i-norden-cirka-800-1500",
+    "title": "Kulturmöten och statsbildning i Norden, cirka 800–1500",
+    "contentPoints": [
+      {
+        "id": "GRGRHIS01/4-6/kulturmoten-och-statsbildning-i-norden-cirka-800-1500/1",
+        "text": "Nordens kulturmöten med andra delar av världen genom vikingars resor och medeltidens handelssystem."
+      },
+      {
+        "id": "GRGRHIS01/4-6/kulturmoten-och-statsbildning-i-norden-cirka-800-1500/2",
+        "text": "Statsbildning och kristendomens etablerande i Norden samt konsekvenser av dessa förändringar."
+      },
+      {
+        "id": "GRGRHIS01/4-6/kulturmoten-och-statsbildning-i-norden-cirka-800-1500/3",
+        "text": "Likheter och skillnader i levnadsvillkor för barn, kvinnor och män under tidsperioden."
+      },
+      {
+        "id": "GRGRHIS01/4-6/kulturmoten-och-statsbildning-i-norden-cirka-800-1500/4",
+        "text": "Vad historiska källor är, till exempel arkeologiska fynd, texter, muntliga berättelser och digitalt material, och hur de kan användas för att ge kunskaper om det förflutna."
+      },
+      {
+        "id": "GRGRHIS01/4-6/kulturmoten-och-statsbildning-i-norden-cirka-800-1500/5",
+        "text": "Historiebruk kopplat till tidsperioden, till exempel hur vikingar framställs i populärkulturen."
+      }
+    ]
+  }
+}

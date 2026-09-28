@@ -1,0 +1,21 @@
+{
+  "subjectCode": "GRGRSVE01",
+  "subjectName": "Svenska",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRSVE01/4-6/informationssokning-och-kallkritik",
+    "title": "Informationssökning och källkritik",
+    "contentPoints": [
+      {
+        "id": "GRGRSVE01/4-6/informationssokning-och-kallkritik/1",
+        "text": "Informationssökning i några olika medier och källor, till exempel i uppslagsböcker, genom intervjuer och i söktjänster på internet."
+      },
+      {
+        "id": "GRGRSVE01/4-6/informationssokning-och-kallkritik/2",
+        "text": "Hur man jämför källor och prövar deras tillförlitlighet med ett källkritiskt förhållningssätt."
+      }
+    ]
+  }
+}

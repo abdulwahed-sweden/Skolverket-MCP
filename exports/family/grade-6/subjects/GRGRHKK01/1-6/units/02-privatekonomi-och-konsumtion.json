@@ -1,0 +1,25 @@
+{
+  "subjectCode": "GRGRHKK01",
+  "subjectName": "Hem- och konsumentkunskap",
+  "curriculumCode": "LGR22",
+  "stage": "1-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRHKK01/1-6/privatekonomi-och-konsumtion",
+    "title": "Privatekonomi och konsumtion",
+    "contentPoints": [
+      {
+        "id": "GRGRHKK01/1-6/privatekonomi-och-konsumtion/1",
+        "text": "Ungas privatekonomi. Relationen mellan sparande och konsumtion. Olika sätt för att betala och spara."
+      },
+      {
+        "id": "GRGRHKK01/1-6/privatekonomi-och-konsumtion/2",
+        "text": "Skillnaden mellan saklig konsumentinformation och annan påverkan på konsumtionsval. Reklam i olika former, även dolda reklambudskap."
+      },
+      {
+        "id": "GRGRHKK01/1-6/privatekonomi-och-konsumtion/3",
+        "text": "Jämförelser av några vanliga varor utifrån jämförpris."
+      }
+    ]
+  }
+}

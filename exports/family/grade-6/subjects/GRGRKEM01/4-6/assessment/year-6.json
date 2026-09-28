@@ -1,0 +1,95 @@
+{
+  "subjectCode": "GRGRKEM01",
+  "subjectName": "Kemi",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "assessment": {
+    "assessmentYear": "6",
+    "criteria": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om kemins begrepp och förklaringsmodeller. Med viss användning av begreppen och förklaringsmodellerna beskriver eleven enkla kemiska samband i naturen, i samhället och i människokroppen.",
+          "Eleven använder information som rör kemi för att med viss naturvetenskaplig underbyggnad föra resonemang i frågor som rör miljö och hälsa.",
+          "Eleven söker svar på frågor genom att utföra systematiska undersökningar på ett säkert och i huvudsak fungerande sätt. Eleven värderar resultaten och beskriver på ett enkelt sätt undersökningarna."
+        ],
+        "valueWords": [
+          "grundläggande",
+          "viss",
+          "i huvudsak fungerande",
+          "enkelt"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven visar <strong>grundläggande</strong> kunskaper om kemins begrepp och förklaringsmodeller. Med <strong>viss</strong> användning av begreppen och förklaringsmodellerna beskriver eleven enkla kemiska samband i naturen, i samhället och i människokroppen.</p> <p>Eleven använder information som rör kemi för att med <strong>viss</strong> naturvetenskaplig underbyggnad föra resonemang i frågor som rör miljö och hälsa.</p> <p>Eleven söker svar på frågor genom att utföra systematiska undersökningar på ett säkert och <strong>i huvudsak fungerande </strong>sätt. Eleven värderar resultaten och beskriver på ett <strong>enkelt</strong> sätt undersökningarna.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar goda kunskaper om kemins begrepp och förklaringsmodeller. Med relativt god användning av begreppen och förklaringsmodellerna beskriver eleven enkla kemiska samband i naturen, i samhället och i människokroppen.",
+          "Eleven använder information som rör kemi för att med relativt god naturvetenskaplig underbyggnad föra resonemang i frågor som rör miljö och hälsa.",
+          "Eleven söker svar på frågor genom att utföra systematiska undersökningar på ett säkert och fungerande sätt. Eleven värderar resultaten och beskriver på ett utvecklat sätt undersökningarna."
+        ],
+        "valueWords": [
+          "goda",
+          "relativt god",
+          "fungerande",
+          "utvecklat"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven visar <strong>goda</strong> kunskaper om kemins begrepp och förklaringsmodeller. Med <strong>relativt god</strong> användning av begreppen och förklaringsmodellerna beskriver eleven enkla kemiska samband i naturen, i samhället och i människokroppen.</p> <p>Eleven använder information som rör kemi för att med <strong>relativt god</strong> naturvetenskaplig underbyggnad föra resonemang i frågor som rör miljö och hälsa.</p> <p>Eleven söker svar på frågor genom att utföra systematiska undersökningar på ett säkert och <strong>fungerande</strong> sätt. Eleven värderar resultaten och beskriver på ett <strong>utvecklat</strong> sätt undersökningarna.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar mycket goda kunskaper om kemins begrepp och förklaringsmodeller. Med god användning av begreppen och förklaringsmodellerna beskriver eleven enkla kemiska samband i naturen, i samhället och i människokroppen.",
+          "Eleven använder information som rör kemi för att med god naturvetenskaplig underbyggnad föra resonemang i frågor som rör miljö och hälsa.",
+          "Eleven söker svar på frågor genom att utföra systematiska undersökningar på ett säkert och väl fungerande sätt. Eleven värderar resultaten och beskriver på ett välutvecklat sätt undersökningarna."
+        ],
+        "valueWords": [
+          "mycket goda",
+          "god",
+          "väl fungerande",
+          "välutvecklat"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven visar <strong>mycket goda</strong> kunskaper om kemins begrepp och förklaringsmodeller. Med <strong>god</strong> användning av begreppen och förklaringsmodellerna beskriver eleven enkla kemiska samband i naturen, i samhället och i människokroppen.</p> <p>Eleven använder information som rör kemi för att med <strong>god</strong> naturvetenskaplig underbyggnad föra resonemang i frågor som rör miljö och hälsa.</p> <p>Eleven söker svar på frågor genom att utföra systematiska undersökningar på ett säkert och <strong>väl fungerande </strong>sätt. Eleven värderar resultaten och beskriver på ett <strong>välutvecklat</strong> sätt undersökningarna.</p>"
+      }
+    ],
+    "priorStageBaseline": [
+      {
+        "year": "3",
+        "gradeStep": null,
+        "headingText": "Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om natur, kropp och hälsa, kraft och rörelse samt material och ämnen. Utifrån egna upplevelser och utforskande av närmiljön beskriver eleven enkla naturvetenskapliga samband i naturen och människokroppen. Utifrån tydliga instruktioner utför eleven enkla fältstudier, observationer och experiment."
+        ],
+        "valueWords": [],
+        "html": "<h3>Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3</h3><p>Eleven visar grundläggande kunskaper om natur, kropp och hälsa, kraft och rörelse samt material och ämnen. Utifrån egna upplevelser och utforskande av närmiljön beskriver eleven enkla naturvetenskapliga samband i naturen och människokroppen. Utifrån tydliga instruktioner utför eleven enkla fältstudier, observationer och experiment.</p>"
+      }
+    ],
+    "noneForRequestedGrade": false
+  }
+}

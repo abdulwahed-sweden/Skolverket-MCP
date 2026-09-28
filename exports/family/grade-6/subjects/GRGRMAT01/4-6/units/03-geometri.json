@@ -1,0 +1,33 @@
+{
+  "subjectCode": "GRGRMAT01",
+  "subjectName": "Matematik",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRMAT01/4-6/geometri",
+    "title": "Geometri",
+    "contentPoints": [
+      {
+        "id": "GRGRMAT01/4-6/geometri/1",
+        "text": "Grundläggande geometriska två- och tredimensionella objekt samt deras egenskaper och inbördes relationer. Konstruktion av geometriska objekt, såväl med som utan digitala verktyg."
+      },
+      {
+        "id": "GRGRMAT01/4-6/geometri/2",
+        "text": "Jämförelse, uppskattning och mätning av längd, area, massa, volym, tid och vinkel med standardiserade måttenheter samt enhetsbyten i samband med detta."
+      },
+      {
+        "id": "GRGRMAT01/4-6/geometri/3",
+        "text": "Metoder för hur omkrets och area hos olika tvådimensionella geometriska figurer kan bestämmas och uppskattas."
+      },
+      {
+        "id": "GRGRMAT01/4-6/geometri/4",
+        "text": "Skala vid förminskning och förstoring samt användning av skala i elevnära situationer."
+      },
+      {
+        "id": "GRGRMAT01/4-6/geometri/5",
+        "text": "Symmetri i planet och hur symmetri kan konstrueras."
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "generatedBy": "scripts/export-family-curriculum.ts",
+  "catalog": "grade-9",
+  "subjects": [
+    {
+      "code": "GRGRSVE01",
+      "name": "Svenska",
+      "stage": "7-9",
+      "requestedGrade": 9,
+      "units": 5,
+      "contentPoints": 25,
+      "criteria": 5,
+      "path": "subjects/GRGRSVE01/7-9"
+    },
+    {
+      "code": "GRGRSVA01",
+      "name": "Svenska som andraspråk",
+      "stage": "7-9",
+      "requestedGrade": 9,
+      "units": 5,
+      "contentPoints": 28,
+      "criteria": 5,
+      "path": "subjects/GRGRSVA01/7-9"
+    },
+    {
+      "code": "GRGRMAT01",
+      "name": "Matematik",
+      "stage": "7-9",
+      "requestedGrade": 9,
+      "units": 6,
+      "contentPoints": 28,
+      "criteria": 5,
+      "path": "subjects/GRGRMAT01/7-9"
+    },
+    {
+      "code": "GRGRENG01",
+      "name": "Engelska",
+      "stage": "7-9",
+      "requestedGrade": 9,
+      "units": 3,
+      "contentPoints": 16,
+      "criteria": 5,
+      "path": "subjects/GRGRENG01/7-9"
+    },
+    {
+      "code": "GRGRBIO01",
+      "name": "Biologi",
+      "stage": "7-9",
+      "requestedGrade": 9,
+      "units": 3,
+      "contentPoints": 11,
+      "criteria": 5,
+      "path": "subjects/GRGRBIO01/7-9"
+    },
+    {
+      "code": "GRGRFYS01",
+      "name": "Fysik",
+      "stage": "7-9",
+      "requestedGrade": 9,
+      "units": 2,
+      "contentPoints": 13,
+      "criteria": 5,
+      "path": "subjects/GRGRFYS01/7-9"
+    },
+    {
+      "code": "GRGRKEM01",
+      "name": "Kemi",
+      "stage": "7-9",
+      "requestedGrade": 9,
+      "units": 2,
+      "contentPoints": 11,
+      "criteria": 5,
+      "path": "subjects/GRGRKEM01/7-9"
+    },
+    {
+      "code": "GRGRTEK01",
+      "name": "Teknik",
+      "stage": "7-9",
+      "requestedGrade": 9,
+      "units": 3,
+      "contentPoints": 13,
+      "criteria": 5,
+      "path": "subjects/GRGRTEK01/7-9"
+    },
+    {
+      "code": "GRGRGEO01",
+      "name": "Geografi",
+      "stage": "7-9",
+      "requestedGrade": 9,
+      "units": 3,
+      "contentPoints": 11,
+      "criteria": 5,
+      "path": "subjects/GRGRGEO01/7-9"
+    },
+    {
+      "code": "GRGRHIS01",
+      "name": "Historia",
+      "stage": "7-9",
+      "requestedGrade": 9,
+      "units": 3,
+      "contentPoints": 15,
+      "criteria": 5,
+      "path": "subjects/GRGRHIS01/7-9"
+    },
+    {
+      "code": "GRGRREL01",
+      "name": "Religionskunskap",
+      "stage": "7-9",
+      "requestedGrade": 9,
+      "units": 3,
+      "contentPoints": 12,
+      "criteria": 5,
+      "path": "subjects/GRGRREL01/7-9"
+    },
+    {
+      "code": "GRGRSAM01",
+      "name": "Samhällskunskap",
+      "stage": "7-9",
+      "requestedGrade": 9,
+      "units": 6,
+      "contentPoints": 20,
+      "criteria": 5,
+      "path": "subjects/GRGRSAM01/7-9"
+    },
+    {
+      "code": "GRGRBIL01",
+      "name": "Bild",
+      "stage": "7-9",
+      "requestedGrade": 9,
+      "units": 3,
+      "contentPoints": 12,
+      "criteria": 5,
+      "path": "subjects/GRGRBIL01/7-9"
+    },
+    {
+      "code": "GRGRMUS01",
+      "name": "Musik",
+      "stage": "7-9",
+      "requestedGrade": 9,
+      "units": 3,
+      "contentPoints": 14,
+      "criteria": 5,
+      "path": "subjects/GRGRMUS01/7-9"
+    },
+    {
+      "code": "GRGRSLJ01",
+      "name": "Slöjd",
+      "stage": "7-9",
+      "requestedGrade": 9,
+      "units": 3,
+      "contentPoints": 10,
+      "criteria": 5,
+      "path": "subjects/GRGRSLJ01/7-9"
+    },
+    {
+      "code": "GRGRIDR01",
+      "name": "Idrott och hälsa",
+      "stage": "7-9",
+      "requestedGrade": 9,
+      "units": 3,
+      "contentPoints": 18,
+      "criteria": 5,
+      "path": "subjects/GRGRIDR01/7-9"
+    },
+    {
+      "code": "GRGRHKK01",
+      "name": "Hem- och konsumentkunskap",
+      "stage": "7-9",
+      "requestedGrade": 9,
+      "units": 3,
+      "contentPoints": 17,
+      "criteria": 5,
+      "path": "subjects/GRGRHKK01/7-9"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "subjectCode": "GRGRSVE01",
+  "subjectName": "Svenska",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRSVE01/4-6/lasa-och-skriva",
+    "title": "Läsa och skriva",
+    "contentPoints": [
+      {
+        "id": "GRGRSVE01/4-6/lasa-och-skriva/1",
+        "text": "Gemensam och enskild läsning. Strategier för att förstå och tolka ord, begrepp och texter från olika medier. Att urskilja texters budskap, både det direkt uttalade och sådant som är indirekt uttryckt."
+      },
+      {
+        "id": "GRGRSVE01/4-6/lasa-och-skriva/2",
+        "text": "Sammanfattning av texter."
+      },
+      {
+        "id": "GRGRSVE01/4-6/lasa-och-skriva/3",
+        "text": "Resonemang om texter med koppling till sammanhang inom och utanför texten samt till den egna läsupplevelsen."
+      },
+      {
+        "id": "GRGRSVE01/4-6/lasa-och-skriva/4",
+        "text": "Gemensamt och enskilt skrivande. Strategier för att skriva olika typer av texter med anpassning till deras uppbyggnad och språkliga drag. Skapande av texter där ord, bild och ljud samspelar, såväl med som utan digitala verktyg."
+      },
+      {
+        "id": "GRGRSVE01/4-6/lasa-och-skriva/5",
+        "text": "Bearbetning av egna och gemensamma texter till innehåll och form. Att ge och ta emot respons på texter."
+      },
+      {
+        "id": "GRGRSVE01/4-6/lasa-och-skriva/6",
+        "text": "Handstil och att skriva med digitala verktyg."
+      },
+      {
+        "id": "GRGRSVE01/4-6/lasa-och-skriva/7",
+        "text": "Språkliga strukturer och normer. Meningsbyggnad, med huvudsatser, bisatser och skiljetecken samt textbindning med hjälp av sambandsord. Stavning, ords böjningsformer och ordklasser."
+      },
+      {
+        "id": "GRGRSVE01/4-6/lasa-och-skriva/8",
+        "text": "Ordböcker och digitala verktyg för stavning och ordförståelse."
+      }
+    ]
+  }
+}

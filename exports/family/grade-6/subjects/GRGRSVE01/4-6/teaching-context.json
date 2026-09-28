@@ -1,0 +1,280 @@
+{
+  "subjectCode": "GRGRSVE01",
+  "subjectName": "Svenska",
+  "schoolType": "GR",
+  "curriculumCode": "LGR22",
+  "stage": {
+    "id": "4-6",
+    "years": [
+      4,
+      5,
+      6
+    ],
+    "requestedGrade": 6,
+    "gradeIsExplicitInApi": false,
+    "assessmentYear": "6"
+  },
+  "units": [
+    {
+      "id": "GRGRSVE01/4-6/lasa-och-skriva",
+      "title": "Läsa och skriva",
+      "contentPoints": [
+        {
+          "id": "GRGRSVE01/4-6/lasa-och-skriva/1",
+          "text": "Gemensam och enskild läsning. Strategier för att förstå och tolka ord, begrepp och texter från olika medier. Att urskilja texters budskap, både det direkt uttalade och sådant som är indirekt uttryckt."
+        },
+        {
+          "id": "GRGRSVE01/4-6/lasa-och-skriva/2",
+          "text": "Sammanfattning av texter."
+        },
+        {
+          "id": "GRGRSVE01/4-6/lasa-och-skriva/3",
+          "text": "Resonemang om texter med koppling till sammanhang inom och utanför texten samt till den egna läsupplevelsen."
+        },
+        {
+          "id": "GRGRSVE01/4-6/lasa-och-skriva/4",
+          "text": "Gemensamt och enskilt skrivande. Strategier för att skriva olika typer av texter med anpassning till deras uppbyggnad och språkliga drag. Skapande av texter där ord, bild och ljud samspelar, såväl med som utan digitala verktyg."
+        },
+        {
+          "id": "GRGRSVE01/4-6/lasa-och-skriva/5",
+          "text": "Bearbetning av egna och gemensamma texter till innehåll och form. Att ge och ta emot respons på texter."
+        },
+        {
+          "id": "GRGRSVE01/4-6/lasa-och-skriva/6",
+          "text": "Handstil och att skriva med digitala verktyg."
+        },
+        {
+          "id": "GRGRSVE01/4-6/lasa-och-skriva/7",
+          "text": "Språkliga strukturer och normer. Meningsbyggnad, med huvudsatser, bisatser och skiljetecken samt textbindning med hjälp av sambandsord. Stavning, ords böjningsformer och ordklasser."
+        },
+        {
+          "id": "GRGRSVE01/4-6/lasa-och-skriva/8",
+          "text": "Ordböcker och digitala verktyg för stavning och ordförståelse."
+        }
+      ]
+    },
+    {
+      "id": "GRGRSVE01/4-6/tala-lyssna-och-samtala",
+      "title": "Tala, lyssna och samtala",
+      "contentPoints": [
+        {
+          "id": "GRGRSVE01/4-6/tala-lyssna-och-samtala/1",
+          "text": "Olika former av samtal. Att lyssna aktivt, ställa frågor, uttrycka tankar och känslor samt resonera och argumentera i olika samtalssituationer och i samband med demokratiska beslutsprocesser."
+        },
+        {
+          "id": "GRGRSVE01/4-6/tala-lyssna-och-samtala/2",
+          "text": "Muntliga presentationer och muntligt berättande för olika mottagare. Disposition med inledning, innehåll och avslutning. Stödord, bilder, digitala medier och verktyg samt andra hjälpmedel för att planera och genomföra en muntlig presentation. Hur gester och kroppsspråk kan påverka en presentation."
+        }
+      ]
+    },
+    {
+      "id": "GRGRSVE01/4-6/texter",
+      "title": "Texter",
+      "contentPoints": [
+        {
+          "id": "GRGRSVE01/4-6/texter/1",
+          "text": "Skönlitteratur för barn och unga från olika tider, från Sverige, Norden och övriga världen. Lyrik, dramatik, sagor och myter. Texter som belyser människors villkor och identitets- och livsfrågor."
+        },
+        {
+          "id": "GRGRSVE01/4-6/texter/2",
+          "text": "Berättande texters budskap, språkliga drag och uppbyggnad. Tillbakablickar, miljö- och personbeskrivningar samt dialoger."
+        },
+        {
+          "id": "GRGRSVE01/4-6/texter/3",
+          "text": "Några skönlitterärt betydelsefulla barn- och ungdomsboksförfattare och deras verk."
+        },
+        {
+          "id": "GRGRSVE01/4-6/texter/4",
+          "text": "Sakprosatexter för barn och unga. Beskrivande, förklarande, instruerande och argumenterande texter. Texternas innehåll, uppbyggnad och typiska språkliga drag."
+        },
+        {
+          "id": "GRGRSVE01/4-6/texter/5",
+          "text": "Texter som kombinerar ord, bild och ljud samt texter i digitala miljöer. Texternas innehåll, uppbyggnad och typiska språkliga drag."
+        }
+      ]
+    },
+    {
+      "id": "GRGRSVE01/4-6/sprakbruk",
+      "title": "Språkbruk",
+      "contentPoints": [
+        {
+          "id": "GRGRSVE01/4-6/sprakbruk/1",
+          "text": "Språkliga strategier för att minnas och lära, till exempel grafiska modeller och stödord."
+        },
+        {
+          "id": "GRGRSVE01/4-6/sprakbruk/2",
+          "text": "Ord och begrepp för att på ett varierat sätt uttrycka känslor, kunskaper och åsikter. Ords och begrepps nyanser och värdeladdning."
+        },
+        {
+          "id": "GRGRSVE01/4-6/sprakbruk/3",
+          "text": "Formellt och informellt språk. Skillnader i språkanvändning beroende på mottagare, syfte och sammanhang. Ansvarsfullt agerande vid kommunikation i digitala och andra medier."
+        },
+        {
+          "id": "GRGRSVE01/4-6/sprakbruk/4",
+          "text": "Språkbruk i Sverige och Norden. Några svenska dialekter. De nordiska grannspråken. De nationella minoritetsspråken i Sverige."
+        }
+      ]
+    },
+    {
+      "id": "GRGRSVE01/4-6/informationssokning-och-kallkritik",
+      "title": "Informationssökning och källkritik",
+      "contentPoints": [
+        {
+          "id": "GRGRSVE01/4-6/informationssokning-och-kallkritik/1",
+          "text": "Informationssökning i några olika medier och källor, till exempel i uppslagsböcker, genom intervjuer och i söktjänster på internet."
+        },
+        {
+          "id": "GRGRSVE01/4-6/informationssokning-och-kallkritik/2",
+          "text": "Hur man jämför källor och prövar deras tillförlitlighet med ett källkritiskt förhållningssätt."
+        }
+      ]
+    }
+  ],
+  "stageAssessment": {
+    "assessmentYear": "6",
+    "criteria": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven samtalar om bekanta ämnen på ett sätt som till viss del upprätthåller samtalen. Dessutom förbereder och genomför eleven muntliga framställningar med i huvudsak fungerande inledning, innehåll och avslutning och viss anpassning till syfte och mottagare.",
+          "Eleven skriver olika slags texter med begripligt innehåll, i huvudsak fungerande struktur och viss språklig variation. Eleven följer grundläggande regler för språkriktighet med viss säkerhet.",
+          "Eleven läser skönlitteratur och sakprosatexter för barn och ungdomar med flyt och visar grundläggande läsförståelse. Dessutom sammanfattar eleven olika texter med viss säkerhet. Eleven för också enkla resonemang om tydligt framträdande budskap i olika texter.",
+          "Eleven söker och väljer med viss säkerhet information från ett avgränsat urval av källor och presenterar informationen med egna formuleringar och ämnesspecifika ord och begrepp. Eleven för enkla resonemang om informationens användbarhet.",
+          "Eleven för utifrån givna exempel enkla resonemang om några aspekter av språk och språkbruk i Sverige och Norden."
+        ],
+        "valueWords": [
+          "till viss del",
+          "i huvudsak",
+          "fungerande",
+          "viss",
+          "begripligt",
+          "flyt",
+          "grundläggande",
+          "enkla"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven samtalar om bekanta ämnen på ett sätt som <strong>till viss del</strong> upprätthåller samtalen. Dessutom förbereder och genomför eleven muntliga framställningar med <strong>i huvudsak </strong><strong>fungerande</strong> inledning, innehåll och avslutning och <strong>viss </strong>anpassning till syfte och mottagare.</p> <p>Eleven skriver olika slags texter med <strong>begripligt</strong> innehåll, <strong>i huvudsak </strong><strong>fungerande</strong> struktur och <strong>viss </strong>språklig variation. Eleven följer grundläggande regler för språkriktighet med<strong> viss </strong>säkerhet.</p> <p>Eleven läser skönlitteratur och sakprosatexter för barn och ungdomar med <strong>flyt</strong> och visar <strong>grundläggande </strong>läsförståelse. Dessutom sammanfattar eleven olika texter med <strong>viss</strong> säkerhet. Eleven för också <strong>enkla</strong> resonemang om tydligt framträdande budskap i olika texter.</p> <p>Eleven söker och väljer med <strong>viss</strong> säkerhet information från ett avgränsat urval av källor och presenterar informationen med egna formuleringar och ämnesspecifika ord och begrepp. Eleven för<strong> enkla </strong>resonemang om informationens användbarhet.</p> <p>Eleven för utifrån givna exempel enkla resonemang om några aspekter av språk och språkbruk i Sverige och Norden.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven samtalar om bekanta ämnen på ett sätt som upprätthåller samtalen relativt väl. Dessutom förbereder och genomför eleven muntliga framställningar med fungerande inledning, innehåll och avslutning och relativt god anpassning till syfte och mottagare.",
+          "Eleven skriver olika slags texter med relativt tydligt innehåll, fungerande struktur och relativt god språklig variation. Eleven följer grundläggande regler för språkriktighet med relativt god säkerhet.",
+          "Eleven läser skönlitteratur och sakprosatexter för barn och ungdomar med gott flyt och visar god läsförståelse. Dessutom sammanfattar eleven olika texter med relativt god säkerhet. Eleven för också utvecklade resonemang om tydligt framträdande budskap i olika texter.",
+          "Eleven söker och väljer med relativt god säkerhet information från ett avgränsat urval av källor och presenterar informationen med egna formuleringar och ämnesspecifika ord och begrepp. Eleven för utvecklade resonemang om informationens användbarhet.",
+          "Eleven för utifrån givna exempel enkla resonemang om några aspekter av språk och språkbruk i Sverige och Norden."
+        ],
+        "valueWords": [
+          "relativt väl",
+          "fungerande",
+          "relativt god",
+          "relativt tydligt",
+          "relativt",
+          "god",
+          "gott flyt",
+          "utvecklade"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven samtalar om bekanta ämnen på ett sätt som upprätthåller samtalen<strong> relativt väl</strong>. Dessutom förbereder och genomför eleven muntliga framställningar med <strong>fungerande</strong> inledning, innehåll och avslutning och <strong>relativt god </strong>anpassning till syfte och mottagare.</p> <p>Eleven skriver olika slags texter med <strong>relativt tydligt </strong>innehåll, <strong>fungerande</strong> struktur och <strong>relativt god</strong> språklig variation. Eleven följer grundläggande regler för språkriktighet med <strong>relativt</strong> <strong>god </strong>säkerhet.</p> <p>Eleven läser skönlitteratur och sakprosatexter för barn och ungdomar med<strong> gott flyt</strong> och visar <strong>god </strong>läsförståelse. Dessutom sammanfattar eleven olika texter med <strong>relativt god</strong> säkerhet. Eleven för också <strong>utvecklade </strong>resonemang om tydligt framträdande budskap i olika texter.</p> <p>Eleven söker och väljer med <strong>relativt god</strong> säkerhet information från ett avgränsat urval av källor och presenterar informationen med egna formuleringar och ämnesspecifika ord och begrepp. Eleven för <strong>utvecklade </strong>resonemang om informationens användbarhet.</p> <p>Eleven för utifrån givna exempel enkla resonemang om några aspekter av språk och språkbruk i Sverige och Norden.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven samtalar om bekanta ämnen på ett sätt som upprätthåller samtalen väl. Dessutom förbereder och genomför eleven muntliga framställningar med väl fungerande inledning, innehåll och avslutning och god anpassning till syfte och mottagare.",
+          "Eleven skriver olika slags texter med tydligt innehåll, väl fungerande struktur och god språklig variation. Eleven följer grundläggande regler för språkriktighet med god säkerhet.",
+          "Eleven läser skönlitteratur och sakprosatexter för barn och ungdomar med mycket gott flyt och visar mycket god läsförståelse. Dessutom sammanfattar eleven olika texter med god säkerhet. Eleven för också välutvecklade resonemang om tydligt framträdande budskap i olika texter.",
+          "Eleven söker och väljer med god säkerhet information från ett avgränsat urval av källor och presenterar informationen med egna formuleringar och ämnesspecifika ord och begrepp. Eleven för välutvecklade resonemang om informationens användbarhet.",
+          "Eleven för utifrån givna exempel enkla resonemang om några aspekter av språk och språkbruk i Sverige och Norden."
+        ],
+        "valueWords": [
+          "väl",
+          "fungerande",
+          "god",
+          "tydligt",
+          "mycket gott flyt",
+          "mycket god",
+          "välutvecklade"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven samtalar om bekanta ämnen på ett sätt som upprätthåller samtalen <strong>väl</strong>. Dessutom förbereder och genomför eleven muntliga framställningar med <strong>väl </strong><strong>fungerande</strong> inledning, innehåll och avslutning och <strong>god </strong>anpassning till syfte och mottagare.</p> <p>Eleven skriver olika slags texter med <strong>tydligt </strong>innehåll, <strong>väl</strong> <strong>fungerande</strong> struktur och <strong>god</strong> språklig variation. Eleven följer grundläggande regler för språkriktighet med <strong>god </strong>säkerhet.</p> <p>Eleven läser skönlitteratur och sakprosatexter för barn och ungdomar med<strong> mycket gott flyt</strong> och visar <strong>mycket god </strong>läsförståelse. Dessutom sammanfattar eleven olika texter med <strong>god</strong> säkerhet. Eleven för också <strong>välutvecklade </strong>resonemang om tydligt framträdande budskap i olika texter.</p> <p>Eleven söker och väljer med <strong>god</strong> säkerhet information från ett avgränsat urval av källor och presenterar informationen med egna formuleringar och ämnesspecifika ord och begrepp. Eleven för <strong>välutvecklade </strong>resonemang om informationens användbarhet.</p> <p>Eleven för utifrån givna exempel enkla resonemang om några aspekter av språk och språkbruk i Sverige och Norden.</p>"
+      }
+    ],
+    "priorStageBaseline": [
+      {
+        "year": "3",
+        "gradeStep": null,
+        "headingText": "Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3",
+        "paragraphs": [
+          "Eleven samtalar om elevnära frågor och ämnen och ställer frågor, ger kommentarer och framför egna åsikter. När eleven berättar om vardagliga händelser beskriver eleven dem så att innehållet tydligt framgår. Dessutom ger och tar eleven enkla muntliga instruktioner.",
+          "Eleven skriver enkla texter med läslig handstil och med digitala verktyg. I texterna använder eleven stor bokstav, punkt och frågetecken samt kan stava ord som eleven själv ofta använder och som är vanligt förekommande i elevnära texter. De berättande texter eleven skriver har tydlig inledning, handling och avslutning.",
+          "Eleven läser bekanta och elevnära texter med flyt genom att använda lässtrategier på ett i huvudsak fungerande sätt. Eleven kommenterar och återger delar av innehållet och visar grundläggande läsförståelse. Eleven för också enkla resonemang om tydligt framträdande budskap i texterna.",
+          "Eleven söker information ur någon anvisad källa och återger grundläggande delar av informationen i enkla faktatexter. Texterna innehåller egna formuleringar och grundläggande ämnesspecifika ord och begrepp som används så att innehållet klart framgår."
+        ],
+        "valueWords": [],
+        "html": "<h3>Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3</h3><p>Eleven samtalar om elevnära frågor och ämnen och ställer frågor, ger kommentarer och framför egna åsikter. När eleven berättar om vardagliga händelser beskriver eleven dem så att innehållet tydligt framgår. Dessutom ger och tar eleven enkla muntliga instruktioner.</p> <p>Eleven skriver enkla texter med läslig handstil och med digitala verktyg. I texterna använder eleven stor bokstav, punkt och frågetecken samt kan stava ord som eleven själv ofta använder och som är vanligt förekommande i elevnära texter. De berättande texter eleven skriver har tydlig inledning, handling och avslutning.</p> <p>Eleven läser bekanta och elevnära texter med flyt genom att använda lässtrategier på ett i huvudsak fungerande sätt. Eleven kommenterar och återger delar av innehållet och visar grundläggande läsförståelse. Eleven för också enkla resonemang om tydligt framträdande budskap i texterna.</p> <p>Eleven söker information ur någon anvisad källa och återger grundläggande delar av informationen i enkla faktatexter. Texterna innehåller egna formuleringar och grundläggande ämnesspecifika ord och begrepp som används så att innehållet klart framgår.</p>"
+      }
+    ],
+    "noneForRequestedGrade": false
+  },
+  "counts": {
+    "units": 5,
+    "contentPoints": 21,
+    "criteria": 5
+  },
+  "provenance": {
+    "apiBaseUrl": "https://api.skolverket.se/syllabus",
+    "apiVersion": "1.16.2-SNAPSHOT",
+    "retrievedForDate": "2026-09-28",
+    "subjectEndpoint": "/v1/subjects/GRGRSVE01",
+    "curriculumEndpoint": "/v1/curriculums/LGR22",
+    "fieldMap": {
+      "subject.*": "subjects/{code} → subject.{code,name,designation,gradeScale,version,...}",
+      "schoolType": "subject.schoolTypes[] (array i API:et, ej en sträng)",
+      "curriculum.*": "curriculums/{code} → curriculum.{code,name,version,startDate}",
+      "stage.id": "subject.centralContents[].year",
+      "stage.years": "härlett ur stage.id genom att expandera intervallet",
+      "stage.assessmentYear": "sista året i stage.id; matchar knowledgeRequirements[].year",
+      "purpose": "subject.purpose (HTML-sträng) + subject.purposeHeading",
+      "centralContentForStage": "subject.centralContents[year === stage.id].text + subject.centralCntHeading",
+      "centralContentForStage.headings": "<h4>/<li> inuti samma text-fält",
+      "relevantAssessmentCriteria.atStageEnd": "subject.knowledgeRequirements[year === stage.assessmentYear]",
+      "relevantAssessmentCriteria.priorStageBaseline": "subject.knowledgeRequirements[year === föregående stadiums slutår]",
+      "*.valueWords": "<strong>-markeringar i knowledgeRequirements[].text"
+    },
+    "availableCentralContentYears": [
+      "1-3",
+      "4-6",
+      "7-9"
+    ],
+    "availableKnowledgeRequirementYears": [
+      "1",
+      "3",
+      "6",
+      "9"
+    ]
+  },
+  "groundedBrief": "# Svenska — I årskurs 4–6\n\n## OM DENNA BRIEF\nAllt läroplansinnehåll nedan är hämtat ordagrant från Skolverkets Syllabus API. Ämne: Svenska (GRGRSVE01). Skolform: GR. Läroplan: LGR22 version 5. Ämnesversion: 15 (SKOLFS 2024:590). Betygsskala: A-F. Hämtat via /v1/subjects/GRGRSVE01 den 2026-09-28.\n\n## VAD SKOLVERKET FAKTISKT ANGER FÖR ÅRSKURS 6\nSkolverket publicerar centralt innehåll per stadium, inte per årskurs. Innehållet nedan gäller hela stadiet årskurs 4-6 (det vill säga årskurs 4, 5, 6) — det finns INGET innehåll som är specifikt för årskurs 6.\nBetygskriterier finns bara för slutet av årskurs 1, 3, 6, 9. För det här stadiet gäller kriterierna i slutet av årskurs 6, vilket ligger efter årskurs 6. Det finns alltså inga kriterier att bedöma en elev i årskurs 6 mot.\n\n## SYFTE (Syfte)\nUndervisningen i ämnet svenska ska syfta till att eleverna utvecklar kunskaper i och om svenska språket. Genom undervisningen ska eleverna ges förutsättningar att utveckla sitt tal- och skriftspråk så att de får tilltro till sin språkförmåga och kan uttrycka sig i olika sammanhang och för skilda syften. Därigenom ska eleverna ges möjlighet att utveckla språket för att tänka, kommunicera och lära.\nUndervisningen ska stimulera elevernas intresse för att läsa och skriva. Genom undervisningen ska eleverna ges möjlighet att utveckla kunskaper om hur man formulerar egna åsikter och tankar i olika slags texter och genom skilda medier. Undervisningen ska även syfta till att eleverna utvecklar förmågan att skapa och bearbeta texter, enskilt och tillsammans med andra. Eleverna ska ges möjlighet att kommunicera i digitala miljöer med interaktiva och föränderliga texter. Eleverna ska även stimuleras till att uttrycka sig genom olika estetiska uttrycksformer. Vidare ska undervisningen bidra till att eleverna utvecklar kunskaper om hur man söker och kritiskt värderar information från olika källor.\nI undervisningen ska eleverna möta samt få utveckla kunskaper om skönlitteratur från olika tider och skilda delar av världen. Eleverna ska ges möjlighet att läsa, analysera och resonera om skönlitterära verk i olika genrer. Undervisningen ska också bidra till att eleverna utvecklar kunskaper om olika former av sakprosa. I mötet med olika typer av texter, scenkonst och annat estetiskt berättande ska eleverna ges förutsättningar att utveckla sitt språk, den egna identiteten och sin förståelse för omvärlden.\nGenom undervisningen ska eleverna ges möjlighet att utveckla kunskaper om svenska språket, dess normer, uppbyggnad, historia och utveckling samt om hur språkbruk varierar beroende på sociala sammanhang och medier. På så sätt ska undervisningen bidra till att stärka elevernas medvetenhet om och tilltro till den egna språkliga och kommunikativa förmågan. Undervisningen ska också bidra till att eleverna får förståelse för att sättet man kommunicerar på kan få konsekvenser för en själv och för andra människor. Därigenom ska eleverna ges förutsättningar att ta ansvar för det egna språkbruket i olika sammanhang och medier.\nUndervisningen ska även bidra till att eleverna får möta och bekanta sig med såväl de nordiska grannspråken som de nationella minoritetsspråken.\nUndervisningen i ämnet svenska ska ge eleverna förutsättningar att utveckla\n\n## CENTRALT INNEHÅLL — I årskurs 4–6\n\n### Läsa och skriva  [GRGRSVE01/4-6/lasa-och-skriva]\n- (GRGRSVE01/4-6/lasa-och-skriva/1) Gemensam och enskild läsning. Strategier för att förstå och tolka ord, begrepp och texter från olika medier. Att urskilja texters budskap, både det direkt uttalade och sådant som är indirekt uttryckt.\n- (GRGRSVE01/4-6/lasa-och-skriva/2) Sammanfattning av texter.\n- (GRGRSVE01/4-6/lasa-och-skriva/3) Resonemang om texter med koppling till sammanhang inom och utanför texten samt till den egna läsupplevelsen.\n- (GRGRSVE01/4-6/lasa-och-skriva/4) Gemensamt och enskilt skrivande. Strategier för att skriva olika typer av texter med anpassning till deras uppbyggnad och språkliga drag. Skapande av texter där ord, bild och ljud samspelar, såväl med som utan digitala verktyg.\n- (GRGRSVE01/4-6/lasa-och-skriva/5) Bearbetning av egna och gemensamma texter till innehåll och form. Att ge och ta emot respons på texter.\n- (GRGRSVE01/4-6/lasa-och-skriva/6) Handstil och att skriva med digitala verktyg.\n- (GRGRSVE01/4-6/lasa-och-skriva/7) Språkliga strukturer och normer. Meningsbyggnad, med huvudsatser, bisatser och skiljetecken samt textbindning med hjälp av sambandsord. Stavning, ords böjningsformer och ordklasser.\n- (GRGRSVE01/4-6/lasa-och-skriva/8) Ordböcker och digitala verktyg för stavning och ordförståelse.\n\n### Tala, lyssna och samtala  [GRGRSVE01/4-6/tala-lyssna-och-samtala]\n- (GRGRSVE01/4-6/tala-lyssna-och-samtala/1) Olika former av samtal. Att lyssna aktivt, ställa frågor, uttrycka tankar och känslor samt resonera och argumentera i olika samtalssituationer och i samband med demokratiska beslutsprocesser.\n- (GRGRSVE01/4-6/tala-lyssna-och-samtala/2) Muntliga presentationer och muntligt berättande för olika mottagare. Disposition med inledning, innehåll och avslutning. Stödord, bilder, digitala medier och verktyg samt andra hjälpmedel för att planera och genomföra en muntlig presentation. Hur gester och kroppsspråk kan påverka en presentation.\n\n### Texter  [GRGRSVE01/4-6/texter]\n- (GRGRSVE01/4-6/texter/1) Skönlitteratur för barn och unga från olika tider, från Sverige, Norden och övriga världen. Lyrik, dramatik, sagor och myter. Texter som belyser människors villkor och identitets- och livsfrågor.\n- (GRGRSVE01/4-6/texter/2) Berättande texters budskap, språkliga drag och uppbyggnad. Tillbakablickar, miljö- och personbeskrivningar samt dialoger.\n- (GRGRSVE01/4-6/texter/3) Några skönlitterärt betydelsefulla barn- och ungdomsboksförfattare och deras verk.\n- (GRGRSVE01/4-6/texter/4) Sakprosatexter för barn och unga. Beskrivande, förklarande, instruerande och argumenterande texter. Texternas innehåll, uppbyggnad och typiska språkliga drag.\n- (GRGRSVE01/4-6/texter/5) Texter som kombinerar ord, bild och ljud samt texter i digitala miljöer. Texternas innehåll, uppbyggnad och typiska språkliga drag.\n\n### Språkbruk  [GRGRSVE01/4-6/sprakbruk]\n- (GRGRSVE01/4-6/sprakbruk/1) Språkliga strategier för att minnas och lära, till exempel grafiska modeller och stödord.\n- (GRGRSVE01/4-6/sprakbruk/2) Ord och begrepp för att på ett varierat sätt uttrycka känslor, kunskaper och åsikter. Ords och begrepps nyanser och värdeladdning.\n- (GRGRSVE01/4-6/sprakbruk/3) Formellt och informellt språk. Skillnader i språkanvändning beroende på mottagare, syfte och sammanhang. Ansvarsfullt agerande vid kommunikation i digitala och andra medier.\n- (GRGRSVE01/4-6/sprakbruk/4) Språkbruk i Sverige och Norden. Några svenska dialekter. De nordiska grannspråken. De nationella minoritetsspråken i Sverige.\n\n### Informationssökning och källkritik  [GRGRSVE01/4-6/informationssokning-och-kallkritik]\n- (GRGRSVE01/4-6/informationssokning-och-kallkritik/1) Informationssökning i några olika medier och källor, till exempel i uppslagsböcker, genom intervjuer och i söktjänster på internet.\n- (GRGRSVE01/4-6/informationssokning-och-kallkritik/2) Hur man jämför källor och prövar deras tillförlitlighet med ett källkritiskt förhållningssätt.\n\n## BETYGSKRITERIER I SLUTET AV ÅRSKURS 6 (mål framåt, inte bedömning nu)\n\n### Betygskriterier för betyget E i slutet av årskurs 6\nEleven samtalar om bekanta ämnen på ett sätt som till viss del upprätthåller samtalen. Dessutom förbereder och genomför eleven muntliga framställningar med i huvudsak fungerande inledning, innehåll och avslutning och viss anpassning till syfte och mottagare.\nEleven skriver olika slags texter med begripligt innehåll, i huvudsak fungerande struktur och viss språklig variation. Eleven följer grundläggande regler för språkriktighet med viss säkerhet.\nEleven läser skönlitteratur och sakprosatexter för barn och ungdomar med flyt och visar grundläggande läsförståelse. Dessutom sammanfattar eleven olika texter med viss säkerhet. Eleven för också enkla resonemang om tydligt framträdande budskap i olika texter.\nEleven söker och väljer med viss säkerhet information från ett avgränsat urval av källor och presenterar informationen med egna formuleringar och ämnesspecifika ord och begrepp. Eleven för enkla resonemang om informationens användbarhet.\nEleven för utifrån givna exempel enkla resonemang om några aspekter av språk och språkbruk i Sverige och Norden.\n(Värdeord som Skolverket markerar: till viss del, i huvudsak, fungerande, viss, begripligt, flyt, grundläggande, enkla)\n\n### Betygskriterier för betyget D i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan C och E.\n\n### Betygskriterier för betyget C i slutet av årskurs 6\nEleven samtalar om bekanta ämnen på ett sätt som upprätthåller samtalen relativt väl. Dessutom förbereder och genomför eleven muntliga framställningar med fungerande inledning, innehåll och avslutning och relativt god anpassning till syfte och mottagare.\nEleven skriver olika slags texter med relativt tydligt innehåll, fungerande struktur och relativt god språklig variation. Eleven följer grundläggande regler för språkriktighet med relativt god säkerhet.\nEleven läser skönlitteratur och sakprosatexter för barn och ungdomar med gott flyt och visar god läsförståelse. Dessutom sammanfattar eleven olika texter med relativt god säkerhet. Eleven för också utvecklade resonemang om tydligt framträdande budskap i olika texter.\nEleven söker och väljer med relativt god säkerhet information från ett avgränsat urval av källor och presenterar informationen med egna formuleringar och ämnesspecifika ord och begrepp. Eleven för utvecklade resonemang om informationens användbarhet.\nEleven för utifrån givna exempel enkla resonemang om några aspekter av språk och språkbruk i Sverige och Norden.\n(Värdeord som Skolverket markerar: relativt väl, fungerande, relativt god, relativt tydligt, relativt, god, gott flyt, utvecklade)\n\n### Betygskriterier för betyget B i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan A och C.\n\n### Betygskriterier för betyget A i slutet av årskurs 6\nEleven samtalar om bekanta ämnen på ett sätt som upprätthåller samtalen väl. Dessutom förbereder och genomför eleven muntliga framställningar med väl fungerande inledning, innehåll och avslutning och god anpassning till syfte och mottagare.\nEleven skriver olika slags texter med tydligt innehåll, väl fungerande struktur och god språklig variation. Eleven följer grundläggande regler för språkriktighet med god säkerhet.\nEleven läser skönlitteratur och sakprosatexter för barn och ungdomar med mycket gott flyt och visar mycket god läsförståelse. Dessutom sammanfattar eleven olika texter med god säkerhet. Eleven för också välutvecklade resonemang om tydligt framträdande budskap i olika texter.\nEleven söker och väljer med god säkerhet information från ett avgränsat urval av källor och presenterar informationen med egna formuleringar och ämnesspecifika ord och begrepp. Eleven för välutvecklade resonemang om informationens användbarhet.\nEleven för utifrån givna exempel enkla resonemang om några aspekter av språk och språkbruk i Sverige och Norden.\n(Värdeord som Skolverket markerar: väl, fungerande, god, tydligt, mycket gott flyt, mycket god, välutvecklade)\n\n## FÖREGÅENDE STADIUM (utgångsläge eleven förväntas komma från)\n\n### Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3\nEleven samtalar om elevnära frågor och ämnen och ställer frågor, ger kommentarer och framför egna åsikter. När eleven berättar om vardagliga händelser beskriver eleven dem så att innehållet tydligt framgår. Dessutom ger och tar eleven enkla muntliga instruktioner.\nEleven skriver enkla texter med läslig handstil och med digitala verktyg. I texterna använder eleven stor bokstav, punkt och frågetecken samt kan stava ord som eleven själv ofta använder och som är vanligt förekommande i elevnära texter. De berättande texter eleven skriver har tydlig inledning, handling och avslutning.\nEleven läser bekanta och elevnära texter med flyt genom att använda lässtrategier på ett i huvudsak fungerande sätt. Eleven kommenterar och återger delar av innehållet och visar grundläggande läsförståelse. Eleven för också enkla resonemang om tydligt framträdande budskap i texterna.\nEleven söker information ur någon anvisad källa och återger grundläggande delar av informationen i enkla faktatexter. Texterna innehåller egna formuleringar och grundläggande ämnesspecifika ord och begrepp som används så att innehållet klart framgår.\n\n## REGLER FÖR HANDLEDAREN\n- Undervisa bara inom det centrala innehållet ovan. Behöver du något som inte står där, säg att det ligger utanför läroplanen för det här stadiet.\n- Säg aldrig att Skolverket anger något specifikt för årskurs 6. Det gör Skolverket inte. Val av takt och ordning inom stadiet är lärarens bedömning, inte läroplanens.\n- Skolverket kopplar inte betygskriterier till enskilda punkter i det centrala innehållet. Hitta inte på sådana kopplingar. Kriterierna gäller hela stadiet.\n- Hänvisa till innehåll med id:t i parentes, t.ex. (GRGRSVE01/4-6/lasa-och-skriva/1).\n- Betygskriterierna beskriver slutet av stadiet. Använd dem som riktning, inte som omdöme om eleven här och nu.\n- Citera läroplanstext ordagrant när du hänvisar till den. Formulera om bara för att förklara."
+}

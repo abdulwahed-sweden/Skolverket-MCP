@@ -1,0 +1,29 @@
+{
+  "subjectCode": "GRGRSAM01",
+  "subjectName": "Samhällskunskap",
+  "curriculumCode": "LGR22",
+  "stage": "7-9",
+  "requestedGrade": 9,
+  "unit": {
+    "id": "GRGRSAM01/7-9/rattigheter-och-rattsskipning",
+    "title": "Rättigheter och rättsskipning",
+    "contentPoints": [
+      {
+        "id": "GRGRSAM01/7-9/rattigheter-och-rattsskipning/1",
+        "text": "Kränkningar av de mänskliga rättigheterna i olika delar av världen och internationellt arbete för att främja mänskliga rättigheter."
+      },
+      {
+        "id": "GRGRSAM01/7-9/rattigheter-och-rattsskipning/2",
+        "text": "De nationella minoriteternas situation i Sverige samt den svenska minoritetspolitiken och dess framväxt. Samernas ställning som urfolk."
+      },
+      {
+        "id": "GRGRSAM01/7-9/rattigheter-och-rattsskipning/3",
+        "text": "Friheter, rättigheter och skyldigheter i demokratiska samhällen. Dilemman som hänger samman med demokratiska rättigheter och skyldigheter, till exempel gränsen mellan yttrandefrihet och kränkningar i sociala medier."
+      },
+      {
+        "id": "GRGRSAM01/7-9/rattigheter-och-rattsskipning/4",
+        "text": "Rättssystemet i Sverige och principer för rättssäkerhet. Möjliga orsaker till och konsekvenser av olika typer av kriminalitet, till exempel korruption, våldsbrott, sexualbrott och hedersrelaterat våld och förtryck. Kriminalvårdens uppgifter."
+      }
+    ]
+  }
+}

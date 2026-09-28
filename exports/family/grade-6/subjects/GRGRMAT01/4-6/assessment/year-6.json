@@ -1,0 +1,116 @@
+{
+  "subjectCode": "GRGRMAT01",
+  "subjectName": "Matematik",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "assessment": {
+    "assessmentYear": "6",
+    "criteria": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med tillfredsställande säkerhet.",
+          "Eleven väljer och använder i huvudsak fungerande matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med tillfredsställande säkerhet.",
+          "Eleven löser enkla problem. Eleven bidrar till något förslag på alternativt tillvägagångssätt och värderar resultatens rimlighet.",
+          "Eleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med enkla matematiska argument.",
+          "Eleven redogör för och samtalar om tillvägagångssätt på ett i huvudsak fungerande sätt och använder då symboler och andra matematiska uttrycksformer."
+        ],
+        "valueWords": [
+          "grundläggande",
+          "tillfredsställande",
+          "i huvudsak",
+          "fungerande",
+          "enkla",
+          "bidrar till något",
+          "i huvudsak fungerande"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven visar <strong>grundläggande</strong> kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med <strong>tillfredsställande</strong> säkerhet.</p> <p>Eleven väljer och använder <strong>i huvudsak</strong> <strong>fungerande</strong> matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med <strong>tillfredsställande</strong> säkerhet.</p> <p>Eleven löser <strong>enkla </strong>problem. Eleven <strong>bidrar till något</strong> förslag på alternativt tillvägagångssätt och värderar resultatens rimlighet.</p> <p>Eleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med <strong>enkla </strong>matematiska argument.</p> <p>Eleven redogör för och samtalar om tillvägagångssätt på ett <strong>i huvudsak fungerande</strong> sätt och använder då symboler och andra matematiska uttrycksformer.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar goda kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med god säkerhet.",
+          "Eleven väljer och använder ändamålsenliga matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med god säkerhet.",
+          "Eleven löser relativt komplexa problem. Eleven ger något förslag på alternativt tillvägagångssätt och värderar resultatens rimlighet.",
+          "Eleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med relativt väl underbyggda matematiska argument.",
+          "Eleven redogör för och samtalar om tillvägagångssätt på ett ändamålsenligt sätt och använder då symboler och andra matematiska uttrycksformer."
+        ],
+        "valueWords": [
+          "goda",
+          "god",
+          "ändamålsenliga",
+          "relativt komplexa",
+          "ger något",
+          "relativt väl",
+          "underbyggda",
+          "ändamålsenligt"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven visar<strong> goda</strong> kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med <strong>god </strong>säkerhet.</p> <p>Eleven väljer och använder <strong>ändamålsenliga</strong> matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med <strong>god</strong> säkerhet.</p> <p>Eleven löser <strong>relativt komplexa</strong> problem. Eleven <strong>ger något </strong>förslag på alternativt tillvägagångssätt och värderar resultatens rimlighet.</p> <p>Eleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med <strong>relativt väl</strong> <strong>underbyggda</strong> matematiska argument.</p> <p>Eleven redogör för och samtalar om tillvägagångssätt på ett <strong>ändamålsenligt </strong>sätt och använder då symboler och andra matematiska uttrycksformer.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar mycket goda kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med mycket god säkerhet.",
+          "Eleven väljer och använder ändamålsenliga och effektiva matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med mycket god säkerhet.",
+          "Eleven löser komplexa problem. Eleven ger förslag på alternativa tillvägagångssätt och värderar resultatens rimlighet.",
+          "Eleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med väl underbyggda matematiska argument.",
+          "Eleven redogör för och samtalar om tillvägagångssätt på ett ändamålsenligt och effektivt sätt och använder då symboler och andra matematiska uttrycksformer."
+        ],
+        "valueWords": [
+          "mycket goda",
+          "mycket god",
+          "ändamålsenliga",
+          "och effektiva",
+          "komplexa",
+          "ger",
+          "väl underbyggda",
+          "ändamålsenligt och effektivt"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven visar <strong>mycket goda</strong> kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med <strong>mycket god </strong>säkerhet.</p> <p>Eleven väljer och använder <strong>ändamålsenliga</strong> <strong>och effektiva</strong> matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med<strong> mycket god</strong> säkerhet.</p> <p>Eleven löser <strong>komplexa </strong>problem. Eleven <strong>ger </strong>förslag på alternativa tillvägagångssätt och värderar resultatens rimlighet.</p> <p>Eleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med <strong>väl underbyggda</strong> matematiska argument.</p> <p>Eleven redogör för och samtalar om tillvägagångssätt på ett <strong>ändamålsenligt och effektivt </strong>sätt och använder då symboler och andra matematiska uttrycksformer.</p>"
+      }
+    ],
+    "priorStageBaseline": [
+      {
+        "year": "3",
+        "gradeStep": null,
+        "headingText": "Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om matematiska begrepp och använder dem med tillfredsställande säkerhet. Eleven ger även exempel på hur några begrepp relaterar till varandra. Eleven visar grundläggande kunskaper om naturliga tal och beskriver tals inbördes relation samt delar upp tal. Eleven visar grundläggande kunskaper om tal i bråkform och delar upp helheter i delar samt jämför och namnger delarna som enkla bråk. Eleven använder och beskriver geometriska mönster och mönster i talföljder. Dessutom använder eleven grundläggande geometriska begrepp och vanliga lägesord för att beskriva geometriska objekts egenskaper, läge och inbördes relationer. Eleven använder och ger exempel på enkla proportionella samband.",
+          "Eleven väljer och använder i huvudsak fungerande matematiska metoder för att göra enkla beräkningar med naturliga tal och lösa enkla rutinuppgifter med tillfredsställande säkerhet. Eleven använder huvudräkning för att genomföra beräkningar med de fyra räknesätten. Vid addition och subtraktion väljer och använder eleven skriftliga räknemetoder med tillfredsställande säkerhet. Eleven hanterar enkla matematiska likheter och använder då likhetstecknet på ett fungerande sätt. Eleven avbildar och, utifrån instruktioner, konstruerar enkla geometriska objekt. Eleven gör enkla mätningar, jämförelser och uppskattningar av längder, massor, volymer och tider och använder vanliga måttenheter. Vid olika undersökningar avläser och skapar eleven enkla tabeller och diagram för att sortera och redovisa resultat.",
+          "Eleven löser enkla problem genom att välja och använda någon strategi med viss anpassning till problemets karaktär. Eleven beskriver tillvägagångssätt och ger enkla omdömen om resultatens rimlighet.",
+          "Eleven för och följer matematiska resonemang genom att ställa och besvara frågor som i huvudsak hör till ämnet.",
+          "Eleven beskriver och samtalar om tillvägagångssätt på ett i huvudsak fungerande sätt och använder då konkret material, bilder, symboler och andra matematiska uttrycksformer."
+        ],
+        "valueWords": [],
+        "html": "<h3>Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3</h3><p>Eleven visar grundläggande kunskaper om matematiska begrepp och använder dem med tillfredsställande säkerhet. Eleven ger även exempel på hur några begrepp relaterar till varandra. Eleven visar grundläggande kunskaper om naturliga tal och beskriver tals inbördes relation samt delar upp tal. Eleven visar grundläggande kunskaper om tal i bråkform och delar upp helheter i delar samt jämför och namnger delarna som enkla bråk. Eleven använder och beskriver geometriska mönster och mönster i talföljder. Dessutom använder eleven grundläggande geometriska begrepp och vanliga lägesord för att beskriva geometriska objekts egenskaper, läge och inbördes relationer. Eleven använder och ger exempel på enkla proportionella samband.</p> <p>Eleven väljer och använder i huvudsak fungerande matematiska metoder för att göra enkla beräkningar med naturliga tal och lösa enkla rutinuppgifter med tillfredsställande säkerhet. Eleven använder huvudräkning för att genomföra beräkningar med de fyra räknesätten. Vid addition och subtraktion väljer och använder eleven skriftliga räknemetoder med tillfredsställande säkerhet. Eleven hanterar enkla matematiska likheter och använder då likhetstecknet på ett fungerande sätt. Eleven avbildar och, utifrån instruktioner, konstruerar enkla geometriska objekt. Eleven gör enkla mätningar, jämförelser och uppskattningar av längder, massor, volymer och tider och använder vanliga måttenheter. Vid olika undersökningar avläser och skapar eleven enkla tabeller och diagram för att sortera och redovisa resultat.</p> <p>Eleven löser enkla problem genom att välja och använda någon strategi med viss anpassning till problemets karaktär. Eleven beskriver tillvägagångssätt och ger enkla omdömen om resultatens rimlighet.</p> <p>Eleven för och följer matematiska resonemang genom att ställa och besvara frågor som i huvudsak hör till ämnet.</p> <p>Eleven beskriver och samtalar om tillvägagångssätt på ett i huvudsak fungerande sätt och använder då konkret material, bilder, symboler och andra matematiska uttrycksformer.</p>"
+      }
+    ],
+    "noneForRequestedGrade": false
+  }
+}

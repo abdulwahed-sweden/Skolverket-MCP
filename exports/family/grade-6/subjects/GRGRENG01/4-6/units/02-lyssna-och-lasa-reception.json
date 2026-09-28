@@ -1,0 +1,49 @@
+{
+  "subjectCode": "GRGRENG01",
+  "subjectName": "Engelska",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRENG01/4-6/lyssna-och-lasa-reception",
+    "title": "Lyssna och läsa – reception",
+    "contentPoints": [
+      {
+        "id": "GRGRENG01/4-6/lyssna-och-lasa-reception/1",
+        "text": "Tydligt talad engelska och enkla texter som är instruerande, beskrivande och kontaktskapande, från olika medier."
+      },
+      {
+        "id": "GRGRENG01/4-6/lyssna-och-lasa-reception/2",
+        "text": "Dialoger, samtal och intervjuer."
+      },
+      {
+        "id": "GRGRENG01/4-6/lyssna-och-lasa-reception/3",
+        "text": "Berättelser och annan fiktion för barn och unga, även i talad eller dramatiserad form."
+      },
+      {
+        "id": "GRGRENG01/4-6/lyssna-och-lasa-reception/4",
+        "text": "Sånger, dikter och sagor."
+      },
+      {
+        "id": "GRGRENG01/4-6/lyssna-och-lasa-reception/5",
+        "text": "Muntliga och skriftliga meddelanden samt information, till exempel reklam, tidtabeller och notiser."
+      },
+      {
+        "id": "GRGRENG01/4-6/lyssna-och-lasa-reception/6",
+        "text": "Strategier för att uppfatta betydelsebärande ord och sammanhang samt för att anpassa lyssnande och läsning till framställningens form och innehåll."
+      },
+      {
+        "id": "GRGRENG01/4-6/lyssna-och-lasa-reception/7",
+        "text": "Sökning av enkel information i ett avgränsat urval av muntliga och skriftliga källor av olika slag för användning i egen produktion och interaktion."
+      },
+      {
+        "id": "GRGRENG01/4-6/lyssna-och-lasa-reception/8",
+        "text": "Språkliga företeelser, däribland uttal, ord och fasta språkliga uttryck, grammatiska strukturer samt stavning, i det språk eleverna möter."
+      },
+      {
+        "id": "GRGRENG01/4-6/lyssna-och-lasa-reception/9",
+        "text": "Hur olika formuleringar används för att inleda och avsluta olika typer av framställningar och samtal."
+      }
+    ]
+  }
+}

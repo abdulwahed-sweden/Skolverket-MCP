@@ -1,0 +1,150 @@
+{
+  "subjectCode": "GRGRHIS01",
+  "subjectName": "Historia",
+  "curriculumCode": "LGR22",
+  "stage": "7-9",
+  "assessment": {
+    "assessmentYear": "9",
+    "criteria": [
+      {
+        "year": "9",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 9",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Till detta hör att eleven visar kunskaper om särskilt centrala historiska skeenden, däribland Förintelsen. Eleven för enkla resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors levnadsvillkor och handlingar i förfluten tid. Eleven för enkla resonemang om kontinuitet och förändring utifrån några långa historiska linjer.",
+          "Eleven ställer frågor till historiska källor och för enkla resonemang om vad källorna kan berätta om det förflutna samt om källornas relevans och trovärdighet.",
+          "Eleven för enkla resonemang om hur historia kan brukas i olika sammanhang och för olika syften."
+        ],
+        "valueWords": [
+          "grundläggande",
+          "enkla"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 9</h3><p>Eleven visar <strong>grundläggande</strong> kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Till detta hör att eleven visar kunskaper om särskilt centrala historiska skeenden, däribland Förintelsen. Eleven för <strong>enkla </strong>resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors levnadsvillkor och handlingar i förfluten tid. Eleven för <strong>enkla</strong> resonemang om kontinuitet och förändring utifrån några långa historiska linjer.</p> <p>Eleven ställer frågor till historiska källor och för <strong>enkla</strong> resonemang om vad källorna kan berätta om det förflutna samt om källornas relevans och trovärdighet.</p> <p>Eleven för <strong>enkla</strong> resonemang om hur historia kan brukas i olika sammanhang och för olika syften.</p>"
+      },
+      {
+        "year": "9",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 9",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 9</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "9",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 9",
+        "paragraphs": [
+          "Eleven visar goda kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Till detta hör att eleven visar kunskaper om särskilt centrala historiska skeenden, däribland Förintelsen. Eleven för utvecklade resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors levnadsvillkor och handlingar i förfluten tid. Eleven för också utvecklade resonemang om kontinuitet och förändring utifrån några långa historiska linjer.",
+          "Eleven ställer frågor till historiska källor och för utvecklade resonemang om vad källorna kan berätta om det förflutna samt om källornas relevans och trovärdighet.",
+          "Eleven för utvecklade resonemang om hur historia kan brukas i olika sammanhang och för olika syften."
+        ],
+        "valueWords": [
+          "goda",
+          "utvecklade"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 9</h3><p>Eleven visar <strong>goda</strong> kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Till detta hör att eleven visar kunskaper om särskilt centrala historiska skeenden, däribland Förintelsen. Eleven för <strong>utvecklade </strong>resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors levnadsvillkor och handlingar i förfluten tid. Eleven för också <strong>utvecklade </strong>resonemang om kontinuitet och förändring utifrån några långa historiska linjer.</p> <p>Eleven ställer frågor till historiska källor och för <strong>utvecklade</strong> resonemang om vad källorna kan berätta om det förflutna samt om källornas relevans och trovärdighet.</p> <p>Eleven för <strong>utvecklade</strong> resonemang om hur historia kan brukas i olika sammanhang och för olika syften.</p>"
+      },
+      {
+        "year": "9",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 9",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 9</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "9",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 9",
+        "paragraphs": [
+          "Eleven visar mycket goda kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Till detta hör att eleven visar kunskaper om särskilt centrala historiska skeenden, däribland Förintelsen. Eleven för välutvecklade resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors levnadsvillkor och handlingar i förfluten tid. Eleven för också välutvecklade resonemang om kontinuitet och förändring utifrån några långa historiska linjer.",
+          "Eleven ställer frågor till historiska källor och för välutvecklade resonemang om vad källorna kan berätta om det förflutna samt om källornas relevans och trovärdighet.",
+          "Eleven för välutvecklade resonemang om hur historia kan brukas i olika sammanhang och för olika syften."
+        ],
+        "valueWords": [
+          "mycket goda",
+          "välutvecklade"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 9</h3><p>Eleven visar <strong>mycket goda</strong> kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Till detta hör att eleven visar kunskaper om särskilt centrala historiska skeenden, däribland Förintelsen. Eleven för <strong>välutvecklade </strong>resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors levnadsvillkor och handlingar i förfluten tid. Eleven för också <strong>välutvecklade </strong>resonemang om kontinuitet och förändring utifrån några långa historiska linjer.</p> <p>Eleven ställer frågor till historiska källor och för <strong>välutvecklade</strong> resonemang om vad källorna kan berätta om det förflutna samt om källornas relevans och trovärdighet.</p> <p>Eleven för <strong>välutvecklade</strong> resonemang om hur historia kan brukas i olika sammanhang och för olika syften.</p>"
+      }
+    ],
+    "priorStageBaseline": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Eleven för enkla resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors handlingar i förfluten tid. Eleven för också enkla resonemang om likheter och skillnader i människors levnadsvillkor under olika tidsperioder.",
+          "Eleven ställer frågor till historiska källor, beskriver vad som kan vara en historisk källa och ger något exempel på vad källorna kan berätta om det förflutna.",
+          "Eleven ger exempel på hur historia kan brukas i något sammanhang."
+        ],
+        "valueWords": [
+          "grundläggande",
+          "enkla",
+          "något"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven visar <strong>grundläggande</strong> kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Eleven för<strong> enkla </strong>resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors handlingar i förfluten tid. Eleven för också <strong>enkla</strong> resonemang om likheter och skillnader i människors levnadsvillkor under olika tidsperioder.</p> <p>Eleven ställer frågor till historiska källor, beskriver vad som kan vara en historisk källa och ger <strong>något</strong> exempel på vad källorna kan berätta om det förflutna.</p> <p>Eleven ger exempel på hur historia kan brukas i <strong>något</strong> sammanhang.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar goda kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Eleven för utvecklade resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors handlingar i förfluten tid. Eleven för också utvecklade resonemang om likheter och skillnader i människors levnadsvillkor under olika tidsperioder.",
+          "Eleven ställer frågor till historiska källor, beskriver vad som kan vara en historisk källa och ger några exempel på vad källorna kan berätta om det förflutna.",
+          "Eleven ger exempel på hur historia kan brukas i olika sammanhang."
+        ],
+        "valueWords": [
+          "goda",
+          "utvecklade",
+          "några",
+          "olika"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven visar <strong>goda</strong> kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Eleven för<strong> utvecklade </strong>resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors handlingar i förfluten tid. Eleven för också <strong>utvecklade </strong>resonemang om likheter och skillnader i människors levnadsvillkor under olika tidsperioder.</p> <p>Eleven ställer frågor till historiska källor, beskriver vad som kan vara en historisk källa och ger <strong>några </strong>exempel på vad källorna kan berätta om det förflutna.</p> <p>Eleven ger exempel på hur historia kan brukas i <strong>olika</strong> sammanhang.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar mycket goda kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Eleven för välutvecklade resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors handlingar i förfluten tid. Eleven för också välutvecklade resonemang om likheter och skillnader i människors levnadsvillkor under olika tidsperioder.",
+          "Eleven ställer frågor till historiska källor, beskriver vad som kan vara en historisk källa och ger några välgrundade exempel på vad källorna kan berätta om det förflutna.",
+          "Eleven ger exempel på hur och i vilket syfte historia kan brukas i olika sammanhang."
+        ],
+        "valueWords": [
+          "mycket goda",
+          "välutvecklade",
+          "några välgrundade",
+          "och i vilket syfte",
+          "olika"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven visar <strong>mycket goda</strong> kunskaper om händelser, aktörer och förändringsprocesser under olika tidsperioder samt om historiska begrepp. Eleven för<strong> välutvecklade </strong>resonemang om orsaker till och konsekvenser av samhällsförändringar och av människors handlingar i förfluten tid. Eleven för också <strong>välutvecklade </strong>resonemang om likheter och skillnader i människors levnadsvillkor under olika tidsperioder.</p> <p>Eleven ställer frågor till historiska källor, beskriver vad som kan vara en historisk källa och ger <strong>några välgrundade</strong> exempel på vad källorna kan berätta om det förflutna.</p> <p>Eleven ger exempel på hur <strong>och i vilket syfte </strong>historia kan brukas i <strong>olika </strong>sammanhang.</p>"
+      }
+    ],
+    "noneForRequestedGrade": false
+  }
+}

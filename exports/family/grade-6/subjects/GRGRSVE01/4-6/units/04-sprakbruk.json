@@ -1,0 +1,29 @@
+{
+  "subjectCode": "GRGRSVE01",
+  "subjectName": "Svenska",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRSVE01/4-6/sprakbruk",
+    "title": "Språkbruk",
+    "contentPoints": [
+      {
+        "id": "GRGRSVE01/4-6/sprakbruk/1",
+        "text": "Språkliga strategier för att minnas och lära, till exempel grafiska modeller och stödord."
+      },
+      {
+        "id": "GRGRSVE01/4-6/sprakbruk/2",
+        "text": "Ord och begrepp för att på ett varierat sätt uttrycka känslor, kunskaper och åsikter. Ords och begrepps nyanser och värdeladdning."
+      },
+      {
+        "id": "GRGRSVE01/4-6/sprakbruk/3",
+        "text": "Formellt och informellt språk. Skillnader i språkanvändning beroende på mottagare, syfte och sammanhang. Ansvarsfullt agerande vid kommunikation i digitala och andra medier."
+      },
+      {
+        "id": "GRGRSVE01/4-6/sprakbruk/4",
+        "text": "Språkbruk i Sverige och Norden. Några svenska dialekter. De nordiska grannspråken. De nationella minoritetsspråken i Sverige."
+      }
+    ]
+  }
+}

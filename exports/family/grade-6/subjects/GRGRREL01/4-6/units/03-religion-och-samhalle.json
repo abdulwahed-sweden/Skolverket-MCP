@@ -1,0 +1,25 @@
+{
+  "subjectCode": "GRGRREL01",
+  "subjectName": "Religionskunskap",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRREL01/4-6/religion-och-samhalle",
+    "title": "Religion och samhälle",
+    "contentPoints": [
+      {
+        "id": "GRGRREL01/4-6/religion-och-samhalle/1",
+        "text": "Hur religioner framställs och representeras på olika sätt i media och i andra sammanhang och hur det kan påverka människors bilder av sig själva och andra."
+      },
+      {
+        "id": "GRGRREL01/4-6/religion-och-samhalle/2",
+        "text": "Kristendomens betydelse för värderingar och kultur i det svenska samhället förr och nu."
+      },
+      {
+        "id": "GRGRREL01/4-6/religion-och-samhalle/3",
+        "text": "Människors religiösa och livsåskådningsmässiga tillhörigheter i Sverige i dag samt hur detta har förändrats över tid."
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "subjectCode": "GRGRHKK01",
+  "subjectName": "Hem- och konsumentkunskap",
+  "curriculumCode": "LGR22",
+  "stage": "1-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRHKK01/1-6/mat-och-matlagning",
+    "title": "Mat och matlagning",
+    "contentPoints": [
+      {
+        "id": "GRGRHKK01/1-6/mat-och-matlagning/1",
+        "text": "Matlagning för olika sammanhang."
+      },
+      {
+        "id": "GRGRHKK01/1-6/mat-och-matlagning/2",
+        "text": "Enkla metoder för matlagning, däribland bakning. Att planera, organisera och utvärdera arbetet."
+      },
+      {
+        "id": "GRGRHKK01/1-6/mat-och-matlagning/3",
+        "text": "Enkla instruktioner och recept. Hur de kan läsas och följas samt vanliga begrepp för matlagning."
+      },
+      {
+        "id": "GRGRHKK01/1-6/mat-och-matlagning/4",
+        "text": "Samtal om upplevelser av smak, doft, konsistens och textur i samband med matlagning."
+      },
+      {
+        "id": "GRGRHKK01/1-6/mat-och-matlagning/5",
+        "text": "Redskap och teknisk utrustning som kan användas vid matlagning och hur dessa används på ett funktionellt och säkert sätt."
+      },
+      {
+        "id": "GRGRHKK01/1-6/mat-och-matlagning/6",
+        "text": "Hygien och livsmedelssäkerhet i samband med hantering, tillagning och förvaring av livsmedel."
+      }
+    ]
+  }
+}

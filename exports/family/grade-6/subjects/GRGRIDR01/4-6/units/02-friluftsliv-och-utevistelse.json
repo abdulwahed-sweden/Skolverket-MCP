@@ -1,0 +1,29 @@
+{
+  "subjectCode": "GRGRIDR01",
+  "subjectName": "Idrott och hälsa",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRIDR01/4-6/friluftsliv-och-utevistelse",
+    "title": "Friluftsliv och utevistelse",
+    "contentPoints": [
+      {
+        "id": "GRGRIDR01/4-6/friluftsliv-och-utevistelse/1",
+        "text": "Att orientera sig i den närliggande natur- och utemiljön med hjälp av kartor, såväl med som utan stöd av digitala verktyg. Kartors uppbyggnad och symboler."
+      },
+      {
+        "id": "GRGRIDR01/4-6/friluftsliv-och-utevistelse/2",
+        "text": "Utforskande av möjligheter till och genomförande av friluftsaktiviteter, lekar och rörelser i skiftande natur- och utemiljöer under olika årstider."
+      },
+      {
+        "id": "GRGRIDR01/4-6/friluftsliv-och-utevistelse/3",
+        "text": "Rättigheter och skyldigheter i naturen enligt allemansrätten och dess tillämpning i praktiken."
+      },
+      {
+        "id": "GRGRIDR01/4-6/friluftsliv-och-utevistelse/4",
+        "text": "Badvett och säkerhet vid vatten under olika årstider. Hantering av nödsituationer vid vatten med hjälpredskap."
+      }
+    ]
+  }
+}

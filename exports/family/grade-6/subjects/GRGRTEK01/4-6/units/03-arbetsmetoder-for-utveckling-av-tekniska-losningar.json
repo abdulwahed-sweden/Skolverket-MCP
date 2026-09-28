@@ -1,0 +1,29 @@
+{
+  "subjectCode": "GRGRTEK01",
+  "subjectName": "Teknik",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRTEK01/4-6/arbetsmetoder-for-utveckling-av-tekniska-losningar",
+    "title": "Arbetsmetoder för utveckling av tekniska lösningar",
+    "contentPoints": [
+      {
+        "id": "GRGRTEK01/4-6/arbetsmetoder-for-utveckling-av-tekniska-losningar/1",
+        "text": "Teknikutvecklingsarbetets olika faser: identifiering av behov, undersökning, förslag till lösningar, konstruktion och utprövning."
+      },
+      {
+        "id": "GRGRTEK01/4-6/arbetsmetoder-for-utveckling-av-tekniska-losningar/2",
+        "text": "Egna konstruktioner där man använder mekanismer, elektriska kopplingar samt hållfasta och stabila strukturer."
+      },
+      {
+        "id": "GRGRTEK01/4-6/arbetsmetoder-for-utveckling-av-tekniska-losningar/3",
+        "text": "Styrning av egna konstruktioner eller andra föremål med programmering."
+      },
+      {
+        "id": "GRGRTEK01/4-6/arbetsmetoder-for-utveckling-av-tekniska-losningar/4",
+        "text": "Dokumentation av tekniska lösningar: skisser med vyer och måttangivelser, ord samt fysiska och digitala modeller."
+      }
+    ]
+  }
+}

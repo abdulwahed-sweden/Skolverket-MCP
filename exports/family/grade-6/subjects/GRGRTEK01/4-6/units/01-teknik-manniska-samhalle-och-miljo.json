@@ -1,0 +1,25 @@
+{
+  "subjectCode": "GRGRTEK01",
+  "subjectName": "Teknik",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRTEK01/4-6/teknik-manniska-samhalle-och-miljo",
+    "title": "Teknik, människa, samhälle och miljö",
+    "contentPoints": [
+      {
+        "id": "GRGRTEK01/4-6/teknik-manniska-samhalle-och-miljo/1",
+        "text": "Några tekniska system och hur de påverkar människa och miljö, till exempel vatten- och avloppssystem och system för återvinning. Hur systemen har förändrats över tid och några orsaker till detta."
+      },
+      {
+        "id": "GRGRTEK01/4-6/teknik-manniska-samhalle-och-miljo/2",
+        "text": "Möjligheter, risker och säkerhet vid teknikanvändning i vardagen, till exempel vid användning av elektricitet och vid överföring av information i digitala miljöer."
+      },
+      {
+        "id": "GRGRTEK01/4-6/teknik-manniska-samhalle-och-miljo/3",
+        "text": "Konsekvenser av teknikval: olika tekniska lösningars för- och nackdelar för människa och miljö."
+      }
+    ]
+  }
+}

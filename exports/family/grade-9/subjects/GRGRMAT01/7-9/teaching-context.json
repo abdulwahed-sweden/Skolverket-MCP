@@ -1,0 +1,400 @@
+{
+  "subjectCode": "GRGRMAT01",
+  "subjectName": "Matematik",
+  "schoolType": "GR",
+  "curriculumCode": "LGR22",
+  "stage": {
+    "id": "7-9",
+    "years": [
+      7,
+      8,
+      9
+    ],
+    "requestedGrade": 9,
+    "gradeIsExplicitInApi": false,
+    "assessmentYear": "9"
+  },
+  "units": [
+    {
+      "id": "GRGRMAT01/7-9/taluppfattning-och-tals-anvandning",
+      "title": "Taluppfattning och tals användning",
+      "contentPoints": [
+        {
+          "id": "GRGRMAT01/7-9/taluppfattning-och-tals-anvandning/1",
+          "text": "Reella tal och deras egenskaper samt talens användning i matematiska situationer."
+        },
+        {
+          "id": "GRGRMAT01/7-9/taluppfattning-och-tals-anvandning/2",
+          "text": "Talsystemets utveckling från naturliga tal till reella tal."
+        },
+        {
+          "id": "GRGRMAT01/7-9/taluppfattning-och-tals-anvandning/3",
+          "text": "Tal i potensform. Grundpotensform för att uttrycka små och stora tal samt användning av prefix."
+        },
+        {
+          "id": "GRGRMAT01/7-9/taluppfattning-och-tals-anvandning/4",
+          "text": "Matematiska lagar och regler samt deras användning vid beräkningar med tal i bråk-, decimal- och potensform."
+        },
+        {
+          "id": "GRGRMAT01/7-9/taluppfattning-och-tals-anvandning/5",
+          "text": "Metoder för beräkningar med tal i bråk- och decimalform vid överslagsräkning, huvudräkning och skriftlig beräkning. Användning av digitala verktyg vid beräkningar."
+        },
+        {
+          "id": "GRGRMAT01/7-9/taluppfattning-och-tals-anvandning/6",
+          "text": "Rimlighetsbedömning vid uppskattningar och beräkningar."
+        }
+      ]
+    },
+    {
+      "id": "GRGRMAT01/7-9/algebra",
+      "title": "Algebra",
+      "contentPoints": [
+        {
+          "id": "GRGRMAT01/7-9/algebra/1",
+          "text": "Matematiska likheter samt hur likhetstecknet används för att teckna ekvationer och funktioner."
+        },
+        {
+          "id": "GRGRMAT01/7-9/algebra/2",
+          "text": "Variablers användning i algebraiska uttryck, formler, ekvationer och funktioner."
+        },
+        {
+          "id": "GRGRMAT01/7-9/algebra/3",
+          "text": "Metoder för att lösa linjära ekvationer och enkla andragradsekvationer."
+        },
+        {
+          "id": "GRGRMAT01/7-9/algebra/4",
+          "text": "Mönster i talföljder och geometriska mönster samt hur de konstrueras, beskrivs och uttrycks generellt."
+        },
+        {
+          "id": "GRGRMAT01/7-9/algebra/5",
+          "text": "Programmering i visuell och textbaserad programmeringsmiljö. Hur algoritmer skapas, testas och förbättras vid programmering."
+        }
+      ]
+    },
+    {
+      "id": "GRGRMAT01/7-9/geometri",
+      "title": "Geometri",
+      "contentPoints": [
+        {
+          "id": "GRGRMAT01/7-9/geometri/1",
+          "text": "Geometriska objekt samt deras egenskaper och inbördes relationer. Konstruktion av geometriska objekt, såväl med som utan digitala verktyg."
+        },
+        {
+          "id": "GRGRMAT01/7-9/geometri/2",
+          "text": "Metoder för beräkning av area, omkrets och volym hos geometriska objekt, samt enhetsbyten i samband med detta."
+        },
+        {
+          "id": "GRGRMAT01/7-9/geometri/3",
+          "text": "Geometriska satser och formler samt argumentation för deras giltighet."
+        },
+        {
+          "id": "GRGRMAT01/7-9/geometri/4",
+          "text": "Skala vid förminskning och förstoring av två- och tredimensionella objekt."
+        },
+        {
+          "id": "GRGRMAT01/7-9/geometri/5",
+          "text": "Likformighet och kongruens."
+        }
+      ]
+    },
+    {
+      "id": "GRGRMAT01/7-9/sannolikhet-och-statistik",
+      "title": "Sannolikhet och statistik",
+      "contentPoints": [
+        {
+          "id": "GRGRMAT01/7-9/sannolikhet-och-statistik/1",
+          "text": "Sannolikhet och metoder för att beräkna sannolikhet i olika situationer. Bedömningar av risker och chanser utifrån datorsimuleringar och statistiskt material."
+        },
+        {
+          "id": "GRGRMAT01/7-9/sannolikhet-och-statistik/2",
+          "text": "Kombinatoriska principer och hur de kan användas i olika situationer."
+        },
+        {
+          "id": "GRGRMAT01/7-9/sannolikhet-och-statistik/3",
+          "text": "Tabeller, diagram och grafer samt hur de tolkas och används för att beskriva resultat av egna och andras undersökningar, såväl med som utan digitala verktyg."
+        },
+        {
+          "id": "GRGRMAT01/7-9/sannolikhet-och-statistik/4",
+          "text": "Lägesmått och spridningsmått samt hur de används för bedömning av resultat vid statistiska undersökningar."
+        }
+      ]
+    },
+    {
+      "id": "GRGRMAT01/7-9/samband-och-forandring",
+      "title": "Samband och förändring",
+      "contentPoints": [
+        {
+          "id": "GRGRMAT01/7-9/samband-och-forandring/1",
+          "text": "Proportionalitet och hur det används för att uttrycka skala, likformighet och förändring."
+        },
+        {
+          "id": "GRGRMAT01/7-9/samband-och-forandring/2",
+          "text": "Härledda enheter, till exempel km/h och kr/kg."
+        },
+        {
+          "id": "GRGRMAT01/7-9/samband-och-forandring/3",
+          "text": "Procent och förändringsfaktor för att uttrycka förändring samt beräkningar med procent i vardagliga situationer och inom olika ämnesområden."
+        },
+        {
+          "id": "GRGRMAT01/7-9/samband-och-forandring/4",
+          "text": "Räta linjens ekvation och förändringstakt. Användning av räta linjens ekvation för att beskriva samband."
+        },
+        {
+          "id": "GRGRMAT01/7-9/samband-och-forandring/5",
+          "text": "Funktioner och hur de används för att beskriva samband och förändring samt undersöka förändringstakt. Hur funktioner uttrycks i form av grafer, tabeller och funktionsuttryck."
+        }
+      ]
+    },
+    {
+      "id": "GRGRMAT01/7-9/problemlosning",
+      "title": "Problemlösning",
+      "contentPoints": [
+        {
+          "id": "GRGRMAT01/7-9/problemlosning/1",
+          "text": "Strategier för att lösa matematiska problem i olika situationer och inom olika ämnesområden samt värdering av valda strategier och metoder."
+        },
+        {
+          "id": "GRGRMAT01/7-9/problemlosning/2",
+          "text": "Formulering av matematiska frågeställningar utifrån olika situationer och ämnesområden."
+        },
+        {
+          "id": "GRGRMAT01/7-9/problemlosning/3",
+          "text": "Enkla matematiska modeller och hur de kan användas i olika situationer."
+        }
+      ]
+    }
+  ],
+  "stageAssessment": {
+    "assessmentYear": "9",
+    "criteria": [
+      {
+        "year": "9",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 9",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med tillfredsställande säkerhet.",
+          "Eleven väljer och använder i huvudsak fungerande matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med tillfredsställande säkerhet.",
+          "Eleven löser enkla problem. Eleven bidrar till något förslag på alternativt tillvägagångssätt. I samband med problemlösning bidrar eleven till att formulera enkla matematiska modeller som kan tillämpas i sammanhanget. Eleven värderar strategier och resultatens rimlighet på ett enkelt sätt.",
+          "Eleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med enkla matematiska argument.",
+          "Eleven redogör för och samtalar om tillvägagångssätt på ett i huvudsak fungerande sätt och använder då symboler och andra matematiska uttrycksformer."
+        ],
+        "valueWords": [
+          "grundläggande",
+          "tillfredsställande",
+          "i huvudsak",
+          "fungerande",
+          "enkla",
+          "bidrar till",
+          "något",
+          "bidrar",
+          "till att formulera",
+          "enkelt",
+          "i huvudsak fungerande"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 9</h3><p>Eleven visar <strong>grundläggande</strong> kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med <strong>tillfredsställande</strong> säkerhet.</p> <p>Eleven väljer och använder <strong>i huvudsak</strong> <strong>fungerande</strong> matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med <strong>tillfredsställande</strong> säkerhet.</p> <p>Eleven löser<strong> enkla</strong> problem. Eleven <strong>bidrar till</strong> <strong>något</strong> förslag på alternativt tillvägagångssätt. I samband med problemlösning <strong>bidrar</strong> eleven <strong>till att formulera</strong> enkla matematiska modeller som kan tillämpas i sammanhanget. Eleven värderar strategier och resultatens rimlighet på ett <strong>enkelt </strong>sätt.</p> <p>Eleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med <strong>enkla </strong>matematiska argument.</p> <p>Eleven redogör för och samtalar om tillvägagångssätt på ett <strong>i huvudsak fungerande</strong> sätt och använder då symboler och andra matematiska uttrycksformer.</p>"
+      },
+      {
+        "year": "9",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 9",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 9</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "9",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 9",
+        "paragraphs": [
+          "Eleven visar goda kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med god säkerhet.",
+          "Eleven väljer och använder ändamålsenliga matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med god säkerhet.",
+          "Eleven löser relativt komplexa problem. Eleven ger något förslag på alternativt tillvägagångssätt. I samband med problemlösning formulerar eleven enkla matematiska modeller som efter någon bearbetning kan tillämpas i sammanhanget. Eleven värderar strategier och resultatens rimlighet på ett utvecklat sätt.",
+          "Eleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med relativt väl underbyggda matematiska argument.",
+          "Eleven redogör för och samtalar om tillvägagångssätt på ett ändamålsenligt sätt och använder då symboler och andra matematiska uttrycksformer."
+        ],
+        "valueWords": [
+          "goda",
+          "god",
+          "ändamålsenliga",
+          "relativt komplexa",
+          "ger",
+          "något",
+          "formulerar",
+          "efter någon bearbetning",
+          "utvecklat",
+          "relativt väl",
+          "underbyggda",
+          "ändamålsenligt"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 9</h3><p>Eleven visar <strong>goda</strong> kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med <strong>god </strong>säkerhet.</p> <p>Eleven väljer och använder <strong>ändamålsenliga</strong> matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med <strong>god</strong> säkerhet.</p> <p>Eleven löser <strong>relativt komplexa</strong> problem. Eleven <strong>ger</strong> <strong>något</strong> förslag på alternativt tillvägagångssätt. I samband med problemlösning <strong>formulerar</strong> eleven enkla matematiska modeller som <strong>efter någon bearbetning</strong> kan tillämpas i sammanhanget. Eleven värderar strategier och resultatens rimlighet på ett<strong> utvecklat </strong>sätt.</p> <p>Eleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med <strong>relativt väl</strong> <strong>underbyggda</strong> matematiska argument.</p> <p>Eleven redogör för och samtalar om tillvägagångssätt på ett <strong>ändamålsenligt </strong>sätt och använder då symboler och andra matematiska uttrycksformer.</p>"
+      },
+      {
+        "year": "9",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 9",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 9</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "9",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 9",
+        "paragraphs": [
+          "Eleven visar mycket goda kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med mycket god säkerhet.",
+          "Eleven väljer och använder ändamålsenliga och effektiva matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med mycket god säkerhet.",
+          "Eleven löser komplexa problem. Eleven ger förslag på alternativa tillvägagångssätt. I samband med problemlösning formulerar eleven enkla matematiska modeller som kan tillämpas i sammanhanget. Eleven värderar strategier och resultatens rimlighet på ett välutvecklat sätt.",
+          "Eleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med väl underbyggda matematiska argument.",
+          "Eleven redogör för och samtalar om tillvägagångssätt på ett ändamålsenligt och effektivt sätt och använder då symboler och andra matematiska uttrycksformer."
+        ],
+        "valueWords": [
+          "mycket goda",
+          "mycket god",
+          "ändamålsenliga",
+          "och effektiva",
+          "mycket",
+          "god",
+          "komplexa",
+          "ger",
+          "formulerar",
+          "välutvecklat",
+          "väl underbyggda",
+          "ändamålsenligt och effektivt"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 9</h3><p>Eleven visar <strong>mycket goda</strong> kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med <strong>mycket god</strong> säkerhet.</p> <p>Eleven väljer och använder <strong>ändamålsenliga</strong> <strong>och effektiva</strong> matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med <strong>mycket</strong> <strong>god</strong> säkerhet.</p> <p>Eleven löser <strong>komplexa</strong> problem. Eleven <strong>ger</strong> förslag på alternativa tillvägagångssätt. I samband med problemlösning <strong>formulerar</strong> eleven enkla matematiska modeller som kan tillämpas i sammanhanget. Eleven värderar strategier och resultatens rimlighet på ett <strong>välutvecklat </strong>sätt.</p> <p>Eleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med <strong>väl underbyggda</strong> matematiska argument.</p> <p>Eleven redogör för och samtalar om tillvägagångssätt på ett <strong>ändamålsenligt och effektivt </strong>sätt och använder då symboler och andra matematiska uttrycksformer.</p>"
+      }
+    ],
+    "priorStageBaseline": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med tillfredsställande säkerhet.",
+          "Eleven väljer och använder i huvudsak fungerande matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med tillfredsställande säkerhet.",
+          "Eleven löser enkla problem. Eleven bidrar till något förslag på alternativt tillvägagångssätt och värderar resultatens rimlighet.",
+          "Eleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med enkla matematiska argument.",
+          "Eleven redogör för och samtalar om tillvägagångssätt på ett i huvudsak fungerande sätt och använder då symboler och andra matematiska uttrycksformer."
+        ],
+        "valueWords": [
+          "grundläggande",
+          "tillfredsställande",
+          "i huvudsak",
+          "fungerande",
+          "enkla",
+          "bidrar till något",
+          "i huvudsak fungerande"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven visar <strong>grundläggande</strong> kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med <strong>tillfredsställande</strong> säkerhet.</p> <p>Eleven väljer och använder <strong>i huvudsak</strong> <strong>fungerande</strong> matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med <strong>tillfredsställande</strong> säkerhet.</p> <p>Eleven löser <strong>enkla </strong>problem. Eleven <strong>bidrar till något</strong> förslag på alternativt tillvägagångssätt och värderar resultatens rimlighet.</p> <p>Eleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med <strong>enkla </strong>matematiska argument.</p> <p>Eleven redogör för och samtalar om tillvägagångssätt på ett <strong>i huvudsak fungerande</strong> sätt och använder då symboler och andra matematiska uttrycksformer.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar goda kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med god säkerhet.",
+          "Eleven väljer och använder ändamålsenliga matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med god säkerhet.",
+          "Eleven löser relativt komplexa problem. Eleven ger något förslag på alternativt tillvägagångssätt och värderar resultatens rimlighet.",
+          "Eleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med relativt väl underbyggda matematiska argument.",
+          "Eleven redogör för och samtalar om tillvägagångssätt på ett ändamålsenligt sätt och använder då symboler och andra matematiska uttrycksformer."
+        ],
+        "valueWords": [
+          "goda",
+          "god",
+          "ändamålsenliga",
+          "relativt komplexa",
+          "ger något",
+          "relativt väl",
+          "underbyggda",
+          "ändamålsenligt"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven visar<strong> goda</strong> kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med <strong>god </strong>säkerhet.</p> <p>Eleven väljer och använder <strong>ändamålsenliga</strong> matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med <strong>god</strong> säkerhet.</p> <p>Eleven löser <strong>relativt komplexa</strong> problem. Eleven <strong>ger något </strong>förslag på alternativt tillvägagångssätt och värderar resultatens rimlighet.</p> <p>Eleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med <strong>relativt väl</strong> <strong>underbyggda</strong> matematiska argument.</p> <p>Eleven redogör för och samtalar om tillvägagångssätt på ett <strong>ändamålsenligt </strong>sätt och använder då symboler och andra matematiska uttrycksformer.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar mycket goda kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med mycket god säkerhet.",
+          "Eleven väljer och använder ändamålsenliga och effektiva matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med mycket god säkerhet.",
+          "Eleven löser komplexa problem. Eleven ger förslag på alternativa tillvägagångssätt och värderar resultatens rimlighet.",
+          "Eleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med väl underbyggda matematiska argument.",
+          "Eleven redogör för och samtalar om tillvägagångssätt på ett ändamålsenligt och effektivt sätt och använder då symboler och andra matematiska uttrycksformer."
+        ],
+        "valueWords": [
+          "mycket goda",
+          "mycket god",
+          "ändamålsenliga",
+          "och effektiva",
+          "komplexa",
+          "ger",
+          "väl underbyggda",
+          "ändamålsenligt och effektivt"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven visar <strong>mycket goda</strong> kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med <strong>mycket god </strong>säkerhet.</p> <p>Eleven väljer och använder <strong>ändamålsenliga</strong> <strong>och effektiva</strong> matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med<strong> mycket god</strong> säkerhet.</p> <p>Eleven löser <strong>komplexa </strong>problem. Eleven <strong>ger </strong>förslag på alternativa tillvägagångssätt och värderar resultatens rimlighet.</p> <p>Eleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med <strong>väl underbyggda</strong> matematiska argument.</p> <p>Eleven redogör för och samtalar om tillvägagångssätt på ett <strong>ändamålsenligt och effektivt </strong>sätt och använder då symboler och andra matematiska uttrycksformer.</p>"
+      }
+    ],
+    "noneForRequestedGrade": false
+  },
+  "counts": {
+    "units": 6,
+    "contentPoints": 28,
+    "criteria": 5
+  },
+  "provenance": {
+    "apiBaseUrl": "https://api.skolverket.se/syllabus",
+    "apiVersion": "1.16.2-SNAPSHOT",
+    "retrievedForDate": "2026-09-28",
+    "subjectEndpoint": "/v1/subjects/GRGRMAT01",
+    "curriculumEndpoint": "/v1/curriculums/LGR22",
+    "fieldMap": {
+      "subject.*": "subjects/{code} → subject.{code,name,designation,gradeScale,version,...}",
+      "schoolType": "subject.schoolTypes[] (array i API:et, ej en sträng)",
+      "curriculum.*": "curriculums/{code} → curriculum.{code,name,version,startDate}",
+      "stage.id": "subject.centralContents[].year",
+      "stage.years": "härlett ur stage.id genom att expandera intervallet",
+      "stage.assessmentYear": "sista året i stage.id; matchar knowledgeRequirements[].year",
+      "purpose": "subject.purpose (HTML-sträng) + subject.purposeHeading",
+      "centralContentForStage": "subject.centralContents[year === stage.id].text + subject.centralCntHeading",
+      "centralContentForStage.headings": "<h4>/<li> inuti samma text-fält",
+      "relevantAssessmentCriteria.atStageEnd": "subject.knowledgeRequirements[year === stage.assessmentYear]",
+      "relevantAssessmentCriteria.priorStageBaseline": "subject.knowledgeRequirements[year === föregående stadiums slutår]",
+      "*.valueWords": "<strong>-markeringar i knowledgeRequirements[].text"
+    },
+    "availableCentralContentYears": [
+      "1-3",
+      "4-6",
+      "7-9"
+    ],
+    "availableKnowledgeRequirementYears": [
+      "3",
+      "6",
+      "9"
+    ]
+  },
+  "groundedBrief": "# Matematik — I årskurs 7–9\n\n## OM DENNA BRIEF\nAllt läroplansinnehåll nedan är hämtat ordagrant från Skolverkets Syllabus API. Ämne: Matematik (GRGRMAT01). Skolform: GR. Läroplan: LGR22 version 5. Ämnesversion: 14 (SKOLFS 2022:8). Betygsskala: A-F. Hämtat via /v1/subjects/GRGRMAT01 den 2026-09-28.\n\n## VAD SKOLVERKET FAKTISKT ANGER FÖR ÅRSKURS 9\nSkolverket publicerar centralt innehåll per stadium, inte per årskurs. Innehållet nedan gäller hela stadiet årskurs 7-9 (det vill säga årskurs 7, 8, 9) — det finns INGET innehåll som är specifikt för årskurs 9.\nBetygskriterier finns bara för slutet av årskurs 3, 6, 9. För det här stadiet gäller kriterierna i slutet av årskurs 9, vilket ligger efter årskurs 9. Det finns alltså inga kriterier att bedöma en elev i årskurs 9 mot.\n\n## SYFTE (Syfte)\nUndervisningen i ämnet matematik ska syfta till att eleverna utvecklar kunskaper om matematik och matematikens användning i vardagen och inom olika ämnesområden. Undervisningen ska bidra till att eleverna utvecklar intresse för matematik och tilltro till sin förmåga att använda matematik i olika sammanhang. Den ska också ge eleverna möjlighet att uppleva estetiska värden i möten med matematiska mönster, former och samband.\nGenom undervisningen ska eleverna ges förutsättningar att utveckla förtrogenhet med grundläggande matematiska begrepp och metoder och deras användbarhet. Vidare ska eleverna genom undervisningen ges möjligheter att utveckla kunskaper i att använda digitala verktyg och programmering för att kunna undersöka problemställningar och matematiska begrepp, göra beräkningar samt för att presentera och tolka data.\nUndervisningen ska bidra till att eleverna utvecklar kunskaper för att kunna formulera och lösa problem samt reflektera över och värdera valda strategier, modeller och resultat. Eleverna ska även ges förutsättningar att utveckla kunskaper för att kunna tolka vardagliga och matematiska situationer samt för att kunna beskriva och formulera dessa med hjälp av matematikens uttrycksformer.\nUndervisningen ska bidra till att eleverna utvecklar förmågan att argumentera logiskt och föra matematiska resonemang. Eleverna ska genom undervisningen också ges möjlighet att utveckla en förtrogenhet med matematikens uttrycksformer och hur dessa kan användas för att kommunicera om matematik i vardagliga och matematiska sammanhang.\nUndervisningen ska ge eleverna förutsättningar att utveckla kunskaper om historiska sammanhang där viktiga begrepp och metoder i matematiken har utvecklats. Genom undervisningen ska eleverna även ges möjligheter att reflektera över matematikens betydelse, användning och begränsning i vardagslivet, i andra skolämnen och under historiska skeenden och därigenom kunna se matematikens sammanhang och relevans.\nUndervisningen i ämnet matematik ska ge eleverna förutsättningar att utveckla\n\n## CENTRALT INNEHÅLL — I årskurs 7–9\n\n### Taluppfattning och tals användning  [GRGRMAT01/7-9/taluppfattning-och-tals-anvandning]\n- (GRGRMAT01/7-9/taluppfattning-och-tals-anvandning/1) Reella tal och deras egenskaper samt talens användning i matematiska situationer.\n- (GRGRMAT01/7-9/taluppfattning-och-tals-anvandning/2) Talsystemets utveckling från naturliga tal till reella tal.\n- (GRGRMAT01/7-9/taluppfattning-och-tals-anvandning/3) Tal i potensform. Grundpotensform för att uttrycka små och stora tal samt användning av prefix.\n- (GRGRMAT01/7-9/taluppfattning-och-tals-anvandning/4) Matematiska lagar och regler samt deras användning vid beräkningar med tal i bråk-, decimal- och potensform.\n- (GRGRMAT01/7-9/taluppfattning-och-tals-anvandning/5) Metoder för beräkningar med tal i bråk- och decimalform vid överslagsräkning, huvudräkning och skriftlig beräkning. Användning av digitala verktyg vid beräkningar.\n- (GRGRMAT01/7-9/taluppfattning-och-tals-anvandning/6) Rimlighetsbedömning vid uppskattningar och beräkningar.\n\n### Algebra  [GRGRMAT01/7-9/algebra]\n- (GRGRMAT01/7-9/algebra/1) Matematiska likheter samt hur likhetstecknet används för att teckna ekvationer och funktioner.\n- (GRGRMAT01/7-9/algebra/2) Variablers användning i algebraiska uttryck, formler, ekvationer och funktioner.\n- (GRGRMAT01/7-9/algebra/3) Metoder för att lösa linjära ekvationer och enkla andragradsekvationer.\n- (GRGRMAT01/7-9/algebra/4) Mönster i talföljder och geometriska mönster samt hur de konstrueras, beskrivs och uttrycks generellt.\n- (GRGRMAT01/7-9/algebra/5) Programmering i visuell och textbaserad programmeringsmiljö. Hur algoritmer skapas, testas och förbättras vid programmering.\n\n### Geometri  [GRGRMAT01/7-9/geometri]\n- (GRGRMAT01/7-9/geometri/1) Geometriska objekt samt deras egenskaper och inbördes relationer. Konstruktion av geometriska objekt, såväl med som utan digitala verktyg.\n- (GRGRMAT01/7-9/geometri/2) Metoder för beräkning av area, omkrets och volym hos geometriska objekt, samt enhetsbyten i samband med detta.\n- (GRGRMAT01/7-9/geometri/3) Geometriska satser och formler samt argumentation för deras giltighet.\n- (GRGRMAT01/7-9/geometri/4) Skala vid förminskning och förstoring av två- och tredimensionella objekt.\n- (GRGRMAT01/7-9/geometri/5) Likformighet och kongruens.\n\n### Sannolikhet och statistik  [GRGRMAT01/7-9/sannolikhet-och-statistik]\n- (GRGRMAT01/7-9/sannolikhet-och-statistik/1) Sannolikhet och metoder för att beräkna sannolikhet i olika situationer. Bedömningar av risker och chanser utifrån datorsimuleringar och statistiskt material.\n- (GRGRMAT01/7-9/sannolikhet-och-statistik/2) Kombinatoriska principer och hur de kan användas i olika situationer.\n- (GRGRMAT01/7-9/sannolikhet-och-statistik/3) Tabeller, diagram och grafer samt hur de tolkas och används för att beskriva resultat av egna och andras undersökningar, såväl med som utan digitala verktyg.\n- (GRGRMAT01/7-9/sannolikhet-och-statistik/4) Lägesmått och spridningsmått samt hur de används för bedömning av resultat vid statistiska undersökningar.\n\n### Samband och förändring  [GRGRMAT01/7-9/samband-och-forandring]\n- (GRGRMAT01/7-9/samband-och-forandring/1) Proportionalitet och hur det används för att uttrycka skala, likformighet och förändring.\n- (GRGRMAT01/7-9/samband-och-forandring/2) Härledda enheter, till exempel km/h och kr/kg.\n- (GRGRMAT01/7-9/samband-och-forandring/3) Procent och förändringsfaktor för att uttrycka förändring samt beräkningar med procent i vardagliga situationer och inom olika ämnesområden.\n- (GRGRMAT01/7-9/samband-och-forandring/4) Räta linjens ekvation och förändringstakt. Användning av räta linjens ekvation för att beskriva samband.\n- (GRGRMAT01/7-9/samband-och-forandring/5) Funktioner och hur de används för att beskriva samband och förändring samt undersöka förändringstakt. Hur funktioner uttrycks i form av grafer, tabeller och funktionsuttryck.\n\n### Problemlösning  [GRGRMAT01/7-9/problemlosning]\n- (GRGRMAT01/7-9/problemlosning/1) Strategier för att lösa matematiska problem i olika situationer och inom olika ämnesområden samt värdering av valda strategier och metoder.\n- (GRGRMAT01/7-9/problemlosning/2) Formulering av matematiska frågeställningar utifrån olika situationer och ämnesområden.\n- (GRGRMAT01/7-9/problemlosning/3) Enkla matematiska modeller och hur de kan användas i olika situationer.\n\n## BETYGSKRITERIER I SLUTET AV ÅRSKURS 9 (mål framåt, inte bedömning nu)\n\n### Betygskriterier för betyget E i slutet av årskurs 9\nEleven visar grundläggande kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med tillfredsställande säkerhet.\nEleven väljer och använder i huvudsak fungerande matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med tillfredsställande säkerhet.\nEleven löser enkla problem. Eleven bidrar till något förslag på alternativt tillvägagångssätt. I samband med problemlösning bidrar eleven till att formulera enkla matematiska modeller som kan tillämpas i sammanhanget. Eleven värderar strategier och resultatens rimlighet på ett enkelt sätt.\nEleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med enkla matematiska argument.\nEleven redogör för och samtalar om tillvägagångssätt på ett i huvudsak fungerande sätt och använder då symboler och andra matematiska uttrycksformer.\n(Värdeord som Skolverket markerar: grundläggande, tillfredsställande, i huvudsak, fungerande, enkla, bidrar till, något, bidrar, till att formulera, enkelt, i huvudsak fungerande)\n\n### Betygskriterier för betyget D i slutet av årskurs 9\nElevens kunskaper bedöms sammantaget vara mellan C och E.\n\n### Betygskriterier för betyget C i slutet av årskurs 9\nEleven visar goda kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med god säkerhet.\nEleven väljer och använder ändamålsenliga matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med god säkerhet.\nEleven löser relativt komplexa problem. Eleven ger något förslag på alternativt tillvägagångssätt. I samband med problemlösning formulerar eleven enkla matematiska modeller som efter någon bearbetning kan tillämpas i sammanhanget. Eleven värderar strategier och resultatens rimlighet på ett utvecklat sätt.\nEleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med relativt väl underbyggda matematiska argument.\nEleven redogör för och samtalar om tillvägagångssätt på ett ändamålsenligt sätt och använder då symboler och andra matematiska uttrycksformer.\n(Värdeord som Skolverket markerar: goda, god, ändamålsenliga, relativt komplexa, ger, något, formulerar, efter någon bearbetning, utvecklat, relativt väl, underbyggda, ändamålsenligt)\n\n### Betygskriterier för betyget B i slutet av årskurs 9\nElevens kunskaper bedöms sammantaget vara mellan A och C.\n\n### Betygskriterier för betyget A i slutet av årskurs 9\nEleven visar mycket goda kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med mycket god säkerhet.\nEleven väljer och använder ändamålsenliga och effektiva matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med mycket god säkerhet.\nEleven löser komplexa problem. Eleven ger förslag på alternativa tillvägagångssätt. I samband med problemlösning formulerar eleven enkla matematiska modeller som kan tillämpas i sammanhanget. Eleven värderar strategier och resultatens rimlighet på ett välutvecklat sätt.\nEleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med väl underbyggda matematiska argument.\nEleven redogör för och samtalar om tillvägagångssätt på ett ändamålsenligt och effektivt sätt och använder då symboler och andra matematiska uttrycksformer.\n(Värdeord som Skolverket markerar: mycket goda, mycket god, ändamålsenliga, och effektiva, mycket, god, komplexa, ger, formulerar, välutvecklat, väl underbyggda, ändamålsenligt och effektivt)\n\n## FÖREGÅENDE STADIUM (utgångsläge eleven förväntas komma från)\n\n### Betygskriterier för betyget E i slutet av årskurs 6\nEleven visar grundläggande kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med tillfredsställande säkerhet.\nEleven väljer och använder i huvudsak fungerande matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med tillfredsställande säkerhet.\nEleven löser enkla problem. Eleven bidrar till något förslag på alternativt tillvägagångssätt och värderar resultatens rimlighet.\nEleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med enkla matematiska argument.\nEleven redogör för och samtalar om tillvägagångssätt på ett i huvudsak fungerande sätt och använder då symboler och andra matematiska uttrycksformer.\n(Värdeord som Skolverket markerar: grundläggande, tillfredsställande, i huvudsak, fungerande, enkla, bidrar till något, i huvudsak fungerande)\n\n### Betygskriterier för betyget D i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan C och E.\n\n### Betygskriterier för betyget C i slutet av årskurs 6\nEleven visar goda kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med god säkerhet.\nEleven väljer och använder ändamålsenliga matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med god säkerhet.\nEleven löser relativt komplexa problem. Eleven ger något förslag på alternativt tillvägagångssätt och värderar resultatens rimlighet.\nEleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med relativt väl underbyggda matematiska argument.\nEleven redogör för och samtalar om tillvägagångssätt på ett ändamålsenligt sätt och använder då symboler och andra matematiska uttrycksformer.\n(Värdeord som Skolverket markerar: goda, god, ändamålsenliga, relativt komplexa, ger något, relativt väl, underbyggda, ändamålsenligt)\n\n### Betygskriterier för betyget B i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan A och C.\n\n### Betygskriterier för betyget A i slutet av årskurs 6\nEleven visar mycket goda kunskaper om matematiska begrepp samt använder och beskriver begrepp och samband mellan begrepp inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med mycket god säkerhet.\nEleven väljer och använder ändamålsenliga och effektiva matematiska metoder för att göra beräkningar och lösa rutinuppgifter inom områdena taluppfattning och tals användning, algebra, geometri, sannolikhet och statistik samt samband och förändring med mycket god säkerhet.\nEleven löser komplexa problem. Eleven ger förslag på alternativa tillvägagångssätt och värderar resultatens rimlighet.\nEleven för och följer matematiska resonemang genom att framföra och bemöta påståenden med väl underbyggda matematiska argument.\nEleven redogör för och samtalar om tillvägagångssätt på ett ändamålsenligt och effektivt sätt och använder då symboler och andra matematiska uttrycksformer.\n(Värdeord som Skolverket markerar: mycket goda, mycket god, ändamålsenliga, och effektiva, komplexa, ger, väl underbyggda, ändamålsenligt och effektivt)\n\n## REGLER FÖR HANDLEDAREN\n- Undervisa bara inom det centrala innehållet ovan. Behöver du något som inte står där, säg att det ligger utanför läroplanen för det här stadiet.\n- Säg aldrig att Skolverket anger något specifikt för årskurs 9. Det gör Skolverket inte. Val av takt och ordning inom stadiet är lärarens bedömning, inte läroplanens.\n- Skolverket kopplar inte betygskriterier till enskilda punkter i det centrala innehållet. Hitta inte på sådana kopplingar. Kriterierna gäller hela stadiet.\n- Hänvisa till innehåll med id:t i parentes, t.ex. (GRGRMAT01/7-9/taluppfattning-och-tals-anvandning/1).\n- Betygskriterierna beskriver slutet av stadiet. Använd dem som riktning, inte som omdöme om eleven här och nu.\n- Citera läroplanstext ordagrant när du hänvisar till den. Formulera om bara för att förklara."
+}

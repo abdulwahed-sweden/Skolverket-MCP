@@ -1,0 +1,25 @@
+{
+  "subjectCode": "GRGRSAM01",
+  "subjectName": "Samhällskunskap",
+  "curriculumCode": "LGR22",
+  "stage": "7-9",
+  "requestedGrade": 9,
+  "unit": {
+    "id": "GRGRSAM01/7-9/individer-och-gemenskaper",
+    "title": "Individer och gemenskaper",
+    "contentPoints": [
+      {
+        "id": "GRGRSAM01/7-9/individer-och-gemenskaper/1",
+        "text": "Människors identiteter, ekonomiska resurser och möjligheter i samhället och hur dessa kan påverkas av bland annat socioekonomisk bakgrund, kön, ålder och etnicitet. Begreppen makt, rättvisa, jämlikhet och jämställdhet."
+      },
+      {
+        "id": "GRGRSAM01/7-9/individer-och-gemenskaper/2",
+        "text": "Svenska välfärdsstrukturer och hur de fungerar, till exempel sjukvårdssystemet och arbetslöshetsförsäkringen."
+      },
+      {
+        "id": "GRGRSAM01/7-9/individer-och-gemenskaper/3",
+        "text": "Migration till, samt integration och segregation i Sverige i dag."
+      }
+    ]
+  }
+}

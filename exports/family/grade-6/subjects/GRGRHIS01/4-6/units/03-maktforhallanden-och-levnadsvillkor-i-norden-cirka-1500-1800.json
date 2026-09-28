@@ -1,0 +1,33 @@
+{
+  "subjectCode": "GRGRHIS01",
+  "subjectName": "Historia",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRHIS01/4-6/maktforhallanden-och-levnadsvillkor-i-norden-cirka-1500-1800",
+    "title": "Maktförhållanden och levnadsvillkor i Norden, cirka 1500–1800",
+    "contentPoints": [
+      {
+        "id": "GRGRHIS01/4-6/maktforhallanden-och-levnadsvillkor-i-norden-cirka-1500-1800/1",
+        "text": "Kampen om den politiska makten i Norden. Reformationen och framväxten av en stark kungamakt i Sverige. Uppror och motstånd mot kungamakten."
+      },
+      {
+        "id": "GRGRHIS01/4-6/maktforhallanden-och-levnadsvillkor-i-norden-cirka-1500-1800/2",
+        "text": "Det svenska Östersjöväldet. Orsaker till dess uppkomst och upplösning samt konsekvenser för människor runt Östersjön."
+      },
+      {
+        "id": "GRGRHIS01/4-6/maktforhallanden-och-levnadsvillkor-i-norden-cirka-1500-1800/3",
+        "text": "Likheter och skillnader i levnadsvillkor mellan olika grupper i ståndssamhället."
+      },
+      {
+        "id": "GRGRHIS01/4-6/maktforhallanden-och-levnadsvillkor-i-norden-cirka-1500-1800/4",
+        "text": "Vad historiska källor från tidsperioden, till exempel brev, dagböcker och kartor, kan berätta om det förflutna."
+      },
+      {
+        "id": "GRGRHIS01/4-6/maktforhallanden-och-levnadsvillkor-i-norden-cirka-1500-1800/5",
+        "text": "Historiebruk kopplat till tidsperioden, till exempel i gatunamn, minnesmärken och reklam."
+      }
+    ]
+  }
+}

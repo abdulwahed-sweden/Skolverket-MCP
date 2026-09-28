@@ -1,0 +1,29 @@
+{
+  "subjectCode": "GRGRSLJ01",
+  "subjectName": "Slöjd",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRSLJ01/4-6/slojdens-material-verktyg-och-hantverkstekniker",
+    "title": "Slöjdens material, verktyg och hantverkstekniker",
+    "contentPoints": [
+      {
+        "id": "GRGRSLJ01/4-6/slojdens-material-verktyg-och-hantverkstekniker/1",
+        "text": "Metall, textil, trä och andra material. Materialens egenskaper, användningsområden och kombinationsmöjligheter med varandra."
+      },
+      {
+        "id": "GRGRSLJ01/4-6/slojdens-material-verktyg-och-hantverkstekniker/2",
+        "text": "Verktyg, redskap och maskiner, hur de benämns och hur de används på ett säkert och ändamålsenligt sätt."
+      },
+      {
+        "id": "GRGRSLJ01/4-6/slojdens-material-verktyg-och-hantverkstekniker/3",
+        "text": "Enkla former av hantverkstekniker och begrepp som används i samband med dessa."
+      },
+      {
+        "id": "GRGRSLJ01/4-6/slojdens-material-verktyg-och-hantverkstekniker/4",
+        "text": "Skisser, mönster och arbetsbeskrivningar, hur de kan förstås och följas."
+      }
+    ]
+  }
+}

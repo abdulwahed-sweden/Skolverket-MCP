@@ -1,0 +1,21 @@
+{
+  "subjectCode": "GRGRSVE01",
+  "subjectName": "Svenska",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 6,
+  "unit": {
+    "id": "GRGRSVE01/4-6/tala-lyssna-och-samtala",
+    "title": "Tala, lyssna och samtala",
+    "contentPoints": [
+      {
+        "id": "GRGRSVE01/4-6/tala-lyssna-och-samtala/1",
+        "text": "Olika former av samtal. Att lyssna aktivt, ställa frågor, uttrycka tankar och känslor samt resonera och argumentera i olika samtalssituationer och i samband med demokratiska beslutsprocesser."
+      },
+      {
+        "id": "GRGRSVE01/4-6/tala-lyssna-och-samtala/2",
+        "text": "Muntliga presentationer och muntligt berättande för olika mottagare. Disposition med inledning, innehåll och avslutning. Stödord, bilder, digitala medier och verktyg samt andra hjälpmedel för att planera och genomföra en muntlig presentation. Hur gester och kroppsspråk kan påverka en presentation."
+      }
+    ]
+  }
+}

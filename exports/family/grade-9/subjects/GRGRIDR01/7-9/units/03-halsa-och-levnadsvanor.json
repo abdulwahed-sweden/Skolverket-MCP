@@ -1,0 +1,45 @@
+{
+  "subjectCode": "GRGRIDR01",
+  "subjectName": "Idrott och hälsa",
+  "curriculumCode": "LGR22",
+  "stage": "7-9",
+  "requestedGrade": 9,
+  "unit": {
+    "id": "GRGRIDR01/7-9/halsa-och-levnadsvanor",
+    "title": "Hälsa och levnadsvanor",
+    "contentPoints": [
+      {
+        "id": "GRGRIDR01/7-9/halsa-och-levnadsvanor/1",
+        "text": "Planering och genomförande av olika aktiviteter utifrån hur de påverkar olika aspekter av fysisk förmåga och olika aspekter av hälsa."
+      },
+      {
+        "id": "GRGRIDR01/7-9/halsa-och-levnadsvanor/2",
+        "text": "Kroppsideal och normer inom olika rörelsekulturer. Hur de påverkar individers möjligheter till deltagande i olika aktiviteter."
+      },
+      {
+        "id": "GRGRIDR01/7-9/halsa-och-levnadsvanor/3",
+        "text": "Undersökande av möjligheter till daglig rörelse i närmiljön."
+      },
+      {
+        "id": "GRGRIDR01/7-9/halsa-och-levnadsvanor/4",
+        "text": "Dopning och lagar och andra bestämmelser som reglerar förbud mot dopning."
+      },
+      {
+        "id": "GRGRIDR01/7-9/halsa-och-levnadsvanor/5",
+        "text": "Samtal om upplevelser av olika aktiviteter och värdering av hur de påverkar olika aspekter av fysisk förmåga och olika aspekter av hälsa."
+      },
+      {
+        "id": "GRGRIDR01/7-9/halsa-och-levnadsvanor/6",
+        "text": "Förebyggande av skador genom allsidig träning, anpassning av belastning och tekniker för rörelseutföranden."
+      },
+      {
+        "id": "GRGRIDR01/7-9/halsa-och-levnadsvanor/7",
+        "text": "Säkerhet och hänsynstagande i samband med olika aktiviteter."
+      },
+      {
+        "id": "GRGRIDR01/7-9/halsa-och-levnadsvanor/8",
+        "text": "Första hjälpen och hjärt- och lungräddning."
+      }
+    ]
+  }
+}

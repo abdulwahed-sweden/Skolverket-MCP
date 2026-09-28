@@ -1,0 +1,241 @@
+{
+  "subjectCode": "GRGRSAM01",
+  "subjectName": "Samhällskunskap",
+  "schoolType": "GR",
+  "curriculumCode": "LGR22",
+  "stage": {
+    "id": "4-6",
+    "years": [
+      4,
+      5,
+      6
+    ],
+    "requestedGrade": 6,
+    "gradeIsExplicitInApi": false,
+    "assessmentYear": "6"
+  },
+  "units": [
+    {
+      "id": "GRGRSAM01/4-6/undervisningen-i-samhallskunskap-ska-behandla-foljande-centrala-innehall",
+      "title": "Undervisningen i samhällskunskap ska behandla följande centrala innehåll",
+      "contentPoints": []
+    },
+    {
+      "id": "GRGRSAM01/4-6/individer-och-gemenskaper",
+      "title": "Individer och gemenskaper",
+      "contentPoints": [
+        {
+          "id": "GRGRSAM01/4-6/individer-och-gemenskaper/1",
+          "text": "Sociala roller och normer i olika sammanhang, till exempel inom familjen och i vänskapsrelationer. Könsroller, jämställdhet och sexualitet."
+        },
+        {
+          "id": "GRGRSAM01/4-6/individer-och-gemenskaper/2",
+          "text": "Sociala skyddsnät för barn i olika livssituationer, i skolan och i samhället."
+        }
+      ]
+    },
+    {
+      "id": "GRGRSAM01/4-6/samhallsresurser-och-fordelning",
+      "title": "Samhällsresurser och fördelning",
+      "contentPoints": [
+        {
+          "id": "GRGRSAM01/4-6/samhallsresurser-och-fordelning/1",
+          "text": "Privatekonomi och relationen mellan arbete, inkomst och konsumtion."
+        },
+        {
+          "id": "GRGRSAM01/4-6/samhallsresurser-och-fordelning/2",
+          "text": "Det offentligas ekonomi. Vad skatter är och vad kommuner, regioner och stat använder skattemedel till."
+        },
+        {
+          "id": "GRGRSAM01/4-6/samhallsresurser-och-fordelning/3",
+          "text": "Exempel på skilda ekonomiska och sociala villkor för barn, i Sverige och i olika delar av världen."
+        }
+      ]
+    },
+    {
+      "id": "GRGRSAM01/4-6/beslutsfattande-och-politiska-ideer",
+      "title": "Beslutsfattande och politiska idéer",
+      "contentPoints": [
+        {
+          "id": "GRGRSAM01/4-6/beslutsfattande-och-politiska-ideer/1",
+          "text": "Vad demokrati är och hur demokratiska beslut fattas. Hur individer och grupper kan påverka beslut, genom att rösta i allmänna val och till exempel genom elevråd i skolan eller genom att skapa opinion i sociala medier."
+        },
+        {
+          "id": "GRGRSAM01/4-6/beslutsfattande-och-politiska-ideer/2",
+          "text": "Riksdagen och regeringen och deras olika uppdrag. Politiska val och partier i Sverige. Skiljelinjer i några aktuella politiska frågor."
+        }
+      ]
+    },
+    {
+      "id": "GRGRSAM01/4-6/rattigheter-och-rattsskipning",
+      "title": "Rättigheter och rättsskipning",
+      "contentPoints": [
+        {
+          "id": "GRGRSAM01/4-6/rattigheter-och-rattsskipning/1",
+          "text": "Samhällets behov av lagstiftning samt några olika lagar och påföljder. Kriminalitet och möjliga konsekvenser för individ och samhälle."
+        },
+        {
+          "id": "GRGRSAM01/4-6/rattigheter-och-rattsskipning/2",
+          "text": "De mänskliga rättigheterna och deras betydelse, inklusive barnets rättigheter i enlighet med barnkonventionen. Principen om likabehandling, inklusive skydd mot diskriminering."
+        },
+        {
+          "id": "GRGRSAM01/4-6/rattigheter-och-rattsskipning/3",
+          "text": "De nationella minoriteterna judar, romer, urfolket samerna, sverigefinnar och tornedalingar: kultur, historia och rättigheter."
+        }
+      ]
+    },
+    {
+      "id": "GRGRSAM01/4-6/information-och-kommunikation",
+      "title": "Information och kommunikation",
+      "contentPoints": [
+        {
+          "id": "GRGRSAM01/4-6/information-och-kommunikation/1",
+          "text": "Mediernas roll som informationsspridare, opinionsbildare och granskare av samhällets makthavare samt som underhållare."
+        },
+        {
+          "id": "GRGRSAM01/4-6/information-och-kommunikation/2",
+          "text": "Hur digitala och andra medier kan användas ansvarsfullt utifrån sociala, etiska och rättsliga aspekter."
+        }
+      ]
+    },
+    {
+      "id": "GRGRSAM01/4-6/granskning-av-samhallsfragor",
+      "title": "Granskning av samhällsfrågor",
+      "contentPoints": [
+        {
+          "id": "GRGRSAM01/4-6/granskning-av-samhallsfragor/1",
+          "text": "Aktuella samhällsfrågor och olika perspektiv på dessa."
+        },
+        {
+          "id": "GRGRSAM01/4-6/granskning-av-samhallsfragor/2",
+          "text": "Hur budskap, avsändare och syfte kan urskiljas och granskas med ett källkritiskt förhållningssätt i såväl digitala medier som i andra typer av källor som rör samhällsfrågor."
+        }
+      ]
+    }
+  ],
+  "stageAssessment": {
+    "assessmentYear": "6",
+    "criteria": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om demokrati och mänskliga rättigheter.",
+          "Eleven visar grundläggande kunskaper om förhållanden och strukturer i samhället. Eleven beskriver enkla samband inom olika samhällsstrukturer. Eleven för enkla resonemang om hur människor kan påverka och påverkas av förhållanden och strukturer i samhället.",
+          "Eleven för enkla resonemang om samhällsfrågor utifrån kunskaper om förhållanden och strukturer i samhället. Eleven granskar information och åsikter som rör samhällsfrågor i olika källor med enkla källkritiska argument."
+        ],
+        "valueWords": [
+          "grundläggande",
+          "enkla"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven visar <strong>grundläggande</strong> kunskaper om demokrati och mänskliga rättigheter.</p> <p>Eleven visar <strong>grundläggande </strong>kunskaper om förhållanden och strukturer i samhället. Eleven beskriver <strong>enkla</strong> samband inom olika samhällsstrukturer. Eleven för<strong> enkla </strong>resonemang om hur människor kan påverka och påverkas av förhållanden och strukturer i samhället.</p> <p>Eleven för <strong>enkla</strong> resonemang om samhällsfrågor utifrån kunskaper om förhållanden och strukturer i samhället. Eleven granskar information och åsikter som rör samhällsfrågor i olika källor med <strong>enkla</strong> källkritiska argument.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar goda kunskaper om demokrati och mänskliga rättigheter.",
+          "Eleven visar goda kunskaper om förhållanden och strukturer i samhället. Eleven beskriver förhållandevis komplexa samband inom olika samhällsstrukturer. Eleven för utvecklade resonemang om hur människor kan påverka och påverkas av förhållanden och strukturer i samhället.",
+          "Eleven för utvecklade resonemang om samhällsfrågor utifrån kunskaper om förhållanden och strukturer i samhället. Eleven granskar information och åsikter som rör samhällsfrågor i olika källor med relativt välgrundade källkritiska argument."
+        ],
+        "valueWords": [
+          "goda",
+          "förhållandevis komplexa",
+          "utvecklade",
+          "relativt välgrundade"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven visar <strong>goda</strong> kunskaper om demokrati och mänskliga rättigheter.</p> <p>Eleven visar <strong>goda </strong>kunskaper om förhållanden och strukturer i samhället. Eleven beskriver <strong>förhållandevis komplexa</strong> samband inom olika samhällsstrukturer. Eleven för <strong>utvecklade </strong>resonemang om hur människor kan påverka och påverkas av förhållanden och strukturer i samhället.</p> <p>Eleven för <strong>utvecklade</strong> resonemang om samhällsfrågor utifrån kunskaper om förhållanden och strukturer i samhället. Eleven granskar information och åsikter som rör samhällsfrågor i olika källor med <strong>relativt välgrundade</strong> källkritiska argument.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar mycket goda kunskaper om demokrati och mänskliga rättigheter.",
+          "Eleven visar mycket goda kunskaper om förhållanden och strukturer i samhället. Eleven beskriver komplexa samband inom olika samhällsstrukturer. Eleven för välutvecklade resonemang om hur människor kan påverka och påverkas av förhållanden och strukturer i samhället.",
+          "Eleven för välutvecklade resonemang om samhällsfrågor utifrån kunskaper om förhållanden och strukturer i samhället. Eleven granskar information och åsikter som rör samhällsfrågor i olika källor med välgrundade källkritiska argument."
+        ],
+        "valueWords": [
+          "mycket goda",
+          "komplexa",
+          "välutvecklade",
+          "välgrundade"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven visar <strong>mycket goda</strong> kunskaper om demokrati och mänskliga rättigheter.</p> <p>Eleven visar <strong>mycket goda </strong>kunskaper om förhållanden och strukturer i samhället. Eleven beskriver <strong>komplexa</strong> samband inom olika samhällsstrukturer. Eleven för<strong> välutvecklade </strong>resonemang om hur människor kan påverka och påverkas av förhållanden och strukturer i samhället.</p> <p>Eleven för <strong>välutvecklade</strong> resonemang om samhällsfrågor utifrån kunskaper om förhållanden och strukturer i samhället. Eleven granskar information och åsikter som rör samhällsfrågor i olika källor med <strong>välgrundade </strong>källkritiska argument.</p>"
+      }
+    ],
+    "priorStageBaseline": [
+      {
+        "year": "3",
+        "gradeStep": null,
+        "headingText": "Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om geografiska och historiska förhållanden, samhällsförhållanden och religiösa traditioner. Eleven beskriver likheter och skillnader samt orsaker och konsekvenser i sammanhang som är relevanta för ämnena. Eleven samtalar om människors livsfrågor och levnadsvillkor samt om miljöfrågor och andra samhällsfrågor ur olika perspektiv.",
+          "Eleven använder begrepp, metoder och verktyg från de samhällsorienterande ämnena."
+        ],
+        "valueWords": [],
+        "html": "<h3>Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3</h3><p>Eleven visar grundläggande kunskaper om geografiska och historiska förhållanden, samhällsförhållanden och religiösa traditioner. Eleven beskriver likheter och skillnader samt orsaker och konsekvenser i sammanhang som är relevanta för ämnena. Eleven samtalar om människors livsfrågor och levnadsvillkor samt om miljöfrågor och andra samhällsfrågor ur olika perspektiv.</p> <p>Eleven använder begrepp, metoder och verktyg från de samhällsorienterande ämnena.</p>"
+      }
+    ],
+    "noneForRequestedGrade": false
+  },
+  "counts": {
+    "units": 7,
+    "contentPoints": 14,
+    "criteria": 5
+  },
+  "provenance": {
+    "apiBaseUrl": "https://api.skolverket.se/syllabus",
+    "apiVersion": "1.16.2-SNAPSHOT",
+    "retrievedForDate": "2026-09-28",
+    "subjectEndpoint": "/v1/subjects/GRGRSAM01",
+    "curriculumEndpoint": "/v1/curriculums/LGR22",
+    "fieldMap": {
+      "subject.*": "subjects/{code} → subject.{code,name,designation,gradeScale,version,...}",
+      "schoolType": "subject.schoolTypes[] (array i API:et, ej en sträng)",
+      "curriculum.*": "curriculums/{code} → curriculum.{code,name,version,startDate}",
+      "stage.id": "subject.centralContents[].year",
+      "stage.years": "härlett ur stage.id genom att expandera intervallet",
+      "stage.assessmentYear": "sista året i stage.id; matchar knowledgeRequirements[].year",
+      "purpose": "subject.purpose (HTML-sträng) + subject.purposeHeading",
+      "centralContentForStage": "subject.centralContents[year === stage.id].text + subject.centralCntHeading",
+      "centralContentForStage.headings": "<h4>/<li> inuti samma text-fält",
+      "relevantAssessmentCriteria.atStageEnd": "subject.knowledgeRequirements[year === stage.assessmentYear]",
+      "relevantAssessmentCriteria.priorStageBaseline": "subject.knowledgeRequirements[year === föregående stadiums slutår]",
+      "*.valueWords": "<strong>-markeringar i knowledgeRequirements[].text"
+    },
+    "availableCentralContentYears": [
+      "1-3",
+      "4-6",
+      "7-9"
+    ],
+    "availableKnowledgeRequirementYears": [
+      "3",
+      "6",
+      "9"
+    ]
+  },
+  "groundedBrief": "# Samhällskunskap — I årskurs 4–6\n\n## OM DENNA BRIEF\nAllt läroplansinnehåll nedan är hämtat ordagrant från Skolverkets Syllabus API. Ämne: Samhällskunskap (GRGRSAM01). Skolform: GR. Läroplan: LGR22 version 5. Ämnesversion: 14 (SKOLFS 2022:8). Betygsskala: A-F. Hämtat via /v1/subjects/GRGRSAM01 den 2026-09-28.\n\n## VAD SKOLVERKET FAKTISKT ANGER FÖR ÅRSKURS 6\nSkolverket publicerar centralt innehåll per stadium, inte per årskurs. Innehållet nedan gäller hela stadiet årskurs 4-6 (det vill säga årskurs 4, 5, 6) — det finns INGET innehåll som är specifikt för årskurs 6.\nBetygskriterier finns bara för slutet av årskurs 3, 6, 9. För det här stadiet gäller kriterierna i slutet av årskurs 6, vilket ligger efter årskurs 6. Det finns alltså inga kriterier att bedöma en elev i årskurs 6 mot.\n\n## SYFTE (Syfte)\nUndervisningen i ämnet samhällskunskap ska syfta till att eleverna utvecklar förtrogenhet med demokrati och mänskliga rättigheter. Den ska bidra till att eleverna tillägnar sig kunskaper om värden och principer som utmärker ett demokratiskt samhälle samt om demokratiska processer och arbetssätt. På så sätt ska undervisningen ge eleverna förståelse för vad det innebär att vara en aktiv och ansvarstagande medborgare.\nUndervisningen ska bidra till att eleverna utvecklar förståelse för hur individen och samhället påverkar varandra. Därför ska eleverna ges förutsättningar att utveckla kunskaper om sociala, ekonomiska, politiska, rättsliga och mediala förhållanden och strukturer i samhället. Vidare ska undervisningen ge eleverna förutsättningar att utveckla förståelse för sina egna och andras levnadsvillkor och hur de kan påverkas av faktorer som kön och socioekonomisk bakgrund.\nUndervisningen ska ge eleverna förutsättningar att analysera samhällsfrågor ur olika perspektiv samt möjlighet att utveckla förståelse för hur olika intressen och åsikter uppstår och kommer till uttryck. Eleverna ska också ges verktyg att kritiskt granska hur olika aktörer försöker påverka samhällsutvecklingen genom information, ståndpunkter och argument i olika sammanhang och källor. Genom undervisningen ska eleverna vidare ges möjlighet att uttrycka och pröva sina ställningstaganden i möten med andra uppfattningar. Därigenom ska eleverna stimuleras att engagera sig och delta i ett öppet meningsutbyte om samhällsfrågor.\nUndervisningen i ämnet samhällskunskap ska ge eleverna förutsättningar att utveckla\n\n## CENTRALT INNEHÅLL — I årskurs 4–6\n\n### Undervisningen i samhällskunskap ska behandla följande centrala innehåll  [GRGRSAM01/4-6/undervisningen-i-samhallskunskap-ska-behandla-foljande-centrala-innehall]\n\n### Individer och gemenskaper  [GRGRSAM01/4-6/individer-och-gemenskaper]\n- (GRGRSAM01/4-6/individer-och-gemenskaper/1) Sociala roller och normer i olika sammanhang, till exempel inom familjen och i vänskapsrelationer. Könsroller, jämställdhet och sexualitet.\n- (GRGRSAM01/4-6/individer-och-gemenskaper/2) Sociala skyddsnät för barn i olika livssituationer, i skolan och i samhället.\n\n### Samhällsresurser och fördelning  [GRGRSAM01/4-6/samhallsresurser-och-fordelning]\n- (GRGRSAM01/4-6/samhallsresurser-och-fordelning/1) Privatekonomi och relationen mellan arbete, inkomst och konsumtion.\n- (GRGRSAM01/4-6/samhallsresurser-och-fordelning/2) Det offentligas ekonomi. Vad skatter är och vad kommuner, regioner och stat använder skattemedel till.\n- (GRGRSAM01/4-6/samhallsresurser-och-fordelning/3) Exempel på skilda ekonomiska och sociala villkor för barn, i Sverige och i olika delar av världen.\n\n### Beslutsfattande och politiska idéer  [GRGRSAM01/4-6/beslutsfattande-och-politiska-ideer]\n- (GRGRSAM01/4-6/beslutsfattande-och-politiska-ideer/1) Vad demokrati är och hur demokratiska beslut fattas. Hur individer och grupper kan påverka beslut, genom att rösta i allmänna val och till exempel genom elevråd i skolan eller genom att skapa opinion i sociala medier.\n- (GRGRSAM01/4-6/beslutsfattande-och-politiska-ideer/2) Riksdagen och regeringen och deras olika uppdrag. Politiska val och partier i Sverige. Skiljelinjer i några aktuella politiska frågor.\n\n### Rättigheter och rättsskipning  [GRGRSAM01/4-6/rattigheter-och-rattsskipning]\n- (GRGRSAM01/4-6/rattigheter-och-rattsskipning/1) Samhällets behov av lagstiftning samt några olika lagar och påföljder. Kriminalitet och möjliga konsekvenser för individ och samhälle.\n- (GRGRSAM01/4-6/rattigheter-och-rattsskipning/2) De mänskliga rättigheterna och deras betydelse, inklusive barnets rättigheter i enlighet med barnkonventionen. Principen om likabehandling, inklusive skydd mot diskriminering.\n- (GRGRSAM01/4-6/rattigheter-och-rattsskipning/3) De nationella minoriteterna judar, romer, urfolket samerna, sverigefinnar och tornedalingar: kultur, historia och rättigheter.\n\n### Information och kommunikation  [GRGRSAM01/4-6/information-och-kommunikation]\n- (GRGRSAM01/4-6/information-och-kommunikation/1) Mediernas roll som informationsspridare, opinionsbildare och granskare av samhällets makthavare samt som underhållare.\n- (GRGRSAM01/4-6/information-och-kommunikation/2) Hur digitala och andra medier kan användas ansvarsfullt utifrån sociala, etiska och rättsliga aspekter.\n\n### Granskning av samhällsfrågor  [GRGRSAM01/4-6/granskning-av-samhallsfragor]\n- (GRGRSAM01/4-6/granskning-av-samhallsfragor/1) Aktuella samhällsfrågor och olika perspektiv på dessa.\n- (GRGRSAM01/4-6/granskning-av-samhallsfragor/2) Hur budskap, avsändare och syfte kan urskiljas och granskas med ett källkritiskt förhållningssätt i såväl digitala medier som i andra typer av källor som rör samhällsfrågor.\n\n## BETYGSKRITERIER I SLUTET AV ÅRSKURS 6 (mål framåt, inte bedömning nu)\n\n### Betygskriterier för betyget E i slutet av årskurs 6\nEleven visar grundläggande kunskaper om demokrati och mänskliga rättigheter.\nEleven visar grundläggande kunskaper om förhållanden och strukturer i samhället. Eleven beskriver enkla samband inom olika samhällsstrukturer. Eleven för enkla resonemang om hur människor kan påverka och påverkas av förhållanden och strukturer i samhället.\nEleven för enkla resonemang om samhällsfrågor utifrån kunskaper om förhållanden och strukturer i samhället. Eleven granskar information och åsikter som rör samhällsfrågor i olika källor med enkla källkritiska argument.\n(Värdeord som Skolverket markerar: grundläggande, enkla)\n\n### Betygskriterier för betyget D i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan C och E.\n\n### Betygskriterier för betyget C i slutet av årskurs 6\nEleven visar goda kunskaper om demokrati och mänskliga rättigheter.\nEleven visar goda kunskaper om förhållanden och strukturer i samhället. Eleven beskriver förhållandevis komplexa samband inom olika samhällsstrukturer. Eleven för utvecklade resonemang om hur människor kan påverka och påverkas av förhållanden och strukturer i samhället.\nEleven för utvecklade resonemang om samhällsfrågor utifrån kunskaper om förhållanden och strukturer i samhället. Eleven granskar information och åsikter som rör samhällsfrågor i olika källor med relativt välgrundade källkritiska argument.\n(Värdeord som Skolverket markerar: goda, förhållandevis komplexa, utvecklade, relativt välgrundade)\n\n### Betygskriterier för betyget B i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan A och C.\n\n### Betygskriterier för betyget A i slutet av årskurs 6\nEleven visar mycket goda kunskaper om demokrati och mänskliga rättigheter.\nEleven visar mycket goda kunskaper om förhållanden och strukturer i samhället. Eleven beskriver komplexa samband inom olika samhällsstrukturer. Eleven för välutvecklade resonemang om hur människor kan påverka och påverkas av förhållanden och strukturer i samhället.\nEleven för välutvecklade resonemang om samhällsfrågor utifrån kunskaper om förhållanden och strukturer i samhället. Eleven granskar information och åsikter som rör samhällsfrågor i olika källor med välgrundade källkritiska argument.\n(Värdeord som Skolverket markerar: mycket goda, komplexa, välutvecklade, välgrundade)\n\n## FÖREGÅENDE STADIUM (utgångsläge eleven förväntas komma från)\n\n### Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3\nEleven visar grundläggande kunskaper om geografiska och historiska förhållanden, samhällsförhållanden och religiösa traditioner. Eleven beskriver likheter och skillnader samt orsaker och konsekvenser i sammanhang som är relevanta för ämnena. Eleven samtalar om människors livsfrågor och levnadsvillkor samt om miljöfrågor och andra samhällsfrågor ur olika perspektiv.\nEleven använder begrepp, metoder och verktyg från de samhällsorienterande ämnena.\n\n## REGLER FÖR HANDLEDAREN\n- Undervisa bara inom det centrala innehållet ovan. Behöver du något som inte står där, säg att det ligger utanför läroplanen för det här stadiet.\n- Säg aldrig att Skolverket anger något specifikt för årskurs 6. Det gör Skolverket inte. Val av takt och ordning inom stadiet är lärarens bedömning, inte läroplanens.\n- Skolverket kopplar inte betygskriterier till enskilda punkter i det centrala innehållet. Hitta inte på sådana kopplingar. Kriterierna gäller hela stadiet.\n- Hänvisa till innehåll med id:t i parentes, t.ex. (id).\n- Betygskriterierna beskriver slutet av stadiet. Använd dem som riktning, inte som omdöme om eleven här och nu.\n- Citera läroplanstext ordagrant när du hänvisar till den. Formulera om bara för att förklara."
+}

@@ -1,0 +1,286 @@
+{
+  "subjectCode": "GRGRTEK01",
+  "subjectName": "Teknik",
+  "schoolType": "GR",
+  "curriculumCode": "LGR22",
+  "stage": {
+    "id": "7-9",
+    "years": [
+      7,
+      8,
+      9
+    ],
+    "requestedGrade": 9,
+    "gradeIsExplicitInApi": false,
+    "assessmentYear": "9"
+  },
+  "units": [
+    {
+      "id": "GRGRTEK01/7-9/teknik-manniska-samhalle-och-miljo",
+      "title": "Teknik, människa, samhälle och miljö",
+      "contentPoints": [
+        {
+          "id": "GRGRTEK01/7-9/teknik-manniska-samhalle-och-miljo/1",
+          "text": "Internet och några andra globala tekniska system samt deras fördelar, risker och begränsningar."
+        },
+        {
+          "id": "GRGRTEK01/7-9/teknik-manniska-samhalle-och-miljo/2",
+          "text": "Möjligheter, risker och säkerhet vid teknikanvändning i samhället, däribland vid lagring av data."
+        },
+        {
+          "id": "GRGRTEK01/7-9/teknik-manniska-samhalle-och-miljo/3",
+          "text": "Konsekvenser av teknikval utifrån ekologiska, ekonomiska och sociala aspekter av hållbar utveckling."
+        },
+        {
+          "id": "GRGRTEK01/7-9/teknik-manniska-samhalle-och-miljo/4",
+          "text": "Hur tekniken möjliggjort vetenskapliga upptäckter och hur vetenskapen har möjliggjort tekniska innovationer."
+        },
+        {
+          "id": "GRGRTEK01/7-9/teknik-manniska-samhalle-och-miljo/5",
+          "text": "Hur föreställningar om teknik påverkar individers användning av tekniska lösningar och yrkesval."
+        }
+      ]
+    },
+    {
+      "id": "GRGRTEK01/7-9/tekniska-losningar",
+      "title": "Tekniska lösningar",
+      "contentPoints": [
+        {
+          "id": "GRGRTEK01/7-9/tekniska-losningar/1",
+          "text": "Hur komponenter och delsystem benämns och samverkar inom tekniska system, till exempel informations- och kommunikationsteknik och transportsystem."
+        },
+        {
+          "id": "GRGRTEK01/7-9/tekniska-losningar/2",
+          "text": "Tekniska lösningar för styrning och reglering med hjälp av elektronik och olika typer av sensorer. Hur tekniska lösningar som utnyttjar elektronik kan programmeras. Begrepp som används i samband med detta."
+        },
+        {
+          "id": "GRGRTEK01/7-9/tekniska-losningar/3",
+          "text": "Tekniska lösningar för hållfasta och stabila konstruktioner samt betydelsen av materialens egenskaper, till exempel drag- och tryckhållfasthet, hårdhet och elasticitet."
+        },
+        {
+          "id": "GRGRTEK01/7-9/tekniska-losningar/4",
+          "text": "Bearbetning av råvara till färdig produkt och hantering av avfall i någon industriell process, till exempel vid tillverkning av livsmedel och förpackningar."
+        }
+      ]
+    },
+    {
+      "id": "GRGRTEK01/7-9/arbetsmetoder-for-utveckling-av-tekniska-losningar",
+      "title": "Arbetsmetoder för utveckling av tekniska lösningar",
+      "contentPoints": [
+        {
+          "id": "GRGRTEK01/7-9/arbetsmetoder-for-utveckling-av-tekniska-losningar/1",
+          "text": "Teknikutvecklingsarbetets olika faser: identifiering av behov, undersökning, förslag till lösningar, konstruktion och utprövning. Hur faserna i arbetsprocessen samverkar i det egna arbetet och i teknikutvecklingsarbeten i samhället, till exempel inom arkitektur och kollektivtrafik."
+        },
+        {
+          "id": "GRGRTEK01/7-9/arbetsmetoder-for-utveckling-av-tekniska-losningar/2",
+          "text": "Hur digitala verktyg kan användas i teknikutvecklingsarbete, till exempel för att göra ritningar och simuleringar."
+        },
+        {
+          "id": "GRGRTEK01/7-9/arbetsmetoder-for-utveckling-av-tekniska-losningar/3",
+          "text": "Egna konstruktioner där man använder styrning eller reglering med hjälp av programmering."
+        },
+        {
+          "id": "GRGRTEK01/7-9/arbetsmetoder-for-utveckling-av-tekniska-losningar/4",
+          "text": "Dokumentation av tekniska lösningar: skisser, ritningar, fysiska och digitala modeller samt rapporter som beskriver teknikutvecklings- och konstruktionsarbeten."
+        }
+      ]
+    }
+  ],
+  "stageAssessment": {
+    "assessmentYear": "9",
+    "criteria": [
+      {
+        "year": "9",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 9",
+        "paragraphs": [
+          "Eleven för enkla resonemang om val av tekniska lösningar och deras konsekvenser för individ, samhälle och miljö. Eleven beskriver på ett enkelt sätt hur några tekniska lösningar har förändrats över tid och orsaker till förändringarna.",
+          "Eleven undersöker olika tekniska lösningar och förklarar på ett enkelt sätt hur ingående delar samverkar för att uppnå ändamålsenlighet och funktion.",
+          "Eleven genomför teknikutvecklings- och konstruktionsarbeten på ett delvis genomarbetat sätt. I arbetet prövar eleven idéer till lösningar och bidrar till att formulera och välja handlingsalternativ. Eleven gör dokumentationer där intentionen i lösningen till viss del är synliggjord."
+        ],
+        "valueWords": [
+          "enkla",
+          "enkelt",
+          "delvis genomarbetat",
+          "prövar",
+          "bidrar",
+          "till",
+          "till viss del"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 9</h3><p>Eleven för <strong>enkla </strong>resonemang om val av tekniska lösningar och deras konsekvenser för individ, samhälle och miljö. Eleven beskriver på ett<strong> enkelt </strong>sätt hur några tekniska lösningar har förändrats över tid och orsaker till förändringarna.</p> <p>Eleven undersöker olika tekniska lösningar och förklarar på ett<strong> enkelt </strong>sätt hur ingående delar samverkar för att uppnå ändamålsenlighet och funktion.</p> <p>Eleven genomför teknikutvecklings- och konstruktionsarbeten på ett <strong>delvis genomarbetat </strong>sätt. I arbetet <strong>prövar</strong> eleven idéer till lösningar och <strong>bidrar</strong> <strong>till </strong>att formulera och välja handlingsalternativ. Eleven gör dokumentationer där intentionen i lösningen <strong>till viss del </strong>är synliggjord.</p>"
+      },
+      {
+        "year": "9",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 9",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 9</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "9",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 9",
+        "paragraphs": [
+          "Eleven för utvecklade resonemang om val av tekniska lösningar och deras konsekvenser för individ, samhälle och miljö. Eleven beskriver på ett utvecklat sätt hur några tekniska lösningar har förändrats över tid och orsaker till förändringarna.",
+          "Eleven undersöker olika tekniska lösningar och förklarar på ett utvecklat sätt hur ingående delar samverkar för att uppnå ändamålsenlighet och funktion.",
+          "Eleven genomför teknikutvecklings- och konstruktionsarbeten på ett genomarbetat sätt. I arbetet prövar och omprövar eleven idéer till lösningar samt formulerar och väljer handlingsalternativ som med någon bearbetning leder framåt. Eleven gör dokumentationer där intentionen i lösningen är relativt väl synliggjord."
+        ],
+        "valueWords": [
+          "utvecklade",
+          "utvecklat",
+          "genomarbetat",
+          "prövar och omprövar",
+          "som",
+          "med någon bearbetning leder framåt",
+          "relativt väl"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 9</h3><p>Eleven för <strong>utvecklade </strong>resonemang om val av tekniska lösningar och deras konsekvenser för individ, samhälle och miljö. Eleven beskriver på ett<strong> utvecklat </strong>sätt hur några tekniska lösningar har förändrats över tid och orsaker till förändringarna.</p> <p>Eleven undersöker olika tekniska lösningar och förklarar på ett<strong> utvecklat </strong>sätt hur ingående delar samverkar för att uppnå ändamålsenlighet och funktion.</p> <p>Eleven genomför teknikutvecklings- och konstruktionsarbeten på ett <strong>genomarbetat</strong> sätt. I arbetet <strong>prövar och omprövar</strong> eleven idéer till lösningar samt formulerar och väljer handlingsalternativ <strong>som</strong> <strong>med någon bearbetning leder framåt</strong>. Eleven gör dokumentationer där intentionen i lösningen är <strong>relativt väl </strong>synliggjord.</p>"
+      },
+      {
+        "year": "9",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 9",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 9</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "9",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 9",
+        "paragraphs": [
+          "Eleven för välutvecklade resonemang om val av tekniska lösningar och deras konsekvenser för individ, samhälle och miljö. Eleven beskriver på ett välutvecklat sätt hur några tekniska lösningar har förändrats över tid och orsaker till förändringarna.",
+          "Eleven undersöker olika tekniska lösningar och förklarar på ett välutvecklat sätt hur ingående delar samverkar för att uppnå ändamålsenlighet och funktion och visar då på andra liknande lösningar.",
+          "Eleven genomför teknikutvecklings- och konstruktionsarbeten på ett väl genomarbetat sätt. I arbetet prövar och omprövar eleven systematiskt idéer till lösningar samt formulerar och väljer handlingsalternativ som leder framåt. Eleven gör dokumentationer där intentionen i lösningen är väl synliggjord."
+        ],
+        "valueWords": [
+          "välutvecklade",
+          "välutvecklat",
+          "visar då på andra liknande lösningar",
+          "väl genomarbetat",
+          "prövar och omprövar",
+          "systematiskt",
+          "som leder framåt",
+          "väl"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 9</h3><p>Eleven för <strong>välutvecklade </strong>resonemang om val av tekniska lösningar och deras konsekvenser för individ, samhälle och miljö. Eleven beskriver på ett<strong> välutvecklat </strong>sätt hur några tekniska lösningar har förändrats över tid och orsaker till förändringarna.</p> <p>Eleven undersöker olika tekniska lösningar och förklarar på ett<strong> välutvecklat </strong>sätt hur ingående delar samverkar för att uppnå ändamålsenlighet och funktion och<strong> visar då på andra liknande lösningar</strong>.</p> <p>Eleven genomför teknikutvecklings- och konstruktionsarbeten på ett <strong>väl genomarbetat</strong> sätt. I arbetet <strong>prövar och omprövar</strong> eleven <strong>systematiskt</strong> idéer till lösningar samt formulerar och väljer handlingsalternativ <strong>som leder framåt</strong>. Eleven gör dokumentationer där intentionen i lösningen är <strong>väl </strong>synliggjord.</p>"
+      }
+    ],
+    "priorStageBaseline": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven ger exempel på tekniska lösningar och beskriver på ett enkelt sätt några av deras för- och nackdelar för individ och miljö samt hur de har förändrats över tid.",
+          "Eleven undersöker tekniska lösningar och beskriver på ett enkelt sätt hur några delar samverkar för att uppnå ändamålsenlighet och funktion.",
+          "Eleven genomför enkla teknikutvecklings- och konstruktionsarbeten på ett delvis genomarbetat sätt. I arbetet bidrar eleven till att formulera och välja handlingsalternativ. Eleven gör dokumentationer där intentionen i lösningen till viss del är synliggjord."
+        ],
+        "valueWords": [
+          "enkelt",
+          "delvis genomarbetat",
+          "bidrar",
+          "till",
+          "till viss del"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven ger exempel på tekniska lösningar och beskriver på ett <strong>enkelt</strong> sätt några av deras för- och nackdelar för individ och miljö samt hur de har förändrats över tid.</p> <p>Eleven undersöker tekniska lösningar och beskriver på ett<strong> enkelt </strong>sätt hur några delar samverkar för att uppnå ändamålsenlighet och funktion.</p> <p>Eleven genomför enkla teknikutvecklings- och konstruktionsarbeten på ett <strong>delvis genomarbetat </strong>sätt. I arbetet <strong>bidrar</strong> eleven <strong>till </strong>att formulera och välja handlingsalternativ. Eleven gör dokumentationer där intentionen i lösningen <strong>till viss del </strong>är synliggjord.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven ger exempel på tekniska lösningar och beskriver på ett utvecklat sätt några av deras för- och nackdelar för individ och miljö samt hur de har förändrats över tid.",
+          "Eleven undersöker tekniska lösningar och beskriver på ett utvecklat sätt hur några delar samverkar för att uppnå ändamålsenlighet och funktion.",
+          "Eleven genomför enkla teknikutvecklings- och konstruktionsarbeten på ett genomarbetat sätt. I arbetet formulerar och väljer eleven handlingsalternativ som med någon bearbetning leder framåt. Eleven gör dokumentationer där intentionen i lösningen är relativt väl synliggjord."
+        ],
+        "valueWords": [
+          "utvecklat",
+          "genomarbetat",
+          "som med någon bearbetning leder framåt",
+          "relativt väl"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven ger exempel på tekniska lösningar och beskriver på ett <strong>utvecklat</strong> sätt några av deras för- och nackdelar för individ och miljö samt hur de har förändrats över tid.</p> <p>Eleven undersöker tekniska lösningar och beskriver på ett<strong> utvecklat </strong>sätt hur några delar samverkar för att uppnå ändamålsenlighet och funktion.</p> <p>Eleven genomför enkla teknikutvecklings- och konstruktionsarbeten på ett <strong>genomarbetat </strong>sätt. I arbetet formulerar och väljer eleven handlingsalternativ <strong>som med någon bearbetning leder framåt</strong>. Eleven gör dokumentationer där intentionen i lösningen är <strong>relativt väl </strong>synliggjord.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven ger exempel på tekniska lösningar och beskriver på ett välutvecklat sätt några av deras för- och nackdelar för individ och miljö samt hur de har förändrats över tid.",
+          "Eleven undersöker tekniska lösningar och beskriver på ett välutvecklat sätt hur några delar samverkar för att uppnå ändamålsenlighet och funktion.",
+          "Eleven genomför enkla teknikutvecklings- och konstruktionsarbeten på ett väl genomarbetat sätt. I arbetet formulerar och väljer eleven handlingsalternativ som leder framåt. Eleven gör dokumentationer där intentionen i lösningen är väl synliggjord."
+        ],
+        "valueWords": [
+          "välutvecklat",
+          "väl genomarbetat",
+          "som leder framåt",
+          "väl"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven ger exempel på tekniska lösningar och beskriver på ett <strong>välutvecklat </strong>sätt några av deras för- och nackdelar för individ och miljö samt hur de har förändrats över tid.</p> <p>Eleven undersöker tekniska lösningar och beskriver på ett<strong> välutvecklat </strong>sätt hur några delar samverkar för att uppnå ändamålsenlighet och funktion.</p> <p>Eleven genomför enkla teknikutvecklings- och konstruktionsarbeten på ett <strong>väl genomarbetat</strong> sätt. I arbetet formulerar och väljer eleven handlingsalternativ <strong>som leder framåt</strong>. Eleven gör dokumentationer där intentionen i lösningen är <strong>väl </strong>synliggjord.</p>"
+      }
+    ],
+    "noneForRequestedGrade": false
+  },
+  "counts": {
+    "units": 3,
+    "contentPoints": 13,
+    "criteria": 5
+  },
+  "provenance": {
+    "apiBaseUrl": "https://api.skolverket.se/syllabus",
+    "apiVersion": "1.16.2-SNAPSHOT",
+    "retrievedForDate": "2026-09-28",
+    "subjectEndpoint": "/v1/subjects/GRGRTEK01",
+    "curriculumEndpoint": "/v1/curriculums/LGR22",
+    "fieldMap": {
+      "subject.*": "subjects/{code} → subject.{code,name,designation,gradeScale,version,...}",
+      "schoolType": "subject.schoolTypes[] (array i API:et, ej en sträng)",
+      "curriculum.*": "curriculums/{code} → curriculum.{code,name,version,startDate}",
+      "stage.id": "subject.centralContents[].year",
+      "stage.years": "härlett ur stage.id genom att expandera intervallet",
+      "stage.assessmentYear": "sista året i stage.id; matchar knowledgeRequirements[].year",
+      "purpose": "subject.purpose (HTML-sträng) + subject.purposeHeading",
+      "centralContentForStage": "subject.centralContents[year === stage.id].text + subject.centralCntHeading",
+      "centralContentForStage.headings": "<h4>/<li> inuti samma text-fält",
+      "relevantAssessmentCriteria.atStageEnd": "subject.knowledgeRequirements[year === stage.assessmentYear]",
+      "relevantAssessmentCriteria.priorStageBaseline": "subject.knowledgeRequirements[year === föregående stadiums slutår]",
+      "*.valueWords": "<strong>-markeringar i knowledgeRequirements[].text"
+    },
+    "availableCentralContentYears": [
+      "1-3",
+      "4-6",
+      "7-9"
+    ],
+    "availableKnowledgeRequirementYears": [
+      "6",
+      "9"
+    ]
+  },
+  "groundedBrief": "# Teknik — I årskurs 7–9\n\n## OM DENNA BRIEF\nAllt läroplansinnehåll nedan är hämtat ordagrant från Skolverkets Syllabus API. Ämne: Teknik (GRGRTEK01). Skolform: GR. Läroplan: LGR22 version 5. Ämnesversion: 14 (SKOLFS 2022:8). Betygsskala: A-F. Hämtat via /v1/subjects/GRGRTEK01 den 2026-09-28.\n\n## VAD SKOLVERKET FAKTISKT ANGER FÖR ÅRSKURS 9\nSkolverket publicerar centralt innehåll per stadium, inte per årskurs. Innehållet nedan gäller hela stadiet årskurs 7-9 (det vill säga årskurs 7, 8, 9) — det finns INGET innehåll som är specifikt för årskurs 9.\nBetygskriterier finns bara för slutet av årskurs 6, 9. För det här stadiet gäller kriterierna i slutet av årskurs 9, vilket ligger efter årskurs 9. Det finns alltså inga kriterier att bedöma en elev i årskurs 9 mot.\n\n## SYFTE (Syfte)\nUndervisningen i ämnet teknik ska syfta till att eleverna utvecklar intresse för och kunskaper om tekniken som omger oss. Eleverna ska ges möjligheter att utveckla förståelse för att teknik har betydelse för och påverkar människan, samhället och miljön. På så sätt kan eleverna utveckla en teknisk medvetenhet och en förmåga att relatera tekniska lösningar och den egna användningen av teknik till frågor som rör hållbar utveckling. Undervisningen ska ge eleverna möjligheter att reflektera över teknikens historiska utveckling. Därmed får de bättre förutsättningar att förstå samtidens tekniska företeelser, hur tekniken och samhällsutvecklingen påverkar varandra samt hur teknik kan användas på ett ansvarsfullt sätt.\nI undervisningen ska eleverna ges möjligheter att använda ämnets begrepp och att utveckla kunskaper om hur tekniska lösningar används och fungerar. Genom att tekniska lösningar görs synliga och begripliga i undervisningen ges eleverna förutsättningar att orientera sig och agera i en teknikintensiv värld.\nUndervisningen ska ge eleverna förutsättningar att genomföra teknikutvecklings- och konstruktionsarbeten. När eleverna praktiskt får arbeta fram egna tekniska idéer och lösningar på problem och använda teknikens uttrycksformer bidrar det till att eleverna utvecklar förmåga att ta sig an tekniska utmaningar på ett medvetet och innovativt sätt. De ges därmed även möjligheter att utveckla kunskaper om teknikens arbetsmetoder.\nUndervisningen i ämnet teknik ska ge eleverna förutsättningar att utveckla\n\n## CENTRALT INNEHÅLL — I årskurs 7–9\n\n### Teknik, människa, samhälle och miljö  [GRGRTEK01/7-9/teknik-manniska-samhalle-och-miljo]\n- (GRGRTEK01/7-9/teknik-manniska-samhalle-och-miljo/1) Internet och några andra globala tekniska system samt deras fördelar, risker och begränsningar.\n- (GRGRTEK01/7-9/teknik-manniska-samhalle-och-miljo/2) Möjligheter, risker och säkerhet vid teknikanvändning i samhället, däribland vid lagring av data.\n- (GRGRTEK01/7-9/teknik-manniska-samhalle-och-miljo/3) Konsekvenser av teknikval utifrån ekologiska, ekonomiska och sociala aspekter av hållbar utveckling.\n- (GRGRTEK01/7-9/teknik-manniska-samhalle-och-miljo/4) Hur tekniken möjliggjort vetenskapliga upptäckter och hur vetenskapen har möjliggjort tekniska innovationer.\n- (GRGRTEK01/7-9/teknik-manniska-samhalle-och-miljo/5) Hur föreställningar om teknik påverkar individers användning av tekniska lösningar och yrkesval.\n\n### Tekniska lösningar  [GRGRTEK01/7-9/tekniska-losningar]\n- (GRGRTEK01/7-9/tekniska-losningar/1) Hur komponenter och delsystem benämns och samverkar inom tekniska system, till exempel informations- och kommunikationsteknik och transportsystem.\n- (GRGRTEK01/7-9/tekniska-losningar/2) Tekniska lösningar för styrning och reglering med hjälp av elektronik och olika typer av sensorer. Hur tekniska lösningar som utnyttjar elektronik kan programmeras. Begrepp som används i samband med detta.\n- (GRGRTEK01/7-9/tekniska-losningar/3) Tekniska lösningar för hållfasta och stabila konstruktioner samt betydelsen av materialens egenskaper, till exempel drag- och tryckhållfasthet, hårdhet och elasticitet.\n- (GRGRTEK01/7-9/tekniska-losningar/4) Bearbetning av råvara till färdig produkt och hantering av avfall i någon industriell process, till exempel vid tillverkning av livsmedel och förpackningar.\n\n### Arbetsmetoder för utveckling av tekniska lösningar  [GRGRTEK01/7-9/arbetsmetoder-for-utveckling-av-tekniska-losningar]\n- (GRGRTEK01/7-9/arbetsmetoder-for-utveckling-av-tekniska-losningar/1) Teknikutvecklingsarbetets olika faser: identifiering av behov, undersökning, förslag till lösningar, konstruktion och utprövning. Hur faserna i arbetsprocessen samverkar i det egna arbetet och i teknikutvecklingsarbeten i samhället, till exempel inom arkitektur och kollektivtrafik.\n- (GRGRTEK01/7-9/arbetsmetoder-for-utveckling-av-tekniska-losningar/2) Hur digitala verktyg kan användas i teknikutvecklingsarbete, till exempel för att göra ritningar och simuleringar.\n- (GRGRTEK01/7-9/arbetsmetoder-for-utveckling-av-tekniska-losningar/3) Egna konstruktioner där man använder styrning eller reglering med hjälp av programmering.\n- (GRGRTEK01/7-9/arbetsmetoder-for-utveckling-av-tekniska-losningar/4) Dokumentation av tekniska lösningar: skisser, ritningar, fysiska och digitala modeller samt rapporter som beskriver teknikutvecklings- och konstruktionsarbeten.\n\n## BETYGSKRITERIER I SLUTET AV ÅRSKURS 9 (mål framåt, inte bedömning nu)\n\n### Betygskriterier för betyget E i slutet av årskurs 9\nEleven för enkla resonemang om val av tekniska lösningar och deras konsekvenser för individ, samhälle och miljö. Eleven beskriver på ett enkelt sätt hur några tekniska lösningar har förändrats över tid och orsaker till förändringarna.\nEleven undersöker olika tekniska lösningar och förklarar på ett enkelt sätt hur ingående delar samverkar för att uppnå ändamålsenlighet och funktion.\nEleven genomför teknikutvecklings- och konstruktionsarbeten på ett delvis genomarbetat sätt. I arbetet prövar eleven idéer till lösningar och bidrar till att formulera och välja handlingsalternativ. Eleven gör dokumentationer där intentionen i lösningen till viss del är synliggjord.\n(Värdeord som Skolverket markerar: enkla, enkelt, delvis genomarbetat, prövar, bidrar, till, till viss del)\n\n### Betygskriterier för betyget D i slutet av årskurs 9\nElevens kunskaper bedöms sammantaget vara mellan C och E.\n\n### Betygskriterier för betyget C i slutet av årskurs 9\nEleven för utvecklade resonemang om val av tekniska lösningar och deras konsekvenser för individ, samhälle och miljö. Eleven beskriver på ett utvecklat sätt hur några tekniska lösningar har förändrats över tid och orsaker till förändringarna.\nEleven undersöker olika tekniska lösningar och förklarar på ett utvecklat sätt hur ingående delar samverkar för att uppnå ändamålsenlighet och funktion.\nEleven genomför teknikutvecklings- och konstruktionsarbeten på ett genomarbetat sätt. I arbetet prövar och omprövar eleven idéer till lösningar samt formulerar och väljer handlingsalternativ som med någon bearbetning leder framåt. Eleven gör dokumentationer där intentionen i lösningen är relativt väl synliggjord.\n(Värdeord som Skolverket markerar: utvecklade, utvecklat, genomarbetat, prövar och omprövar, som, med någon bearbetning leder framåt, relativt väl)\n\n### Betygskriterier för betyget B i slutet av årskurs 9\nElevens kunskaper bedöms sammantaget vara mellan A och C.\n\n### Betygskriterier för betyget A i slutet av årskurs 9\nEleven för välutvecklade resonemang om val av tekniska lösningar och deras konsekvenser för individ, samhälle och miljö. Eleven beskriver på ett välutvecklat sätt hur några tekniska lösningar har förändrats över tid och orsaker till förändringarna.\nEleven undersöker olika tekniska lösningar och förklarar på ett välutvecklat sätt hur ingående delar samverkar för att uppnå ändamålsenlighet och funktion och visar då på andra liknande lösningar.\nEleven genomför teknikutvecklings- och konstruktionsarbeten på ett väl genomarbetat sätt. I arbetet prövar och omprövar eleven systematiskt idéer till lösningar samt formulerar och väljer handlingsalternativ som leder framåt. Eleven gör dokumentationer där intentionen i lösningen är väl synliggjord.\n(Värdeord som Skolverket markerar: välutvecklade, välutvecklat, visar då på andra liknande lösningar, väl genomarbetat, prövar och omprövar, systematiskt, som leder framåt, väl)\n\n## FÖREGÅENDE STADIUM (utgångsläge eleven förväntas komma från)\n\n### Betygskriterier för betyget E i slutet av årskurs 6\nEleven ger exempel på tekniska lösningar och beskriver på ett enkelt sätt några av deras för- och nackdelar för individ och miljö samt hur de har förändrats över tid.\nEleven undersöker tekniska lösningar och beskriver på ett enkelt sätt hur några delar samverkar för att uppnå ändamålsenlighet och funktion.\nEleven genomför enkla teknikutvecklings- och konstruktionsarbeten på ett delvis genomarbetat sätt. I arbetet bidrar eleven till att formulera och välja handlingsalternativ. Eleven gör dokumentationer där intentionen i lösningen till viss del är synliggjord.\n(Värdeord som Skolverket markerar: enkelt, delvis genomarbetat, bidrar, till, till viss del)\n\n### Betygskriterier för betyget D i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan C och E.\n\n### Betygskriterier för betyget C i slutet av årskurs 6\nEleven ger exempel på tekniska lösningar och beskriver på ett utvecklat sätt några av deras för- och nackdelar för individ och miljö samt hur de har förändrats över tid.\nEleven undersöker tekniska lösningar och beskriver på ett utvecklat sätt hur några delar samverkar för att uppnå ändamålsenlighet och funktion.\nEleven genomför enkla teknikutvecklings- och konstruktionsarbeten på ett genomarbetat sätt. I arbetet formulerar och väljer eleven handlingsalternativ som med någon bearbetning leder framåt. Eleven gör dokumentationer där intentionen i lösningen är relativt väl synliggjord.\n(Värdeord som Skolverket markerar: utvecklat, genomarbetat, som med någon bearbetning leder framåt, relativt väl)\n\n### Betygskriterier för betyget B i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan A och C.\n\n### Betygskriterier för betyget A i slutet av årskurs 6\nEleven ger exempel på tekniska lösningar och beskriver på ett välutvecklat sätt några av deras för- och nackdelar för individ och miljö samt hur de har förändrats över tid.\nEleven undersöker tekniska lösningar och beskriver på ett välutvecklat sätt hur några delar samverkar för att uppnå ändamålsenlighet och funktion.\nEleven genomför enkla teknikutvecklings- och konstruktionsarbeten på ett väl genomarbetat sätt. I arbetet formulerar och väljer eleven handlingsalternativ som leder framåt. Eleven gör dokumentationer där intentionen i lösningen är väl synliggjord.\n(Värdeord som Skolverket markerar: välutvecklat, väl genomarbetat, som leder framåt, väl)\n\n## REGLER FÖR HANDLEDAREN\n- Undervisa bara inom det centrala innehållet ovan. Behöver du något som inte står där, säg att det ligger utanför läroplanen för det här stadiet.\n- Säg aldrig att Skolverket anger något specifikt för årskurs 9. Det gör Skolverket inte. Val av takt och ordning inom stadiet är lärarens bedömning, inte läroplanens.\n- Skolverket kopplar inte betygskriterier till enskilda punkter i det centrala innehållet. Hitta inte på sådana kopplingar. Kriterierna gäller hela stadiet.\n- Hänvisa till innehåll med id:t i parentes, t.ex. (GRGRTEK01/7-9/teknik-manniska-samhalle-och-miljo/1).\n- Betygskriterierna beskriver slutet av stadiet. Använd dem som riktning, inte som omdöme om eleven här och nu.\n- Citera läroplanstext ordagrant när du hänvisar till den. Formulera om bara för att förklara."
+}
