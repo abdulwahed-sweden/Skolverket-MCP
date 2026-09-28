@@ -1,0 +1,38 @@
+name: Export family curriculum
+
+on:
+  push:
+    branches:
+      - feat/skolverket-grounded-tutor
+    paths:
+      - scripts/export-family-curriculum.ts
+      - .github/workflows/export-family-curriculum.yml
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/skolverket-grounded-tutor
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm install --no-audit --no-fund
+      - run: npm run build
+      - run: npx tsx scripts/export-family-curriculum.ts
+      - name: Commit generated family curriculum
+        run: |
+          if git diff --quiet -- exports/family; then
+            echo "No family curriculum changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add exports/family
+          git commit -m "chore(curriculum): export Yara Omar and Esra catalogs"
+          git push
