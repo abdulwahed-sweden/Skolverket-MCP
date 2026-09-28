@@ -1,0 +1,21 @@
+{
+  "subjectCode": "GRGRBIL01",
+  "subjectName": "Bild",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRBIL01/4-6/tekniker-verktyg-och-material",
+    "title": "Tekniker, verktyg och material",
+    "contentPoints": [
+      {
+        "id": "GRGRBIL01/4-6/tekniker-verktyg-och-material/1",
+        "text": "Olika element som bygger upp och skapar rumslighet i två- och tredimensionella bilder, till exempel linjer, färg och hur kombinationer av dessa kan användas i bildskapande arbete."
+      },
+      {
+        "id": "GRGRBIL01/4-6/tekniker-verktyg-och-material/2",
+        "text": "Verktyg och material för teckning, måleri, trycktekniker, tredimensionellt arbete, fotografering, arbete med rörlig bild och digital bildbehandling."
+      }
+    ]
+  }
+}

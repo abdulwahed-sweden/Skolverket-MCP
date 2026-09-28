@@ -1,0 +1,25 @@
+{
+  "subjectCode": "GRGRFYS01",
+  "subjectName": "Fysik",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRFYS01/4-6/systematiska-undersokningar-och-granskning-av-information",
+    "title": "Systematiska undersökningar och granskning av information",
+    "contentPoints": [
+      {
+        "id": "GRGRFYS01/4-6/systematiska-undersokningar-och-granskning-av-information/1",
+        "text": "Observationer och experiment med såväl analoga som digitala verktyg. Planering, utförande, värdering av resultat samt dokumentation med ord, bilder och tabeller."
+      },
+      {
+        "id": "GRGRFYS01/4-6/systematiska-undersokningar-och-granskning-av-information/2",
+        "text": "Några upptäckter inom fysikområdet och deras betydelse för människans levnadsvillkor och syn på naturen."
+      },
+      {
+        "id": "GRGRFYS01/4-6/systematiska-undersokningar-och-granskning-av-information/3",
+        "text": "Kritisk granskning och användning av information som rör fysik."
+      }
+    ]
+  }
+}

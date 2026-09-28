@@ -1,0 +1,33 @@
+{
+  "subjectCode": "GRGRGEO01",
+  "subjectName": "Geografi",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRGEO01/4-6/geografiska-forhallanden-monster-och-processer",
+    "title": "Geografiska förhållanden, mönster och processer",
+    "contentPoints": [
+      {
+        "id": "GRGRGEO01/4-6/geografiska-forhallanden-monster-och-processer/1",
+        "text": "Introduktion till jordens endogena och exogena processer, samt hur dessa formar och förändrar landskapet."
+      },
+      {
+        "id": "GRGRGEO01/4-6/geografiska-forhallanden-monster-och-processer/2",
+        "text": "Jordens naturresurser, till exempel vatten, odlingsmark, skogar och mineraler. Var på jorden olika naturresurser finns och hur människors användning av resurserna påverkar landskapet och människans livsmiljöer."
+      },
+      {
+        "id": "GRGRGEO01/4-6/geografiska-forhallanden-monster-och-processer/3",
+        "text": "Klimat- och vegetationszoner samt på vilka sätt klimatet påverkar människans livsmiljöer."
+      },
+      {
+        "id": "GRGRGEO01/4-6/geografiska-forhallanden-monster-och-processer/4",
+        "text": "Utmärkande drag för några natur- och kulturlandskap i Sverige, Europa och världen."
+      },
+      {
+        "id": "GRGRGEO01/4-6/geografiska-forhallanden-monster-och-processer/5",
+        "text": "Namn och läge på geografiska objekt i Sverige, Europa och världen. Ett urval av hav, sjöar, floder, berg, öknar, regioner, länder och städer."
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "subjectCode": "GRGRFYS01",
+  "subjectName": "Fysik",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRFYS01/4-6/undervisningen-i-fysik-ska-behandla-foljande-centrala-innehall",
+    "title": "Undervisningen i fysik ska behandla följande centrala innehåll",
+    "contentPoints": []
+  }
+}

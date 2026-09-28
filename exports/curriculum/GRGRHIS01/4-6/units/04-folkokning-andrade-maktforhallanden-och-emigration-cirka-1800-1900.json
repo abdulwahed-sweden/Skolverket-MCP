@@ -1,0 +1,33 @@
+{
+  "subjectCode": "GRGRHIS01",
+  "subjectName": "Historia",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRHIS01/4-6/folkokning-andrade-maktforhallanden-och-emigration-cirka-1800-1900",
+    "title": "Folkökning, ändrade maktförhållanden och emigration, cirka 1800–1900",
+    "contentPoints": [
+      {
+        "id": "GRGRHIS01/4-6/folkokning-andrade-maktforhallanden-och-emigration-cirka-1800-1900/1",
+        "text": "Nya maktförhållanden i Sverige och mellan länder i Norden."
+      },
+      {
+        "id": "GRGRHIS01/4-6/folkokning-andrade-maktforhallanden-och-emigration-cirka-1800-1900/2",
+        "text": "Jordbrukets omvandling och den stora folkökningen samt översiktligt om den tidiga industrialiseringen i Sverige. Olika konsekvenser av detta för barns, kvinnors och mäns levnadsvillkor."
+      },
+      {
+        "id": "GRGRHIS01/4-6/folkokning-andrade-maktforhallanden-och-emigration-cirka-1800-1900/3",
+        "text": "Olika orsaker till och konsekvenser av emigrationen från Sverige."
+      },
+      {
+        "id": "GRGRHIS01/4-6/folkokning-andrade-maktforhallanden-och-emigration-cirka-1800-1900/4",
+        "text": "Vad historiska källor från tidsperioden, till exempel kyrkböcker, fotografier och domstolsprotokoll, kan berätta om det förflutna."
+      },
+      {
+        "id": "GRGRHIS01/4-6/folkokning-andrade-maktforhallanden-och-emigration-cirka-1800-1900/5",
+        "text": "Historiebruk kopplat till tidsperioden, till exempel hur historiska händelser och aktörer framställs i böcker och på museer."
+      }
+    ]
+  }
+}

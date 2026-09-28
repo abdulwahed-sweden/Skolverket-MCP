@@ -1,0 +1,206 @@
+{
+  "subjectCode": "GRGRHKK01",
+  "subjectName": "Hem- och konsumentkunskap",
+  "schoolType": "GR",
+  "curriculumCode": "LGR22",
+  "stage": {
+    "id": "1-6",
+    "years": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "requestedGrade": 5,
+    "gradeIsExplicitInApi": false,
+    "assessmentYear": "6"
+  },
+  "units": [
+    {
+      "id": "GRGRHKK01/1-6/mat-och-matlagning",
+      "title": "Mat och matlagning",
+      "contentPoints": [
+        {
+          "id": "GRGRHKK01/1-6/mat-och-matlagning/1",
+          "text": "Matlagning för olika sammanhang."
+        },
+        {
+          "id": "GRGRHKK01/1-6/mat-och-matlagning/2",
+          "text": "Enkla metoder för matlagning, däribland bakning. Att planera, organisera och utvärdera arbetet."
+        },
+        {
+          "id": "GRGRHKK01/1-6/mat-och-matlagning/3",
+          "text": "Enkla instruktioner och recept. Hur de kan läsas och följas samt vanliga begrepp för matlagning."
+        },
+        {
+          "id": "GRGRHKK01/1-6/mat-och-matlagning/4",
+          "text": "Samtal om upplevelser av smak, doft, konsistens och textur i samband med matlagning."
+        },
+        {
+          "id": "GRGRHKK01/1-6/mat-och-matlagning/5",
+          "text": "Redskap och teknisk utrustning som kan användas vid matlagning och hur dessa används på ett funktionellt och säkert sätt."
+        },
+        {
+          "id": "GRGRHKK01/1-6/mat-och-matlagning/6",
+          "text": "Hygien och livsmedelssäkerhet i samband med hantering, tillagning och förvaring av livsmedel."
+        }
+      ]
+    },
+    {
+      "id": "GRGRHKK01/1-6/privatekonomi-och-konsumtion",
+      "title": "Privatekonomi och konsumtion",
+      "contentPoints": [
+        {
+          "id": "GRGRHKK01/1-6/privatekonomi-och-konsumtion/1",
+          "text": "Ungas privatekonomi. Relationen mellan sparande och konsumtion. Olika sätt för att betala och spara."
+        },
+        {
+          "id": "GRGRHKK01/1-6/privatekonomi-och-konsumtion/2",
+          "text": "Skillnaden mellan saklig konsumentinformation och annan påverkan på konsumtionsval. Reklam i olika former, även dolda reklambudskap."
+        },
+        {
+          "id": "GRGRHKK01/1-6/privatekonomi-och-konsumtion/3",
+          "text": "Jämförelser av några vanliga varor utifrån jämförpris."
+        }
+      ]
+    },
+    {
+      "id": "GRGRHKK01/1-6/levnadsvanor",
+      "title": "Levnadsvanor",
+      "contentPoints": [
+        {
+          "id": "GRGRHKK01/1-6/levnadsvanor/1",
+          "text": "Vikten av att äta varierat och balanserat för att må bra. Hur måltider kan fördelas över en dag."
+        },
+        {
+          "id": "GRGRHKK01/1-6/levnadsvanor/2",
+          "text": "Måltidens betydelse för gemenskap. Olika mattraditioner."
+        },
+        {
+          "id": "GRGRHKK01/1-6/levnadsvanor/3",
+          "text": "Resurshushållning av livsmedel och andra förbrukningsvaror i hemmet. Återvinning i hemmet och i närområdet och hur den fungerar."
+        },
+        {
+          "id": "GRGRHKK01/1-6/levnadsvanor/4",
+          "text": "Några olika certifieringar och märkningar av livsmedel och andra varor samt deras betydelse."
+        },
+        {
+          "id": "GRGRHKK01/1-6/levnadsvanor/5",
+          "text": "Rutiner och metoder för rengöring."
+        }
+      ]
+    }
+  ],
+  "stageAssessment": {
+    "assessmentYear": "6",
+    "criteria": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven tillagar enkla måltider och hanterar andra praktiska uppgifter som förekommer i ett hem genom att använda i huvudsak fungerande tillvägagångssätt.",
+          "Eleven ger exempel på olika sätt att spara och betala och beskriver på ett enkelt sätt vad som kan påverka konsumtionsval.",
+          "Eleven värderar på ett enkelt sätt hur val och handlingar som förekommer i ett hem påverkar hälsa, ekonomi och miljö."
+        ],
+        "valueWords": [
+          "i",
+          "huvudsak fungerande",
+          "enkelt"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven tillagar enkla måltider och hanterar andra praktiska uppgifter som förekommer i ett hem genom att använda <strong>i</strong> <strong>huvudsak fungerande</strong> tillvägagångssätt.</p> <p>Eleven ger exempel på olika sätt att spara och betala och beskriver på ett <strong>enkelt</strong> sätt vad som kan påverka konsumtionsval.</p> <p>Eleven värderar på ett <strong>enkelt</strong> sätt hur val och handlingar som förekommer i ett hem påverkar hälsa, ekonomi och miljö.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven tillagar enkla måltider och hanterar andra praktiska uppgifter som förekommer i ett hem genom att använda fungerande tillvägagångsätt.",
+          "Eleven ger exempel på olika sätt att spara och betala och beskriver på ett utvecklat sätt vad som kan påverka konsumtionsval.",
+          "Eleven värderar på ett utvecklat sätt hur val och handlingar som förekommer i ett hem påverkar hälsa, ekonomi och miljö."
+        ],
+        "valueWords": [
+          "fungerande",
+          "utvecklat"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven tillagar enkla måltider och hanterar andra praktiska uppgifter som förekommer i ett hem genom att använda <strong>fungerande</strong> tillvägagångsätt.</p> <p>Eleven ger exempel på olika sätt att spara och betala och beskriver på ett <strong>utvecklat </strong>sätt vad som kan påverka konsumtionsval.</p> <p>Eleven värderar på ett <strong>utvecklat </strong>sätt hur val och handlingar som förekommer i ett hem påverkar hälsa, ekonomi och miljö.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven tillagar enkla måltider och hanterar andra praktiska uppgifter som förekommer i ett hem genom att använda väl fungerande tillvägagångssätt.",
+          "Eleven ger exempel på olika sätt att spara och betala och beskriver på ett välutvecklat sätt vad som kan påverka konsumtionsval.",
+          "Eleven värderar på ett välutvecklat sätt hur val och handlingar som förekommer i ett hem påverkar hälsa, ekonomi och miljö."
+        ],
+        "valueWords": [
+          "väl fungerande",
+          "välutvecklat",
+          "väl",
+          "utvecklat"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven tillagar enkla måltider och hanterar andra praktiska uppgifter som förekommer i ett hem genom att använda <strong>väl fungerande</strong> tillvägagångssätt.</p> <p>Eleven ger exempel på olika sätt att spara och betala och beskriver på ett <strong>välutvecklat </strong>sätt vad som kan påverka konsumtionsval.</p> <p>Eleven värderar på ett <strong>väl</strong><strong>utvecklat</strong> sätt hur val och handlingar som förekommer i ett hem påverkar hälsa, ekonomi och miljö.</p>"
+      }
+    ],
+    "priorStageBaseline": [],
+    "noneForRequestedGrade": true
+  },
+  "counts": {
+    "units": 3,
+    "contentPoints": 14,
+    "criteria": 5
+  },
+  "provenance": {
+    "apiBaseUrl": "https://api.skolverket.se/syllabus",
+    "apiVersion": "1.16.2-SNAPSHOT",
+    "retrievedForDate": "2026-09-28",
+    "subjectEndpoint": "/v1/subjects/GRGRHKK01",
+    "curriculumEndpoint": "/v1/curriculums/LGR22",
+    "fieldMap": {
+      "subject.*": "subjects/{code} → subject.{code,name,designation,gradeScale,version,...}",
+      "schoolType": "subject.schoolTypes[] (array i API:et, ej en sträng)",
+      "curriculum.*": "curriculums/{code} → curriculum.{code,name,version,startDate}",
+      "stage.id": "subject.centralContents[].year",
+      "stage.years": "härlett ur stage.id genom att expandera intervallet",
+      "stage.assessmentYear": "sista året i stage.id; matchar knowledgeRequirements[].year",
+      "purpose": "subject.purpose (HTML-sträng) + subject.purposeHeading",
+      "centralContentForStage": "subject.centralContents[year === stage.id].text + subject.centralCntHeading",
+      "centralContentForStage.headings": "<h4>/<li> inuti samma text-fält",
+      "relevantAssessmentCriteria.atStageEnd": "subject.knowledgeRequirements[year === stage.assessmentYear]",
+      "relevantAssessmentCriteria.priorStageBaseline": "subject.knowledgeRequirements[year === föregående stadiums slutår]",
+      "*.valueWords": "<strong>-markeringar i knowledgeRequirements[].text"
+    },
+    "availableCentralContentYears": [
+      "1-6",
+      "7-9"
+    ],
+    "availableKnowledgeRequirementYears": [
+      "6",
+      "9"
+    ]
+  },
+  "groundedBrief": "# Hem- och konsumentkunskap — I årskurs 1–6\n\n## OM DENNA BRIEF\nAllt läroplansinnehåll nedan är hämtat ordagrant från Skolverkets Syllabus API. Ämne: Hem- och konsumentkunskap (GRGRHKK01). Skolform: GR. Läroplan: LGR22 version 5. Ämnesversion: 13 (SKOLFS 2022:8). Betygsskala: A-F. Hämtat via /v1/subjects/GRGRHKK01 den 2026-09-28.\n\n## VAD SKOLVERKET FAKTISKT ANGER FÖR ÅRSKURS 5\nSkolverket publicerar centralt innehåll per stadium, inte per årskurs. Innehållet nedan gäller hela stadiet årskurs 1-6 (det vill säga årskurs 1, 2, 3, 4, 5, 6) — det finns INGET innehåll som är specifikt för årskurs 5.\nBetygskriterier finns bara för slutet av årskurs 6, 9. För det här stadiet gäller kriterierna i slutet av årskurs 6, vilket ligger efter årskurs 5. Det finns alltså inga kriterier att bedöma en elev i årskurs 5 mot.\n\n## SYFTE (Syfte)\nUndervisningen i ämnet hem- och konsumentkunskap ska syfta till att eleverna utvecklar kunskaper om och intresse för arbete, ekonomi och konsumtionsval i hemmet. I en process där tanke, sinnesupplevelse och handling samverkar ska eleverna ges möjlighet att utveckla kunskaper som rör mat och måltider. Undervisningen ska därigenom bidra till att eleverna utvecklar sin initiativförmåga och kreativitet vid matlagning, skapande av måltider och andra uppgifter i hemmet.\nGenom undervisningen ska eleverna få möjlighet att utveckla medvetenhet om vilka konsekvenser valen i hushållet får för hälsa, välbefinnande och gemensamma resurser. Undervisningen ska också bidra till att eleverna utvecklar kunskaper om konsumtionens villkor samt om betalning, sparande, krediter och lån. På så sätt ska eleverna ges förutsättningar att göra välgrundade val när det gäller privatekonomi och kunna hantera olika problem och situationer som en ung konsument kan ställas inför.\nUndervisningen ska bidra till att eleverna utvecklar kunskaper om och ges möjligheter att reflektera över normer, jämställdhet och arbetsfördelning i hemmet. Undervisningen ska även ge eleverna förutsättningar att utveckla kunskaper om kulturella variationer och traditioner i olika hushåll.\nUndervisningen i ämnet hem- och konsumentkunskap ska ge eleverna förutsättningar att utveckla\n\n## CENTRALT INNEHÅLL — I årskurs 1–6\n\n### Mat och matlagning  [GRGRHKK01/1-6/mat-och-matlagning]\n- (GRGRHKK01/1-6/mat-och-matlagning/1) Matlagning för olika sammanhang.\n- (GRGRHKK01/1-6/mat-och-matlagning/2) Enkla metoder för matlagning, däribland bakning. Att planera, organisera och utvärdera arbetet.\n- (GRGRHKK01/1-6/mat-och-matlagning/3) Enkla instruktioner och recept. Hur de kan läsas och följas samt vanliga begrepp för matlagning.\n- (GRGRHKK01/1-6/mat-och-matlagning/4) Samtal om upplevelser av smak, doft, konsistens och textur i samband med matlagning.\n- (GRGRHKK01/1-6/mat-och-matlagning/5) Redskap och teknisk utrustning som kan användas vid matlagning och hur dessa används på ett funktionellt och säkert sätt.\n- (GRGRHKK01/1-6/mat-och-matlagning/6) Hygien och livsmedelssäkerhet i samband med hantering, tillagning och förvaring av livsmedel.\n\n### Privatekonomi och konsumtion  [GRGRHKK01/1-6/privatekonomi-och-konsumtion]\n- (GRGRHKK01/1-6/privatekonomi-och-konsumtion/1) Ungas privatekonomi. Relationen mellan sparande och konsumtion. Olika sätt för att betala och spara.\n- (GRGRHKK01/1-6/privatekonomi-och-konsumtion/2) Skillnaden mellan saklig konsumentinformation och annan påverkan på konsumtionsval. Reklam i olika former, även dolda reklambudskap.\n- (GRGRHKK01/1-6/privatekonomi-och-konsumtion/3) Jämförelser av några vanliga varor utifrån jämförpris.\n\n### Levnadsvanor  [GRGRHKK01/1-6/levnadsvanor]\n- (GRGRHKK01/1-6/levnadsvanor/1) Vikten av att äta varierat och balanserat för att må bra. Hur måltider kan fördelas över en dag.\n- (GRGRHKK01/1-6/levnadsvanor/2) Måltidens betydelse för gemenskap. Olika mattraditioner.\n- (GRGRHKK01/1-6/levnadsvanor/3) Resurshushållning av livsmedel och andra förbrukningsvaror i hemmet. Återvinning i hemmet och i närområdet och hur den fungerar.\n- (GRGRHKK01/1-6/levnadsvanor/4) Några olika certifieringar och märkningar av livsmedel och andra varor samt deras betydelse.\n- (GRGRHKK01/1-6/levnadsvanor/5) Rutiner och metoder för rengöring.\n\n## BETYGSKRITERIER I SLUTET AV ÅRSKURS 6 (mål framåt, inte bedömning nu)\n\n### Betygskriterier för betyget E i slutet av årskurs 6\nEleven tillagar enkla måltider och hanterar andra praktiska uppgifter som förekommer i ett hem genom att använda i huvudsak fungerande tillvägagångssätt.\nEleven ger exempel på olika sätt att spara och betala och beskriver på ett enkelt sätt vad som kan påverka konsumtionsval.\nEleven värderar på ett enkelt sätt hur val och handlingar som förekommer i ett hem påverkar hälsa, ekonomi och miljö.\n(Värdeord som Skolverket markerar: i, huvudsak fungerande, enkelt)\n\n### Betygskriterier för betyget D i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan C och E.\n\n### Betygskriterier för betyget C i slutet av årskurs 6\nEleven tillagar enkla måltider och hanterar andra praktiska uppgifter som förekommer i ett hem genom att använda fungerande tillvägagångsätt.\nEleven ger exempel på olika sätt att spara och betala och beskriver på ett utvecklat sätt vad som kan påverka konsumtionsval.\nEleven värderar på ett utvecklat sätt hur val och handlingar som förekommer i ett hem påverkar hälsa, ekonomi och miljö.\n(Värdeord som Skolverket markerar: fungerande, utvecklat)\n\n### Betygskriterier för betyget B i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan A och C.\n\n### Betygskriterier för betyget A i slutet av årskurs 6\nEleven tillagar enkla måltider och hanterar andra praktiska uppgifter som förekommer i ett hem genom att använda väl fungerande tillvägagångssätt.\nEleven ger exempel på olika sätt att spara och betala och beskriver på ett välutvecklat sätt vad som kan påverka konsumtionsval.\nEleven värderar på ett välutvecklat sätt hur val och handlingar som förekommer i ett hem påverkar hälsa, ekonomi och miljö.\n(Värdeord som Skolverket markerar: väl fungerande, välutvecklat, väl, utvecklat)\n\n## REGLER FÖR HANDLEDAREN\n- Undervisa bara inom det centrala innehållet ovan. Behöver du något som inte står där, säg att det ligger utanför läroplanen för det här stadiet.\n- Säg aldrig att Skolverket anger något specifikt för årskurs 5. Det gör Skolverket inte. Val av takt och ordning inom stadiet är lärarens bedömning, inte läroplanens.\n- Skolverket kopplar inte betygskriterier till enskilda punkter i det centrala innehållet. Hitta inte på sådana kopplingar. Kriterierna gäller hela stadiet.\n- Hänvisa till innehåll med id:t i parentes, t.ex. (GRGRHKK01/1-6/mat-och-matlagning/1).\n- Betygskriterierna beskriver slutet av stadiet. Använd dem som riktning, inte som omdöme om eleven här och nu.\n- Citera läroplanstext ordagrant när du hänvisar till den. Formulera om bara för att förklara."
+}

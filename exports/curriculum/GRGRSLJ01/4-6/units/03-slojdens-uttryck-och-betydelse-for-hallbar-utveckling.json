@@ -1,0 +1,29 @@
+{
+  "subjectCode": "GRGRSLJ01",
+  "subjectName": "Slöjd",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRSLJ01/4-6/slojdens-uttryck-och-betydelse-for-hallbar-utveckling",
+    "title": "Slöjdens uttryck och betydelse för hållbar utveckling",
+    "contentPoints": [
+      {
+        "id": "GRGRSLJ01/4-6/slojdens-uttryck-och-betydelse-for-hallbar-utveckling/1",
+        "text": "Hantverk och slöjdtraditioner från olika kulturer som inspirationskällor för det egna skapandet."
+      },
+      {
+        "id": "GRGRSLJ01/4-6/slojdens-uttryck-och-betydelse-for-hallbar-utveckling/2",
+        "text": "Hur färg, form och material bidrar till olika uttryck hos slöjdföremål."
+      },
+      {
+        "id": "GRGRSLJ01/4-6/slojdens-uttryck-och-betydelse-for-hallbar-utveckling/3",
+        "text": "Slöjdmaterials ursprung, framställning och miljöpåverkan, till exempel tenn, bomullstyg, teak och läder."
+      },
+      {
+        "id": "GRGRSLJ01/4-6/slojdens-uttryck-och-betydelse-for-hallbar-utveckling/4",
+        "text": "Resurshushållning genom återbruk av material."
+      }
+    ]
+  }
+}

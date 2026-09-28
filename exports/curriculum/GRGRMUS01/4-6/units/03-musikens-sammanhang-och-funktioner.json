@@ -1,0 +1,29 @@
+{
+  "subjectCode": "GRGRMUS01",
+  "subjectName": "Musik",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRMUS01/4-6/musikens-sammanhang-och-funktioner",
+    "title": "Musikens sammanhang och funktioner",
+    "contentPoints": [
+      {
+        "id": "GRGRMUS01/4-6/musikens-sammanhang-och-funktioner/1",
+        "text": "Musikens påverkan på och betydelse för människa och samhälle. Hur musik kan uppfattas och användas i vardagliga och högtidliga sammanhang."
+      },
+      {
+        "id": "GRGRMUS01/4-6/musikens-sammanhang-och-funktioner/2",
+        "text": "Musik tillsammans med bild, text och dans. Hur olika uttrycksformer kan samspela."
+      },
+      {
+        "id": "GRGRMUS01/4-6/musikens-sammanhang-och-funktioner/3",
+        "text": "Musikinstrumentens funktioner i olika ensemble- och orkestertyper."
+      },
+      {
+        "id": "GRGRMUS01/4-6/musikens-sammanhang-och-funktioner/4",
+        "text": "Musikaliska karaktärsdrag i konstmusik, folkmusik och populärmusik från olika kulturer."
+      }
+    ]
+  }
+}

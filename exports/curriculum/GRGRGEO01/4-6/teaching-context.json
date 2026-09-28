@@ -1,0 +1,206 @@
+{
+  "subjectCode": "GRGRGEO01",
+  "subjectName": "Geografi",
+  "schoolType": "GR",
+  "curriculumCode": "LGR22",
+  "stage": {
+    "id": "4-6",
+    "years": [
+      4,
+      5,
+      6
+    ],
+    "requestedGrade": 5,
+    "gradeIsExplicitInApi": false,
+    "assessmentYear": "6"
+  },
+  "units": [
+    {
+      "id": "GRGRGEO01/4-6/undervisningen-i-geografi-ska-behandla-foljande-centrala-innehall",
+      "title": "Undervisningen i geografi ska behandla följande centrala innehåll",
+      "contentPoints": []
+    },
+    {
+      "id": "GRGRGEO01/4-6/geografiska-forhallanden-monster-och-processer",
+      "title": "Geografiska förhållanden, mönster och processer",
+      "contentPoints": [
+        {
+          "id": "GRGRGEO01/4-6/geografiska-forhallanden-monster-och-processer/1",
+          "text": "Introduktion till jordens endogena och exogena processer, samt hur dessa formar och förändrar landskapet."
+        },
+        {
+          "id": "GRGRGEO01/4-6/geografiska-forhallanden-monster-och-processer/2",
+          "text": "Jordens naturresurser, till exempel vatten, odlingsmark, skogar och mineraler. Var på jorden olika naturresurser finns och hur människors användning av resurserna påverkar landskapet och människans livsmiljöer."
+        },
+        {
+          "id": "GRGRGEO01/4-6/geografiska-forhallanden-monster-och-processer/3",
+          "text": "Klimat- och vegetationszoner samt på vilka sätt klimatet påverkar människans livsmiljöer."
+        },
+        {
+          "id": "GRGRGEO01/4-6/geografiska-forhallanden-monster-och-processer/4",
+          "text": "Utmärkande drag för några natur- och kulturlandskap i Sverige, Europa och världen."
+        },
+        {
+          "id": "GRGRGEO01/4-6/geografiska-forhallanden-monster-och-processer/5",
+          "text": "Namn och läge på geografiska objekt i Sverige, Europa och världen. Ett urval av hav, sjöar, floder, berg, öknar, regioner, länder och städer."
+        }
+      ]
+    },
+    {
+      "id": "GRGRGEO01/4-6/hallbar-utveckling",
+      "title": "Hållbar utveckling",
+      "contentPoints": [
+        {
+          "id": "GRGRGEO01/4-6/hallbar-utveckling/1",
+          "text": "Hur val och prioriteringar på individ- och samhällsnivå kan påverka miljön och främja hållbar utveckling."
+        },
+        {
+          "id": "GRGRGEO01/4-6/hallbar-utveckling/2",
+          "text": "Några grundläggande orsaker till och konsekvenser av fattigdom och ohälsa, till exempel bristande tillgång till utbildning, hälsovård och vatten. Arbete för att förbättra människors levnadsvillkor, till exempel genom Förenta Nationerna (FN)."
+        }
+      ]
+    },
+    {
+      "id": "GRGRGEO01/4-6/geografins-metoder-och-verktyg",
+      "title": "Geografins metoder och verktyg",
+      "contentPoints": [
+        {
+          "id": "GRGRGEO01/4-6/geografins-metoder-och-verktyg/1",
+          "text": "Digitala och analoga kartor och deras uppbyggnad med gradnät, färger, symboler och skala. Topografiska och tematiska kartor."
+        },
+        {
+          "id": "GRGRGEO01/4-6/geografins-metoder-och-verktyg/2",
+          "text": "Fältstudier för att undersöka natur- och kulturlandskap."
+        },
+        {
+          "id": "GRGRGEO01/4-6/geografins-metoder-och-verktyg/3",
+          "text": "Beskrivningar och enkla analyser av platser och regioner med hjälp av kartor och andra geografiska källor, metoder, verktyg och begrepp."
+        }
+      ]
+    }
+  ],
+  "stageAssessment": {
+    "assessmentYear": "6",
+    "criteria": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om geografiska förhållanden, mönster och processer. Eleven för enkla resonemang om hur naturens processer och människors verksamheter formar och förändrar landskap och livsmiljöer i olika delar av världen. Eleven visar även grundläggande kunskaper om namn och lägen på platser och regioner i Sverige, Europa och världen.",
+          "Eleven visar grundläggande kunskaper om miljö- och utvecklingsfrågor. Eleven för också enkla resonemang om åtgärder i frågor som rör hållbar utveckling.",
+          "Eleven använder geografins metoder och verktyg på ett i huvudsak fungerande sätt för att utifrån geografiska frågor beskriva och förklara förhållanden på olika platser och i olika regioner."
+        ],
+        "valueWords": [
+          "grundläggande",
+          "enkla",
+          "i huvudsak fungerande"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven visar <strong>grundläggande</strong> kunskaper om geografiska förhållanden, mönster och processer. Eleven för<strong> enkla </strong>resonemang om hur naturens processer och människors verksamheter formar och förändrar landskap och livsmiljöer i olika delar av världen. Eleven visar även <strong>grundläggande</strong> kunskaper om namn och lägen på platser och regioner i Sverige, Europa och världen.</p> <p>Eleven visar <strong>grundläggande</strong> kunskaper om miljö- och utvecklingsfrågor. Eleven för också <strong>enkla </strong>resonemang om åtgärder i frågor som rör hållbar utveckling.</p> <p>Eleven använder geografins metoder och verktyg på ett <strong>i huvudsak fungerande</strong> sätt för att utifrån geografiska frågor beskriva och förklara förhållanden på olika platser och i olika regioner.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar goda kunskaper om geografiska förhållanden, mönster och processer. Eleven för utvecklade resonemang om hur naturens processer och människors verksamheter formar och förändrar landskap och livsmiljöer i olika delar av världen. Eleven visar även goda kunskaper om namn och lägen på platser och regioner i Sverige, Europa och världen.",
+          "Eleven visar goda kunskaper om miljö- och utvecklingsfrågor. Eleven för också utvecklade resonemang om åtgärder i frågor som rör hållbar utveckling.",
+          "Eleven använder geografins metoder och verktyg på ett fungerande sätt för att utifrån geografiska frågor beskriva och förklara förhållanden på olika platser och i olika regioner."
+        ],
+        "valueWords": [
+          "goda",
+          "utvecklade",
+          "fungerande"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven visar <strong>goda</strong> kunskaper om geografiska förhållanden, mönster och processer. Eleven för<strong> utvecklade </strong>resonemang om hur naturens processer och människors verksamheter formar och förändrar landskap och livsmiljöer i olika delar av världen. Eleven visar även <strong>goda </strong>kunskaper om namn och lägen på platser och regioner i Sverige, Europa och världen.</p> <p>Eleven visar <strong>goda</strong> kunskaper om miljö- och utvecklingsfrågor. Eleven för också <strong>utvecklade </strong>resonemang om åtgärder i frågor som rör hållbar utveckling.</p> <p>Eleven använder geografins metoder och verktyg på ett <strong>fungerande</strong> sätt för att utifrån geografiska frågor beskriva och förklara förhållanden på olika platser och i olika regioner.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar mycket goda kunskaper om geografiska förhållanden, mönster och processer. Eleven för välutvecklade resonemang om hur naturens processer och människors verksamheter formar och förändrar landskap och livsmiljöer i olika delar av världen. Eleven visar även mycket goda kunskaper om namn och lägen på platser och regioner i Sverige, Europa och världen.",
+          "Eleven visar mycket goda kunskaper om miljö- och utvecklingsfrågor. Eleven för också välutvecklade resonemang om åtgärder i frågor som rör hållbar utveckling.",
+          "Eleven använder geografins metoder och verktyg på ett väl fungerande sätt för att utifrån geografiska frågor beskriva och förklara förhållanden på olika platser och i olika regioner."
+        ],
+        "valueWords": [
+          "mycket goda",
+          "välutvecklade",
+          "väl fungerande"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven visar <strong>mycket goda</strong> kunskaper om geografiska förhållanden, mönster och processer. Eleven för<strong> välutvecklade </strong>resonemang om hur naturens processer och människors verksamheter formar och förändrar landskap och livsmiljöer i olika delar av världen. Eleven visar även <strong>mycket goda</strong> kunskaper om namn och lägen på platser och regioner i Sverige, Europa och världen.</p> <p>Eleven visar <strong>mycket goda</strong> kunskaper om miljö- och utvecklingsfrågor. Eleven för också <strong>välutvecklade </strong>resonemang om åtgärder i frågor som rör hållbar utveckling.</p> <p>Eleven använder geografins metoder och verktyg på ett <strong>väl fungerande</strong> sätt för att utifrån geografiska frågor beskriva och förklara förhållanden på olika platser och i olika regioner.</p>"
+      }
+    ],
+    "priorStageBaseline": [
+      {
+        "year": "3",
+        "gradeStep": null,
+        "headingText": "Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om geografiska och historiska förhållanden, samhällsförhållanden och religiösa traditioner. Eleven beskriver likheter och skillnader samt orsaker och konsekvenser i sammanhang som är relevanta för ämnena. Eleven samtalar om människors livsfrågor och levnadsvillkor samt om miljöfrågor och andra samhällsfrågor ur olika perspektiv.",
+          "Eleven använder begrepp, metoder och verktyg från de samhällsorienterande ämnena."
+        ],
+        "valueWords": [],
+        "html": "<h3>Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3</h3><p>Eleven visar grundläggande kunskaper om geografiska och historiska förhållanden, samhällsförhållanden och religiösa traditioner. Eleven beskriver likheter och skillnader samt orsaker och konsekvenser i sammanhang som är relevanta för ämnena. Eleven samtalar om människors livsfrågor och levnadsvillkor samt om miljöfrågor och andra samhällsfrågor ur olika perspektiv.</p> <p>Eleven använder begrepp, metoder och verktyg från de samhällsorienterande ämnena.</p>"
+      }
+    ],
+    "noneForRequestedGrade": true
+  },
+  "counts": {
+    "units": 4,
+    "contentPoints": 10,
+    "criteria": 5
+  },
+  "provenance": {
+    "apiBaseUrl": "https://api.skolverket.se/syllabus",
+    "apiVersion": "1.16.2-SNAPSHOT",
+    "retrievedForDate": "2026-09-28",
+    "subjectEndpoint": "/v1/subjects/GRGRGEO01",
+    "curriculumEndpoint": "/v1/curriculums/LGR22",
+    "fieldMap": {
+      "subject.*": "subjects/{code} → subject.{code,name,designation,gradeScale,version,...}",
+      "schoolType": "subject.schoolTypes[] (array i API:et, ej en sträng)",
+      "curriculum.*": "curriculums/{code} → curriculum.{code,name,version,startDate}",
+      "stage.id": "subject.centralContents[].year",
+      "stage.years": "härlett ur stage.id genom att expandera intervallet",
+      "stage.assessmentYear": "sista året i stage.id; matchar knowledgeRequirements[].year",
+      "purpose": "subject.purpose (HTML-sträng) + subject.purposeHeading",
+      "centralContentForStage": "subject.centralContents[year === stage.id].text + subject.centralCntHeading",
+      "centralContentForStage.headings": "<h4>/<li> inuti samma text-fält",
+      "relevantAssessmentCriteria.atStageEnd": "subject.knowledgeRequirements[year === stage.assessmentYear]",
+      "relevantAssessmentCriteria.priorStageBaseline": "subject.knowledgeRequirements[year === föregående stadiums slutår]",
+      "*.valueWords": "<strong>-markeringar i knowledgeRequirements[].text"
+    },
+    "availableCentralContentYears": [
+      "1-3",
+      "4-6",
+      "7-9"
+    ],
+    "availableKnowledgeRequirementYears": [
+      "3",
+      "6",
+      "9"
+    ]
+  },
+  "groundedBrief": "# Geografi — I årskurs 4–6\n\n## OM DENNA BRIEF\nAllt läroplansinnehåll nedan är hämtat ordagrant från Skolverkets Syllabus API. Ämne: Geografi (GRGRGEO01). Skolform: GR. Läroplan: LGR22 version 5. Ämnesversion: 15 (SKOLFS 2022:8). Betygsskala: A-F. Hämtat via /v1/subjects/GRGRGEO01 den 2026-09-28.\n\n## VAD SKOLVERKET FAKTISKT ANGER FÖR ÅRSKURS 5\nSkolverket publicerar centralt innehåll per stadium, inte per årskurs. Innehållet nedan gäller hela stadiet årskurs 4-6 (det vill säga årskurs 4, 5, 6) — det finns INGET innehåll som är specifikt för årskurs 5.\nBetygskriterier finns bara för slutet av årskurs 3, 6, 9. För det här stadiet gäller kriterierna i slutet av årskurs 6, vilket ligger efter årskurs 5. Det finns alltså inga kriterier att bedöma en elev i årskurs 5 mot.\n\n## SYFTE (Syfte)\nUndervisningen i ämnet geografi ska syfta till att eleverna utvecklar kunskaper om geografiska förhållanden och mönster på olika platser och i olika regioner. Undervisningen ska vidga och fördjupa elevernas kunskaper om naturgivna processer och människans verksamheter i olika delar av världen, och hur dessa påverkar landskap och livsmiljöer. Genom undervisningen ska eleverna ges förutsättningar att växla mellan olika rumsliga perspektiv: lokala, regionala och globala, liksom mellan olika tidsperspektiv.\nUndervisningen ska ge eleverna förutsättningar att utveckla kunskaper om miljö- och utvecklingsfrågor kopplade till klimatförändringar, människans tillgång till och användning av naturresurser, samt befolkningsfrågor och levnadsförhållanden i olika delar av världen. Därigenom ska eleverna ges förutsättningar att analysera och reflektera över olika lösningar på vår tids och framtidens globala utmaningar utifrån ekologiska, sociala och ekonomiska perspektiv på hållbar utveckling.\nUndervisningen ska ge eleverna kunskaper om kartan och kännedom om namn, lägen och storleksrelationer. Undervisningen ska även ge eleverna förutsättningar att utveckla kunskaper i att ställa geografiska frågor, analysera och dra slutsatser om natur- och kulturlandskap och om människors levnadsvillkor med hjälp av olika geografiska källor, metoder, verktyg och begrepp.\nUndervisningen i ämnet geografi ska ge eleverna förutsättningar att utveckla\n\n## CENTRALT INNEHÅLL — I årskurs 4–6\n\n### Undervisningen i geografi ska behandla följande centrala innehåll  [GRGRGEO01/4-6/undervisningen-i-geografi-ska-behandla-foljande-centrala-innehall]\n\n### Geografiska förhållanden, mönster och processer  [GRGRGEO01/4-6/geografiska-forhallanden-monster-och-processer]\n- (GRGRGEO01/4-6/geografiska-forhallanden-monster-och-processer/1) Introduktion till jordens endogena och exogena processer, samt hur dessa formar och förändrar landskapet.\n- (GRGRGEO01/4-6/geografiska-forhallanden-monster-och-processer/2) Jordens naturresurser, till exempel vatten, odlingsmark, skogar och mineraler. Var på jorden olika naturresurser finns och hur människors användning av resurserna påverkar landskapet och människans livsmiljöer.\n- (GRGRGEO01/4-6/geografiska-forhallanden-monster-och-processer/3) Klimat- och vegetationszoner samt på vilka sätt klimatet påverkar människans livsmiljöer.\n- (GRGRGEO01/4-6/geografiska-forhallanden-monster-och-processer/4) Utmärkande drag för några natur- och kulturlandskap i Sverige, Europa och världen.\n- (GRGRGEO01/4-6/geografiska-forhallanden-monster-och-processer/5) Namn och läge på geografiska objekt i Sverige, Europa och världen. Ett urval av hav, sjöar, floder, berg, öknar, regioner, länder och städer.\n\n### Hållbar utveckling  [GRGRGEO01/4-6/hallbar-utveckling]\n- (GRGRGEO01/4-6/hallbar-utveckling/1) Hur val och prioriteringar på individ- och samhällsnivå kan påverka miljön och främja hållbar utveckling.\n- (GRGRGEO01/4-6/hallbar-utveckling/2) Några grundläggande orsaker till och konsekvenser av fattigdom och ohälsa, till exempel bristande tillgång till utbildning, hälsovård och vatten. Arbete för att förbättra människors levnadsvillkor, till exempel genom Förenta Nationerna (FN).\n\n### Geografins metoder och verktyg  [GRGRGEO01/4-6/geografins-metoder-och-verktyg]\n- (GRGRGEO01/4-6/geografins-metoder-och-verktyg/1) Digitala och analoga kartor och deras uppbyggnad med gradnät, färger, symboler och skala. Topografiska och tematiska kartor.\n- (GRGRGEO01/4-6/geografins-metoder-och-verktyg/2) Fältstudier för att undersöka natur- och kulturlandskap.\n- (GRGRGEO01/4-6/geografins-metoder-och-verktyg/3) Beskrivningar och enkla analyser av platser och regioner med hjälp av kartor och andra geografiska källor, metoder, verktyg och begrepp.\n\n## BETYGSKRITERIER I SLUTET AV ÅRSKURS 6 (mål framåt, inte bedömning nu)\n\n### Betygskriterier för betyget E i slutet av årskurs 6\nEleven visar grundläggande kunskaper om geografiska förhållanden, mönster och processer. Eleven för enkla resonemang om hur naturens processer och människors verksamheter formar och förändrar landskap och livsmiljöer i olika delar av världen. Eleven visar även grundläggande kunskaper om namn och lägen på platser och regioner i Sverige, Europa och världen.\nEleven visar grundläggande kunskaper om miljö- och utvecklingsfrågor. Eleven för också enkla resonemang om åtgärder i frågor som rör hållbar utveckling.\nEleven använder geografins metoder och verktyg på ett i huvudsak fungerande sätt för att utifrån geografiska frågor beskriva och förklara förhållanden på olika platser och i olika regioner.\n(Värdeord som Skolverket markerar: grundläggande, enkla, i huvudsak fungerande)\n\n### Betygskriterier för betyget D i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan C och E.\n\n### Betygskriterier för betyget C i slutet av årskurs 6\nEleven visar goda kunskaper om geografiska förhållanden, mönster och processer. Eleven för utvecklade resonemang om hur naturens processer och människors verksamheter formar och förändrar landskap och livsmiljöer i olika delar av världen. Eleven visar även goda kunskaper om namn och lägen på platser och regioner i Sverige, Europa och världen.\nEleven visar goda kunskaper om miljö- och utvecklingsfrågor. Eleven för också utvecklade resonemang om åtgärder i frågor som rör hållbar utveckling.\nEleven använder geografins metoder och verktyg på ett fungerande sätt för att utifrån geografiska frågor beskriva och förklara förhållanden på olika platser och i olika regioner.\n(Värdeord som Skolverket markerar: goda, utvecklade, fungerande)\n\n### Betygskriterier för betyget B i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan A och C.\n\n### Betygskriterier för betyget A i slutet av årskurs 6\nEleven visar mycket goda kunskaper om geografiska förhållanden, mönster och processer. Eleven för välutvecklade resonemang om hur naturens processer och människors verksamheter formar och förändrar landskap och livsmiljöer i olika delar av världen. Eleven visar även mycket goda kunskaper om namn och lägen på platser och regioner i Sverige, Europa och världen.\nEleven visar mycket goda kunskaper om miljö- och utvecklingsfrågor. Eleven för också välutvecklade resonemang om åtgärder i frågor som rör hållbar utveckling.\nEleven använder geografins metoder och verktyg på ett väl fungerande sätt för att utifrån geografiska frågor beskriva och förklara förhållanden på olika platser och i olika regioner.\n(Värdeord som Skolverket markerar: mycket goda, välutvecklade, väl fungerande)\n\n## FÖREGÅENDE STADIUM (utgångsläge eleven förväntas komma från)\n\n### Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3\nEleven visar grundläggande kunskaper om geografiska och historiska förhållanden, samhällsförhållanden och religiösa traditioner. Eleven beskriver likheter och skillnader samt orsaker och konsekvenser i sammanhang som är relevanta för ämnena. Eleven samtalar om människors livsfrågor och levnadsvillkor samt om miljöfrågor och andra samhällsfrågor ur olika perspektiv.\nEleven använder begrepp, metoder och verktyg från de samhällsorienterande ämnena.\n\n## REGLER FÖR HANDLEDAREN\n- Undervisa bara inom det centrala innehållet ovan. Behöver du något som inte står där, säg att det ligger utanför läroplanen för det här stadiet.\n- Säg aldrig att Skolverket anger något specifikt för årskurs 5. Det gör Skolverket inte. Val av takt och ordning inom stadiet är lärarens bedömning, inte läroplanens.\n- Skolverket kopplar inte betygskriterier till enskilda punkter i det centrala innehållet. Hitta inte på sådana kopplingar. Kriterierna gäller hela stadiet.\n- Hänvisa till innehåll med id:t i parentes, t.ex. (id).\n- Betygskriterierna beskriver slutet av stadiet. Använd dem som riktning, inte som omdöme om eleven här och nu.\n- Citera läroplanstext ordagrant när du hänvisar till den. Formulera om bara för att förklara."
+}

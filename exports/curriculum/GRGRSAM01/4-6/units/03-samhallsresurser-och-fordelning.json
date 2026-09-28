@@ -1,0 +1,25 @@
+{
+  "subjectCode": "GRGRSAM01",
+  "subjectName": "Samhällskunskap",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRSAM01/4-6/samhallsresurser-och-fordelning",
+    "title": "Samhällsresurser och fördelning",
+    "contentPoints": [
+      {
+        "id": "GRGRSAM01/4-6/samhallsresurser-och-fordelning/1",
+        "text": "Privatekonomi och relationen mellan arbete, inkomst och konsumtion."
+      },
+      {
+        "id": "GRGRSAM01/4-6/samhallsresurser-och-fordelning/2",
+        "text": "Det offentligas ekonomi. Vad skatter är och vad kommuner, regioner och stat använder skattemedel till."
+      },
+      {
+        "id": "GRGRSAM01/4-6/samhallsresurser-och-fordelning/3",
+        "text": "Exempel på skilda ekonomiska och sociala villkor för barn, i Sverige och i olika delar av världen."
+      }
+    ]
+  }
+}

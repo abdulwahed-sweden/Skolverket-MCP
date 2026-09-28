@@ -1,0 +1,29 @@
+{
+  "subjectCode": "GRGRMUS01",
+  "subjectName": "Musik",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRMUS01/4-6/musicerande-och-musikskapande",
+    "title": "Musicerande och musikskapande",
+    "contentPoints": [
+      {
+        "id": "GRGRMUS01/4-6/musicerande-och-musikskapande/1",
+        "text": "Sång, melodispel och ackompanjemang i olika genrer, unisont och i stämmor."
+      },
+      {
+        "id": "GRGRMUS01/4-6/musicerande-och-musikskapande/2",
+        "text": "Imitation och improvisation med röst, rörelse och instrument med utgångspunkt i musikaliska byggstenar."
+      },
+      {
+        "id": "GRGRMUS01/4-6/musicerande-och-musikskapande/3",
+        "text": "Komposition med utgångspunkt i musikaliska byggstenar."
+      },
+      {
+        "id": "GRGRMUS01/4-6/musicerande-och-musikskapande/4",
+        "text": "Gestaltning av idéer genom att musicera och genom att kombinera musik med andra uttrycksformer."
+      }
+    ]
+  }
+}

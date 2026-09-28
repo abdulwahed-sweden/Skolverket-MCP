@@ -1,0 +1,232 @@
+{
+  "subjectCode": "GRGRENG01",
+  "subjectName": "Engelska",
+  "schoolType": "GR",
+  "curriculumCode": "LGR22",
+  "stage": {
+    "id": "4-6",
+    "years": [
+      4,
+      5,
+      6
+    ],
+    "requestedGrade": 5,
+    "gradeIsExplicitInApi": false,
+    "assessmentYear": "6"
+  },
+  "units": [
+    {
+      "id": "GRGRENG01/4-6/kommunikationens-innehall",
+      "title": "Kommunikationens innehåll",
+      "contentPoints": [
+        {
+          "id": "GRGRENG01/4-6/kommunikationens-innehall/1",
+          "text": "Ämnesområden som är välbekanta för eleverna."
+        },
+        {
+          "id": "GRGRENG01/4-6/kommunikationens-innehall/2",
+          "text": "Vardagliga situationer, intressen, personer, platser, aktiviteter och händelser."
+        },
+        {
+          "id": "GRGRENG01/4-6/kommunikationens-innehall/3",
+          "text": "Åsikter, känslor och erfarenheter."
+        },
+        {
+          "id": "GRGRENG01/4-6/kommunikationens-innehall/4",
+          "text": "Vardagsliv, levnadssätt och sociala relationer i olika sammanhang och områden där engelska används, även i jämförelse med egna erfarenheter och kunskaper. Engelskans utbredning i världen."
+        }
+      ]
+    },
+    {
+      "id": "GRGRENG01/4-6/lyssna-och-lasa-reception",
+      "title": "Lyssna och läsa – reception",
+      "contentPoints": [
+        {
+          "id": "GRGRENG01/4-6/lyssna-och-lasa-reception/1",
+          "text": "Tydligt talad engelska och enkla texter som är instruerande, beskrivande och kontaktskapande, från olika medier."
+        },
+        {
+          "id": "GRGRENG01/4-6/lyssna-och-lasa-reception/2",
+          "text": "Dialoger, samtal och intervjuer."
+        },
+        {
+          "id": "GRGRENG01/4-6/lyssna-och-lasa-reception/3",
+          "text": "Berättelser och annan fiktion för barn och unga, även i talad eller dramatiserad form."
+        },
+        {
+          "id": "GRGRENG01/4-6/lyssna-och-lasa-reception/4",
+          "text": "Sånger, dikter och sagor."
+        },
+        {
+          "id": "GRGRENG01/4-6/lyssna-och-lasa-reception/5",
+          "text": "Muntliga och skriftliga meddelanden samt information, till exempel reklam, tidtabeller och notiser."
+        },
+        {
+          "id": "GRGRENG01/4-6/lyssna-och-lasa-reception/6",
+          "text": "Strategier för att uppfatta betydelsebärande ord och sammanhang samt för att anpassa lyssnande och läsning till framställningens form och innehåll."
+        },
+        {
+          "id": "GRGRENG01/4-6/lyssna-och-lasa-reception/7",
+          "text": "Sökning av enkel information i ett avgränsat urval av muntliga och skriftliga källor av olika slag för användning i egen produktion och interaktion."
+        },
+        {
+          "id": "GRGRENG01/4-6/lyssna-och-lasa-reception/8",
+          "text": "Språkliga företeelser, däribland uttal, ord och fasta språkliga uttryck, grammatiska strukturer samt stavning, i det språk eleverna möter."
+        },
+        {
+          "id": "GRGRENG01/4-6/lyssna-och-lasa-reception/9",
+          "text": "Hur olika formuleringar används för att inleda och avsluta olika typer av framställningar och samtal."
+        }
+      ]
+    },
+    {
+      "id": "GRGRENG01/4-6/tala-skriva-och-samtala-produktion-och-interaktion",
+      "title": "Tala, skriva och samtala – produktion och interaktion",
+      "contentPoints": [
+        {
+          "id": "GRGRENG01/4-6/tala-skriva-och-samtala-produktion-och-interaktion/1",
+          "text": "Samtal och skrivande för kontakt och kommunikation."
+        },
+        {
+          "id": "GRGRENG01/4-6/tala-skriva-och-samtala-produktion-och-interaktion/2",
+          "text": "Presentationer, instruktioner, meddelanden, berättelser och beskrivningar i sammanhängande tal och skrift."
+        },
+        {
+          "id": "GRGRENG01/4-6/tala-skriva-och-samtala-produktion-och-interaktion/3",
+          "text": "Strategier, däribland omformuleringar, frågor och stödjande fraser, för att bidra till och underlätta samtal och skriftlig interaktion, även digital."
+        },
+        {
+          "id": "GRGRENG01/4-6/tala-skriva-och-samtala-produktion-och-interaktion/4",
+          "text": "Språkliga företeelser, däribland uttal, ord, artighetsfraser, tilltalsord och andra fasta språkliga uttryck, samt grammatiska strukturer och stavning i elevernas egen produktion och interaktion."
+        },
+        {
+          "id": "GRGRENG01/4-6/tala-skriva-och-samtala-produktion-och-interaktion/5",
+          "text": "Bearbetning av egna muntliga och skriftliga framställningar för att förtydliga och anpassa kommunikationen efter syfte och mottagare."
+        }
+      ]
+    }
+  ],
+  "stageAssessment": {
+    "assessmentYear": "6",
+    "criteria": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven lyssnar samt förstår och tolkar det mest väsentliga av innehållet i tydligt talat, enkelt språk i lugnt tempo om vardagliga och välbekanta ämnen. Eleven läser samt förstår och tolkar det mest väsentliga av innehållet i enkla texter om vardagliga och välbekanta ämnen. Eleven väljer enkel information från ett avgränsat urval av muntliga och skriftliga källor samt använder på ett delvis relevant sätt det valda materialet i sin egen produktion och interaktion.",
+          "I muntliga framställningar av olika slag formulerar sig eleven enkelt och begripligt med fraser och meningar. I skriftliga framställningar av olika slag formulerar sig eleven enkelt och begripligt med fraser och meningar.",
+          "I interaktion uttrycker sig eleven enkelt och begripligt med ord, fraser och meningar. Dessutom använder eleven strategier som i någon mån underlättar och förbättrar interaktionen.",
+          "Eleven kommenterar på ett enkelt sätt, på engelska, förhållanden i olika sammanhang och områden där språket används."
+        ],
+        "valueWords": [
+          "det mest väsentliga",
+          "på ett delvis relevant sätt",
+          "enkelt och begripligt med fraser och meningar",
+          "enkelt och begripligt med ord, fraser och meningar",
+          "i någon mån",
+          "på ett enkelt sätt"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven lyssnar samt förstår och tolkar <strong>det mest väsentliga </strong>av innehållet i tydligt talat, enkelt språk i lugnt tempo om vardagliga och välbekanta ämnen. Eleven läser samt förstår och tolkar <strong>det mest väsentliga </strong>av innehållet i enkla texter om vardagliga och välbekanta ämnen. Eleven väljer enkel information från ett avgränsat urval av muntliga och skriftliga källor samt använder <strong>på ett delvis relevant sätt</strong> det valda materialet i sin egen produktion och interaktion.</p> <p>I muntliga framställningar av olika slag formulerar sig eleven <strong>enkelt och begripligt med fraser och meningar</strong>. I skriftliga framställningar av olika slag formulerar sig eleven <strong>enkelt och begripligt med fraser och meningar</strong>.</p> <p>I interaktion uttrycker sig eleven <strong>enkelt och begripligt med ord, fraser och meningar</strong>. Dessutom använder eleven strategier som <strong>i någon mån </strong>underlättar och förbättrar interaktionen.</p> <p>Eleven kommenterar <strong>på ett enkelt sätt</strong>, på engelska, förhållanden i olika sammanhang och områden där språket används.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven lyssnar samt förstår och tolkar huvudsakligt innehåll och tydliga detaljer i tydligt talat, enkelt språk i lugnt tempo om vardagliga och välbekanta ämnen. Eleven läser samt förstår och tolkar huvudsakligt innehåll och tydliga detaljer i enkla texter om vardagliga och välbekanta ämnen. Eleven väljer enkel information från ett avgränsat urval av muntliga och skriftliga källor samt använder på ett relevant sätt det valda materialet i sin egen produktion och interaktion.",
+          "I muntliga framställningar av olika slag formulerar sig eleven enkelt, relativt tydligt och till viss del sammanhängande. I skriftliga framställningar av olika slag formulerar sig eleven enkelt, relativt tydligt och till viss del sammanhängande.",
+          "I interaktion uttrycker sig eleven enkelt och relativt tydligt med ord, fraser och meningar. Dessutom använder eleven strategier som i viss utsträckning underlättar och förbättrar interaktionen.",
+          "Eleven kommenterar på ett enkelt sätt, på engelska, förhållanden i olika sammanhang och områden där språket används."
+        ],
+        "valueWords": [
+          "huvudsakligt innehåll och tydliga detaljer",
+          "på ett relevant sätt",
+          "enkelt, relativt tydligt och till viss del sammanhängande",
+          "enkelt och relativt tydligt med ord, fraser och meningar",
+          "i viss utsträckning",
+          "på ett enkelt sätt"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven lyssnar samt förstår och tolkar <strong>huvudsakligt innehåll och tydliga detaljer</strong> i tydligt talat, enkelt språk i lugnt tempo om vardagliga och välbekanta ämnen. Eleven läser samt förstår och tolkar <strong>huvudsakligt innehåll och tydliga detaljer</strong> i enkla texter om vardagliga och välbekanta ämnen. Eleven väljer enkel information från ett avgränsat urval av muntliga och skriftliga källor samt använder <strong>på ett relevant sätt</strong> det valda materialet i sin egen produktion och interaktion.</p> <p>I muntliga framställningar av olika slag formulerar sig eleven <strong>enkelt, relativt tydligt och till viss del sammanhängande</strong>. I skriftliga framställningar av olika slag formulerar sig eleven <strong>enkelt, relativt tydligt och till viss del sammanhängande</strong>.</p> <p>I interaktion uttrycker sig eleven <strong>enkelt och relativt tydligt med ord, fraser och meningar</strong>. Dessutom använder eleven strategier som <strong>i viss utsträckning</strong> underlättar och förbättrar interaktionen.</p> <p>Eleven kommenterar <strong>på ett enkelt sätt</strong>, på engelska, förhållanden i olika sammanhang och områden där språket används.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven lyssnar samt förstår och tolkar helheten och väsentliga detaljer i tydligt talat, enkelt språk i lugnt tempo om vardagliga och välbekanta ämnen. Eleven läser samt förstår och tolkar helheten och väsentliga detaljer i enkla texter om vardagliga och välbekanta ämnen. Eleven väljer enkel information från ett avgränsat urval av muntliga och skriftliga källor samt använder på ett relevant och effektivt sätt det valda materialet i sin egen produktion och interaktion.",
+          "I muntliga framställningar av olika slag formulerar sig eleven i någon mån varierat, relativt tydligt och relativt sammanhängande. I skriftliga framställningar av olika slag formulerar sig eleven i någon mån varierat, relativt tydligt och relativt sammanhängande.",
+          "I interaktion uttrycker sig eleven relativt tydligt med ord, fraser och meningar samt i någon mån anpassat till syfte, mottagare och situation. Dessutom använder eleven strategier som underlättar och förbättrar interaktionen.",
+          "Eleven kommenterar översiktligt, på engelska, förhållanden i olika sammanhang och områden där språket används."
+        ],
+        "valueWords": [
+          "helheten och väsentliga detaljer",
+          "på ett relevant och effektivt sätt",
+          "i någon mån varierat, relativt tydligt och relativt sammanhängande",
+          "relativt tydligt med ord, fraser och meningar",
+          "i någon mån anpassat",
+          "översiktligt"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven lyssnar samt förstår och tolkar <strong>helheten och väsentliga detaljer</strong> i tydligt talat, enkelt språk i lugnt tempo om vardagliga och välbekanta ämnen. Eleven läser samt förstår och tolkar <strong>helheten och väsentliga detaljer</strong> i enkla texter om vardagliga och välbekanta ämnen. Eleven väljer enkel information från ett avgränsat urval av muntliga och skriftliga källor samt använder <strong>på ett relevant och effektivt sätt</strong> det valda materialet i sin egen produktion och interaktion.</p> <p>I muntliga framställningar av olika slag formulerar sig eleven <strong>i någon mån varierat, relativt tydligt och relativt sammanhängande</strong>. I skriftliga framställningar av olika slag formulerar sig eleven <strong>i någon mån varierat, relativt tydligt och relativt sammanhängande</strong>.</p> <p>I interaktion uttrycker sig eleven <strong>relativt tydligt med ord, fraser och meningar</strong> samt<strong> i någon mån anpassat </strong>till syfte, mottagare och situation. Dessutom använder eleven strategier som underlättar och förbättrar interaktionen.</p> <p>Eleven kommenterar <strong>översiktligt</strong>, på engelska, förhållanden i olika sammanhang och områden där språket används.</p>"
+      }
+    ],
+    "priorStageBaseline": [],
+    "noneForRequestedGrade": true
+  },
+  "counts": {
+    "units": 3,
+    "contentPoints": 18,
+    "criteria": 5
+  },
+  "provenance": {
+    "apiBaseUrl": "https://api.skolverket.se/syllabus",
+    "apiVersion": "1.16.2-SNAPSHOT",
+    "retrievedForDate": "2026-09-28",
+    "subjectEndpoint": "/v1/subjects/GRGRENG01",
+    "curriculumEndpoint": "/v1/curriculums/LGR22",
+    "fieldMap": {
+      "subject.*": "subjects/{code} → subject.{code,name,designation,gradeScale,version,...}",
+      "schoolType": "subject.schoolTypes[] (array i API:et, ej en sträng)",
+      "curriculum.*": "curriculums/{code} → curriculum.{code,name,version,startDate}",
+      "stage.id": "subject.centralContents[].year",
+      "stage.years": "härlett ur stage.id genom att expandera intervallet",
+      "stage.assessmentYear": "sista året i stage.id; matchar knowledgeRequirements[].year",
+      "purpose": "subject.purpose (HTML-sträng) + subject.purposeHeading",
+      "centralContentForStage": "subject.centralContents[year === stage.id].text + subject.centralCntHeading",
+      "centralContentForStage.headings": "<h4>/<li> inuti samma text-fält",
+      "relevantAssessmentCriteria.atStageEnd": "subject.knowledgeRequirements[year === stage.assessmentYear]",
+      "relevantAssessmentCriteria.priorStageBaseline": "subject.knowledgeRequirements[year === föregående stadiums slutår]",
+      "*.valueWords": "<strong>-markeringar i knowledgeRequirements[].text"
+    },
+    "availableCentralContentYears": [
+      "1-3",
+      "4-6",
+      "7-9"
+    ],
+    "availableKnowledgeRequirementYears": [
+      "6",
+      "9"
+    ]
+  },
+  "groundedBrief": "# Engelska — I årskurs 4–6\n\n## OM DENNA BRIEF\nAllt läroplansinnehåll nedan är hämtat ordagrant från Skolverkets Syllabus API. Ämne: Engelska (GRGRENG01). Skolform: GR. Läroplan: LGR22 version 5. Ämnesversion: 14 (SKOLFS 2022:8). Betygsskala: A-F. Hämtat via /v1/subjects/GRGRENG01 den 2026-09-28.\n\n## VAD SKOLVERKET FAKTISKT ANGER FÖR ÅRSKURS 5\nSkolverket publicerar centralt innehåll per stadium, inte per årskurs. Innehållet nedan gäller hela stadiet årskurs 4-6 (det vill säga årskurs 4, 5, 6) — det finns INGET innehåll som är specifikt för årskurs 5.\nBetygskriterier finns bara för slutet av årskurs 6, 9. För det här stadiet gäller kriterierna i slutet av årskurs 6, vilket ligger efter årskurs 5. Det finns alltså inga kriterier att bedöma en elev i årskurs 5 mot.\n\n## SYFTE (Syfte)\nUndervisningen i ämnet engelska ska syfta till att eleverna utvecklar kunskaper i engelska språket och kunskaper om områden och sammanhang där engelska används. Undervisningen ska ge eleverna förutsättningar att utveckla sin flerspråkighet samt tilltro till sin förmåga att använda språket i olika situationer och för skilda syften.\nGenom undervisningen ska eleverna ges möjlighet att utveckla en allsidig kommunikativ förmåga. Denna förmåga innebär att förstå talat och skrivet språk, att kunna formulera sig och samspela med andra i tal och skrift och att kunna anpassa sitt språk till olika situationer, syften och mottagare. I den kommunikativa förmågan ingår även språklig säkerhet och att kunna använda olika strategier för att underlätta kommunikationen när språkkunskaperna inte räcker till.\nI mötet med talat språk och texter ska eleverna ges möjlighet att utveckla förmågan att sätta innehållet i relation till egna erfarenheter, livsvillkor och intressen. Undervisningen ska även ge eleverna möjligheter att utveckla förståelse av olika livsvillkor samt kulturella och sociala förhållanden i områden och i sammanhang där engelska används.\nUndervisningen ska bidra till att eleverna utvecklar kunskaper i att söka, värdera, välja och tillägna sig innehållet i talat språk och texter från olika källor. De ska också ges förutsättningar att kunna använda olika hjälpmedel för lärande, förståelse, skapande och kommunikation. Undervisningen ska stimulera elevernas intresse för språk och kulturer och förmedla nyttan av språkkunskaper.\nUndervisningen i ämnet engelska ska ge eleverna förutsättningar att utveckla\n\n## CENTRALT INNEHÅLL — I årskurs 4–6\n\n### Kommunikationens innehåll  [GRGRENG01/4-6/kommunikationens-innehall]\n- (GRGRENG01/4-6/kommunikationens-innehall/1) Ämnesområden som är välbekanta för eleverna.\n- (GRGRENG01/4-6/kommunikationens-innehall/2) Vardagliga situationer, intressen, personer, platser, aktiviteter och händelser.\n- (GRGRENG01/4-6/kommunikationens-innehall/3) Åsikter, känslor och erfarenheter.\n- (GRGRENG01/4-6/kommunikationens-innehall/4) Vardagsliv, levnadssätt och sociala relationer i olika sammanhang och områden där engelska används, även i jämförelse med egna erfarenheter och kunskaper. Engelskans utbredning i världen.\n\n### Lyssna och läsa – reception  [GRGRENG01/4-6/lyssna-och-lasa-reception]\n- (GRGRENG01/4-6/lyssna-och-lasa-reception/1) Tydligt talad engelska och enkla texter som är instruerande, beskrivande och kontaktskapande, från olika medier.\n- (GRGRENG01/4-6/lyssna-och-lasa-reception/2) Dialoger, samtal och intervjuer.\n- (GRGRENG01/4-6/lyssna-och-lasa-reception/3) Berättelser och annan fiktion för barn och unga, även i talad eller dramatiserad form.\n- (GRGRENG01/4-6/lyssna-och-lasa-reception/4) Sånger, dikter och sagor.\n- (GRGRENG01/4-6/lyssna-och-lasa-reception/5) Muntliga och skriftliga meddelanden samt information, till exempel reklam, tidtabeller och notiser.\n- (GRGRENG01/4-6/lyssna-och-lasa-reception/6) Strategier för att uppfatta betydelsebärande ord och sammanhang samt för att anpassa lyssnande och läsning till framställningens form och innehåll.\n- (GRGRENG01/4-6/lyssna-och-lasa-reception/7) Sökning av enkel information i ett avgränsat urval av muntliga och skriftliga källor av olika slag för användning i egen produktion och interaktion.\n- (GRGRENG01/4-6/lyssna-och-lasa-reception/8) Språkliga företeelser, däribland uttal, ord och fasta språkliga uttryck, grammatiska strukturer samt stavning, i det språk eleverna möter.\n- (GRGRENG01/4-6/lyssna-och-lasa-reception/9) Hur olika formuleringar används för att inleda och avsluta olika typer av framställningar och samtal.\n\n### Tala, skriva och samtala – produktion och interaktion  [GRGRENG01/4-6/tala-skriva-och-samtala-produktion-och-interaktion]\n- (GRGRENG01/4-6/tala-skriva-och-samtala-produktion-och-interaktion/1) Samtal och skrivande för kontakt och kommunikation.\n- (GRGRENG01/4-6/tala-skriva-och-samtala-produktion-och-interaktion/2) Presentationer, instruktioner, meddelanden, berättelser och beskrivningar i sammanhängande tal och skrift.\n- (GRGRENG01/4-6/tala-skriva-och-samtala-produktion-och-interaktion/3) Strategier, däribland omformuleringar, frågor och stödjande fraser, för att bidra till och underlätta samtal och skriftlig interaktion, även digital.\n- (GRGRENG01/4-6/tala-skriva-och-samtala-produktion-och-interaktion/4) Språkliga företeelser, däribland uttal, ord, artighetsfraser, tilltalsord och andra fasta språkliga uttryck, samt grammatiska strukturer och stavning i elevernas egen produktion och interaktion.\n- (GRGRENG01/4-6/tala-skriva-och-samtala-produktion-och-interaktion/5) Bearbetning av egna muntliga och skriftliga framställningar för att förtydliga och anpassa kommunikationen efter syfte och mottagare.\n\n## BETYGSKRITERIER I SLUTET AV ÅRSKURS 6 (mål framåt, inte bedömning nu)\n\n### Betygskriterier för betyget E i slutet av årskurs 6\nEleven lyssnar samt förstår och tolkar det mest väsentliga av innehållet i tydligt talat, enkelt språk i lugnt tempo om vardagliga och välbekanta ämnen. Eleven läser samt förstår och tolkar det mest väsentliga av innehållet i enkla texter om vardagliga och välbekanta ämnen. Eleven väljer enkel information från ett avgränsat urval av muntliga och skriftliga källor samt använder på ett delvis relevant sätt det valda materialet i sin egen produktion och interaktion.\nI muntliga framställningar av olika slag formulerar sig eleven enkelt och begripligt med fraser och meningar. I skriftliga framställningar av olika slag formulerar sig eleven enkelt och begripligt med fraser och meningar.\nI interaktion uttrycker sig eleven enkelt och begripligt med ord, fraser och meningar. Dessutom använder eleven strategier som i någon mån underlättar och förbättrar interaktionen.\nEleven kommenterar på ett enkelt sätt, på engelska, förhållanden i olika sammanhang och områden där språket används.\n(Värdeord som Skolverket markerar: det mest väsentliga, på ett delvis relevant sätt, enkelt och begripligt med fraser och meningar, enkelt och begripligt med ord, fraser och meningar, i någon mån, på ett enkelt sätt)\n\n### Betygskriterier för betyget D i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan C och E.\n\n### Betygskriterier för betyget C i slutet av årskurs 6\nEleven lyssnar samt förstår och tolkar huvudsakligt innehåll och tydliga detaljer i tydligt talat, enkelt språk i lugnt tempo om vardagliga och välbekanta ämnen. Eleven läser samt förstår och tolkar huvudsakligt innehåll och tydliga detaljer i enkla texter om vardagliga och välbekanta ämnen. Eleven väljer enkel information från ett avgränsat urval av muntliga och skriftliga källor samt använder på ett relevant sätt det valda materialet i sin egen produktion och interaktion.\nI muntliga framställningar av olika slag formulerar sig eleven enkelt, relativt tydligt och till viss del sammanhängande. I skriftliga framställningar av olika slag formulerar sig eleven enkelt, relativt tydligt och till viss del sammanhängande.\nI interaktion uttrycker sig eleven enkelt och relativt tydligt med ord, fraser och meningar. Dessutom använder eleven strategier som i viss utsträckning underlättar och förbättrar interaktionen.\nEleven kommenterar på ett enkelt sätt, på engelska, förhållanden i olika sammanhang och områden där språket används.\n(Värdeord som Skolverket markerar: huvudsakligt innehåll och tydliga detaljer, på ett relevant sätt, enkelt, relativt tydligt och till viss del sammanhängande, enkelt och relativt tydligt med ord, fraser och meningar, i viss utsträckning, på ett enkelt sätt)\n\n### Betygskriterier för betyget B i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan A och C.\n\n### Betygskriterier för betyget A i slutet av årskurs 6\nEleven lyssnar samt förstår och tolkar helheten och väsentliga detaljer i tydligt talat, enkelt språk i lugnt tempo om vardagliga och välbekanta ämnen. Eleven läser samt förstår och tolkar helheten och väsentliga detaljer i enkla texter om vardagliga och välbekanta ämnen. Eleven väljer enkel information från ett avgränsat urval av muntliga och skriftliga källor samt använder på ett relevant och effektivt sätt det valda materialet i sin egen produktion och interaktion.\nI muntliga framställningar av olika slag formulerar sig eleven i någon mån varierat, relativt tydligt och relativt sammanhängande. I skriftliga framställningar av olika slag formulerar sig eleven i någon mån varierat, relativt tydligt och relativt sammanhängande.\nI interaktion uttrycker sig eleven relativt tydligt med ord, fraser och meningar samt i någon mån anpassat till syfte, mottagare och situation. Dessutom använder eleven strategier som underlättar och förbättrar interaktionen.\nEleven kommenterar översiktligt, på engelska, förhållanden i olika sammanhang och områden där språket används.\n(Värdeord som Skolverket markerar: helheten och väsentliga detaljer, på ett relevant och effektivt sätt, i någon mån varierat, relativt tydligt och relativt sammanhängande, relativt tydligt med ord, fraser och meningar, i någon mån anpassat, översiktligt)\n\n## REGLER FÖR HANDLEDAREN\n- Undervisa bara inom det centrala innehållet ovan. Behöver du något som inte står där, säg att det ligger utanför läroplanen för det här stadiet.\n- Säg aldrig att Skolverket anger något specifikt för årskurs 5. Det gör Skolverket inte. Val av takt och ordning inom stadiet är lärarens bedömning, inte läroplanens.\n- Skolverket kopplar inte betygskriterier till enskilda punkter i det centrala innehållet. Hitta inte på sådana kopplingar. Kriterierna gäller hela stadiet.\n- Hänvisa till innehåll med id:t i parentes, t.ex. (GRGRENG01/4-6/kommunikationens-innehall/1).\n- Betygskriterierna beskriver slutet av stadiet. Använd dem som riktning, inte som omdöme om eleven här och nu.\n- Citera läroplanstext ordagrant när du hänvisar till den. Formulera om bara för att förklara."
+}

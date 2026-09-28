@@ -1,0 +1,33 @@
+{
+  "subjectCode": "GRGRENG01",
+  "subjectName": "Engelska",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRENG01/4-6/tala-skriva-och-samtala-produktion-och-interaktion",
+    "title": "Tala, skriva och samtala – produktion och interaktion",
+    "contentPoints": [
+      {
+        "id": "GRGRENG01/4-6/tala-skriva-och-samtala-produktion-och-interaktion/1",
+        "text": "Samtal och skrivande för kontakt och kommunikation."
+      },
+      {
+        "id": "GRGRENG01/4-6/tala-skriva-och-samtala-produktion-och-interaktion/2",
+        "text": "Presentationer, instruktioner, meddelanden, berättelser och beskrivningar i sammanhängande tal och skrift."
+      },
+      {
+        "id": "GRGRENG01/4-6/tala-skriva-och-samtala-produktion-och-interaktion/3",
+        "text": "Strategier, däribland omformuleringar, frågor och stödjande fraser, för att bidra till och underlätta samtal och skriftlig interaktion, även digital."
+      },
+      {
+        "id": "GRGRENG01/4-6/tala-skriva-och-samtala-produktion-och-interaktion/4",
+        "text": "Språkliga företeelser, däribland uttal, ord, artighetsfraser, tilltalsord och andra fasta språkliga uttryck, samt grammatiska strukturer och stavning i elevernas egen produktion och interaktion."
+      },
+      {
+        "id": "GRGRENG01/4-6/tala-skriva-och-samtala-produktion-och-interaktion/5",
+        "text": "Bearbetning av egna muntliga och skriftliga framställningar för att förtydliga och anpassa kommunikationen efter syfte och mottagare."
+      }
+    ]
+  }
+}

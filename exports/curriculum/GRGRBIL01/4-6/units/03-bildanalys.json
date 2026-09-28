@@ -1,0 +1,29 @@
+{
+  "subjectCode": "GRGRBIL01",
+  "subjectName": "Bild",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRBIL01/4-6/bildanalys",
+    "title": "Bildanalys",
+    "contentPoints": [
+      {
+        "id": "GRGRBIL01/4-6/bildanalys/1",
+        "text": "Konst- och dokumentärbilder samt arkitektur från olika tider och kulturer."
+      },
+      {
+        "id": "GRGRBIL01/4-6/bildanalys/2",
+        "text": "Mediebilder, till exempel reklam- och nyhetsbilder."
+      },
+      {
+        "id": "GRGRBIL01/4-6/bildanalys/3",
+        "text": "Bilder ur elevernas visuella kulturer som gestaltar identitet, grupptillhörighet och normer."
+      },
+      {
+        "id": "GRGRBIL01/4-6/bildanalys/4",
+        "text": "Hur bilder påverkar och förmedlar budskap. Ord och begrepp för att kunna samtala om bilders innehåll, uttryck och funktioner."
+      }
+    ]
+  }
+}

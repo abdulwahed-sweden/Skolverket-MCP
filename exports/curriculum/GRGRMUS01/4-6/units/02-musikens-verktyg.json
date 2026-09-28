@@ -1,0 +1,33 @@
+{
+  "subjectCode": "GRGRMUS01",
+  "subjectName": "Musik",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRMUS01/4-6/musikens-verktyg",
+    "title": "Musikens verktyg",
+    "contentPoints": [
+      {
+        "id": "GRGRMUS01/4-6/musikens-verktyg/1",
+        "text": "Rösten och hur den kan varieras och användas musikaliskt i olika vokala uttryck, till exempel sång, jojk och rap."
+      },
+      {
+        "id": "GRGRMUS01/4-6/musikens-verktyg/2",
+        "text": "Ackord-, melodi-, bas- och slagverksinstrument samt digitala verktyg för musicerande och musikskapande."
+      },
+      {
+        "id": "GRGRMUS01/4-6/musikens-verktyg/3",
+        "text": "Röstvård och hörselvård vid musikaliska aktiviteter i olika miljöer."
+      },
+      {
+        "id": "GRGRMUS01/4-6/musikens-verktyg/4",
+        "text": "Musikaliska byggstenar: puls, rytm, tempo, taktarter, klang, tonhöjd, dynamik, fraser, perioder, musikalisk form och ackord."
+      },
+      {
+        "id": "GRGRMUS01/4-6/musikens-verktyg/5",
+        "text": "Musiksymboler, grafisk notation, ackordbeteckningar och grundläggande notkännedom."
+      }
+    ]
+  }
+}

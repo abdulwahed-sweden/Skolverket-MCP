@@ -1,0 +1,81 @@
+{
+  "subjectCode": "GRGRHKK01",
+  "subjectName": "Hem- och konsumentkunskap",
+  "curriculumCode": "LGR22",
+  "stage": "1-6",
+  "assessment": {
+    "assessmentYear": "6",
+    "criteria": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven tillagar enkla måltider och hanterar andra praktiska uppgifter som förekommer i ett hem genom att använda i huvudsak fungerande tillvägagångssätt.",
+          "Eleven ger exempel på olika sätt att spara och betala och beskriver på ett enkelt sätt vad som kan påverka konsumtionsval.",
+          "Eleven värderar på ett enkelt sätt hur val och handlingar som förekommer i ett hem påverkar hälsa, ekonomi och miljö."
+        ],
+        "valueWords": [
+          "i",
+          "huvudsak fungerande",
+          "enkelt"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven tillagar enkla måltider och hanterar andra praktiska uppgifter som förekommer i ett hem genom att använda <strong>i</strong> <strong>huvudsak fungerande</strong> tillvägagångssätt.</p> <p>Eleven ger exempel på olika sätt att spara och betala och beskriver på ett <strong>enkelt</strong> sätt vad som kan påverka konsumtionsval.</p> <p>Eleven värderar på ett <strong>enkelt</strong> sätt hur val och handlingar som förekommer i ett hem påverkar hälsa, ekonomi och miljö.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven tillagar enkla måltider och hanterar andra praktiska uppgifter som förekommer i ett hem genom att använda fungerande tillvägagångsätt.",
+          "Eleven ger exempel på olika sätt att spara och betala och beskriver på ett utvecklat sätt vad som kan påverka konsumtionsval.",
+          "Eleven värderar på ett utvecklat sätt hur val och handlingar som förekommer i ett hem påverkar hälsa, ekonomi och miljö."
+        ],
+        "valueWords": [
+          "fungerande",
+          "utvecklat"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven tillagar enkla måltider och hanterar andra praktiska uppgifter som förekommer i ett hem genom att använda <strong>fungerande</strong> tillvägagångsätt.</p> <p>Eleven ger exempel på olika sätt att spara och betala och beskriver på ett <strong>utvecklat </strong>sätt vad som kan påverka konsumtionsval.</p> <p>Eleven värderar på ett <strong>utvecklat </strong>sätt hur val och handlingar som förekommer i ett hem påverkar hälsa, ekonomi och miljö.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven tillagar enkla måltider och hanterar andra praktiska uppgifter som förekommer i ett hem genom att använda väl fungerande tillvägagångssätt.",
+          "Eleven ger exempel på olika sätt att spara och betala och beskriver på ett välutvecklat sätt vad som kan påverka konsumtionsval.",
+          "Eleven värderar på ett välutvecklat sätt hur val och handlingar som förekommer i ett hem påverkar hälsa, ekonomi och miljö."
+        ],
+        "valueWords": [
+          "väl fungerande",
+          "välutvecklat",
+          "väl",
+          "utvecklat"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven tillagar enkla måltider och hanterar andra praktiska uppgifter som förekommer i ett hem genom att använda <strong>väl fungerande</strong> tillvägagångssätt.</p> <p>Eleven ger exempel på olika sätt att spara och betala och beskriver på ett <strong>välutvecklat </strong>sätt vad som kan påverka konsumtionsval.</p> <p>Eleven värderar på ett <strong>väl</strong><strong>utvecklat</strong> sätt hur val och handlingar som förekommer i ett hem påverkar hälsa, ekonomi och miljö.</p>"
+      }
+    ],
+    "priorStageBaseline": [],
+    "noneForRequestedGrade": true
+  }
+}

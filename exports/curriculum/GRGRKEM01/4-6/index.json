@@ -1,0 +1,75 @@
+{
+  "subjectCode": "GRGRKEM01",
+  "subjectName": "Kemi",
+  "schoolType": "GR",
+  "curriculumCode": "LGR22",
+  "stage": {
+    "id": "4-6",
+    "years": [
+      4,
+      5,
+      6
+    ],
+    "requestedGrade": 5,
+    "gradeIsExplicitInApi": false,
+    "assessmentYear": "6"
+  },
+  "units": [
+    {
+      "order": 1,
+      "id": "GRGRKEM01/4-6/undervisningen-i-kemi-ska-behandla-foljande-centrala-innehall",
+      "title": "Undervisningen i kemi ska behandla följande centrala innehåll",
+      "contentPointCount": 0,
+      "file": "units/01-undervisningen-i-kemi-ska-behandla-foljande-centrala-innehall.json"
+    },
+    {
+      "order": 2,
+      "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen",
+      "title": "Kemin i naturen, i samhället och i människokroppen",
+      "contentPointCount": 9,
+      "file": "units/02-kemin-i-naturen-i-samhallet-och-i-manniskokroppen.json"
+    },
+    {
+      "order": 3,
+      "id": "GRGRKEM01/4-6/systematiska-undersokningar-och-granskning-av-information",
+      "title": "Systematiska undersökningar och granskning av information",
+      "contentPointCount": 3,
+      "file": "units/03-systematiska-undersokningar-och-granskning-av-information.json"
+    }
+  ],
+  "assessment": {
+    "year": "6",
+    "file": "assessment/year-6.json"
+  },
+  "provenance": {
+    "apiBaseUrl": "https://api.skolverket.se/syllabus",
+    "apiVersion": "1.16.2-SNAPSHOT",
+    "retrievedForDate": "2026-09-28",
+    "subjectEndpoint": "/v1/subjects/GRGRKEM01",
+    "curriculumEndpoint": "/v1/curriculums/LGR22",
+    "fieldMap": {
+      "subject.*": "subjects/{code} → subject.{code,name,designation,gradeScale,version,...}",
+      "schoolType": "subject.schoolTypes[] (array i API:et, ej en sträng)",
+      "curriculum.*": "curriculums/{code} → curriculum.{code,name,version,startDate}",
+      "stage.id": "subject.centralContents[].year",
+      "stage.years": "härlett ur stage.id genom att expandera intervallet",
+      "stage.assessmentYear": "sista året i stage.id; matchar knowledgeRequirements[].year",
+      "purpose": "subject.purpose (HTML-sträng) + subject.purposeHeading",
+      "centralContentForStage": "subject.centralContents[year === stage.id].text + subject.centralCntHeading",
+      "centralContentForStage.headings": "<h4>/<li> inuti samma text-fält",
+      "relevantAssessmentCriteria.atStageEnd": "subject.knowledgeRequirements[year === stage.assessmentYear]",
+      "relevantAssessmentCriteria.priorStageBaseline": "subject.knowledgeRequirements[year === föregående stadiums slutår]",
+      "*.valueWords": "<strong>-markeringar i knowledgeRequirements[].text"
+    },
+    "availableCentralContentYears": [
+      "1-3",
+      "4-6",
+      "7-9"
+    ],
+    "availableKnowledgeRequirementYears": [
+      "3",
+      "6",
+      "9"
+    ]
+  }
+}

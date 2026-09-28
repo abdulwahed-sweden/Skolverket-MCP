@@ -1,0 +1,33 @@
+{
+  "subjectCode": "GRGRIDR01",
+  "subjectName": "Idrott och hälsa",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRIDR01/4-6/rorelse",
+    "title": "Rörelse",
+    "contentPoints": [
+      {
+        "id": "GRGRIDR01/4-6/rorelse/1",
+        "text": "Sammansatta motoriska grundformer med och utan olika redskap."
+      },
+      {
+        "id": "GRGRIDR01/4-6/rorelse/2",
+        "text": "Lekar, spel, idrotter och andra rörelseaktiviteter, inomhus och utomhus."
+      },
+      {
+        "id": "GRGRIDR01/4-6/rorelse/3",
+        "text": "Takt och rytm i danser och i rörelser till musik."
+      },
+      {
+        "id": "GRGRIDR01/4-6/rorelse/4",
+        "text": "Grundläggande träningslära: pulshöjande rörelser samt koordinations-, styrke- och rörlighetsövningar."
+      },
+      {
+        "id": "GRGRIDR01/4-6/rorelse/5",
+        "text": "Simning i mag- och ryggläge."
+      }
+    ]
+  }
+}

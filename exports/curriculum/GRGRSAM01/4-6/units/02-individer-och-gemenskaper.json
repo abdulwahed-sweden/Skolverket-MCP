@@ -1,0 +1,21 @@
+{
+  "subjectCode": "GRGRSAM01",
+  "subjectName": "Samhällskunskap",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRSAM01/4-6/individer-och-gemenskaper",
+    "title": "Individer och gemenskaper",
+    "contentPoints": [
+      {
+        "id": "GRGRSAM01/4-6/individer-och-gemenskaper/1",
+        "text": "Sociala roller och normer i olika sammanhang, till exempel inom familjen och i vänskapsrelationer. Könsroller, jämställdhet och sexualitet."
+      },
+      {
+        "id": "GRGRSAM01/4-6/individer-och-gemenskaper/2",
+        "text": "Sociala skyddsnät för barn i olika livssituationer, i skolan och i samhället."
+      }
+    ]
+  }
+}

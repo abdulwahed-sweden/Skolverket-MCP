@@ -1,0 +1,45 @@
+{
+  "subjectCode": "GRGRMAT01",
+  "subjectName": "Matematik",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRMAT01/4-6/taluppfattning-och-tals-anvandning",
+    "title": "Taluppfattning och tals användning",
+    "contentPoints": [
+      {
+        "id": "GRGRMAT01/4-6/taluppfattning-och-tals-anvandning/1",
+        "text": "Rationella tal, däribland negativa tal, och deras egenskaper samt hur talen kan delas upp och användas."
+      },
+      {
+        "id": "GRGRMAT01/4-6/taluppfattning-och-tals-anvandning/2",
+        "text": "Positionssystemet och hur det används för att beskriva hela tal och tal i decimalform."
+      },
+      {
+        "id": "GRGRMAT01/4-6/taluppfattning-och-tals-anvandning/3",
+        "text": "Olika talsystem och några talsystem som använts i olika kulturer genom historien."
+      },
+      {
+        "id": "GRGRMAT01/4-6/taluppfattning-och-tals-anvandning/4",
+        "text": "Tal i procentform och deras samband med tal i bråk- och decimalform."
+      },
+      {
+        "id": "GRGRMAT01/4-6/taluppfattning-och-tals-anvandning/5",
+        "text": "Hur tal i bråk- och decimalform kan användas i vardagliga situationer."
+      },
+      {
+        "id": "GRGRMAT01/4-6/taluppfattning-och-tals-anvandning/6",
+        "text": "De fyra räknesätten och regler för deras användning vid beräkningar med naturliga tal."
+      },
+      {
+        "id": "GRGRMAT01/4-6/taluppfattning-och-tals-anvandning/7",
+        "text": "Metoder för beräkningar med naturliga tal och enkla tal i bråk- och decimalform vid överslagsräkning, huvudräkning och skriftlig beräkning. Användning av digitala verktyg vid beräkningar."
+      },
+      {
+        "id": "GRGRMAT01/4-6/taluppfattning-och-tals-anvandning/8",
+        "text": "Rimlighetsbedömning vid uppskattningar och beräkningar."
+      }
+    ]
+  }
+}

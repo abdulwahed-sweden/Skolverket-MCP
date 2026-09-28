@@ -1,0 +1,21 @@
+{
+  "subjectCode": "GRGRREL01",
+  "subjectName": "Religionskunskap",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRREL01/4-6/etik-och-livsfragor",
+    "title": "Etik och livsfrågor",
+    "contentPoints": [
+      {
+        "id": "GRGRREL01/4-6/etik-och-livsfragor/1",
+        "text": "Samtal om och reflektion över vardagliga moraliska frågor utifrån elevernas egna argument och olika religiösa tolkningar. Sådana frågor kan till exempel handla om ansvar, utanförskap, kränkningar, jämställdhet och sexualitet."
+      },
+      {
+        "id": "GRGRREL01/4-6/etik-och-livsfragor/2",
+        "text": "Samtal om och reflektion över livsfrågor utifrån elevernas egna tankar och olika religiösa tolkningar. Sådana frågor kan till exempel handla om vad som är viktigt i livet och olika föreställningar om vad som händer efter döden."
+      }
+    ]
+  }
+}

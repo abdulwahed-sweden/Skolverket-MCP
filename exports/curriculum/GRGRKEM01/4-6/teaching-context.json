@@ -1,0 +1,210 @@
+{
+  "subjectCode": "GRGRKEM01",
+  "subjectName": "Kemi",
+  "schoolType": "GR",
+  "curriculumCode": "LGR22",
+  "stage": {
+    "id": "4-6",
+    "years": [
+      4,
+      5,
+      6
+    ],
+    "requestedGrade": 5,
+    "gradeIsExplicitInApi": false,
+    "assessmentYear": "6"
+  },
+  "units": [
+    {
+      "id": "GRGRKEM01/4-6/undervisningen-i-kemi-ska-behandla-foljande-centrala-innehall",
+      "title": "Undervisningen i kemi ska behandla följande centrala innehåll",
+      "contentPoints": []
+    },
+    {
+      "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen",
+      "title": "Kemin i naturen, i samhället och i människokroppen",
+      "contentPoints": [
+        {
+          "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/1",
+          "text": "Materiens uppbyggnad visualiserad med hjälp av enkla partikelmodeller."
+        },
+        {
+          "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/2",
+          "text": "Indelning av ämnen och material utifrån egenskaperna löslighet, ledningsförmåga, surt eller basiskt."
+        },
+        {
+          "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/3",
+          "text": "Vattnets egenskaper och kretslopp."
+        },
+        {
+          "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/4",
+          "text": "Luftens egenskaper och sammansättning."
+        },
+        {
+          "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/5",
+          "text": "Fotosyntes och förbränning som exempel på kemiska reaktioner i naturen."
+        },
+        {
+          "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/6",
+          "text": "Fossila och förnybara bränslen och deras påverkan på klimatet."
+        },
+        {
+          "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/7",
+          "text": "Matens innehåll och näringsämnenas betydelse för hälsan."
+        },
+        {
+          "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/8",
+          "text": "Vanliga kemikalier i hemmet. Deras användning och påverkan på miljön och människan samt hur de är märkta och bör hanteras."
+        },
+        {
+          "id": "GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/9",
+          "text": "Råvarors förädling till produkter, till exempel metaller, papper och plast. Hur produkterna kan återanvändas eller återvinnas."
+        }
+      ]
+    },
+    {
+      "id": "GRGRKEM01/4-6/systematiska-undersokningar-och-granskning-av-information",
+      "title": "Systematiska undersökningar och granskning av information",
+      "contentPoints": [
+        {
+          "id": "GRGRKEM01/4-6/systematiska-undersokningar-och-granskning-av-information/1",
+          "text": "Observationer och experiment med såväl analoga som digitala verktyg. Planering, utförande, värdering av resultat samt dokumentation med ord, bilder och tabeller."
+        },
+        {
+          "id": "GRGRKEM01/4-6/systematiska-undersokningar-och-granskning-av-information/2",
+          "text": "Några upptäckter inom kemiområdet och deras betydelse för människans levnadsvillkor och syn på naturen."
+        },
+        {
+          "id": "GRGRKEM01/4-6/systematiska-undersokningar-och-granskning-av-information/3",
+          "text": "Kritisk granskning och användning av information som rör kemi."
+        }
+      ]
+    }
+  ],
+  "stageAssessment": {
+    "assessmentYear": "6",
+    "criteria": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om kemins begrepp och förklaringsmodeller. Med viss användning av begreppen och förklaringsmodellerna beskriver eleven enkla kemiska samband i naturen, i samhället och i människokroppen.",
+          "Eleven använder information som rör kemi för att med viss naturvetenskaplig underbyggnad föra resonemang i frågor som rör miljö och hälsa.",
+          "Eleven söker svar på frågor genom att utföra systematiska undersökningar på ett säkert och i huvudsak fungerande sätt. Eleven värderar resultaten och beskriver på ett enkelt sätt undersökningarna."
+        ],
+        "valueWords": [
+          "grundläggande",
+          "viss",
+          "i huvudsak fungerande",
+          "enkelt"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven visar <strong>grundläggande</strong> kunskaper om kemins begrepp och förklaringsmodeller. Med <strong>viss</strong> användning av begreppen och förklaringsmodellerna beskriver eleven enkla kemiska samband i naturen, i samhället och i människokroppen.</p> <p>Eleven använder information som rör kemi för att med <strong>viss</strong> naturvetenskaplig underbyggnad föra resonemang i frågor som rör miljö och hälsa.</p> <p>Eleven söker svar på frågor genom att utföra systematiska undersökningar på ett säkert och <strong>i huvudsak fungerande </strong>sätt. Eleven värderar resultaten och beskriver på ett <strong>enkelt</strong> sätt undersökningarna.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar goda kunskaper om kemins begrepp och förklaringsmodeller. Med relativt god användning av begreppen och förklaringsmodellerna beskriver eleven enkla kemiska samband i naturen, i samhället och i människokroppen.",
+          "Eleven använder information som rör kemi för att med relativt god naturvetenskaplig underbyggnad föra resonemang i frågor som rör miljö och hälsa.",
+          "Eleven söker svar på frågor genom att utföra systematiska undersökningar på ett säkert och fungerande sätt. Eleven värderar resultaten och beskriver på ett utvecklat sätt undersökningarna."
+        ],
+        "valueWords": [
+          "goda",
+          "relativt god",
+          "fungerande",
+          "utvecklat"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven visar <strong>goda</strong> kunskaper om kemins begrepp och förklaringsmodeller. Med <strong>relativt god</strong> användning av begreppen och förklaringsmodellerna beskriver eleven enkla kemiska samband i naturen, i samhället och i människokroppen.</p> <p>Eleven använder information som rör kemi för att med <strong>relativt god</strong> naturvetenskaplig underbyggnad föra resonemang i frågor som rör miljö och hälsa.</p> <p>Eleven söker svar på frågor genom att utföra systematiska undersökningar på ett säkert och <strong>fungerande</strong> sätt. Eleven värderar resultaten och beskriver på ett <strong>utvecklat</strong> sätt undersökningarna.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar mycket goda kunskaper om kemins begrepp och förklaringsmodeller. Med god användning av begreppen och förklaringsmodellerna beskriver eleven enkla kemiska samband i naturen, i samhället och i människokroppen.",
+          "Eleven använder information som rör kemi för att med god naturvetenskaplig underbyggnad föra resonemang i frågor som rör miljö och hälsa.",
+          "Eleven söker svar på frågor genom att utföra systematiska undersökningar på ett säkert och väl fungerande sätt. Eleven värderar resultaten och beskriver på ett välutvecklat sätt undersökningarna."
+        ],
+        "valueWords": [
+          "mycket goda",
+          "god",
+          "väl fungerande",
+          "välutvecklat"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven visar <strong>mycket goda</strong> kunskaper om kemins begrepp och förklaringsmodeller. Med <strong>god</strong> användning av begreppen och förklaringsmodellerna beskriver eleven enkla kemiska samband i naturen, i samhället och i människokroppen.</p> <p>Eleven använder information som rör kemi för att med <strong>god</strong> naturvetenskaplig underbyggnad föra resonemang i frågor som rör miljö och hälsa.</p> <p>Eleven söker svar på frågor genom att utföra systematiska undersökningar på ett säkert och <strong>väl fungerande </strong>sätt. Eleven värderar resultaten och beskriver på ett <strong>välutvecklat</strong> sätt undersökningarna.</p>"
+      }
+    ],
+    "priorStageBaseline": [
+      {
+        "year": "3",
+        "gradeStep": null,
+        "headingText": "Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om natur, kropp och hälsa, kraft och rörelse samt material och ämnen. Utifrån egna upplevelser och utforskande av närmiljön beskriver eleven enkla naturvetenskapliga samband i naturen och människokroppen. Utifrån tydliga instruktioner utför eleven enkla fältstudier, observationer och experiment."
+        ],
+        "valueWords": [],
+        "html": "<h3>Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3</h3><p>Eleven visar grundläggande kunskaper om natur, kropp och hälsa, kraft och rörelse samt material och ämnen. Utifrån egna upplevelser och utforskande av närmiljön beskriver eleven enkla naturvetenskapliga samband i naturen och människokroppen. Utifrån tydliga instruktioner utför eleven enkla fältstudier, observationer och experiment.</p>"
+      }
+    ],
+    "noneForRequestedGrade": true
+  },
+  "counts": {
+    "units": 3,
+    "contentPoints": 12,
+    "criteria": 5
+  },
+  "provenance": {
+    "apiBaseUrl": "https://api.skolverket.se/syllabus",
+    "apiVersion": "1.16.2-SNAPSHOT",
+    "retrievedForDate": "2026-09-28",
+    "subjectEndpoint": "/v1/subjects/GRGRKEM01",
+    "curriculumEndpoint": "/v1/curriculums/LGR22",
+    "fieldMap": {
+      "subject.*": "subjects/{code} → subject.{code,name,designation,gradeScale,version,...}",
+      "schoolType": "subject.schoolTypes[] (array i API:et, ej en sträng)",
+      "curriculum.*": "curriculums/{code} → curriculum.{code,name,version,startDate}",
+      "stage.id": "subject.centralContents[].year",
+      "stage.years": "härlett ur stage.id genom att expandera intervallet",
+      "stage.assessmentYear": "sista året i stage.id; matchar knowledgeRequirements[].year",
+      "purpose": "subject.purpose (HTML-sträng) + subject.purposeHeading",
+      "centralContentForStage": "subject.centralContents[year === stage.id].text + subject.centralCntHeading",
+      "centralContentForStage.headings": "<h4>/<li> inuti samma text-fält",
+      "relevantAssessmentCriteria.atStageEnd": "subject.knowledgeRequirements[year === stage.assessmentYear]",
+      "relevantAssessmentCriteria.priorStageBaseline": "subject.knowledgeRequirements[year === föregående stadiums slutår]",
+      "*.valueWords": "<strong>-markeringar i knowledgeRequirements[].text"
+    },
+    "availableCentralContentYears": [
+      "1-3",
+      "4-6",
+      "7-9"
+    ],
+    "availableKnowledgeRequirementYears": [
+      "3",
+      "6",
+      "9"
+    ]
+  },
+  "groundedBrief": "# Kemi — I årskurs 4–6\n\n## OM DENNA BRIEF\nAllt läroplansinnehåll nedan är hämtat ordagrant från Skolverkets Syllabus API. Ämne: Kemi (GRGRKEM01). Skolform: GR. Läroplan: LGR22 version 5. Ämnesversion: 14 (SKOLFS 2022:8). Betygsskala: A-F. Hämtat via /v1/subjects/GRGRKEM01 den 2026-09-28.\n\n## VAD SKOLVERKET FAKTISKT ANGER FÖR ÅRSKURS 5\nSkolverket publicerar centralt innehåll per stadium, inte per årskurs. Innehållet nedan gäller hela stadiet årskurs 4-6 (det vill säga årskurs 4, 5, 6) — det finns INGET innehåll som är specifikt för årskurs 5.\nBetygskriterier finns bara för slutet av årskurs 3, 6, 9. För det här stadiet gäller kriterierna i slutet av årskurs 6, vilket ligger efter årskurs 5. Det finns alltså inga kriterier att bedöma en elev i årskurs 5 mot.\n\n## SYFTE (Syfte)\nUndervisningen i ämnet kemi ska syfta till att eleverna utvecklar nyfikenhet på och intresse för att veta mer om omvärlden. Eleverna ska därför ges möjligheter att ställa frågor om kemiska processer och materiens egenskaper och uppbyggnad utifrån egna upplevelser och aktuella händelser. Undervisningen ska bidra till att eleverna utvecklar kunskaper om kemin i naturen, i samhället och i människokroppen samt ge dem förutsättningar att använda kemins begrepp och förklaringsmodeller för att beskriva och förklara kemiska samband. Eleverna kan på så sätt utveckla sin förmåga att skilja mellan naturvetenskapliga och andra sätt att beskriva och förklara omvärlden.\nGenom undervisningen ska eleverna ges möjligheter att använda kunskaper i kemi för att formulera egna och granska andras argument. Därigenom ska eleverna utveckla sin förmåga att kommunicera samt hantera praktiska och etiska valsituationer i frågor som rör miljö och hälsa. Eleverna ska även ges förutsättningar att söka svar på ämnesspecifika frågor med hjälp av olika typer av källor. På så sätt ska undervisningen bidra till att eleverna utvecklar ett kritiskt tänkande och tilltro till sin förmåga att hantera frågor som rör naturvetenskap och som har betydelse för dem själva och samhället.\nUndervisningen ska även ge eleverna förutsättningar att söka svar på frågor om kemiska processer och materien med hjälp av egna systematiska undersökningar. På så sätt ska eleverna ges möjligheter att utveckla förståelse för att påståenden kan prövas och att kunskaper i kemi växer fram med hjälp av naturvetenskapliga arbetsmetoder. I det praktiska arbetet ska eleverna även ges möjligheter att utveckla färdigheter i att hantera material, utrustning och digitala verktyg.\nUndervisningen i ämnet kemi ska ge eleverna förutsättningar att utveckla\n\n## CENTRALT INNEHÅLL — I årskurs 4–6\n\n### Undervisningen i kemi ska behandla följande centrala innehåll  [GRGRKEM01/4-6/undervisningen-i-kemi-ska-behandla-foljande-centrala-innehall]\n\n### Kemin i naturen, i samhället och i människokroppen  [GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen]\n- (GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/1) Materiens uppbyggnad visualiserad med hjälp av enkla partikelmodeller.\n- (GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/2) Indelning av ämnen och material utifrån egenskaperna löslighet, ledningsförmåga, surt eller basiskt.\n- (GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/3) Vattnets egenskaper och kretslopp.\n- (GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/4) Luftens egenskaper och sammansättning.\n- (GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/5) Fotosyntes och förbränning som exempel på kemiska reaktioner i naturen.\n- (GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/6) Fossila och förnybara bränslen och deras påverkan på klimatet.\n- (GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/7) Matens innehåll och näringsämnenas betydelse för hälsan.\n- (GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/8) Vanliga kemikalier i hemmet. Deras användning och påverkan på miljön och människan samt hur de är märkta och bör hanteras.\n- (GRGRKEM01/4-6/kemin-i-naturen-i-samhallet-och-i-manniskokroppen/9) Råvarors förädling till produkter, till exempel metaller, papper och plast. Hur produkterna kan återanvändas eller återvinnas.\n\n### Systematiska undersökningar och granskning av information  [GRGRKEM01/4-6/systematiska-undersokningar-och-granskning-av-information]\n- (GRGRKEM01/4-6/systematiska-undersokningar-och-granskning-av-information/1) Observationer och experiment med såväl analoga som digitala verktyg. Planering, utförande, värdering av resultat samt dokumentation med ord, bilder och tabeller.\n- (GRGRKEM01/4-6/systematiska-undersokningar-och-granskning-av-information/2) Några upptäckter inom kemiområdet och deras betydelse för människans levnadsvillkor och syn på naturen.\n- (GRGRKEM01/4-6/systematiska-undersokningar-och-granskning-av-information/3) Kritisk granskning och användning av information som rör kemi.\n\n## BETYGSKRITERIER I SLUTET AV ÅRSKURS 6 (mål framåt, inte bedömning nu)\n\n### Betygskriterier för betyget E i slutet av årskurs 6\nEleven visar grundläggande kunskaper om kemins begrepp och förklaringsmodeller. Med viss användning av begreppen och förklaringsmodellerna beskriver eleven enkla kemiska samband i naturen, i samhället och i människokroppen.\nEleven använder information som rör kemi för att med viss naturvetenskaplig underbyggnad föra resonemang i frågor som rör miljö och hälsa.\nEleven söker svar på frågor genom att utföra systematiska undersökningar på ett säkert och i huvudsak fungerande sätt. Eleven värderar resultaten och beskriver på ett enkelt sätt undersökningarna.\n(Värdeord som Skolverket markerar: grundläggande, viss, i huvudsak fungerande, enkelt)\n\n### Betygskriterier för betyget D i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan C och E.\n\n### Betygskriterier för betyget C i slutet av årskurs 6\nEleven visar goda kunskaper om kemins begrepp och förklaringsmodeller. Med relativt god användning av begreppen och förklaringsmodellerna beskriver eleven enkla kemiska samband i naturen, i samhället och i människokroppen.\nEleven använder information som rör kemi för att med relativt god naturvetenskaplig underbyggnad föra resonemang i frågor som rör miljö och hälsa.\nEleven söker svar på frågor genom att utföra systematiska undersökningar på ett säkert och fungerande sätt. Eleven värderar resultaten och beskriver på ett utvecklat sätt undersökningarna.\n(Värdeord som Skolverket markerar: goda, relativt god, fungerande, utvecklat)\n\n### Betygskriterier för betyget B i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan A och C.\n\n### Betygskriterier för betyget A i slutet av årskurs 6\nEleven visar mycket goda kunskaper om kemins begrepp och förklaringsmodeller. Med god användning av begreppen och förklaringsmodellerna beskriver eleven enkla kemiska samband i naturen, i samhället och i människokroppen.\nEleven använder information som rör kemi för att med god naturvetenskaplig underbyggnad föra resonemang i frågor som rör miljö och hälsa.\nEleven söker svar på frågor genom att utföra systematiska undersökningar på ett säkert och väl fungerande sätt. Eleven värderar resultaten och beskriver på ett välutvecklat sätt undersökningarna.\n(Värdeord som Skolverket markerar: mycket goda, god, väl fungerande, välutvecklat)\n\n## FÖREGÅENDE STADIUM (utgångsläge eleven förväntas komma från)\n\n### Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3\nEleven visar grundläggande kunskaper om natur, kropp och hälsa, kraft och rörelse samt material och ämnen. Utifrån egna upplevelser och utforskande av närmiljön beskriver eleven enkla naturvetenskapliga samband i naturen och människokroppen. Utifrån tydliga instruktioner utför eleven enkla fältstudier, observationer och experiment.\n\n## REGLER FÖR HANDLEDAREN\n- Undervisa bara inom det centrala innehållet ovan. Behöver du något som inte står där, säg att det ligger utanför läroplanen för det här stadiet.\n- Säg aldrig att Skolverket anger något specifikt för årskurs 5. Det gör Skolverket inte. Val av takt och ordning inom stadiet är lärarens bedömning, inte läroplanens.\n- Skolverket kopplar inte betygskriterier till enskilda punkter i det centrala innehållet. Hitta inte på sådana kopplingar. Kriterierna gäller hela stadiet.\n- Hänvisa till innehåll med id:t i parentes, t.ex. (id).\n- Betygskriterierna beskriver slutet av stadiet. Använd dem som riktning, inte som omdöme om eleven här och nu.\n- Citera läroplanstext ordagrant när du hänvisar till den. Formulera om bara för att förklara."
+}

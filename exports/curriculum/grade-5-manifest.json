@@ -1,0 +1,135 @@
+{
+  "generatedBy": "scripts/export-ali-curriculum.ts",
+  "requestedGrade": 5,
+  "note": "Subject-specific official stages are preserved; HKK uses 1-6 while the other listed subjects use 4-6.",
+  "subjects": [
+    {
+      "code": "GRGRSVA01",
+      "name": "Svenska som andraspråk",
+      "stage": "4-6",
+      "units": 5,
+      "contentPoints": 27,
+      "criteria": 5
+    },
+    {
+      "code": "GRGRMAT01",
+      "name": "Matematik",
+      "stage": "4-6",
+      "units": 6,
+      "contentPoints": 27,
+      "criteria": 5
+    },
+    {
+      "code": "GRGRENG01",
+      "name": "Engelska",
+      "stage": "4-6",
+      "units": 3,
+      "contentPoints": 18,
+      "criteria": 5
+    },
+    {
+      "code": "GRGRBIO01",
+      "name": "Biologi",
+      "stage": "4-6",
+      "units": 4,
+      "contentPoints": 10,
+      "criteria": 5
+    },
+    {
+      "code": "GRGRFYS01",
+      "name": "Fysik",
+      "stage": "4-6",
+      "units": 3,
+      "contentPoints": 11,
+      "criteria": 5
+    },
+    {
+      "code": "GRGRKEM01",
+      "name": "Kemi",
+      "stage": "4-6",
+      "units": 3,
+      "contentPoints": 12,
+      "criteria": 5
+    },
+    {
+      "code": "GRGRTEK01",
+      "name": "Teknik",
+      "stage": "4-6",
+      "units": 3,
+      "contentPoints": 12,
+      "criteria": 5
+    },
+    {
+      "code": "GRGRGEO01",
+      "name": "Geografi",
+      "stage": "4-6",
+      "units": 4,
+      "contentPoints": 10,
+      "criteria": 5
+    },
+    {
+      "code": "GRGRHIS01",
+      "name": "Historia",
+      "stage": "4-6",
+      "units": 4,
+      "contentPoints": 15,
+      "criteria": 5
+    },
+    {
+      "code": "GRGRREL01",
+      "name": "Religionskunskap",
+      "stage": "4-6",
+      "units": 4,
+      "contentPoints": 11,
+      "criteria": 5
+    },
+    {
+      "code": "GRGRSAM01",
+      "name": "Samhällskunskap",
+      "stage": "4-6",
+      "units": 7,
+      "contentPoints": 14,
+      "criteria": 5
+    },
+    {
+      "code": "GRGRBIL01",
+      "name": "Bild",
+      "stage": "4-6",
+      "units": 3,
+      "contentPoints": 11,
+      "criteria": 5
+    },
+    {
+      "code": "GRGRMUS01",
+      "name": "Musik",
+      "stage": "4-6",
+      "units": 3,
+      "contentPoints": 13,
+      "criteria": 5
+    },
+    {
+      "code": "GRGRSLJ01",
+      "name": "Slöjd",
+      "stage": "4-6",
+      "units": 3,
+      "contentPoints": 10,
+      "criteria": 5
+    },
+    {
+      "code": "GRGRIDR01",
+      "name": "Idrott och hälsa",
+      "stage": "4-6",
+      "units": 3,
+      "contentPoints": 15,
+      "criteria": 5
+    },
+    {
+      "code": "GRGRHKK01",
+      "name": "Hem- och konsumentkunskap",
+      "stage": "1-6",
+      "units": 3,
+      "contentPoints": 14,
+      "criteria": 5
+    }
+  ]
+}

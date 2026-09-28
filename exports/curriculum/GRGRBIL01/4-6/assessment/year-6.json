@@ -1,0 +1,92 @@
+{
+  "subjectCode": "GRGRBIL01",
+  "subjectName": "Bild",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "assessment": {
+    "assessmentYear": "6",
+    "criteria": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven framställer olika typer av bilder med delvis genomarbetade uttrycksformer.",
+          "I bildarbetet använder eleven olika tekniker, verktyg och material på ett i huvudsak fungerande sätt.",
+          "Utifrån syftet med bildarbetet och någon idé väljer eleven ett i huvudsak fungerande tillvägagångssätt. Under arbetsprocessen bidrar eleven till att formulera och välja handlingsalternativ.",
+          "Eleven beskriver bilders innehåll och funktion på ett enkelt sätt."
+        ],
+        "valueWords": [
+          "delvis genomarbetade",
+          "i huvudsak fungerande",
+          "i huvudsak",
+          "fungerande",
+          "bidrar",
+          "till",
+          "enkelt"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven framställer olika typer av bilder med <strong>delvis genomarbetade</strong> uttrycksformer.</p> <p>I bildarbetet använder eleven olika tekniker, verktyg och material på ett <strong>i huvudsak fungerande</strong> sätt.</p> <p>Utifrån syftet med bildarbetet och någon idé väljer eleven ett <strong>i huvudsak</strong> <strong>fungerande</strong> tillvägagångssätt. Under arbetsprocessen <strong>bidrar</strong> eleven <strong>till</strong> att formulera och välja handlingsalternativ.</p> <p>Eleven beskriver bilders innehåll och funktion på ett <strong>enkelt </strong>sätt.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven framställer olika typer av bilder med genomarbetade uttrycksformer.",
+          "I bildarbetet använder eleven olika tekniker, verktyg och material på ett fungerande sätt.",
+          "Utifrån syftet med bildarbetet och någon idé väljer eleven ett fungerande tillvägagångssätt. Under arbetsprocessen formulerar och väljer eleven handlingsalternativ som efter någon bearbetning leder framåt.",
+          "Eleven beskriver bilders innehåll och funktion på ett utvecklat sätt."
+        ],
+        "valueWords": [
+          "genomarbetade",
+          "fungerande",
+          "som efter någon bearbetning leder framåt",
+          "utvecklat"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven framställer olika typer av bilder med <strong>genomarbetade</strong> uttrycksformer.</p> <p>I bildarbetet använder eleven olika tekniker, verktyg och material på ett <strong>fungerande </strong>sätt.</p> <p>Utifrån syftet med bildarbetet och någon idé väljer eleven ett <strong>fungerande</strong> tillvägagångssätt. Under arbetsprocessen formulerar och väljer eleven handlingsalternativ <strong>som efter någon bearbetning leder framåt</strong>.</p> <p>Eleven beskriver bilders innehåll och funktion på ett <strong>utvecklat</strong> sätt.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven framställer olika typer av bilder med väl genomarbetade uttrycksformer.",
+          "I bildarbetet använder eleven olika tekniker, verktyg och material på ett väl fungerande sätt.",
+          "Utifrån syftet med bildarbetet och någon idé väljer eleven ett väl fungerande tillvägagångssätt. Under arbetsprocessen formulerar och väljer eleven handlingsalternativ som leder framåt.",
+          "Eleven beskriver bilders innehåll och funktion på ett välutvecklat sätt."
+        ],
+        "valueWords": [
+          "väl genomarbetade",
+          "väl",
+          "fungerande",
+          "väl fungerande",
+          "som leder framåt",
+          "välutvecklat"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven framställer olika typer av bilder med <strong>väl genomarbetade</strong> uttrycksformer.</p> <p>I bildarbetet använder eleven olika tekniker, verktyg och material på ett <strong>väl </strong><strong>fungerande </strong>sätt.</p> <p>Utifrån syftet med bildarbetet och någon idé väljer eleven ett <strong>väl fungerande</strong> tillvägagångssätt. Under arbetsprocessen formulerar och väljer eleven handlingsalternativ <strong>som leder framåt</strong>.</p> <p>Eleven beskriver bilders innehåll och funktion på ett <strong>välutvecklat</strong> sätt.</p>"
+      }
+    ],
+    "priorStageBaseline": [],
+    "noneForRequestedGrade": true
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "subjectCode": "GRGRSLJ01",
+  "subjectName": "Slöjd",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "assessment": {
+    "assessmentYear": "6",
+    "criteria": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven formger och framställer på ett delvis genomarbetat sätt enkla slöjdföremål i olika material och med enkla hantverkstekniker. I slöjdarbetet använder eleven verktyg på ett säkert och i huvudsak fungerande sätt.",
+          "Utifrån syftet med slöjdarbetet och någon idé väljer eleven ett i huvudsak fungerande tillvägagångssätt. Under arbetsprocessen bidrar eleven till att formulera och välja handlingsalternativ.",
+          "Eleven beskriver på ett enkelt sätt arbetsprocessen och hur den har påverkat slöjdföremålets kvalitet."
+        ],
+        "valueWords": [
+          "delvis genomarbetat",
+          "i huvudsak fungerande",
+          "bidrar",
+          "till",
+          "enkelt"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven formger och framställer på ett <strong>delvis genomarbetat</strong> sätt enkla slöjdföremål i olika material och med enkla hantverkstekniker. I slöjdarbetet använder eleven verktyg på ett säkert och <strong>i huvudsak fungerande</strong> sätt.</p> <p>Utifrån syftet med slöjdarbetet och någon idé väljer eleven ett <strong>i huvudsak fungerande</strong> tillvägagångssätt. Under arbetsprocessen <strong>bidrar</strong> eleven <strong>till </strong>att formulera och välja handlingsalternativ.</p> <p>Eleven beskriver på ett <strong>enkelt</strong> sätt arbetsprocessen och hur den har påverkat slöjdföremålets kvalitet.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven formger och framställer på ett genomarbetat sätt enkla slöjdföremål i olika material och med enkla hantverkstekniker. I slöjdarbetet använder eleven verktyg på ett säkert och ändamålsenligt sätt.",
+          "Utifrån syftet med slöjdarbetet och någon idé väljer eleven ett fungerande tillvägagångssätt. Under arbetsprocessen formulerar och väljer eleven handlingsalternativ som efter någon bearbetning leder framåt.",
+          "Eleven beskriver på ett utvecklat sätt arbetsprocessen och hur den har påverkat slöjdföremålets kvalitet."
+        ],
+        "valueWords": [
+          "genomarbetat",
+          "ändamålsenligt",
+          "fungerande",
+          "som efter någon bearbetning leder framåt",
+          "utvecklat"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven formger och framställer på ett <strong>genomarbetat</strong> sätt enkla slöjdföremål i olika material och med enkla hantverkstekniker. I slöjdarbetet använder eleven verktyg på ett säkert och <strong>ändamålsenligt</strong> sätt.</p> <p>Utifrån syftet med slöjdarbetet och någon idé väljer eleven ett <strong>fungerande</strong> tillvägagångssätt. Under arbetsprocessen formulerar och väljer eleven handlingsalternativ <strong>som efter någon bearbetning leder framåt</strong>.</p> <p>Eleven beskriver på ett<strong> utvecklat </strong>sätt arbetsprocessen och hur den har påverkat slöjdföremålets kvalitet.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven formger och framställer på ett väl genomarbetat sätt enkla slöjdföremål i olika material och med enkla hantverkstekniker. I slöjdarbetet använder eleven verktyg på ett säkert och ändamålsenligt och effektivt sätt.",
+          "Utifrån syftet med slöjdarbetet och någon idé väljer eleven ett väl fungerande tillvägagångssätt. Under arbetsprocessen formulerar och väljer eleven handlingsalternativ som leder framåt.",
+          "Eleven beskriver på ett välutvecklat sätt arbetsprocessen och hur den har påverkat slöjdföremålets kvalitet."
+        ],
+        "valueWords": [
+          "väl",
+          "genomarbetat",
+          "ändamålsenligt och effektivt",
+          "fungerande",
+          "som leder framåt",
+          "välutvecklat"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven formger och framställer på ett <strong>väl</strong> <strong>genomarbetat</strong> sätt enkla slöjdföremål i olika material och med enkla hantverkstekniker. I slöjdarbetet använder eleven verktyg på ett säkert och <strong>ändamålsenligt och effektivt</strong> sätt.</p> <p>Utifrån syftet med slöjdarbetet och någon idé väljer eleven ett <strong>väl</strong> <strong>fungerande</strong> tillvägagångssätt. Under arbetsprocessen formulerar och väljer eleven handlingsalternativ <strong>som leder framåt</strong>.</p> <p>Eleven beskriver på ett<strong> välutvecklat </strong>sätt arbetsprocessen och hur den har påverkat slöjdföremålets kvalitet.</p>"
+      }
+    ],
+    "priorStageBaseline": [],
+    "noneForRequestedGrade": true
+  }
+}

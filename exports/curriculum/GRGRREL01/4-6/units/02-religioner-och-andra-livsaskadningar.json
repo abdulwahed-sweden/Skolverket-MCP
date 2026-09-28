@@ -1,0 +1,37 @@
+{
+  "subjectCode": "GRGRREL01",
+  "subjectName": "Religionskunskap",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRREL01/4-6/religioner-och-andra-livsaskadningar",
+    "title": "Religioner och andra livsåskådningar",
+    "contentPoints": [
+      {
+        "id": "GRGRREL01/4-6/religioner-och-andra-livsaskadningar/1",
+        "text": "Religionens betydelse i människors liv och människors olika sätt att uttrycka sin religiositet."
+      },
+      {
+        "id": "GRGRREL01/4-6/religioner-och-andra-livsaskadningar/2",
+        "text": "Ritualer och religiöst motiverade levnadsregler samt heliga platser och rum i kristendom, islam och judendom."
+      },
+      {
+        "id": "GRGRREL01/4-6/religioner-och-andra-livsaskadningar/3",
+        "text": "Centrala tankegångar med koppling till ritualer, levnadsregler och heliga platser inom kristendom, islam och judendom, till exempel som de uttrycks i berättelser i Bibeln och andra religiösa urkunder."
+      },
+      {
+        "id": "GRGRREL01/4-6/religioner-och-andra-livsaskadningar/4",
+        "text": "Några huvuddrag inom hinduism och buddhism."
+      },
+      {
+        "id": "GRGRREL01/4-6/religioner-och-andra-livsaskadningar/5",
+        "text": "Likheter och skillnader mellan och inom några religioner."
+      },
+      {
+        "id": "GRGRREL01/4-6/religioner-och-andra-livsaskadningar/6",
+        "text": "Begreppen religion och livsåskådning."
+      }
+    ]
+  }
+}

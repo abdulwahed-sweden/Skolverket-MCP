@@ -1,0 +1,29 @@
+{
+  "subjectCode": "GRGRMAT01",
+  "subjectName": "Matematik",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRMAT01/4-6/sannolikhet-och-statistik",
+    "title": "Sannolikhet och statistik",
+    "contentPoints": [
+      {
+        "id": "GRGRMAT01/4-6/sannolikhet-och-statistik/1",
+        "text": "Slumpmässiga händelser, chans och risk med utgångspunkt i observationer, simuleringar och statistiskt material. Jämförelse av sannolikhet vid olika slumpmässiga försök."
+      },
+      {
+        "id": "GRGRMAT01/4-6/sannolikhet-och-statistik/2",
+        "text": "Enkel kombinatorik i konkreta situationer."
+      },
+      {
+        "id": "GRGRMAT01/4-6/sannolikhet-och-statistik/3",
+        "text": "Tabeller och diagram för att beskriva resultat från undersökningar, såväl med som utan digitala verktyg. Tolkning av data i tabeller och diagram."
+      },
+      {
+        "id": "GRGRMAT01/4-6/sannolikhet-och-statistik/4",
+        "text": "Lägesmåtten medelvärde, typvärde och median samt hur de används i statistiska undersökningar."
+      }
+    ]
+  }
+}

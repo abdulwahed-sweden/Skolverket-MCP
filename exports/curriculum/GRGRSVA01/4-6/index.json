@@ -58,7 +58,7 @@
   "provenance": {
     "apiBaseUrl": "https://api.skolverket.se/syllabus",
     "apiVersion": "1.16.2-SNAPSHOT",
-    "retrievedForDate": "2026-09-27",
+    "retrievedForDate": "2026-09-28",
     "subjectEndpoint": "/v1/subjects/GRGRSVA01",
     "curriculumEndpoint": "/v1/curriculums/LGR22",
     "fieldMap": {

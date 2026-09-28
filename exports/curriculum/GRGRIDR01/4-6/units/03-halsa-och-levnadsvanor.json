@@ -1,0 +1,37 @@
+{
+  "subjectCode": "GRGRIDR01",
+  "subjectName": "Idrott och hälsa",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRIDR01/4-6/halsa-och-levnadsvanor",
+    "title": "Hälsa och levnadsvanor",
+    "contentPoints": [
+      {
+        "id": "GRGRIDR01/4-6/halsa-och-levnadsvanor/1",
+        "text": "Samtal om upplevelser av olika aktiviteter samt värdering av hur de påverkar den fysiska förmågan och hälsan."
+      },
+      {
+        "id": "GRGRIDR01/4-6/halsa-och-levnadsvanor/2",
+        "text": "Normer kring olika slags aktiviteter. Hur normer påverkar individers deltagande, till exempel normer kring kön och funktionalitet kopplade till olika rörelseaktiviteter."
+      },
+      {
+        "id": "GRGRIDR01/4-6/halsa-och-levnadsvanor/3",
+        "text": "Undersökande av möjligheter till daglig rörelse i närmiljön."
+      },
+      {
+        "id": "GRGRIDR01/4-6/halsa-och-levnadsvanor/4",
+        "text": "Olika sätt att förebygga skador, däribland uppvärmning."
+      },
+      {
+        "id": "GRGRIDR01/4-6/halsa-och-levnadsvanor/5",
+        "text": "Säkerhet och hänsynstagande i samband med aktiviteter."
+      },
+      {
+        "id": "GRGRIDR01/4-6/halsa-och-levnadsvanor/6",
+        "text": "Första hjälpen."
+      }
+    ]
+  }
+}

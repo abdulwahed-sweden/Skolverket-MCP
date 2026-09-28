@@ -1,0 +1,21 @@
+{
+  "subjectCode": "GRGRGEO01",
+  "subjectName": "Geografi",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRGEO01/4-6/hallbar-utveckling",
+    "title": "Hållbar utveckling",
+    "contentPoints": [
+      {
+        "id": "GRGRGEO01/4-6/hallbar-utveckling/1",
+        "text": "Hur val och prioriteringar på individ- och samhällsnivå kan påverka miljön och främja hållbar utveckling."
+      },
+      {
+        "id": "GRGRGEO01/4-6/hallbar-utveckling/2",
+        "text": "Några grundläggande orsaker till och konsekvenser av fattigdom och ohälsa, till exempel bristande tillgång till utbildning, hälsovård och vatten. Arbete för att förbättra människors levnadsvillkor, till exempel genom Förenta Nationerna (FN)."
+      }
+    ]
+  }
+}

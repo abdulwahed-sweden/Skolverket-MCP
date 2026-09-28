@@ -1,0 +1,33 @@
+{
+  "subjectCode": "GRGRMAT01",
+  "subjectName": "Matematik",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRMAT01/4-6/algebra",
+    "title": "Algebra",
+    "contentPoints": [
+      {
+        "id": "GRGRMAT01/4-6/algebra/1",
+        "text": "Matematiska likheter och hur likhetstecknet används för att teckna enkla ekvationer."
+      },
+      {
+        "id": "GRGRMAT01/4-6/algebra/2",
+        "text": "Variabler och deras användning i enkla algebraiska uttryck och ekvationer."
+      },
+      {
+        "id": "GRGRMAT01/4-6/algebra/3",
+        "text": "Metoder, däribland algebraiska, för att lösa enkla ekvationer."
+      },
+      {
+        "id": "GRGRMAT01/4-6/algebra/4",
+        "text": "Mönster i talföljder och geometriska mönster samt hur de konstrueras, beskrivs och uttrycks."
+      },
+      {
+        "id": "GRGRMAT01/4-6/algebra/5",
+        "text": "Programmering i visuella programmeringsmiljöer. Hur algoritmer skapas och används vid programmering."
+      }
+    ]
+  }
+}

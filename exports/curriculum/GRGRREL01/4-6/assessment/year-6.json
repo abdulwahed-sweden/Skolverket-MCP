@@ -1,0 +1,90 @@
+{
+  "subjectCode": "GRGRREL01",
+  "subjectName": "Religionskunskap",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "assessment": {
+    "assessmentYear": "6",
+    "criteria": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om religioner. Eleven för enkla resonemang om likheter och skillnader mellan och inom några religioner samt om vad religion kan betyda för människor.",
+          "Eleven visar grundläggande kunskaper om frågor som rör relationen mellan religion och samhälle.",
+          "Eleven för enkla resonemang om moraliska frågor och livsfrågor."
+        ],
+        "valueWords": [
+          "grundläggande",
+          "enkla"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven visar <strong>grundläggande</strong> kunskaper om religioner. Eleven för <strong>enkla</strong> resonemang om likheter och skillnader mellan och inom några religioner samt om vad religion kan betyda för människor.</p> <p>Eleven visar <strong>grundläggande</strong> kunskaper om frågor som rör relationen mellan religion och samhälle.</p> <p>Eleven för <strong>enkla</strong> resonemang om moraliska frågor och livsfrågor.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar goda kunskaper om religioner. Eleven för utvecklade resonemang om likheter och skillnader mellan och inom några religioner samt om vad religion kan betyda för människor.",
+          "Eleven visar goda kunskaper om frågor som rör relationen mellan religion och samhälle.",
+          "Eleven för utvecklade resonemang om moraliska frågor och livsfrågor."
+        ],
+        "valueWords": [
+          "goda",
+          "utvecklade"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven visar <strong>goda</strong> kunskaper om religioner. Eleven för <strong>utvecklade</strong> resonemang om likheter och skillnader mellan och inom några religioner samt om vad religion kan betyda för människor.</p> <p>Eleven visar <strong>goda</strong> kunskaper om frågor som rör relationen mellan religion och samhälle.</p> <p>Eleven för <strong>utvecklade</strong> resonemang om moraliska frågor och livsfrågor.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven visar mycket goda kunskaper om religioner. Eleven för välutvecklade resonemang om likheter och skillnader mellan och inom några religioner samt om vad religion kan betyda för människor.",
+          "Eleven visar mycket goda kunskaper om frågor som rör relationen mellan religion och samhälle.",
+          "Eleven för välutvecklade resonemang om moraliska frågor och livsfrågor."
+        ],
+        "valueWords": [
+          "mycket goda",
+          "välutvecklade"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven visar <strong>mycket goda</strong> kunskaper om religioner. Eleven för <strong>välutvecklade</strong> resonemang om likheter och skillnader mellan och inom några religioner samt om vad religion kan betyda för människor.</p> <p>Eleven visar <strong>mycket goda</strong> kunskaper om frågor som rör relationen mellan religion och samhälle.</p> <p>Eleven för <strong>välutvecklade</strong> resonemang om moraliska frågor och livsfrågor.</p>"
+      }
+    ],
+    "priorStageBaseline": [
+      {
+        "year": "3",
+        "gradeStep": null,
+        "headingText": "Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3",
+        "paragraphs": [
+          "Eleven visar grundläggande kunskaper om geografiska och historiska förhållanden, samhällsförhållanden och religiösa traditioner. Eleven beskriver likheter och skillnader samt orsaker och konsekvenser i sammanhang som är relevanta för ämnena. Eleven samtalar om människors livsfrågor och levnadsvillkor samt om miljöfrågor och andra samhällsfrågor ur olika perspektiv.",
+          "Eleven använder begrepp, metoder och verktyg från de samhällsorienterande ämnena."
+        ],
+        "valueWords": [],
+        "html": "<h3>Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3</h3><p>Eleven visar grundläggande kunskaper om geografiska och historiska förhållanden, samhällsförhållanden och religiösa traditioner. Eleven beskriver likheter och skillnader samt orsaker och konsekvenser i sammanhang som är relevanta för ämnena. Eleven samtalar om människors livsfrågor och levnadsvillkor samt om miljöfrågor och andra samhällsfrågor ur olika perspektiv.</p> <p>Eleven använder begrepp, metoder och verktyg från de samhällsorienterande ämnena.</p>"
+      }
+    ],
+    "noneForRequestedGrade": true
+  }
+}

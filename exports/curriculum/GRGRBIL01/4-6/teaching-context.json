@@ -1,0 +1,203 @@
+{
+  "subjectCode": "GRGRBIL01",
+  "subjectName": "Bild",
+  "schoolType": "GR",
+  "curriculumCode": "LGR22",
+  "stage": {
+    "id": "4-6",
+    "years": [
+      4,
+      5,
+      6
+    ],
+    "requestedGrade": 5,
+    "gradeIsExplicitInApi": false,
+    "assessmentYear": "6"
+  },
+  "units": [
+    {
+      "id": "GRGRBIL01/4-6/bildframstallning",
+      "title": "Bildframställning",
+      "contentPoints": [
+        {
+          "id": "GRGRBIL01/4-6/bildframstallning/1",
+          "text": "Framställning av berättande och informativa bilder, till exempel serier och illustrationer till text."
+        },
+        {
+          "id": "GRGRBIL01/4-6/bildframstallning/2",
+          "text": "Teckning, måleri, tryck och tredimensionellt arbete."
+        },
+        {
+          "id": "GRGRBIL01/4-6/bildframstallning/3",
+          "text": "Återanvändning och bearbetning av bilder, till exempel i kollage och bildmontage."
+        },
+        {
+          "id": "GRGRBIL01/4-6/bildframstallning/4",
+          "text": "Fotografi, film och annat digitalt bildskapande samt redigering av fotografi och rörlig bild."
+        },
+        {
+          "id": "GRGRBIL01/4-6/bildframstallning/5",
+          "text": "Rättigheter och skyldigheter samt etiska frågeställningar vid användning av bilder i olika sammanhang."
+        }
+      ]
+    },
+    {
+      "id": "GRGRBIL01/4-6/tekniker-verktyg-och-material",
+      "title": "Tekniker, verktyg och material",
+      "contentPoints": [
+        {
+          "id": "GRGRBIL01/4-6/tekniker-verktyg-och-material/1",
+          "text": "Olika element som bygger upp och skapar rumslighet i två- och tredimensionella bilder, till exempel linjer, färg och hur kombinationer av dessa kan användas i bildskapande arbete."
+        },
+        {
+          "id": "GRGRBIL01/4-6/tekniker-verktyg-och-material/2",
+          "text": "Verktyg och material för teckning, måleri, trycktekniker, tredimensionellt arbete, fotografering, arbete med rörlig bild och digital bildbehandling."
+        }
+      ]
+    },
+    {
+      "id": "GRGRBIL01/4-6/bildanalys",
+      "title": "Bildanalys",
+      "contentPoints": [
+        {
+          "id": "GRGRBIL01/4-6/bildanalys/1",
+          "text": "Konst- och dokumentärbilder samt arkitektur från olika tider och kulturer."
+        },
+        {
+          "id": "GRGRBIL01/4-6/bildanalys/2",
+          "text": "Mediebilder, till exempel reklam- och nyhetsbilder."
+        },
+        {
+          "id": "GRGRBIL01/4-6/bildanalys/3",
+          "text": "Bilder ur elevernas visuella kulturer som gestaltar identitet, grupptillhörighet och normer."
+        },
+        {
+          "id": "GRGRBIL01/4-6/bildanalys/4",
+          "text": "Hur bilder påverkar och förmedlar budskap. Ord och begrepp för att kunna samtala om bilders innehåll, uttryck och funktioner."
+        }
+      ]
+    }
+  ],
+  "stageAssessment": {
+    "assessmentYear": "6",
+    "criteria": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven framställer olika typer av bilder med delvis genomarbetade uttrycksformer.",
+          "I bildarbetet använder eleven olika tekniker, verktyg och material på ett i huvudsak fungerande sätt.",
+          "Utifrån syftet med bildarbetet och någon idé väljer eleven ett i huvudsak fungerande tillvägagångssätt. Under arbetsprocessen bidrar eleven till att formulera och välja handlingsalternativ.",
+          "Eleven beskriver bilders innehåll och funktion på ett enkelt sätt."
+        ],
+        "valueWords": [
+          "delvis genomarbetade",
+          "i huvudsak fungerande",
+          "i huvudsak",
+          "fungerande",
+          "bidrar",
+          "till",
+          "enkelt"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven framställer olika typer av bilder med <strong>delvis genomarbetade</strong> uttrycksformer.</p> <p>I bildarbetet använder eleven olika tekniker, verktyg och material på ett <strong>i huvudsak fungerande</strong> sätt.</p> <p>Utifrån syftet med bildarbetet och någon idé väljer eleven ett <strong>i huvudsak</strong> <strong>fungerande</strong> tillvägagångssätt. Under arbetsprocessen <strong>bidrar</strong> eleven <strong>till</strong> att formulera och välja handlingsalternativ.</p> <p>Eleven beskriver bilders innehåll och funktion på ett <strong>enkelt </strong>sätt.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven framställer olika typer av bilder med genomarbetade uttrycksformer.",
+          "I bildarbetet använder eleven olika tekniker, verktyg och material på ett fungerande sätt.",
+          "Utifrån syftet med bildarbetet och någon idé väljer eleven ett fungerande tillvägagångssätt. Under arbetsprocessen formulerar och väljer eleven handlingsalternativ som efter någon bearbetning leder framåt.",
+          "Eleven beskriver bilders innehåll och funktion på ett utvecklat sätt."
+        ],
+        "valueWords": [
+          "genomarbetade",
+          "fungerande",
+          "som efter någon bearbetning leder framåt",
+          "utvecklat"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven framställer olika typer av bilder med <strong>genomarbetade</strong> uttrycksformer.</p> <p>I bildarbetet använder eleven olika tekniker, verktyg och material på ett <strong>fungerande </strong>sätt.</p> <p>Utifrån syftet med bildarbetet och någon idé väljer eleven ett <strong>fungerande</strong> tillvägagångssätt. Under arbetsprocessen formulerar och väljer eleven handlingsalternativ <strong>som efter någon bearbetning leder framåt</strong>.</p> <p>Eleven beskriver bilders innehåll och funktion på ett <strong>utvecklat</strong> sätt.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven framställer olika typer av bilder med väl genomarbetade uttrycksformer.",
+          "I bildarbetet använder eleven olika tekniker, verktyg och material på ett väl fungerande sätt.",
+          "Utifrån syftet med bildarbetet och någon idé väljer eleven ett väl fungerande tillvägagångssätt. Under arbetsprocessen formulerar och väljer eleven handlingsalternativ som leder framåt.",
+          "Eleven beskriver bilders innehåll och funktion på ett välutvecklat sätt."
+        ],
+        "valueWords": [
+          "väl genomarbetade",
+          "väl",
+          "fungerande",
+          "väl fungerande",
+          "som leder framåt",
+          "välutvecklat"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven framställer olika typer av bilder med <strong>väl genomarbetade</strong> uttrycksformer.</p> <p>I bildarbetet använder eleven olika tekniker, verktyg och material på ett <strong>väl </strong><strong>fungerande </strong>sätt.</p> <p>Utifrån syftet med bildarbetet och någon idé väljer eleven ett <strong>väl fungerande</strong> tillvägagångssätt. Under arbetsprocessen formulerar och väljer eleven handlingsalternativ <strong>som leder framåt</strong>.</p> <p>Eleven beskriver bilders innehåll och funktion på ett <strong>välutvecklat</strong> sätt.</p>"
+      }
+    ],
+    "priorStageBaseline": [],
+    "noneForRequestedGrade": true
+  },
+  "counts": {
+    "units": 3,
+    "contentPoints": 11,
+    "criteria": 5
+  },
+  "provenance": {
+    "apiBaseUrl": "https://api.skolverket.se/syllabus",
+    "apiVersion": "1.16.2-SNAPSHOT",
+    "retrievedForDate": "2026-09-28",
+    "subjectEndpoint": "/v1/subjects/GRGRBIL01",
+    "curriculumEndpoint": "/v1/curriculums/LGR22",
+    "fieldMap": {
+      "subject.*": "subjects/{code} → subject.{code,name,designation,gradeScale,version,...}",
+      "schoolType": "subject.schoolTypes[] (array i API:et, ej en sträng)",
+      "curriculum.*": "curriculums/{code} → curriculum.{code,name,version,startDate}",
+      "stage.id": "subject.centralContents[].year",
+      "stage.years": "härlett ur stage.id genom att expandera intervallet",
+      "stage.assessmentYear": "sista året i stage.id; matchar knowledgeRequirements[].year",
+      "purpose": "subject.purpose (HTML-sträng) + subject.purposeHeading",
+      "centralContentForStage": "subject.centralContents[year === stage.id].text + subject.centralCntHeading",
+      "centralContentForStage.headings": "<h4>/<li> inuti samma text-fält",
+      "relevantAssessmentCriteria.atStageEnd": "subject.knowledgeRequirements[year === stage.assessmentYear]",
+      "relevantAssessmentCriteria.priorStageBaseline": "subject.knowledgeRequirements[year === föregående stadiums slutår]",
+      "*.valueWords": "<strong>-markeringar i knowledgeRequirements[].text"
+    },
+    "availableCentralContentYears": [
+      "1-3",
+      "4-6",
+      "7-9"
+    ],
+    "availableKnowledgeRequirementYears": [
+      "6",
+      "9"
+    ]
+  },
+  "groundedBrief": "# Bild — I årskurs 4–6\n\n## OM DENNA BRIEF\nAllt läroplansinnehåll nedan är hämtat ordagrant från Skolverkets Syllabus API. Ämne: Bild (GRGRBIL01). Skolform: GR. Läroplan: LGR22 version 5. Ämnesversion: 13 (SKOLFS 2022:8). Betygsskala: A-F. Hämtat via /v1/subjects/GRGRBIL01 den 2026-09-28.\n\n## VAD SKOLVERKET FAKTISKT ANGER FÖR ÅRSKURS 5\nSkolverket publicerar centralt innehåll per stadium, inte per årskurs. Innehållet nedan gäller hela stadiet årskurs 4-6 (det vill säga årskurs 4, 5, 6) — det finns INGET innehåll som är specifikt för årskurs 5.\nBetygskriterier finns bara för slutet av årskurs 6, 9. För det här stadiet gäller kriterierna i slutet av årskurs 6, vilket ligger efter årskurs 5. Det finns alltså inga kriterier att bedöma en elev i årskurs 5 mot.\n\n## SYFTE (Syfte)\nUndervisningen i ämnet bild ska syfta till att eleverna utvecklar kunskaper om hur bilder skapas och tolkas. Genom undervisningen ska eleverna få erfarenheter av visuell kultur i form av film, fotografi, design, konst, arkitektur och miljöer.\nI undervisningen ska eleverna ges möjligheter att utveckla kunskaper om hur man framställer och presenterar egna bilder med olika metoder, material och uttrycksformer. Undervisningen ska bidra till att eleverna utvecklar sin kreativitet och sitt intresse för att skapa och kommunicera visuellt. Genom undervisningen ska eleverna ges förutsättningar att utveckla idéer samt överväga olika lösningar och tillvägagångssätt i det bildskapande arbetet. Eleverna ska också uppmuntras att ta egna initiativ och att arbeta på ett undersökande och problemlösande sätt.\nUndervisningen ska bidra till att eleverna utvecklar förståelse för hur bildbudskap utformas i olika medier. Undervisningen ska också ge eleverna möjligheter att diskutera och kritiskt granska olika bildbudskap och bidra till att eleverna utvecklar kunskaper om bilder i olika kulturer, både i nutid och historiskt. Genom undervisningen ska eleverna även ges möjlighet att använda sina kunskaper om olika typer av bilder i det egna bildskapandet.\nUndervisningen i ämnet bild ska ge eleverna förutsättningar att utveckla\n\n## CENTRALT INNEHÅLL — I årskurs 4–6\n\n### Bildframställning  [GRGRBIL01/4-6/bildframstallning]\n- (GRGRBIL01/4-6/bildframstallning/1) Framställning av berättande och informativa bilder, till exempel serier och illustrationer till text.\n- (GRGRBIL01/4-6/bildframstallning/2) Teckning, måleri, tryck och tredimensionellt arbete.\n- (GRGRBIL01/4-6/bildframstallning/3) Återanvändning och bearbetning av bilder, till exempel i kollage och bildmontage.\n- (GRGRBIL01/4-6/bildframstallning/4) Fotografi, film och annat digitalt bildskapande samt redigering av fotografi och rörlig bild.\n- (GRGRBIL01/4-6/bildframstallning/5) Rättigheter och skyldigheter samt etiska frågeställningar vid användning av bilder i olika sammanhang.\n\n### Tekniker, verktyg och material  [GRGRBIL01/4-6/tekniker-verktyg-och-material]\n- (GRGRBIL01/4-6/tekniker-verktyg-och-material/1) Olika element som bygger upp och skapar rumslighet i två- och tredimensionella bilder, till exempel linjer, färg och hur kombinationer av dessa kan användas i bildskapande arbete.\n- (GRGRBIL01/4-6/tekniker-verktyg-och-material/2) Verktyg och material för teckning, måleri, trycktekniker, tredimensionellt arbete, fotografering, arbete med rörlig bild och digital bildbehandling.\n\n### Bildanalys  [GRGRBIL01/4-6/bildanalys]\n- (GRGRBIL01/4-6/bildanalys/1) Konst- och dokumentärbilder samt arkitektur från olika tider och kulturer.\n- (GRGRBIL01/4-6/bildanalys/2) Mediebilder, till exempel reklam- och nyhetsbilder.\n- (GRGRBIL01/4-6/bildanalys/3) Bilder ur elevernas visuella kulturer som gestaltar identitet, grupptillhörighet och normer.\n- (GRGRBIL01/4-6/bildanalys/4) Hur bilder påverkar och förmedlar budskap. Ord och begrepp för att kunna samtala om bilders innehåll, uttryck och funktioner.\n\n## BETYGSKRITERIER I SLUTET AV ÅRSKURS 6 (mål framåt, inte bedömning nu)\n\n### Betygskriterier för betyget E i slutet av årskurs 6\nEleven framställer olika typer av bilder med delvis genomarbetade uttrycksformer.\nI bildarbetet använder eleven olika tekniker, verktyg och material på ett i huvudsak fungerande sätt.\nUtifrån syftet med bildarbetet och någon idé väljer eleven ett i huvudsak fungerande tillvägagångssätt. Under arbetsprocessen bidrar eleven till att formulera och välja handlingsalternativ.\nEleven beskriver bilders innehåll och funktion på ett enkelt sätt.\n(Värdeord som Skolverket markerar: delvis genomarbetade, i huvudsak fungerande, i huvudsak, fungerande, bidrar, till, enkelt)\n\n### Betygskriterier för betyget D i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan C och E.\n\n### Betygskriterier för betyget C i slutet av årskurs 6\nEleven framställer olika typer av bilder med genomarbetade uttrycksformer.\nI bildarbetet använder eleven olika tekniker, verktyg och material på ett fungerande sätt.\nUtifrån syftet med bildarbetet och någon idé väljer eleven ett fungerande tillvägagångssätt. Under arbetsprocessen formulerar och väljer eleven handlingsalternativ som efter någon bearbetning leder framåt.\nEleven beskriver bilders innehåll och funktion på ett utvecklat sätt.\n(Värdeord som Skolverket markerar: genomarbetade, fungerande, som efter någon bearbetning leder framåt, utvecklat)\n\n### Betygskriterier för betyget B i slutet av årskurs 6\nElevens kunskaper bedöms sammantaget vara mellan A och C.\n\n### Betygskriterier för betyget A i slutet av årskurs 6\nEleven framställer olika typer av bilder med väl genomarbetade uttrycksformer.\nI bildarbetet använder eleven olika tekniker, verktyg och material på ett väl fungerande sätt.\nUtifrån syftet med bildarbetet och någon idé väljer eleven ett väl fungerande tillvägagångssätt. Under arbetsprocessen formulerar och väljer eleven handlingsalternativ som leder framåt.\nEleven beskriver bilders innehåll och funktion på ett välutvecklat sätt.\n(Värdeord som Skolverket markerar: väl genomarbetade, väl, fungerande, väl fungerande, som leder framåt, välutvecklat)\n\n## REGLER FÖR HANDLEDAREN\n- Undervisa bara inom det centrala innehållet ovan. Behöver du något som inte står där, säg att det ligger utanför läroplanen för det här stadiet.\n- Säg aldrig att Skolverket anger något specifikt för årskurs 5. Det gör Skolverket inte. Val av takt och ordning inom stadiet är lärarens bedömning, inte läroplanens.\n- Skolverket kopplar inte betygskriterier till enskilda punkter i det centrala innehållet. Hitta inte på sådana kopplingar. Kriterierna gäller hela stadiet.\n- Hänvisa till innehåll med id:t i parentes, t.ex. (GRGRBIL01/4-6/bildframstallning/1).\n- Betygskriterierna beskriver slutet av stadiet. Använd dem som riktning, inte som omdöme om eleven här och nu.\n- Citera läroplanstext ordagrant när du hänvisar till den. Formulera om bara för att förklara."
+}

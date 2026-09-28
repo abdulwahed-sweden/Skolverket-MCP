@@ -1,0 +1,87 @@
+{
+  "subjectCode": "GRGRIDR01",
+  "subjectName": "Idrott och hälsa",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "assessment": {
+    "assessmentYear": "6",
+    "criteria": [
+      {
+        "year": "6",
+        "gradeStep": "E",
+        "headingText": "Betygskriterier för betyget E i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven genomför rörelseaktiviteter som innefattar sammansatta motoriska grundformer i olika fysiska sammanhang och anpassar sina rörelser till viss del till syftet med aktiviteterna.",
+          "Eleven genomför aktiviteter i natur- och utemiljö på ett i huvudsak fungerande sätt utifrån syftet med aktiviteterna och utifrån olika förhållanden.",
+          "Eleven värderar på ett enkelt sätt hur aktiviteterna påverkar den egna fysiska förmågan och hälsan.",
+          "Eleven förebygger på ett i huvudsak fungerande sätt risker i samband med olika aktiviteter. Eleven hanterar nödsituationer på land och vid vatten samt simmar 200 meter i en följd varav 50 meter i ryggläge."
+        ],
+        "valueWords": [
+          "till viss del",
+          "i",
+          "huvudsak fungerande",
+          "enkelt",
+          "i huvudsak fungerande"
+        ],
+        "html": "<h3>Betygskriterier för betyget E i slutet av årskurs 6</h3><p>Eleven genomför rörelseaktiviteter som innefattar sammansatta motoriska grundformer i olika fysiska sammanhang och anpassar sina rörelser <strong>till viss del</strong> till syftet med aktiviteterna.</p> <p>Eleven genomför aktiviteter i natur- och utemiljö på ett <strong>i</strong> <strong>huvudsak fungerande</strong> sätt utifrån syftet med aktiviteterna och utifrån olika förhållanden.</p> <p>Eleven värderar på ett <strong>enkelt </strong>sätt hur aktiviteterna påverkar den egna fysiska förmågan och hälsan.</p> <p>Eleven förebygger på ett <strong>i huvudsak fungerande </strong>sätt risker i samband med olika aktiviteter. Eleven hanterar nödsituationer på land och vid vatten samt simmar 200 meter i en följd varav 50 meter i ryggläge.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "D",
+        "headingText": "Betygskriterier för betyget D i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan C och E."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget D i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan C och E.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "C",
+        "headingText": "Betygskriterier för betyget C i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven genomför rörelseaktiviteter som innefattar sammansatta motoriska grundformer i olika fysiska sammanhang och anpassar sina rörelser relativt väl till syftet med aktiviteterna.",
+          "Eleven genomför aktiviteter i natur- och utemiljö på ett fungerande sätt utifrån syftet med aktiviteterna och utifrån olika förhållanden.",
+          "Eleven värderar på ett utvecklat sätt hur aktiviteterna påverkar den egna fysiska förmågan och hälsan.",
+          "Eleven förebygger på ett fungerande sätt risker i samband med olika aktiviteter. Eleven hanterar nödsituationer på land och vid vatten samt simmar 200 meter i en följd varav 50 meter i ryggläge."
+        ],
+        "valueWords": [
+          "relativt väl",
+          "fungerande",
+          "utvecklat"
+        ],
+        "html": "<h3>Betygskriterier för betyget C i slutet av årskurs 6</h3><p>Eleven genomför rörelseaktiviteter som innefattar sammansatta motoriska grundformer i olika fysiska sammanhang och anpassar sina rörelser <strong>relativt väl</strong> till syftet med aktiviteterna.</p> <p>Eleven genomför aktiviteter i natur- och utemiljö på ett <strong>fungerande </strong>sätt utifrån syftet med aktiviteterna och utifrån olika förhållanden.</p> <p>Eleven värderar på ett <strong>utvecklat</strong> sätt hur aktiviteterna påverkar den egna fysiska förmågan och hälsan.</p> <p>Eleven förebygger på ett <strong>fungerande</strong> sätt risker i samband med olika aktiviteter. Eleven hanterar nödsituationer på land och vid vatten samt simmar 200 meter i en följd varav 50 meter i ryggläge.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "B",
+        "headingText": "Betygskriterier för betyget B i slutet av årskurs 6",
+        "paragraphs": [
+          "Elevens kunskaper bedöms sammantaget vara mellan A och C."
+        ],
+        "valueWords": [],
+        "html": "<h3>Betygskriterier för betyget B i slutet av årskurs 6</h3><p>Elevens kunskaper bedöms sammantaget vara mellan A och C.</p>"
+      },
+      {
+        "year": "6",
+        "gradeStep": "A",
+        "headingText": "Betygskriterier för betyget A i slutet av årskurs 6",
+        "paragraphs": [
+          "Eleven genomför rörelseaktiviteter som innefattar sammansatta motoriska grundformer i olika fysiska sammanhang och anpassar sina rörelser väl till syftet med aktiviteterna.",
+          "Eleven genomför aktiviteter i natur- och utemiljö på ett väl fungerande sätt utifrån syftet med aktiviteterna och utifrån olika förhållanden.",
+          "Eleven värderar på ett välutvecklat sätt hur aktiviteterna påverkar den egna fysiska förmågan och hälsan.",
+          "Eleven förebygger på ett väl fungerande sätt risker i samband med olika aktiviteter. Eleven hanterar nödsituationer på land och vid vatten samt simmar 200 meter i en följd varav 50 meter i ryggläge."
+        ],
+        "valueWords": [
+          "väl",
+          "fungerande",
+          "välutvecklat",
+          "väl fungerande"
+        ],
+        "html": "<h3>Betygskriterier för betyget A i slutet av årskurs 6</h3><p>Eleven genomför rörelseaktiviteter som innefattar sammansatta motoriska grundformer i olika fysiska sammanhang och anpassar sina rörelser <strong>väl</strong> till syftet med aktiviteterna.</p> <p>Eleven genomför aktiviteter i natur- och utemiljö på ett <strong>väl</strong> <strong>fungerande</strong> sätt utifrån syftet med aktiviteterna och utifrån olika förhållanden.</p> <p>Eleven värderar på ett <strong>välutvecklat</strong> sätt hur aktiviteterna påverkar den egna fysiska förmågan och hälsan.</p> <p>Eleven förebygger på ett <strong>väl fungerande </strong>sätt risker i samband med olika aktiviteter. Eleven hanterar nödsituationer på land och vid vatten samt simmar 200 meter i en följd varav 50 meter i ryggläge.</p>"
+      }
+    ],
+    "priorStageBaseline": [],
+    "noneForRequestedGrade": true
+  }
+}

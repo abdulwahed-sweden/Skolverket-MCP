@@ -1,0 +1,21 @@
+{
+  "subjectCode": "GRGRSAM01",
+  "subjectName": "Samhällskunskap",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRSAM01/4-6/granskning-av-samhallsfragor",
+    "title": "Granskning av samhällsfrågor",
+    "contentPoints": [
+      {
+        "id": "GRGRSAM01/4-6/granskning-av-samhallsfragor/1",
+        "text": "Aktuella samhällsfrågor och olika perspektiv på dessa."
+      },
+      {
+        "id": "GRGRSAM01/4-6/granskning-av-samhallsfragor/2",
+        "text": "Hur budskap, avsändare och syfte kan urskiljas och granskas med ett källkritiskt förhållningssätt i såväl digitala medier som i andra typer av källor som rör samhällsfrågor."
+      }
+    ]
+  }
+}

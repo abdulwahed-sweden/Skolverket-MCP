@@ -1,0 +1,21 @@
+{
+  "subjectCode": "GRGRSLJ01",
+  "subjectName": "Slöjd",
+  "curriculumCode": "LGR22",
+  "stage": "4-6",
+  "requestedGrade": 5,
+  "unit": {
+    "id": "GRGRSLJ01/4-6/slojdens-arbetsprocesser",
+    "title": "Slöjdens arbetsprocesser",
+    "contentPoints": [
+      {
+        "id": "GRGRSLJ01/4-6/slojdens-arbetsprocesser/1",
+        "text": "Slöjdarbetets olika delar: idéutveckling, överväganden, framställning och reflektion över arbetsprocessen. Hur delarna i arbetsprocessen samverkar till en helhet."
+      },
+      {
+        "id": "GRGRSLJ01/4-6/slojdens-arbetsprocesser/2",
+        "text": "Undersökande av olika materials egenskaper och användbarhet i det egna slöjdarbetet."
+      }
+    ]
+  }
+}
