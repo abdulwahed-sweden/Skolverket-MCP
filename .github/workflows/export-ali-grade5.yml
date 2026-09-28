@@ -1,0 +1,38 @@
+name: Export Ali Grade 5 curriculum
+
+on:
+  push:
+    branches:
+      - feat/skolverket-grounded-tutor
+    paths:
+      - scripts/export-ali-curriculum.ts
+      - .github/workflows/export-ali-grade5.yml
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/skolverket-grounded-tutor
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npx tsx scripts/export-ali-curriculum.ts
+      - name: Commit generated curriculum snapshots
+        run: |
+          if git diff --quiet -- exports/curriculum; then
+            echo "No curriculum changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add exports/curriculum
+          git commit -m "chore(curriculum): export Ali grade 5 subjects"
+          git push
