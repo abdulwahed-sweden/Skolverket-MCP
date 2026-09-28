@@ -1,0 +1,24 @@
+{
+  "learner": "Bashayer",
+  "education": "SFI",
+  "course": "B",
+  "accommodations": {
+    "enabled": true,
+    "medicalDetailsStored": false,
+    "sessionLength": "short",
+    "instructionDensity": "low",
+    "tasksAtATime": 1,
+    "repetition": "high",
+    "pace": "flexible",
+    "comprehensionChecks": "frequent",
+    "languageStyle": "simple-and-concrete",
+    "pauseResumeFriendly": true
+  },
+  "rules": [
+    "Do not lower or replace the official SFI B targets.",
+    "Adapt pacing, task size, repetition and presentation.",
+    "Do not infer or store diagnosis details.",
+    "Prefer one small objective per session.",
+    "Use practical everyday Swedish and confirm understanding before moving on."
+  ]
+}

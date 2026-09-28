@@ -1,0 +1,38 @@
+{
+  "education": "Kommunal vuxenutbildning i svenska för invandrare",
+  "shortName": "SFI",
+  "course": "B",
+  "studyPath": {
+    "status": "needs-confirmation",
+    "candidates": [
+      "1",
+      "2"
+    ],
+    "note": "Course B exists in both Studieväg 1 and Studieväg 2. The course assessment criteria are the same regardless of study path."
+  },
+  "officialPurpose": [
+    "Develop functional Swedish as a second language for everyday life, society, work and further studies.",
+    "Develop strategies for language learning and for supporting communication.",
+    "Adapt teaching to the learner's background, circumstances, knowledge and goals."
+  ],
+  "officialSkills": [
+    "reading",
+    "writing",
+    "speaking",
+    "listening",
+    "conversation",
+    "understanding spoken and written Swedish",
+    "adapting language to purpose, recipient and situation",
+    "pronunciation",
+    "language-learning strategies"
+  ],
+  "source": {
+    "authority": "Skolverket",
+    "syllabus": "Kursplan för kommunal vuxenutbildning i svenska för invandrare",
+    "courseCodes": [
+      "SFIKUB91",
+      "SFIKUB92"
+    ],
+    "retrievedDate": "2026-09-28"
+  }
+}

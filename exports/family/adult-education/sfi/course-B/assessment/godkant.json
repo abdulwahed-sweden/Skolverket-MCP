@@ -1,0 +1,39 @@
+{
+  "course": "B",
+  "grade": "Godkänt",
+  "dimensions": [
+    {
+      "id": "horforstaelse",
+      "title": "Hörförståelse",
+      "summary": "Understand clear, simple spoken Swedish in common everyday situations, including short retellings, conversations, adapted news, messages and instructions."
+    },
+    {
+      "id": "lasforstaelse",
+      "title": "Läsförståelse",
+      "summary": "Read and understand simple texts used in everyday life, including adapted narrative and descriptive texts, concrete information, short messages and instructions."
+    },
+    {
+      "id": "muntlig-interaktion",
+      "title": "Muntlig interaktion",
+      "summary": "Take part, with support, in simple conversations about familiar topics; express and respond to statements, opinions and wishes, and ask and answer questions so the conversation is partly maintained."
+    },
+    {
+      "id": "muntlig-produktion",
+      "title": "Muntlig produktion",
+      "summary": "Use simple Swedish, with support, to talk about personal experiences and familiar people, places and events in an understandable and partly connected way."
+    },
+    {
+      "id": "skriftlig-fardighet",
+      "title": "Skriftlig färdighet",
+      "summary": "Write simple, understandable texts for everyday communication, such as short messages, greetings and texts about oneself and experienced events, with mainly functional coherence."
+    }
+  ],
+  "source": {
+    "authority": "Skolverket",
+    "course": "B",
+    "courseCodes": [
+      "SFIKUB91",
+      "SFIKUB92"
+    ]
+  }
+}

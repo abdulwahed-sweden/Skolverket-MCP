@@ -1,0 +1,20 @@
+{
+  "learner": "Bashayer",
+  "learnerType": "adult",
+  "education": "SFI",
+  "course": "B",
+  "curriculumReference": "../adult-education/sfi/course-B/course.json",
+  "assessmentReference": "../adult-education/sfi/course-B/assessment/godkant.json",
+  "teachingProfileReference": "../adult-education/sfi/course-B/teaching-profile.json",
+  "studyPath": {
+    "status": "needs-confirmation",
+    "candidates": [
+      "1",
+      "2"
+    ]
+  },
+  "accommodations": {
+    "enabled": true,
+    "reasonStored": false
+  }
+}
