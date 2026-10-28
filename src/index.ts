@@ -29,6 +29,7 @@ import {
 
 // Import logger och errors
 import { log } from './logger.js';
+import { normalizeTools } from './schema-utils.js';
 import { ResourceNotFoundError } from './errors.js';
 
 // Importera API-klienter
@@ -653,7 +654,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
   log.info('Tools list requested');
 
   return {
-    tools: [
+    tools: normalizeTools([
       // ==============================================
       // LÄROPLAN API VERKTYG (Syllabus API)
       // ==============================================
@@ -2631,7 +2632,7 @@ EXEMPEL: Kör health_check(includeApiTests=true) för att testa alla API:er.`,
           properties: healthCheckSchema,
         },
       },
-    ],
+    ]),
   };
 });
 
